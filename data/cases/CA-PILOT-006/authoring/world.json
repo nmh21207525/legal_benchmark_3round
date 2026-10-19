@@ -1,0 +1,316 @@
+{
+  "case_id": "CA-PILOT-006",
+  "facts": [
+    {
+      "fact_id": "F01",
+      "text": "2000年8月16日，A驾驶的汽车越过双黄线，与另一辆车正面相撞。原文未提供碰撞重建或其他驾驶解释。",
+      "source_id": "source16",
+      "source_paragraph_ids": [
+        "P0005",
+        "P0007"
+      ],
+      "source_locators": [
+        "CL-O2295730-P0005",
+        "CL-O2295730-P0007"
+      ],
+      "epistemic_status": "reported_event",
+      "known_by_role_ids": [],
+      "is_synthetic_fact": false,
+      "record_limit_method": null
+    },
+    {
+      "fact_id": "F02",
+      "text": "另一辆车的女驾驶员和乘客均因事故遭受严重伤害。未提供两人姓名、伤情诊断及具体医疗资料。",
+      "source_id": "source16",
+      "source_paragraph_ids": [
+        "P0007"
+      ],
+      "source_locators": [
+        "CL-O2295730-P0007"
+      ],
+      "epistemic_status": "reported_injury",
+      "known_by_role_ids": [],
+      "is_synthetic_fact": false,
+      "record_limit_method": null
+    },
+    {
+      "fact_id": "F03",
+      "text": "B在事故发生后不久到达，看见A眼睛很红、湿润、充血，据此认为A醉酒。A因受伤被送往医院，B未能在现场完成清醒度测试。B不是原文记载的碰撞目击者。",
+      "source_id": "source16",
+      "source_paragraph_ids": [
+        "P0010"
+      ],
+      "source_locators": [
+        "CL-O2295730-P0010"
+      ],
+      "epistemic_status": "suppression_hearing_testimony",
+      "known_by_role_ids": [
+        "R_OFFICER"
+      ],
+      "is_synthetic_fact": false,
+      "record_limit_method": null
+    },
+    {
+      "fact_id": "F04",
+      "text": "在医院，B让A用视线跟随其来回移动的手指，进行眼震测试；原文记载A不能追踪手指，B据此认为其醉酒。没有原始眼震记录、资质资料或其他病因检验。",
+      "source_id": "source16",
+      "source_paragraph_ids": [
+        "P0011"
+      ],
+      "source_locators": [
+        "CL-O2295730-P0011"
+      ],
+      "epistemic_status": "suppression_hearing_testimony",
+      "known_by_role_ids": [
+        "R_OFFICER"
+      ],
+      "is_synthetic_fact": false,
+      "record_limit_method": null
+    },
+    {
+      "fact_id": "F05",
+      "text": "B请求A接受PAS呼气筛查，并告知自愿性质及该测试不能代替被捕后的酒精含量测试义务。A同意该筛查。",
+      "source_id": "source16",
+      "source_paragraph_ids": [
+        "P0003",
+        "P0011"
+      ],
+      "source_locators": [
+        "CL-O2295730-P0003",
+        "CL-O2295730-P0011"
+      ],
+      "epistemic_status": "reported_advisement_and_consent",
+      "known_by_role_ids": [
+        "R_OFFICER",
+        "R_DEFENDANT"
+      ],
+      "is_synthetic_fact": false,
+      "record_limit_method": null
+    },
+    {
+      "fact_id": "F06",
+      "text": "PAS筛查显示0.09%。B根据观察及测试结果认为A受酒精影响，随后将其逮捕。筛查和逮捕的具体时刻未提供。",
+      "source_id": "source16",
+      "source_paragraph_ids": [
+        "P0011"
+      ],
+      "source_locators": [
+        "CL-O2295730-P0011"
+      ],
+      "epistemic_status": "suppression_hearing_testimony",
+      "known_by_role_ids": [
+        "R_OFFICER"
+      ],
+      "is_synthetic_fact": false,
+      "record_limit_method": null
+    },
+    {
+      "fact_id": "F07",
+      "text": "逮捕后，B告知A须提供血样。A坚持不表示同意抽血，但允许医院工作人员采血。“允许操作”与“表示同意”须保留区别；原文未给出采血逐字对话或具体强制手段。",
+      "source_id": "source16",
+      "source_paragraph_ids": [
+        "P0012"
+      ],
+      "source_locators": [
+        "CL-O2295730-P0012"
+      ],
+      "epistemic_status": "reported_nonconsent_and_draw",
+      "known_by_role_ids": [
+        "R_OFFICER",
+        "R_DEFENDANT"
+      ],
+      "is_synthetic_fact": false,
+      "record_limit_method": null
+    },
+    {
+      "fact_id": "F08",
+      "text": "原文记载血样经检测，毒理人员确定酒精含量为0.12%。毒理人员姓名、资质、仪器、校准、采血时间和完整检验报告未提供。",
+      "source_id": "source16",
+      "source_paragraph_ids": [
+        "P0012"
+      ],
+      "source_locators": [
+        "CL-O2295730-P0012"
+      ],
+      "epistemic_status": "reported_laboratory_result",
+      "known_by_role_ids": [
+        "R_TOXICOLOGIST"
+      ],
+      "is_synthetic_fact": false,
+      "record_limit_method": null
+    },
+    {
+      "fact_id": "F09",
+      "text": "原案抽血抑制申请的具体主张为：已有PAS结果，保存酒精证据的紧急需要已消除，后续无令状抽血应排除。此处保留申请论点，不给出原案裁定答案。",
+      "source_id": "source16",
+      "source_paragraph_ids": [
+        "P0013"
+      ],
+      "source_locators": [
+        "CL-O2295730-P0013"
+      ],
+      "epistemic_status": "reported_motion_theory",
+      "known_by_role_ids": [],
+      "is_synthetic_fact": false,
+      "record_limit_method": null
+    },
+    {
+      "fact_id": "F10",
+      "text": "原文脚注记载，B曾三次尝试取得合格呼气样本，A未封紧嘴唇而妨碍结果。这一证据在正式审判提出，原抑制申请裁定时不在法官面前。",
+      "source_id": "source16",
+      "source_paragraph_ids": [
+        "P0102",
+        "P0104"
+      ],
+      "source_locators": [
+        "CL-O2295730-P0102",
+        "CL-O2295730-P0104"
+      ],
+      "epistemic_status": "trial_only_evidence",
+      "known_by_role_ids": [
+        "R_OFFICER"
+      ],
+      "is_synthetic_fact": false,
+      "record_limit_method": null
+    },
+    {
+      "fact_id": "F11",
+      "text": "原始起诉书列两项：Vehicle Code §23153(a)酒精影响下驾驶致伤，以及§23153(b)血液酒精含量0.08%以上驾驶致伤。其特别指控和先前定罪另存制作参考；本题评两项实体指控。",
+      "source_id": "source16",
+      "source_paragraph_ids": [
+        "P0007",
+        "P0009"
+      ],
+      "source_locators": [
+        "CL-O2295730-P0007",
+        "CL-O2295730-P0009"
+      ],
+      "epistemic_status": "charging_record",
+      "known_by_role_ids": [],
+      "is_synthetic_fact": false,
+      "record_limit_method": null
+    },
+    {
+      "fact_id": "F12",
+      "text": "来源未给出事故、PAS、逮捕、采血各时刻及相隔时长，也未提供饮酒量、最后饮酒时间、体重或吸收排除率；不能根据0.09与0.12补造饮酒或逆推数据。",
+      "source_id": "source16",
+      "source_paragraph_ids": [
+        "P0010",
+        "P0011",
+        "P0012"
+      ],
+      "source_locators": [
+        "CL-O2295730-P0010",
+        "CL-O2295730-P0011",
+        "CL-O2295730-P0012"
+      ],
+      "epistemic_status": "record_limit",
+      "known_by_role_ids": [],
+      "is_synthetic_fact": false,
+      "record_limit_method": "Absence in supplied opinion, not absence in original proceedings."
+    },
+    {
+      "fact_id": "F13",
+      "text": "来源未附PAS设备、维护和操作记录、血样流转与实验室原始文件；来源记载医院工作人员采血，但其身份、方法和具体医疗规范未详。",
+      "source_id": "source16",
+      "source_paragraph_ids": [
+        "P0011",
+        "P0012"
+      ],
+      "source_locators": [
+        "CL-O2295730-P0011",
+        "CL-O2295730-P0012"
+      ],
+      "epistemic_status": "record_limit",
+      "known_by_role_ids": [],
+      "is_synthetic_fact": false,
+      "record_limit_method": "Absence in supplied opinion, not absence in original proceedings."
+    },
+    {
+      "fact_id": "F14",
+      "text": "来源未提供A的定罪前完整个人证言、不在场说法、事故原因辩解或毒理专长；角色不得替A补写承认饮酒、否认驾驶或技术解释。",
+      "source_id": "source16",
+      "source_paragraph_ids": [
+        "P0003",
+        "P0005",
+        "P0010",
+        "P0011",
+        "P0012"
+      ],
+      "source_locators": [
+        "CL-O2295730-P0003",
+        "CL-O2295730-P0005",
+        "CL-O2295730-P0010",
+        "CL-O2295730-P0011",
+        "CL-O2295730-P0012"
+      ],
+      "epistemic_status": "record_limit",
+      "known_by_role_ids": [],
+      "is_synthetic_fact": false,
+      "record_limit_method": "Absence in supplied opinion, not absence in original proceedings."
+    },
+    {
+      "fact_id": "F15",
+      "text": "来源未提供被害人实时证言或碰撞目击者证词；B在事故后抵达，不能把碰撞全过程变成其亲眼所见。",
+      "source_id": "source16",
+      "source_paragraph_ids": [
+        "P0005",
+        "P0007",
+        "P0010"
+      ],
+      "source_locators": [
+        "CL-O2295730-P0005",
+        "CL-O2295730-P0007",
+        "CL-O2295730-P0010"
+      ],
+      "epistemic_status": "record_limit",
+      "known_by_role_ids": [],
+      "is_synthetic_fact": false,
+      "record_limit_method": "Absence in supplied opinion, not absence in original proceedings."
+    },
+    {
+      "fact_id": "F16",
+      "text": "原案正式审判持续三天，完整实际开庭日期及逐日证人安排未提供。模拟三轮按本题任务划分。",
+      "source_id": "source16",
+      "source_paragraph_ids": [
+        "P0015"
+      ],
+      "source_locators": [
+        "CL-O2295730-P0015"
+      ],
+      "epistemic_status": "procedural_history",
+      "known_by_role_ids": [],
+      "is_synthetic_fact": false,
+      "record_limit_method": null
+    }
+  ],
+  "person_aliases": {
+    "A": {
+      "original": "Donald Wilson"
+    },
+    "B": {
+      "original": "Jerry Chu"
+    }
+  },
+  "synthetic_case_facts": [],
+  "simulation_design": [
+    {
+      "item": "three rounds",
+      "description": "证据与程序审查→双方举证询问→定向补充、结案及裁决；不声称还原原案三个开庭日。"
+    },
+    {
+      "item": "roles",
+      "description": "化名、交互风格及模拟传唤次序为制作设计；人物知识仅取自真实原文。"
+    },
+    {
+      "item": "summary rendering",
+      "description": "可信服务呈现明确标注的判决摘要；不是新增历史证人或原始文件。"
+    }
+  ],
+  "unresolved": [
+    "来源未给出事故、PAS、逮捕、采血各时刻及相隔时长，也未提供饮酒量、最后饮酒时间、体重或吸收排除率；不能根据0.09与0.12补造饮酒或逆推数据。",
+    "来源未附PAS设备、维护和操作记录、血样流转与实验室原始文件；来源记载医院工作人员采血，但其身份、方法和具体医疗规范未详。",
+    "来源未提供A的定罪前完整个人证言、不在场说法、事故原因辩解或毒理专长；角色不得替A补写承认饮酒、否认驾驶或技术解释。",
+    "来源未提供被害人实时证言或碰撞目击者证词；B在事故后抵达，不能把碰撞全过程变成其亲眼所见。"
+  ]
+}

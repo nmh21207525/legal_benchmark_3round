@@ -1,0 +1,201 @@
+{
+  "case_id": "CA-PILOT-005",
+  "default": "deny",
+  "agents_have_case_filesystem_access": false,
+  "agents_have_external_search_access": false,
+  "trusted_loader": "Host fixes case, role, stage and validated events; agent receives one filtered payload.",
+  "protected_namespaces": {
+    "authoring": "author/reviewer only",
+    "evaluation": "reviewer and scoring only",
+    "role_private": "one selected card, stage-filtered knowledge"
+  },
+  "stage_order": [
+    "preparation",
+    "r1_motion",
+    "r1_inquiry",
+    "r1_ruling",
+    "between_r1_r2",
+    "r2_opening",
+    "r2_examination",
+    "r2_evidence",
+    "between_r2_r3",
+    "r3_clarification",
+    "r3_closing",
+    "r3_instructions",
+    "r3_verdict",
+    "ended"
+  ],
+  "material_rules": [
+    {
+      "material_id": "M01",
+      "paragraph_ids": [
+        "M01-P001",
+        "M01-P002",
+        "M01-P003"
+      ],
+      "allowed_roles": [
+        "R_DEFENSE",
+        "R_PROSECUTOR",
+        "R_JUDGE"
+      ],
+      "minimum_stage": "preparation",
+      "required_event": null
+    },
+    {
+      "material_id": "M02",
+      "paragraph_ids": [
+        "M02-P001"
+      ],
+      "allowed_roles": [
+        "R_DEFENSE",
+        "R_PROSECUTOR",
+        "R_JUDGE"
+      ],
+      "minimum_stage": "preparation",
+      "required_event": null
+    },
+    {
+      "material_id": "M03",
+      "paragraph_ids": [
+        "M03-P001",
+        "M03-P002",
+        "M03-P003"
+      ],
+      "allowed_roles": [
+        "R_DEFENSE",
+        "R_PROSECUTOR",
+        "R_JUDGE"
+      ],
+      "minimum_stage": "preparation",
+      "required_event": null
+    },
+    {
+      "material_id": "M04",
+      "paragraph_ids": [
+        "M04-P001",
+        "M04-P002"
+      ],
+      "allowed_roles": [
+        "R_DEFENSE",
+        "R_PROSECUTOR",
+        "R_JUDGE"
+      ],
+      "minimum_stage": "preparation",
+      "required_event": null
+    },
+    {
+      "material_id": "M05",
+      "paragraph_ids": [
+        "M05-P001",
+        "M05-P002"
+      ],
+      "allowed_roles": [
+        "R_DEFENSE",
+        "R_PROSECUTOR",
+        "R_JUDGE"
+      ],
+      "minimum_stage": "preparation",
+      "required_event": null
+    },
+    {
+      "material_id": "M06",
+      "paragraph_ids": [
+        "M06-P001",
+        "M06-P002",
+        "M06-P003"
+      ],
+      "allowed_roles": [
+        "R_DEFENSE",
+        "R_PROSECUTOR",
+        "R_JUDGE"
+      ],
+      "minimum_stage": "preparation",
+      "required_event": null
+    },
+    {
+      "material_id": "M07",
+      "paragraph_ids": [
+        "M07-P001",
+        "M07-P002"
+      ],
+      "allowed_roles": [
+        "R_DEFENSE",
+        "R_PROSECUTOR",
+        "R_JUDGE"
+      ],
+      "minimum_stage": "preparation",
+      "required_event": null
+    },
+    {
+      "material_id": "M08",
+      "paragraph_ids": [
+        "M08-P001",
+        "M08-P002"
+      ],
+      "allowed_roles": [
+        "R_DEFENSE",
+        "R_PROSECUTOR",
+        "R_JUDGE"
+      ],
+      "minimum_stage": "preparation",
+      "required_event": null
+    }
+  ],
+  "legal_rules": [
+    {
+      "allowed_roles": [
+        "R_DEFENSE",
+        "R_PROSECUTOR",
+        "R_JUDGE"
+      ],
+      "legal_source_ids": [
+        "L_PEN_1096",
+        "L_EVID_210",
+        "L_EVID_350",
+        "L_EVID_352",
+        "L_EVID_355",
+        "L_EVID_356",
+        "L_EVID_702",
+        "L_EVID_720",
+        "L_EVID_801",
+        "L_EVID_1200",
+        "L_EVID_1220",
+        "L_EVID_913",
+        "L_EVID_930",
+        "L_EVID_780",
+        "L_EVID_1401",
+        "L_EVID_1101",
+        "L_EVID_765",
+        "L_EVID_767",
+        "L_PEN_290_2006",
+        "L_CALCRIM_1170_2006_EXCERPT"
+      ],
+      "minimum_stage": "preparation"
+    }
+  ],
+  "jury_rules": {
+    "materials_jsonl_access": false,
+    "case_md_access": false,
+    "other_private_cards_access": false,
+    "inputs": [
+      "admitted or limited-use round-2/3 events",
+      "judge-delivered round-3 instructions"
+    ],
+    "exclude": [
+      "round-1 motions and unadmitted testimony",
+      "pending/excluded/private/stricken/future events",
+      "original verdict, sentencing, appeal and hidden issues"
+    ]
+  },
+  "witness_material_access": "none; own source-bound and stage-filtered knowledge only",
+  "agent_cannot_set": [
+    "case_id",
+    "role_id",
+    "stage_id",
+    "validated_release",
+    "admission",
+    "jury_feed"
+  ],
+  "role_view_exporter": "scripts/two_round_access.py --case CA-PILOT-005",
+  "on_denied_request": "deny without file contents or namespace listing"
+}

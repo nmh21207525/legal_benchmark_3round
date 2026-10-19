@@ -1,0 +1,685 @@
+{
+  "case_id": "CA-PILOT-005",
+  "definition": "three simulated rounds",
+  "stages": [
+    {
+      "stage_id": "preparation",
+      "simulation_round": null,
+      "allowed_actions": [
+        "inspect_disclosed_material",
+        "consult_client"
+      ],
+      "questionable_role_ids": [],
+      "audience_role_ids": [
+        "R_DEFENSE",
+        "R_PROSECUTOR",
+        "R_JUDGE"
+      ],
+      "next_stage_id": "r1_motion",
+      "advance_condition": "由法官或可信编排服务关闭，并完成本阶段可执行的待处理事项。",
+      "exit_requirements": {
+        "resolved_queues": [],
+        "deferred_queues": {},
+        "closure_authority": [
+          "R_JUDGE",
+          "trusted_orchestrator"
+        ]
+      }
+    },
+    {
+      "stage_id": "r1_motion",
+      "simulation_round": 1,
+      "allowed_actions": [
+        "file_motion",
+        "respond_to_motion"
+      ],
+      "questionable_role_ids": [],
+      "audience_role_ids": [
+        "R_DEFENSE",
+        "R_PROSECUTOR",
+        "R_JUDGE"
+      ],
+      "next_stage_id": "r1_inquiry",
+      "advance_condition": "由法官或可信编排服务关闭，并完成本阶段可执行的待处理事项。",
+      "exit_requirements": {
+        "resolved_queues": [],
+        "deferred_queues": {
+          "motions": "r1_ruling"
+        },
+        "closure_authority": [
+          "R_JUDGE",
+          "trusted_orchestrator"
+        ]
+      }
+    },
+    {
+      "stage_id": "r1_inquiry",
+      "simulation_round": 1,
+      "allowed_actions": [
+        "call_witness",
+        "ask_question",
+        "answer_question",
+        "object",
+        "rule_objection",
+        "offer_evidence",
+        "strike_answer"
+      ],
+      "questionable_role_ids": [
+        "R_INTAKE_AGENT",
+        "R_ASSIGNED_AGENT"
+      ],
+      "audience_role_ids": [
+        "R_DEFENSE",
+        "R_PROSECUTOR",
+        "R_JUDGE"
+      ],
+      "next_stage_id": "r1_ruling",
+      "advance_condition": "本阶段待处理异议解决；待裁证据和动议带入r1_ruling。",
+      "exit_requirements": {
+        "resolved_queues": [
+          "objections"
+        ],
+        "deferred_queues": {
+          "evidence_rulings": "r1_ruling",
+          "motions": "r1_ruling"
+        },
+        "closure_authority": [
+          "R_JUDGE",
+          "trusted_orchestrator"
+        ]
+      }
+    },
+    {
+      "stage_id": "r1_ruling",
+      "simulation_round": 1,
+      "allowed_actions": [
+        "rule_motion",
+        "rule_evidence"
+      ],
+      "questionable_role_ids": [],
+      "audience_role_ids": [
+        "R_DEFENSE",
+        "R_PROSECUTOR",
+        "R_JUDGE"
+      ],
+      "next_stage_id": "between_r1_r2",
+      "advance_condition": "由法官或可信编排服务关闭，并完成本阶段可执行的待处理事项。",
+      "exit_requirements": {
+        "resolved_queues": [
+          "evidence_rulings",
+          "motions"
+        ],
+        "deferred_queues": {},
+        "closure_authority": [
+          "R_JUDGE",
+          "trusted_orchestrator"
+        ]
+      }
+    },
+    {
+      "stage_id": "between_r1_r2",
+      "simulation_round": null,
+      "allowed_actions": [
+        "record_rulings",
+        "consult_client"
+      ],
+      "questionable_role_ids": [],
+      "audience_role_ids": [
+        "R_DEFENSE",
+        "R_PROSECUTOR",
+        "R_JUDGE"
+      ],
+      "next_stage_id": "r2_opening",
+      "advance_condition": "由法官或可信编排服务关闭，并完成本阶段可执行的待处理事项。",
+      "exit_requirements": {
+        "resolved_queues": [],
+        "deferred_queues": {},
+        "closure_authority": [
+          "R_JUDGE",
+          "trusted_orchestrator"
+        ]
+      }
+    },
+    {
+      "stage_id": "r2_opening",
+      "simulation_round": 2,
+      "allowed_actions": [
+        "opening_statement"
+      ],
+      "questionable_role_ids": [],
+      "audience_role_ids": [
+        "R_DEFENSE",
+        "R_PROSECUTOR",
+        "R_JUDGE",
+        "R_JURY"
+      ],
+      "next_stage_id": "r2_examination",
+      "advance_condition": "由法官或可信编排服务关闭，并完成本阶段可执行的待处理事项。",
+      "exit_requirements": {
+        "resolved_queues": [],
+        "deferred_queues": {},
+        "closure_authority": [
+          "R_JUDGE",
+          "trusted_orchestrator"
+        ]
+      }
+    },
+    {
+      "stage_id": "r2_examination",
+      "simulation_round": 2,
+      "allowed_actions": [
+        "call_witness",
+        "ask_question",
+        "answer_question",
+        "elect_defendant_testimony",
+        "offer_evidence",
+        "object",
+        "rule_objection",
+        "rule_evidence",
+        "strike_answer",
+        "release_stage_material"
+      ],
+      "questionable_role_ids": [
+        "R_INTAKE_AGENT",
+        "R_ASSIGNED_AGENT",
+        "R_DEFENDANT"
+      ],
+      "audience_role_ids": [
+        "R_DEFENSE",
+        "R_PROSECUTOR",
+        "R_JUDGE",
+        "R_JURY"
+      ],
+      "next_stage_id": "r2_evidence",
+      "advance_condition": "由法官或可信编排服务关闭，并完成本阶段可执行的待处理事项。",
+      "exit_requirements": {
+        "resolved_queues": [
+          "objections",
+          "evidence_rulings"
+        ],
+        "deferred_queues": {},
+        "closure_authority": [
+          "R_JUDGE",
+          "trusted_orchestrator"
+        ]
+      }
+    },
+    {
+      "stage_id": "r2_evidence",
+      "simulation_round": 2,
+      "allowed_actions": [
+        "offer_evidence",
+        "object",
+        "rule_objection",
+        "rule_evidence",
+        "present_source_summary"
+      ],
+      "questionable_role_ids": [],
+      "audience_role_ids": [
+        "R_DEFENSE",
+        "R_PROSECUTOR",
+        "R_JUDGE",
+        "R_JURY"
+      ],
+      "next_stage_id": "between_r2_r3",
+      "advance_condition": "由法官或可信编排服务关闭，并完成本阶段可执行的待处理事项。",
+      "exit_requirements": {
+        "resolved_queues": [
+          "objections",
+          "evidence_rulings"
+        ],
+        "deferred_queues": {},
+        "closure_authority": [
+          "R_JUDGE",
+          "trusted_orchestrator"
+        ]
+      }
+    },
+    {
+      "stage_id": "between_r2_r3",
+      "simulation_round": null,
+      "allowed_actions": [
+        "record_rulings",
+        "consult_client"
+      ],
+      "questionable_role_ids": [],
+      "audience_role_ids": [
+        "R_DEFENSE",
+        "R_PROSECUTOR",
+        "R_JUDGE"
+      ],
+      "next_stage_id": "r3_clarification",
+      "advance_condition": "由法官或可信编排服务关闭，并完成本阶段可执行的待处理事项。",
+      "exit_requirements": {
+        "resolved_queues": [],
+        "deferred_queues": {},
+        "closure_authority": [
+          "R_JUDGE",
+          "trusted_orchestrator"
+        ]
+      }
+    },
+    {
+      "stage_id": "r3_clarification",
+      "simulation_round": 3,
+      "allowed_actions": [
+        "call_witness",
+        "ask_question",
+        "answer_question",
+        "elect_defendant_testimony",
+        "offer_evidence",
+        "object",
+        "rule_objection",
+        "rule_evidence",
+        "present_source_summary",
+        "strike_answer"
+      ],
+      "questionable_role_ids": [
+        "R_INTAKE_AGENT",
+        "R_ASSIGNED_AGENT",
+        "R_DEFENDANT"
+      ],
+      "audience_role_ids": [
+        "R_DEFENSE",
+        "R_PROSECUTOR",
+        "R_JUDGE",
+        "R_JURY"
+      ],
+      "next_stage_id": "r3_closing",
+      "advance_condition": "由法官或可信编排服务关闭，并完成本阶段可执行的待处理事项。",
+      "exit_requirements": {
+        "resolved_queues": [
+          "objections",
+          "evidence_rulings"
+        ],
+        "deferred_queues": {},
+        "closure_authority": [
+          "R_JUDGE",
+          "trusted_orchestrator"
+        ]
+      }
+    },
+    {
+      "stage_id": "r3_closing",
+      "simulation_round": 3,
+      "allowed_actions": [
+        "closing_argument"
+      ],
+      "questionable_role_ids": [],
+      "audience_role_ids": [
+        "R_DEFENSE",
+        "R_PROSECUTOR",
+        "R_JUDGE",
+        "R_JURY"
+      ],
+      "next_stage_id": "r3_instructions",
+      "advance_condition": "由法官或可信编排服务关闭，并完成本阶段可执行的待处理事项。",
+      "exit_requirements": {
+        "resolved_queues": [],
+        "deferred_queues": {},
+        "closure_authority": [
+          "R_JUDGE",
+          "trusted_orchestrator"
+        ]
+      }
+    },
+    {
+      "stage_id": "r3_instructions",
+      "simulation_round": 3,
+      "allowed_actions": [
+        "deliver_instruction"
+      ],
+      "questionable_role_ids": [],
+      "audience_role_ids": [
+        "R_DEFENSE",
+        "R_PROSECUTOR",
+        "R_JUDGE",
+        "R_JURY"
+      ],
+      "next_stage_id": "r3_verdict",
+      "advance_condition": "由法官或可信编排服务关闭，并完成本阶段可执行的待处理事项。",
+      "exit_requirements": {
+        "resolved_queues": [],
+        "deferred_queues": {},
+        "closure_authority": [
+          "R_JUDGE",
+          "trusted_orchestrator"
+        ]
+      }
+    },
+    {
+      "stage_id": "r3_verdict",
+      "simulation_round": 3,
+      "allowed_actions": [
+        "record_verdict"
+      ],
+      "questionable_role_ids": [],
+      "audience_role_ids": [
+        "R_DEFENSE",
+        "R_PROSECUTOR",
+        "R_JUDGE",
+        "R_JURY"
+      ],
+      "next_stage_id": "ended",
+      "advance_condition": "由法官或可信编排服务关闭，并完成本阶段可执行的待处理事项。",
+      "exit_requirements": {
+        "resolved_queues": [],
+        "deferred_queues": {},
+        "closure_authority": [
+          "R_JUDGE",
+          "trusted_orchestrator"
+        ]
+      }
+    },
+    {
+      "stage_id": "ended",
+      "simulation_round": null,
+      "allowed_actions": [],
+      "questionable_role_ids": [],
+      "audience_role_ids": [
+        "R_DEFENSE",
+        "R_PROSECUTOR",
+        "R_JUDGE"
+      ],
+      "next_stage_id": null,
+      "advance_condition": "由法官或可信编排服务关闭，并完成本阶段可执行的待处理事项。",
+      "exit_requirements": {
+        "resolved_queues": [],
+        "deferred_queues": {},
+        "closure_authority": [
+          "R_JUDGE",
+          "trusted_orchestrator"
+        ]
+      }
+    }
+  ],
+  "initial_stage_id": "preparation",
+  "initial_evidence_state": {
+    "M01": "disclosed_not_admitted",
+    "M02": "disclosed_not_admitted",
+    "M03": "disclosed_not_admitted",
+    "M04": "disclosed_not_admitted",
+    "M05": "disclosed_not_admitted",
+    "M06": "disclosed_not_admitted",
+    "M07": "disclosed_not_admitted",
+    "M08": "disclosed_not_admitted"
+  },
+  "disclosure_rules": [],
+  "jury_evidence_rounds": [
+    2,
+    3
+  ],
+  "jury_instruction_stage_id": "r3_instructions",
+  "consultation_stage_ids": [
+    "preparation",
+    "between_r1_r2",
+    "between_r2_r3"
+  ],
+  "witnesses": {
+    "R_INTAKE_AGENT": {
+      "mode": "source_bound_live",
+      "rounds": [
+        1,
+        2,
+        3
+      ]
+    },
+    "R_ASSIGNED_AGENT": {
+      "mode": "source_bound_live",
+      "rounds": [
+        1,
+        2,
+        3
+      ]
+    },
+    "R_DEFENDANT": {
+      "mode": "source_bound_live",
+      "rounds": [
+        2,
+        3
+      ]
+    },
+    "R_SOURCE_RECORD": {
+      "mode": "record_only",
+      "rounds": [
+        2,
+        3
+      ]
+    }
+  },
+  "defendant_testimony": {
+    "initially_elected": false,
+    "election_authority": "R_DEFENDANT",
+    "cannot_be_forced": true
+  },
+  "admission": {
+    "decision_role_id": "R_JUDGE",
+    "granularity": "event + material paragraph + purpose",
+    "disclosure_is_not_admission": true,
+    "required_ruling_fields": [
+      "event_id",
+      "paragraph_refs",
+      "state",
+      "permitted_purposes",
+      "reasons",
+      "legal_source_ids"
+    ]
+  },
+  "evidence_state_values": [
+    "not_yet_disclosed",
+    "disclosed_not_admitted",
+    "offered",
+    "pending_foundation",
+    "admitted",
+    "limited_use",
+    "excluded"
+  ],
+  "summary_presentation": {
+    "stage_ids": [
+      "r2_evidence",
+      "r3_clarification"
+    ],
+    "content_role_id": "R_SOURCE_RECORD",
+    "permitted_paragraph_ids": [
+      "M01-P001",
+      "M01-P002",
+      "M01-P003",
+      "M02-P001",
+      "M03-P001",
+      "M03-P002",
+      "M03-P003",
+      "M04-P001",
+      "M04-P002",
+      "M05-P001",
+      "M05-P002",
+      "M06-P001",
+      "M06-P002",
+      "M06-P003",
+      "M07-P001",
+      "M07-P002",
+      "M08-P001",
+      "M08-P002"
+    ],
+    "source_form": "source_bound_opinion_summary",
+    "required_label": "判决来源摘要，非原始文件或逐字证言"
+  },
+  "objections": [
+    {
+      "objection_id": "O_RELEVANCE_PREJUDICE",
+      "trigger": "缺少与公开指控的关联，或证明价值与不当风险需衡量。",
+      "verify_against": [
+        "L_EVID_210",
+        "L_EVID_350",
+        "L_EVID_352"
+      ],
+      "required_fields": [
+        "target_event_id",
+        "charge_id",
+        "relevance_explanation",
+        "offered_purpose"
+      ],
+      "on_sustained": [
+        "排除或限制范围与用途",
+        "记录理由并移除陪审团被排除部分"
+      ],
+      "field_sources": {
+        "charge_id": "scoped case payload charges[].charge_id",
+        "relevance_explanation": "lawyer free-text explanation"
+      }
+    },
+    {
+      "objection_id": "O_PERSONAL_KNOWLEDGE",
+      "trigger": "要求证人回答其知情范围外或阶段尚未可披露的事实。",
+      "verify_against": [
+        "L_EVID_702"
+      ],
+      "required_fields": [
+        "target_event_id",
+        "paragraph_refs",
+        "questioned_fact_id"
+      ],
+      "on_sustained": [
+        "暂停回答并改问",
+        "未知不能补造"
+      ]
+    },
+    {
+      "objection_id": "O_HEARSAY",
+      "trigger": "庭外陈述被用于证明内容真实而无已核验例外或限定用途。",
+      "verify_against": [
+        "L_EVID_1200",
+        "L_EVID_1220",
+        "L_EVID_355"
+      ],
+      "required_fields": [
+        "target_event_id",
+        "statement_layer",
+        "offered_purpose",
+        "legal_source_ids"
+      ],
+      "on_sustained": [
+        "排除或限定用途",
+        "一层例外不解决全部转述层次"
+      ]
+    },
+    {
+      "objection_id": "O_EXPERT_OR_DOCUMENT_FOUNDATION",
+      "trigger": "以未提供资质或认证基础的意见、数字或摘要代替已核验原件。",
+      "verify_against": [
+        "L_EVID_720",
+        "L_EVID_801",
+        "L_EVID_1401"
+      ],
+      "required_fields": [
+        "target_event_id",
+        "paragraph_refs",
+        "claimed_expertise",
+        "basis_material_refs"
+      ],
+      "on_sustained": [
+        "标为pending_foundation、excluded或limited_use并给理由",
+        "不生成资质、设备、原件或新数据"
+      ]
+    },
+    {
+      "objection_id": "O_PRIVILEGE",
+      "trigger": "被告未自愿作证却被要求回答，或沉默被用作有罪依据。",
+      "verify_against": [
+        "L_EVID_913",
+        "L_EVID_930"
+      ],
+      "required_fields": [
+        "target_event_id",
+        "testimony_election_event"
+      ],
+      "on_sustained": [
+        "不强制作答",
+        "撤回沉默有罪推论"
+      ]
+    }
+  ],
+  "first_round_record_closed_after_ruling": true,
+  "round_one_record_reuse": "Offer specified content again for merits use; no automatic jury transmission.",
+  "round_two_record_retention": "Round 3 retains admitted/limited-use round-2 events; later exclusions and striking apply to retained records.",
+  "round_three_scope": "Targeted clarification of existing record, closing arguments, judge instructions, separate charge decisions; no invented new evidence.",
+  "implementation_boundary": "Data specification and reference loader; authenticated production transitions and durable event storage require engineering integration.",
+  "action_role_ids": {
+    "inspect_disclosed_material": [
+      "R_DEFENSE",
+      "R_PROSECUTOR",
+      "R_JUDGE"
+    ],
+    "record_rulings": [
+      "R_DEFENSE",
+      "R_PROSECUTOR",
+      "R_JUDGE"
+    ],
+    "file_motion": [
+      "R_DEFENSE",
+      "R_PROSECUTOR"
+    ],
+    "respond_to_motion": [
+      "R_DEFENSE",
+      "R_PROSECUTOR"
+    ],
+    "ask_question": [
+      "R_DEFENSE",
+      "R_PROSECUTOR"
+    ],
+    "offer_evidence": [
+      "R_DEFENSE",
+      "R_PROSECUTOR"
+    ],
+    "object": [
+      "R_DEFENSE",
+      "R_PROSECUTOR"
+    ],
+    "opening_statement": [
+      "R_DEFENSE",
+      "R_PROSECUTOR"
+    ],
+    "closing_argument": [
+      "R_DEFENSE",
+      "R_PROSECUTOR"
+    ],
+    "call_witness": [
+      "R_JUDGE"
+    ],
+    "rule_motion": [
+      "R_JUDGE"
+    ],
+    "rule_evidence": [
+      "R_JUDGE"
+    ],
+    "rule_objection": [
+      "R_JUDGE"
+    ],
+    "strike_answer": [
+      "R_JUDGE"
+    ],
+    "deliver_instruction": [
+      "R_JUDGE"
+    ],
+    "record_verdict": [
+      "R_JUDGE"
+    ],
+    "consult_client": [
+      "R_DEFENSE",
+      "R_DEFENDANT"
+    ],
+    "answer_question": [
+      "R_INTAKE_AGENT",
+      "R_ASSIGNED_AGENT",
+      "R_DEFENDANT"
+    ],
+    "elect_defendant_testimony": [
+      "R_DEFENDANT"
+    ],
+    "present_source_summary": [
+      "trusted_orchestrator"
+    ],
+    "release_stage_material": [
+      "trusted_orchestrator"
+    ]
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "case_id": "CA-PILOT-005",
+  "status": "initial_issue_draft",
+  "items": [
+    {
+      "issue_id": "I01",
+      "question": "五个工作日的起算、假日与被捕日如何处理。",
+      "fact_ids": [
+        "F01",
+        "F08",
+        "F14",
+        "F15"
+      ],
+      "legal_source_ids": [
+        "L_PEN_290_2006"
+      ],
+      "material_paragraph_refs": [
+        "M01-P001",
+        "M04-P001",
+        "M07-P001",
+        "M07-P002"
+      ],
+      "to_verify": "不能直接把假释官5月31日的告知替代法律计算；核验起算与工作日口径。",
+      "score": null,
+      "weight": null
+    },
+    {
+      "issue_id": "I02",
+      "question": "临时地址、在某辖区居住与迁居到市内是否分别影响登记。",
+      "fact_ids": [
+        "F01",
+        "F03",
+        "F05",
+        "F06",
+        "F08",
+        "F13"
+      ],
+      "legal_source_ids": [
+        "L_PEN_290_2006"
+      ],
+      "material_paragraph_refs": [
+        "M01-P001",
+        "M01-P002",
+        "M01-P003",
+        "M03-P002",
+        "M04-P001",
+        "M06-P002"
+      ],
+      "to_verify": "检察机关须证明法定居住与期限；不能把原型2009上诉论证直接作为2006运行裁判答案。",
+      "score": null,
+      "weight": null
+    },
+    {
+      "issue_id": "I03",
+      "question": "A是否实际知道义务且故意未履行。",
+      "fact_ids": [
+        "F02",
+        "F04",
+        "F10",
+        "F12"
+      ],
+      "legal_source_ids": [
+        "L_PEN_290_2006",
+        "L_CALCRIM_1170_2006_EXCERPT"
+      ],
+      "material_paragraph_refs": [
+        "M02-P001",
+        "M03-P001",
+        "M04-P002",
+        "M06-P001"
+      ],
+      "to_verify": "分别核对实际知情、行为、期限及主观故意，不能仅凭既往犯罪推定本次有罪。",
+      "score": null,
+      "weight": null
+    },
+    {
+      "issue_id": "I04",
+      "question": "尝试登记但被拒的说法有何证明范围和缺口。",
+      "fact_ids": [
+        "F10",
+        "F11",
+        "F17"
+      ],
+      "legal_source_ids": [
+        "L_EVID_702",
+        "L_EVID_1200",
+        "L_PEN_1096"
+      ],
+      "material_paragraph_refs": [
+        "M04-P002",
+        "M05-P001",
+        "M08-P001"
+      ],
+      "to_verify": "保留A的本人证言与接待者转述；不能伪造预约记录或假定说法已核实。",
+      "score": null,
+      "weight": null
+    },
+    {
+      "issue_id": "I05",
+      "question": "绑架、威胁与害怕的说法对故意和抗辩有何影响。",
+      "fact_ids": [
+        "F08",
+        "F09",
+        "F10",
+        "F17"
+      ],
+      "legal_source_ids": [
+        "L_PEN_1096",
+        "L_EVID_780"
+      ],
+      "material_paragraph_refs": [
+        "M04-P001",
+        "M04-P002",
+        "M05-P002",
+        "M08-P001"
+      ],
+      "to_verify": "法定抗辩门槛及举证规则待法律复核；不能把一般恐惧自动等同抗辩成立，也不能无依据断定说法虚假。",
+      "score": null,
+      "weight": null
+    },
+    {
+      "issue_id": "I06",
+      "question": "既往犯罪和登记违反证据如何限定用途。",
+      "fact_ids": [
+        "F12",
+        "F16"
+      ],
+      "legal_source_ids": [
+        "L_EVID_1101",
+        "L_EVID_352",
+        "L_EVID_355"
+      ],
+      "material_paragraph_refs": [
+        "M06-P001",
+        "M06-P003"
+      ],
+      "to_verify": "区分登记义务基础、知情用途与不当品格推论；不在本题评量刑特别指控。",
+      "score": null,
+      "weight": null
+    },
+    {
+      "issue_id": "I07",
+      "question": "证人能否只在本人知情范围回答，材料摘要是否有基础。",
+      "fact_ids": [
+        "F02",
+        "F04",
+        "F07",
+        "F17",
+        "F18"
+      ],
+      "legal_source_ids": [
+        "L_EVID_702",
+        "L_EVID_1401",
+        "L_EVID_1200"
+      ],
+      "material_paragraph_refs": [
+        "M02-P001",
+        "M03-P001",
+        "M03-P003",
+        "M08-P001",
+        "M08-P002"
+      ],
+      "to_verify": "B不补C的家访，C不补绑架；公开省略章节继续记未知。",
+      "score": null,
+      "weight": null
+    },
+    {
+      "issue_id": "I08",
+      "question": "三轮证据裁定、补充询问和结案记录是否可复核。",
+      "fact_ids": [
+        "F10",
+        "F11",
+        "F14",
+        "F15"
+      ],
+      "legal_source_ids": [
+        "L_PEN_1096",
+        "L_EVID_355",
+        "L_EVID_765",
+        "L_EVID_767"
+      ],
+      "material_paragraph_refs": [
+        "M04-P002",
+        "M05-P001",
+        "M07-P001",
+        "M07-P002"
+      ],
+      "to_verify": "第三轮须保留第二轮已采纳记录；补充询问不能生成新事件。",
+      "score": null,
+      "weight": null
+    }
+  ]
+}

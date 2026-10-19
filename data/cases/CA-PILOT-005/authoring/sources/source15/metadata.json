@@ -1,0 +1,86 @@
+{
+  "provider": "CourtListener",
+  "source_id": "source15",
+  "source_family_id": "CL-C2256789",
+  "cluster_id": 2256789,
+  "court_id": "calctapp",
+  "court_name": "California Court of Appeal",
+  "jurisdiction": "California, United States",
+  "case_name": "People v. Williams",
+  "docket_number": "F053858",
+  "date_filed": "2009-03-12",
+  "citation": [
+    "171 Cal. App. 4th 1667",
+    "90 Cal. Rptr. 3d 665",
+    "2009 Cal. App. LEXIS 331"
+  ],
+  "source_url": "https://www.courtlistener.com/opinion/2256789/people-v-williams/",
+  "retrieved_at": "2026-10-01T04:07:40.900654+00:00",
+  "search_file": "data/sources/trial_duration_exploration/day3/search.json",
+  "search_result_number": 10,
+  "opinions": [
+    {
+      "source_opinion_id": 2256789,
+      "opinion_type": "010combined",
+      "raw_file_path": "data/sources/source15/opinions/2256789/opinion.json",
+      "raw_sha256": "8dd31bed03f281456f261a638121f02359c4f5a2cfcbee1c68111d5dbeb35a4f",
+      "text_field_used": "html_with_citations",
+      "normalized_text_path": "data/sources/source15/opinions/2256789/normalized.txt",
+      "normalized_text_sha256": "8c82af8dafd6ea26efd55fc59e2ec591b6b6fd0f110b600a041b8e7816ee69e2",
+      "paragraph_count": 91,
+      "character_count": 11882
+    }
+  ],
+  "paragraph_id_method": "v1: HTML block boundaries or plaintext blank lines; whitespace collapsed; sequential IDs per opinion. Project locators, not official court paragraph numbers.",
+  "review_status": "awaiting_complete_hearing_calendar",
+  "ready_for_benchmark": false,
+  "precedential_status": "Published",
+  "trial_duration_review": {
+    "discovery_hint_days": 3,
+    "evidence": {
+      "source_opinion_id": 2256789,
+      "paragraph_locators": [
+        "CL-O2256789-P0008"
+      ],
+      "quote": "On August 16, 2007, after a three-day trial, appellant’s jury returned a verdict finding him guilty of the substantive offense. That same day appellant admitted the truth of the special allegations."
+    },
+    "interpretation": "Opinion describes the trial duration; total hearing dates are not established."
+  },
+  "hearing_dates_review": {
+    "definition": "同一案件全部程序中实际开庭的不同日历日；预审、动议、正式审判和量刑纳入，同日只计一次。",
+    "verified_total": null,
+    "classification": "待核实",
+    "minimum_hearing_date_count": 4,
+    "count_reason": "三天审判截至2007-08-16，2007-09-14另有量刑开庭，至少4次；完整预审等庭期尚缺。",
+    "known_events": [
+      {
+        "date": "2007-08-16",
+        "event": "审判、裁决和承认特别指控"
+      },
+      {
+        "date": "2007-09-14",
+        "event": "量刑"
+      }
+    ],
+    "evidence": [
+      {
+        "source_opinion_id": 2256789,
+        "paragraph_locators": [
+          "CL-O2256789-P0008",
+          "CL-O2256789-P0009",
+          "CL-O2256789-P0010",
+          "CL-O2256789-P0011"
+        ],
+        "quote": "On August 16, 2007, after a three-day trial, appellant’s jury returned a verdict finding him guilty of the substantive offense. That same day appellant admitted the truth of the special allegations. On September 14, 2007, the court denied appellant probation, declined a defense request to strike the prior conviction allegations under People v. Superior Court (Romero) (1996) 13 Cal.4th 497 [53 Cal.Rptr.2d 789, 917 P.2d 628], and sentenced him to a total term of 26 years to life in prison."
+      }
+    ],
+    "missing_record": "完整一审庭期和实际进行状态；必要时后续重审庭期。",
+    "trial_county": null,
+    "trial_case_number": null
+  },
+  "opinion_content_review": {
+    "status": "published_excerpt_with_omitted_sections",
+    "missing_sections": "DISCUSSION II–III",
+    "reason": "正文II., III.后是省略图像标记；原始lawbox页首声明partial publication。"
+  }
+}

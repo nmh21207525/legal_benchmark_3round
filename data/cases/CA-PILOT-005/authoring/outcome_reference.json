@@ -1,0 +1,39 @@
+{
+  "source_id": "source15",
+  "visibility": "authoring_only",
+  "trial": {
+    "verdict": {
+      "C01": "guilty"
+    },
+    "verdict_date": "2007-08-16",
+    "duration_days": 3,
+    "special_allegations": "four prior serious felonies and prior prison term; admitted after verdict",
+    "sentence": {
+      "date": "2007-09-14",
+      "description": "26 years to life; probation and Romero request denied"
+    },
+    "source_locators": [
+      "CL-O2256789-P0005",
+      "CL-O2256789-P0007",
+      "CL-O2256789-P0008",
+      "CL-O2256789-P0009",
+      "CL-O2256789-P0011"
+    ]
+  },
+  "appeal": {
+    "disposition": "judgment affirmed",
+    "unavailable_reasoning_sections": [
+      "II",
+      "III"
+    ],
+    "rehearing_denied": "2009-04-06",
+    "review_denied": "2009-06-24",
+    "source_locators": [
+      "CL-O2256789-P0078",
+      "CL-O2256789-P0080"
+    ],
+    "provider_date_filed": "2009-03-12"
+  },
+  "do_not_score_by_actual_outcome": true,
+  "prototype_special_allegations": "Retained in reference; benchmark merits charges and scoring exclude sentencing."
+}

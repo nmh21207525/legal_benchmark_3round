@@ -1,0 +1,193 @@
+{
+  "case_id": "CA-PILOT-006",
+  "status": "initial_issue_draft",
+  "items": [
+    {
+      "issue_id": "I01",
+      "question": "已有PAS后，后续无令状抽血的合理性如何分析。",
+      "fact_ids": [
+        "F03",
+        "F05",
+        "F06",
+        "F07",
+        "F09"
+      ],
+      "legal_source_ids": [
+        "L_SCHMERBER_1966",
+        "L_VEH_23612_2000"
+      ],
+      "material_paragraph_refs": [
+        "M02-P001",
+        "M03-P001",
+        "M03-P002",
+        "M04-P001",
+        "M05-P001"
+      ],
+      "to_verify": "以2000法律及实际已提供的情形分析；不输入2003原型裁判答案或后来的现行血液搜查规则。",
+      "score": null,
+      "weight": null
+    },
+    {
+      "issue_id": "I02",
+      "question": "自愿PAS、不表示同意抽血与法定化学测试义务的关系。",
+      "fact_ids": [
+        "F05",
+        "F07"
+      ],
+      "legal_source_ids": [
+        "L_VEH_23612_2000",
+        "L_SCHMERBER_1966"
+      ],
+      "material_paragraph_refs": [
+        "M03-P001",
+        "M04-P001"
+      ],
+      "to_verify": "区分实际同意、法定规则和宪法审查；不因未反抗而改写为同意。",
+      "score": null,
+      "weight": null
+    },
+    {
+      "issue_id": "I03",
+      "question": "PAS0.09及血样0.12的基础和证明范围是否充分。",
+      "fact_ids": [
+        "F06",
+        "F08",
+        "F12",
+        "F13"
+      ],
+      "legal_source_ids": [
+        "L_EVID_720",
+        "L_EVID_801",
+        "L_EVID_1401",
+        "L_EVID_1200"
+      ],
+      "material_paragraph_refs": [
+        "M03-P002",
+        "M04-P002",
+        "M08-P001",
+        "M08-P002"
+      ],
+      "to_verify": "不虚构鉴定人资质或实验室证言；数值不自动等于驾驶时浓度。",
+      "score": null,
+      "weight": null
+    },
+    {
+      "issue_id": "I04",
+      "question": "各程序时刻未知时，驾驶时浓度及三小时推定如何论证。",
+      "fact_ids": [
+        "F01",
+        "F06",
+        "F08",
+        "F12"
+      ],
+      "legal_source_ids": [
+        "L_VEH_23153_2000",
+        "L_PEN_1096"
+      ],
+      "material_paragraph_refs": [
+        "M01-P001",
+        "M03-P002",
+        "M04-P002",
+        "M08-P001"
+      ],
+      "to_verify": "不得补造间隔，须检查推定适用条件；0.12高于0.09不证明更多饮酒或错误。",
+      "score": null,
+      "weight": null
+    },
+    {
+      "issue_id": "I05",
+      "question": "两项罪的驾驶、影响/浓度、违法行为或注意义务及因果关系如何分别证明。",
+      "fact_ids": [
+        "F01",
+        "F02",
+        "F03",
+        "F04",
+        "F11",
+        "F15"
+      ],
+      "legal_source_ids": [
+        "L_VEH_23153_2000",
+        "L_PEN_1096"
+      ],
+      "material_paragraph_refs": [
+        "M01-P001",
+        "M01-P002",
+        "M02-P001",
+        "M02-P002",
+        "M07-P001",
+        "M08-P004"
+      ],
+      "to_verify": "B不是碰撞目击者；不把特别伤害认定或原案胜负补入证据。",
+      "score": null,
+      "weight": null
+    },
+    {
+      "issue_id": "I06",
+      "question": "三次呼气妨碍记载能否倒用于第一轮抑制裁定。",
+      "fact_ids": [
+        "F09",
+        "F10"
+      ],
+      "legal_source_ids": [
+        "L_EVID_350",
+        "L_EVID_355"
+      ],
+      "material_paragraph_refs": [
+        "M05-P001",
+        "M06-P001"
+      ],
+      "to_verify": "该事项只在原案审判出现；第三轮可论当前获准用途，不能篡改第一轮封闭记录。",
+      "score": null,
+      "weight": null
+    },
+    {
+      "issue_id": "I07",
+      "question": "警员、A与毒理记录角色是否遵守知情和答问限制。",
+      "fact_ids": [
+        "F03",
+        "F08",
+        "F13",
+        "F14",
+        "F15"
+      ],
+      "legal_source_ids": [
+        "L_EVID_702",
+        "L_EVID_720",
+        "L_EVID_801"
+      ],
+      "material_paragraph_refs": [
+        "M02-P001",
+        "M04-P002",
+        "M08-P002",
+        "M08-P003",
+        "M08-P004"
+      ],
+      "to_verify": "毒理记录不可自由回答；A自愿作证且只答已有范围，不能补专家分析。",
+      "score": null,
+      "weight": null
+    },
+    {
+      "issue_id": "I08",
+      "question": "三轮用途限制与陪审团记录是否持续且可追溯。",
+      "fact_ids": [
+        "F07",
+        "F09",
+        "F10",
+        "F11"
+      ],
+      "legal_source_ids": [
+        "L_EVID_355",
+        "L_PEN_1096"
+      ],
+      "material_paragraph_refs": [
+        "M04-P001",
+        "M05-P001",
+        "M06-P001",
+        "M07-P001"
+      ],
+      "to_verify": "第一轮抑制记录与实体证据分别处理；第二轮采纳结果在第三轮保留，排除及划除继续有效。",
+      "score": null,
+      "weight": null
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "files": [
+    {
+      "source_id": "LAW_PEN_1096",
+      "canonical_project_path": "data/legal/source15_historical/PEN_1096.html",
+      "path": "authoring/sources/law/PEN_1096.html",
+      "sha256": "d19ab7acdf8757d739f113cb1e9863d58af7fe288fd76f76204704b080980dd2",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=1096."
+    },
+    {
+      "source_id": "LAW_EVID_210",
+      "canonical_project_path": "data/legal/source15_historical/EVID_210.html",
+      "path": "authoring/sources/law/EVID_210.html",
+      "sha256": "3f3560cda5163f6acde4574c01554d4a7e608f938d7025860906185d416bec70",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=EVID&sectionNum=210."
+    },
+    {
+      "source_id": "LAW_EVID_350",
+      "canonical_project_path": "data/legal/source15_historical/EVID_350.html",
+      "path": "authoring/sources/law/EVID_350.html",
+      "sha256": "7a61b4f84a13432ac3cbfd1c455f8d462a3fcb6a3b546cca2975302ce9320995",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=EVID&sectionNum=350."
+    },
+    {
+      "source_id": "LAW_EVID_352",
+      "canonical_project_path": "data/legal/source15_historical/EVID_352.html",
+      "path": "authoring/sources/law/EVID_352.html",
+      "sha256": "5f9184dd9dfc01511c89cddc25c4885ebdb0a8b67db96bbc04122874e8ee0815",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=EVID&sectionNum=352."
+    },
+    {
+      "source_id": "LAW_EVID_355",
+      "canonical_project_path": "data/legal/source15_historical/EVID_355.html",
+      "path": "authoring/sources/law/EVID_355.html",
+      "sha256": "83c76326d7f0938d27886ba83d122df3e641ee8d17fca845daa4486e6a210bbc",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=EVID&sectionNum=355."
+    },
+    {
+      "source_id": "LAW_EVID_356",
+      "canonical_project_path": "data/legal/source15_historical/EVID_356.html",
+      "path": "authoring/sources/law/EVID_356.html",
+      "sha256": "f78348d01d4418fc95f203d10f80acf3218c4eb61c6bc5933052c1113068d631",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=EVID&sectionNum=356."
+    },
+    {
+      "source_id": "LAW_EVID_702",
+      "canonical_project_path": "data/legal/source15_historical/EVID_702.html",
+      "path": "authoring/sources/law/EVID_702.html",
+      "sha256": "b2dfd7578a0be029fb0d05fec6ea61aee07915dea18ab6d3af9cbf8a1e17d6ab",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=EVID&sectionNum=702."
+    },
+    {
+      "source_id": "LAW_EVID_720",
+      "canonical_project_path": "data/legal/source15_historical/EVID_720.html",
+      "path": "authoring/sources/law/EVID_720.html",
+      "sha256": "1b3996107aa914d0af901c0c359ca39434cf519bb88b98be909eda8e3c315795",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=EVID&sectionNum=720."
+    },
+    {
+      "source_id": "LAW_EVID_801",
+      "canonical_project_path": "data/legal/source15_historical/EVID_801.html",
+      "path": "authoring/sources/law/EVID_801.html",
+      "sha256": "24e9fcb2c9c28fc07c0a2b4d68264bccff1072335367b2b8adc1883aca1e7bf2",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=EVID&sectionNum=801."
+    },
+    {
+      "source_id": "LAW_EVID_1200",
+      "canonical_project_path": "data/legal/source15_historical/EVID_1200.html",
+      "path": "authoring/sources/law/EVID_1200.html",
+      "sha256": "74114ed7d71b64715817d81073073be0c9cdd432ff7870b46fdedd11d770990a",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=EVID&sectionNum=1200."
+    },
+    {
+      "source_id": "LAW_EVID_1220",
+      "canonical_project_path": "data/legal/source15_historical/EVID_1220.html",
+      "path": "authoring/sources/law/EVID_1220.html",
+      "sha256": "47fb8b629fc5d1accd6210fe5a9f458673a443cc7f0f04672e0023e83523f9cf",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=EVID&sectionNum=1220."
+    },
+    {
+      "source_id": "LAW_EVID_913",
+      "canonical_project_path": "data/legal/source15_historical/EVID_913.html",
+      "path": "authoring/sources/law/EVID_913.html",
+      "sha256": "2f5ff8c920aac4648304561506f9a970cd0fd88d8508d54044ac718e160cbd09",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=EVID&sectionNum=913."
+    },
+    {
+      "source_id": "LAW_EVID_930",
+      "canonical_project_path": "data/legal/source15_historical/EVID_930.html",
+      "path": "authoring/sources/law/EVID_930.html",
+      "sha256": "b73353ca2226aea619a5842c05e963b08405af15c81e1040eca5edf24e4229d7",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=EVID&sectionNum=930."
+    },
+    {
+      "source_id": "LAW_EVID_780",
+      "canonical_project_path": "data/legal/source15_historical/EVID_780.html",
+      "path": "authoring/sources/law/EVID_780.html",
+      "sha256": "c1a0ea47c7538768a4ab930b8b65bc736fdea325b7bcf9ae31ad340d2ddc5c9b",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=EVID&sectionNum=780."
+    },
+    {
+      "source_id": "LAW_EVID_1401",
+      "canonical_project_path": "data/legal/source15_historical/EVID_1401.html",
+      "path": "authoring/sources/law/EVID_1401.html",
+      "sha256": "f1897741d6ac0bc02ddd5009c813a45c1b7abf0ae6742cdf85b1546e4d26c1e8",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=EVID&sectionNum=1401."
+    },
+    {
+      "source_id": "LAW_EVID_1101",
+      "canonical_project_path": "data/legal/source15_historical/EVID_1101.html",
+      "path": "authoring/sources/law/EVID_1101.html",
+      "sha256": "20f9db57e72e685641f4bb0fe5c35213b314e67bd81ec75ad6950901411e26e5",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=EVID&sectionNum=1101."
+    },
+    {
+      "source_id": "LAW_EVID_765",
+      "canonical_project_path": "data/legal/source15_historical/EVID_765.html",
+      "path": "authoring/sources/law/EVID_765.html",
+      "sha256": "c60c6576f59421bd4f57a583228dc534406aec596b0feb3464ab582c19faae84",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=EVID&sectionNum=765."
+    },
+    {
+      "source_id": "LAW_EVID_767",
+      "canonical_project_path": "data/legal/source15_historical/EVID_767.html",
+      "path": "authoring/sources/law/EVID_767.html",
+      "sha256": "9d0fd9dbf1cb097d6b3b2b3e726f2c1d3e3cd7c5b6edd87435c7aa30c91ee8f3",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=EVID&sectionNum=767."
+    },
+    {
+      "source_id": "LAW_AB1323_2005",
+      "canonical_project_path": "data/legal/source15_historical/AB1323_2005.html",
+      "path": "authoring/sources/law/AB1323_2005.html",
+      "sha256": "6f1935ffbaed2d8c7dd78fb7b0dab9ee035120ce8984578e6a96cee7d67e6105",
+      "url": "https://www.leginfo.ca.gov/pub/05-06/bill/asm/ab_1301-1350/ab_1323_bill_20051007_chaptered.html"
+    },
+    {
+      "source_id": "LAW_CALCRIM1170_2006_QUOTATION",
+      "canonical_project_path": "data/legal/source15_historical/CALCRIM1170_2006_quoted_excerpt.json",
+      "path": "authoring/sources/law/CALCRIM1170_2006_quoted_excerpt.json",
+      "sha256": "ea5b508874f0039b5410b793f1a01f639c1429ed2d383539ef9fe5c897b9d99b",
+      "url": "https://www.courtlistener.com/opinion/2256789/people-v-williams/"
+    },
+    {
+      "source_id": "source15",
+      "canonical_project_path": "data/sources/source15/metadata.json",
+      "path": "authoring/sources/source15/metadata.json",
+      "sha256": "5ac94f966f935887bd21efc0175600490501398bbbaf412a2efa5f084072b789",
+      "url": "https://www.courtlistener.com/opinion/2256789/people-v-williams/"
+    },
+    {
+      "source_id": "source15",
+      "canonical_project_path": "data/sources/source15/opinions/2256789/opinion.json",
+      "path": "authoring/sources/source15/opinions/2256789/opinion.json",
+      "sha256": "8dd31bed03f281456f261a638121f02359c4f5a2cfcbee1c68111d5dbeb35a4f",
+      "url": "https://www.courtlistener.com/opinion/2256789/people-v-williams/"
+    },
+    {
+      "source_id": "source15",
+      "canonical_project_path": "data/sources/source15/opinions/2256789/opinion.request.json",
+      "path": "authoring/sources/source15/opinions/2256789/opinion.request.json",
+      "sha256": "bf7a017c9556cc9a2032fb7f0f7eee2804399b1618a24a918724bf9701728336",
+      "url": "https://www.courtlistener.com/opinion/2256789/people-v-williams/"
+    },
+    {
+      "source_id": "source15",
+      "canonical_project_path": "data/sources/source15/opinions/2256789/original.html",
+      "path": "authoring/sources/source15/opinions/2256789/original.html",
+      "sha256": "f0d7e02f9200bbfc6f2fbbcbc31e9be17bf1b814a58fd1ab39c4e0fc9ba28e21",
+      "url": "https://www.courtlistener.com/opinion/2256789/people-v-williams/"
+    },
+    {
+      "source_id": "source15",
+      "canonical_project_path": "data/sources/source15/opinions/2256789/normalized.txt",
+      "path": "authoring/sources/source15/opinions/2256789/normalized.txt",
+      "sha256": "8c82af8dafd6ea26efd55fc59e2ec591b6b6fd0f110b600a041b8e7816ee69e2",
+      "url": "https://www.courtlistener.com/opinion/2256789/people-v-williams/"
+    },
+    {
+      "source_id": "source15",
+      "canonical_project_path": "data/sources/source15/opinions/2256789/paragraphs.json",
+      "path": "authoring/sources/source15/opinions/2256789/paragraphs.json",
+      "sha256": "d56ef27d277b080da0450cdc95d0bb5e36c9ac5dd923c1389730700224276e9e",
+      "url": "https://www.courtlistener.com/opinion/2256789/people-v-williams/"
+    }
+  ],
+  "source_url": "https://www.courtlistener.com/opinion/2256789/people-v-williams/",
+  "retrieval_cutoff_date": "2026-10-02",
+  "case_source_retrieved_at": "2026-10-01T04:07:40.900654+00:00"
+}

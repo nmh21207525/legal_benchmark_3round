@@ -1,0 +1,9 @@
+{
+  "timestamp": 1790827673.9265668,
+  "requested_at": "2026-10-01T04:07:53.926566+00:00",
+  "url": "https://www.courtlistener.com/api/rest/v4/opinions/2295730/",
+  "retrieved_at": "2026-10-01T04:07:54.899091+00:00",
+  "http_status": 200,
+  "content_type": "application/json",
+  "sha256": "519eb48a651ba4026c67e528ba42086e912512bf22b5f51de76989a930215091"
+}

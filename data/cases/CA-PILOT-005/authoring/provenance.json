@@ -1,0 +1,540 @@
+{
+  "case_id": "CA-PILOT-005",
+  "fact_mappings": [
+    {
+      "fact_id": "F01",
+      "claim": "A于2006年5月24日星期三出狱假释，乘火车返回马德拉，在朋友家过第一夜；因朋友要搬家，只能住一夜。",
+      "epistemic_status": "reported_event",
+      "source_id": "source15",
+      "source_spans": [
+        {
+          "locator": "CL-O2256789-P0014",
+          "paragraph_id": "P0014",
+          "text_verbatim": "Appellant was released from state prison on Wednesday, May 24, 2006, on parole after a Madera County conviction of forcible rape in concert. He took an Amtrak train back to Madera and spent his first night after release with a friend. He could stay there only one night, however, because the friend was moving."
+        }
+      ],
+      "derivation": "source_summary",
+      "transformation": "Chinese attributed summary with stable aliases; no omitted source content reconstructed."
+    },
+    {
+      "fact_id": "F02",
+      "claim": "A在5月25日接受初次假释访谈。B在接收表上标记“Yes”并圈出“PC 290”，注记“To register, 290 PC by 5-31-06”；B作证说这表示她亲自告知A须在五日内登记，并让他5月26日见指定假释官C。",
+      "epistemic_status": "attributed_testimony",
+      "source_id": "source15",
+      "source_spans": [
+        {
+          "locator": "CL-O2256789-P0015",
+          "paragraph_id": "P0015",
+          "text_verbatim": "Within 24 hours of his release, as required, appellant met with his parole agent and officer of the day, Gloria Chadwick, for an initial interview. During such an initial interview, a parolee is informed of any requirements for registration with the police or the sheriff, depending upon the parolee’s place of resi"
+        },
+        {
+          "locator": "CL-O2256789-P0017",
+          "paragraph_id": "P0017",
+          "text_verbatim": "dence. During appellant’s initial interview, on Thursday, May 25, 2006, Agent Chadwick marked “Yes” and circled “PC 290” on the intake form. Chadwick testified that this meant she personally advised appellant to register within five days under section 290. In the comments section of the form, Agent Chadwick noted: “To register, 290 PC by 5-31-06.” Chadwick directed appellant to meet with his assigned parole agent, Todd Cregar, on Friday, May 26, 2006."
+        }
+      ],
+      "derivation": "source_summary",
+      "transformation": "Chinese attributed summary with stable aliases; no omitted source content reconstructed."
+    },
+    {
+      "fact_id": "F03",
+      "claim": "A于5月25日星期四夜间住在马德拉救助站。",
+      "epistemic_status": "reported_event",
+      "source_id": "source15",
+      "source_spans": [
+        {
+          "locator": "CL-O2256789-P0018",
+          "paragraph_id": "P0018",
+          "text_verbatim": "Appellant spent the night of Thursday, May 25, 2006, at the Madera Rescue Mission (the Mission)."
+        }
+      ],
+      "derivation": "source_summary",
+      "transformation": "Chinese attributed summary with stable aliases; no omitted source content reconstructed."
+    },
+    {
+      "fact_id": "F04",
+      "claim": "5月26日，A告诉C自己住在救助站。C要求其登记，并在假释档案中记载须在5月31日前登记；C说救助站离学校太近，A不能继续住在那里。",
+      "epistemic_status": "reported_interaction",
+      "source_id": "source15",
+      "source_spans": [
+        {
+          "locator": "CL-O2256789-P0019",
+          "paragraph_id": "P0019",
+          "text_verbatim": "On May 26, 2006, appellant met with Agent Cregar and advised Cregar he was staying at the Mission. Appellant had not yet registered with either the police or the sheriff. Cregar directed appellant to register and noted in his parole file that appellant must register by May 31, 2006. Cregar informed appellant that appellant could not remain at the Mission. It was too close to a school to allow for appellant’s residence."
+        }
+      ],
+      "derivation": "source_summary",
+      "transformation": "Chinese attributed summary with stable aliases; no omitted source content reconstructed."
+    },
+    {
+      "fact_id": "F05",
+      "claim": "C安排A住在马德拉县境内一间汽车旅馆，把A及另一名假释人员送去，并要求两人向县警长部门登记。",
+      "epistemic_status": "reported_interaction",
+      "source_id": "source15",
+      "source_spans": [
+        {
+          "locator": "CL-O2256789-P0020",
+          "paragraph_id": "P0020",
+          "text_verbatim": "Cregar arranged for appellant to stay at the Casa Grande Motel (the Motel) in Madera. He drove appellant and another parolee to that motel and directed both to register with the Madera County Sheriff’s Department since the Motel was located in the County of Madera. Appellant spent that night, Friday, May 26, 2006, at the Motel."
+        }
+      ],
+      "derivation": "source_summary",
+      "transformation": "Chinese attributed summary with stable aliases; no omitted source content reconstructed."
+    },
+    {
+      "fact_id": "F06",
+      "claim": "A于5月26日星期五夜间住在该汽车旅馆。",
+      "epistemic_status": "reported_event",
+      "source_id": "source15",
+      "source_spans": [
+        {
+          "locator": "CL-O2256789-P0020",
+          "paragraph_id": "P0020",
+          "text_verbatim": "Cregar arranged for appellant to stay at the Casa Grande Motel (the Motel) in Madera. He drove appellant and another parolee to that motel and directed both to register with the Madera County Sheriff’s Department since the Motel was located in the County of Madera. Appellant spent that night, Friday, May 26, 2006, at the Motel."
+        }
+      ],
+      "derivation": "source_summary",
+      "transformation": "Chinese attributed summary with stable aliases; no omitted source content reconstructed."
+    },
+    {
+      "fact_id": "F07",
+      "claim": "C在安置A后的五日内进行强制家访，发现A不在指定房间，个人物品也已带走；C另一天再去，A仍不在。两个家访的具体日期未记载。",
+      "epistemic_status": "reported_observation",
+      "source_id": "source15",
+      "source_spans": [
+        {
+          "locator": "CL-O2256789-P0021",
+          "paragraph_id": "P0021",
+          "text_verbatim": "Cregar made a mandatory home visit within five days of placing appellant at the Motel, but appellant was gone from his assigned room and had taken all of his personal belongings with him. Cregar returned another day but appellant was still not present."
+        }
+      ],
+      "derivation": "source_summary",
+      "transformation": "Chinese attributed summary with stable aliases; no omitted source content reconstructed."
+    },
+    {
+      "fact_id": "F08",
+      "claim": "A于5月27日星期六搬到马德拉市内一名堂表亲家中，并在那里待到6月3日星期六被捕。原文未给出亲属姓名和地址。",
+      "epistemic_status": "reported_event",
+      "source_id": "source15",
+      "source_spans": [
+        {
+          "locator": "CL-O2256789-P0022",
+          "paragraph_id": "P0022",
+          "text_verbatim": "Appellant had moved to the home of a cousin in the City of Madera on Saturday, May 27, 2006. He had done so, according to his testimony, because he had been kidnapped and threatened by certain people who came to his room at the Motel. He had escaped but remained afraid of them. He made no attempt to contact Agent Cregar, and he did not register. He remained at the home of his cousin until his arrest on Saturday, June 3, 2006. At that time, he had been out of prison and in Madera for 10 days, not counting the day of his release. He had passed six full working days, not including the day of his release, in Madera. These were Thursday and Friday, the 25th and 26th of May, as well as Tuesday through Friday, May 30 through June 2, 2006. Monday, May 29, had been the Memorial Day holiday."
+        }
+      ],
+      "derivation": "source_summary",
+      "transformation": "Chinese attributed summary with stable aliases; no omitted source content reconstructed."
+    },
+    {
+      "fact_id": "F09",
+      "claim": "A作证解释搬走是因为有人到旅馆房间绑架、威胁他；他逃脱后仍害怕。这是A的说法，来源没有独立确认绑架、威胁的真实性或详情。",
+      "epistemic_status": "contested_defendant_account",
+      "source_id": "source15",
+      "source_spans": [
+        {
+          "locator": "CL-O2256789-P0022",
+          "paragraph_id": "P0022",
+          "text_verbatim": "Appellant had moved to the home of a cousin in the City of Madera on Saturday, May 27, 2006. He had done so, according to his testimony, because he had been kidnapped and threatened by certain people who came to his room at the Motel. He had escaped but remained afraid of them. He made no attempt to contact Agent Cregar, and he did not register. He remained at the home of his cousin until his arrest on Saturday, June 3, 2006. At that time, he had been out of prison and in Madera for 10 days, not counting the day of his release. He had passed six full working days, not including the day of his release, in Madera. These were Thursday and Friday, the 25th and 26th of May, as well as Tuesday through Friday, May 30 through June 2, 2006. Monday, May 29, had been the Memorial Day holiday."
+        }
+      ],
+      "derivation": "source_summary",
+      "transformation": "Chinese attributed summary with stable aliases; no omitted source content reconstructed."
+    },
+    {
+      "fact_id": "F10",
+      "claim": "原文记载A未尝试联系C，也未登记；此前5月26日见C时尚未向警察或县警长登记。登记机关的原始查询记录未附。",
+      "epistemic_status": "reported_nonregistration",
+      "source_id": "source15",
+      "source_spans": [
+        {
+          "locator": "CL-O2256789-P0019",
+          "paragraph_id": "P0019",
+          "text_verbatim": "On May 26, 2006, appellant met with Agent Cregar and advised Cregar he was staying at the Mission. Appellant had not yet registered with either the police or the sheriff. Cregar directed appellant to register and noted in his parole file that appellant must register by May 31, 2006. Cregar informed appellant that appellant could not remain at the Mission. It was too close to a school to allow for appellant’s residence."
+        },
+        {
+          "locator": "CL-O2256789-P0022",
+          "paragraph_id": "P0022",
+          "text_verbatim": "Appellant had moved to the home of a cousin in the City of Madera on Saturday, May 27, 2006. He had done so, according to his testimony, because he had been kidnapped and threatened by certain people who came to his room at the Motel. He had escaped but remained afraid of them. He made no attempt to contact Agent Cregar, and he did not register. He remained at the home of his cousin until his arrest on Saturday, June 3, 2006. At that time, he had been out of prison and in Madera for 10 days, not counting the day of his release. He had passed six full working days, not including the day of his release, in Madera. These were Thursday and Friday, the 25th and 26th of May, as well as Tuesday through Friday, May 30 through June 2, 2006. Monday, May 29, had been the Memorial Day holiday."
+        }
+      ],
+      "derivation": "source_summary",
+      "transformation": "Chinese attributed summary with stable aliases; no omitted source content reconstructed."
+    },
+    {
+      "fact_id": "F11",
+      "claim": "A作证说，5月26日见C之前，他曾到马德拉警察部门尝试登记，但因没有预约和身份证明被拒。这是A的转述，没有接待人员证词或窗口记录。",
+      "epistemic_status": "contested_defendant_account",
+      "source_id": "source15",
+      "source_spans": [
+        {
+          "locator": "CL-O2256789-P0024",
+          "paragraph_id": "P0024",
+          "text_verbatim": "Appellant testified he had lived in Madera most of his life, his family lived in Madera, and he regularly returned to Madera upon his release on parole, which had occurred several times after his 1990 conviction for rape and burglary. Appellant said he tried to register at the Madera Police Department on Friday, May 26, 2006, before his visit with Agent Cregar, but he was turned away because he did not have an appointment or any identification."
+        }
+      ],
+      "derivation": "source_summary",
+      "transformation": "Chinese attributed summary with stable aliases; no omitted source content reconstructed."
+    },
+    {
+      "fact_id": "F12",
+      "claim": "A在证言中承认知道登记要求。原文另记载有人提出他以往因未遵守登记要求而违反假释的证据，但未提供每次的具体资料。",
+      "epistemic_status": "attributed_admission_and_history",
+      "source_id": "source15",
+      "source_spans": [
+        {
+          "locator": "CL-O2256789-P0025",
+          "paragraph_id": "P0025",
+          "text_verbatim": "Appellant acknowledged in his testimony that he was aware of his registration requirements. Evidence was presented that he previously had incurred parole violations for failing to comply with those requirements."
+        }
+      ],
+      "derivation": "source_summary",
+      "transformation": "Chinese attributed summary with stable aliases; no omitted source content reconstructed."
+    },
+    {
+      "fact_id": "F13",
+      "claim": "A作证说，大部分人生住在马德拉，家人在当地；此前多次假释出狱后也返回当地。",
+      "epistemic_status": "attributed_testimony",
+      "source_id": "source15",
+      "source_spans": [
+        {
+          "locator": "CL-O2256789-P0024",
+          "paragraph_id": "P0024",
+          "text_verbatim": "Appellant testified he had lived in Madera most of his life, his family lived in Madera, and he regularly returned to Madera upon his release on parole, which had occurred several times after his 1990 conviction for rape and burglary. Appellant said he tried to register at the Madera Police Department on Friday, May 26, 2006, before his visit with Agent Cregar, but he was turned away because he did not have an appointment or any identification."
+        }
+      ],
+      "derivation": "source_summary",
+      "transformation": "Chinese attributed summary with stable aliases; no omitted source content reconstructed."
+    },
+    {
+      "fact_id": "F14",
+      "claim": "原文记载，从出狱次日算到被捕，A已在马德拉十日，经过六个完整工作日：5月25、26日及5月30日至6月2日。5月29日星期一为阵亡将士纪念日假日。法律期限的起算和迁居影响仍须论证。",
+      "epistemic_status": "source_calendar_count",
+      "source_id": "source15",
+      "source_spans": [
+        {
+          "locator": "CL-O2256789-P0022",
+          "paragraph_id": "P0022",
+          "text_verbatim": "Appellant had moved to the home of a cousin in the City of Madera on Saturday, May 27, 2006. He had done so, according to his testimony, because he had been kidnapped and threatened by certain people who came to his room at the Motel. He had escaped but remained afraid of them. He made no attempt to contact Agent Cregar, and he did not register. He remained at the home of his cousin until his arrest on Saturday, June 3, 2006. At that time, he had been out of prison and in Madera for 10 days, not counting the day of his release. He had passed six full working days, not including the day of his release, in Madera. These were Thursday and Friday, the 25th and 26th of May, as well as Tuesday through Friday, May 30 through June 2, 2006. Monday, May 29, had been the Memorial Day holiday."
+        }
+      ],
+      "derivation": "source_summary",
+      "transformation": "Chinese attributed summary with stable aliases; no omitted source content reconstructed."
+    },
+    {
+      "fact_id": "F15",
+      "claim": "原始起诉书引文指控A于2006年6月3日前后在马德拉县故意违反旧版Penal Code §290(a)(1)(A)登记义务；原文只列一项本案实体指控。",
+      "epistemic_status": "charging_record",
+      "source_id": "source15",
+      "source_spans": [
+        {
+          "locator": "CL-O2256789-P0032",
+          "paragraph_id": "P0032",
+          "text_verbatim": "The information charged in pertinent part: “COUNT 1 [¶] BOBBY LEE WILLIAMS did, on or about June 3, 2006, in the County of Madera, State of California, commit a FELONY, namely, violation of Section 290(a)(1)(A). . . , in that the said [BOBBY LEE WILLIAMS] being a person required to register upon coming into, and changing residence and location within a jurisdiction, based on a felony conviction; did willfully and unlawfully violate the registration provisions of . . . section 290.”"
+        }
+      ],
+      "derivation": "source_summary",
+      "transformation": "Chinese attributed summary with stable aliases; no omitted source content reconstructed."
+    },
+    {
+      "fact_id": "F16",
+      "claim": "A的登记义务背景为既往性犯罪定罪；原文记载其因马德拉县共同实施强奸定罪服刑后假释，并在本人证言中提到1990年强奸及入室盗窃定罪。没有补入既往犯罪的具体情节。",
+      "epistemic_status": "registration_predicate_history",
+      "source_id": "source15",
+      "source_spans": [
+        {
+          "locator": "CL-O2256789-P0014",
+          "paragraph_id": "P0014",
+          "text_verbatim": "Appellant was released from state prison on Wednesday, May 24, 2006, on parole after a Madera County conviction of forcible rape in concert. He took an Amtrak train back to Madera and spent his first night after release with a friend. He could stay there only one night, however, because the friend was moving."
+        },
+        {
+          "locator": "CL-O2256789-P0024",
+          "paragraph_id": "P0024",
+          "text_verbatim": "Appellant testified he had lived in Madera most of his life, his family lived in Madera, and he regularly returned to Madera upon his release on parole, which had occurred several times after his 1990 conviction for rape and burglary. Appellant said he tried to register at the Madera Police Department on Friday, May 26, 2006, before his visit with Agent Cregar, but he was turned away because he did not have an appointment or any identification."
+        }
+      ],
+      "derivation": "source_summary",
+      "transformation": "Chinese attributed summary with stable aliases; no omitted source content reconstructed."
+    },
+    {
+      "fact_id": "F17",
+      "claim": "来源未附接收表、假释档案、登记机关查询、预约或身份证件原件；也未附旅馆相关事件的独立记录。不能补写这些文件或把“未附”改成“原案不存在”。",
+      "epistemic_status": "record_limit",
+      "source_id": "source15",
+      "source_spans": [
+        {
+          "locator": "CL-O2256789-P0017",
+          "paragraph_id": "P0017",
+          "text_verbatim": "dence. During appellant’s initial interview, on Thursday, May 25, 2006, Agent Chadwick marked “Yes” and circled “PC 290” on the intake form. Chadwick testified that this meant she personally advised appellant to register within five days under section 290. In the comments section of the form, Agent Chadwick noted: “To register, 290 PC by 5-31-06.” Chadwick directed appellant to meet with his assigned parole agent, Todd Cregar, on Friday, May 26, 2006."
+        },
+        {
+          "locator": "CL-O2256789-P0019",
+          "paragraph_id": "P0019",
+          "text_verbatim": "On May 26, 2006, appellant met with Agent Cregar and advised Cregar he was staying at the Mission. Appellant had not yet registered with either the police or the sheriff. Cregar directed appellant to register and noted in his parole file that appellant must register by May 31, 2006. Cregar informed appellant that appellant could not remain at the Mission. It was too close to a school to allow for appellant’s residence."
+        },
+        {
+          "locator": "CL-O2256789-P0022",
+          "paragraph_id": "P0022",
+          "text_verbatim": "Appellant had moved to the home of a cousin in the City of Madera on Saturday, May 27, 2006. He had done so, according to his testimony, because he had been kidnapped and threatened by certain people who came to his room at the Motel. He had escaped but remained afraid of them. He made no attempt to contact Agent Cregar, and he did not register. He remained at the home of his cousin until his arrest on Saturday, June 3, 2006. At that time, he had been out of prison and in Madera for 10 days, not counting the day of his release. He had passed six full working days, not including the day of his release, in Madera. These were Thursday and Friday, the 25th and 26th of May, as well as Tuesday through Friday, May 30 through June 2, 2006. Monday, May 29, had been the Memorial Day holiday."
+        },
+        {
+          "locator": "CL-O2256789-P0024",
+          "paragraph_id": "P0024",
+          "text_verbatim": "Appellant testified he had lived in Madera most of his life, his family lived in Madera, and he regularly returned to Madera upon his release on parole, which had occurred several times after his 1990 conviction for rape and burglary. Appellant said he tried to register at the Madera Police Department on Friday, May 26, 2006, before his visit with Agent Cregar, but he was turned away because he did not have an appointment or any identification."
+        },
+        {
+          "locator": "CL-O2256789-P0025",
+          "paragraph_id": "P0025",
+          "text_verbatim": "Appellant acknowledged in his testimony that he was aware of his registration requirements. Evidence was presented that he previously had incurred parole violations for failing to comply with those requirements."
+        }
+      ],
+      "derivation": "record_scope_gap",
+      "transformation": "Chinese attributed summary with stable aliases; no omitted source content reconstructed."
+    },
+    {
+      "fact_id": "F18",
+      "claim": "公开原文的讨论II—III以省略标记呈现；其具体论证未取得。可用事实叙述和讨论I保留，但不能恢复被省略的辩护无效或指示争议内容。",
+      "epistemic_status": "record_limit",
+      "source_id": "source15",
+      "source_spans": [
+        {
+          "locator": "CL-O2256789-P0073",
+          "paragraph_id": "P0073",
+          "text_verbatim": "II., III."
+        },
+        {
+          "locator": "CL-O2256789-P0074",
+          "paragraph_id": "P0074",
+          "text_verbatim": "*"
+        },
+        {
+          "locator": "CL-O2256789-P0075",
+          "paragraph_id": "P0075",
+          "text_verbatim": "[[Image here]]"
+        }
+      ],
+      "derivation": "record_scope_gap",
+      "transformation": "Chinese attributed summary with stable aliases; no omitted source content reconstructed."
+    },
+    {
+      "fact_id": "F19",
+      "claim": "原案判决记载审判持续三天，裁决于2007年8月16日作出；完整全案庭期表仍未取得。模拟三轮不是原案逐日安排。",
+      "epistemic_status": "procedural_history",
+      "source_id": "source15",
+      "source_spans": [
+        {
+          "locator": "CL-O2256789-P0008",
+          "paragraph_id": "P0008",
+          "text_verbatim": "On August 16, 2007, after a three-day trial, appellant’s jury returned a verdict finding him guilty of the substantive offense. That same day appellant admitted the truth of the special allegations."
+        }
+      ],
+      "derivation": "source_summary",
+      "transformation": "Chinese attributed summary with stable aliases; no omitted source content reconstructed."
+    }
+  ],
+  "material_mappings": [
+    {
+      "material_id": "M01",
+      "paragraph_id": "M01-P001",
+      "fact_ids": [
+        "F01"
+      ],
+      "source_locators": [
+        "CL-O2256789-P0014"
+      ]
+    },
+    {
+      "material_id": "M01",
+      "paragraph_id": "M01-P002",
+      "fact_ids": [
+        "F03"
+      ],
+      "source_locators": [
+        "CL-O2256789-P0018"
+      ]
+    },
+    {
+      "material_id": "M01",
+      "paragraph_id": "M01-P003",
+      "fact_ids": [
+        "F06"
+      ],
+      "source_locators": [
+        "CL-O2256789-P0020"
+      ]
+    },
+    {
+      "material_id": "M02",
+      "paragraph_id": "M02-P001",
+      "fact_ids": [
+        "F02"
+      ],
+      "source_locators": [
+        "CL-O2256789-P0015",
+        "CL-O2256789-P0017"
+      ]
+    },
+    {
+      "material_id": "M03",
+      "paragraph_id": "M03-P001",
+      "fact_ids": [
+        "F04"
+      ],
+      "source_locators": [
+        "CL-O2256789-P0019"
+      ]
+    },
+    {
+      "material_id": "M03",
+      "paragraph_id": "M03-P002",
+      "fact_ids": [
+        "F05"
+      ],
+      "source_locators": [
+        "CL-O2256789-P0020"
+      ]
+    },
+    {
+      "material_id": "M03",
+      "paragraph_id": "M03-P003",
+      "fact_ids": [
+        "F07"
+      ],
+      "source_locators": [
+        "CL-O2256789-P0021"
+      ]
+    },
+    {
+      "material_id": "M04",
+      "paragraph_id": "M04-P001",
+      "fact_ids": [
+        "F08"
+      ],
+      "source_locators": [
+        "CL-O2256789-P0022"
+      ]
+    },
+    {
+      "material_id": "M04",
+      "paragraph_id": "M04-P002",
+      "fact_ids": [
+        "F10"
+      ],
+      "source_locators": [
+        "CL-O2256789-P0019",
+        "CL-O2256789-P0022"
+      ]
+    },
+    {
+      "material_id": "M05",
+      "paragraph_id": "M05-P001",
+      "fact_ids": [
+        "F11"
+      ],
+      "source_locators": [
+        "CL-O2256789-P0024"
+      ]
+    },
+    {
+      "material_id": "M05",
+      "paragraph_id": "M05-P002",
+      "fact_ids": [
+        "F09"
+      ],
+      "source_locators": [
+        "CL-O2256789-P0022"
+      ]
+    },
+    {
+      "material_id": "M06",
+      "paragraph_id": "M06-P001",
+      "fact_ids": [
+        "F12"
+      ],
+      "source_locators": [
+        "CL-O2256789-P0025"
+      ]
+    },
+    {
+      "material_id": "M06",
+      "paragraph_id": "M06-P002",
+      "fact_ids": [
+        "F13"
+      ],
+      "source_locators": [
+        "CL-O2256789-P0024"
+      ]
+    },
+    {
+      "material_id": "M06",
+      "paragraph_id": "M06-P003",
+      "fact_ids": [
+        "F16"
+      ],
+      "source_locators": [
+        "CL-O2256789-P0014",
+        "CL-O2256789-P0024"
+      ]
+    },
+    {
+      "material_id": "M07",
+      "paragraph_id": "M07-P001",
+      "fact_ids": [
+        "F14"
+      ],
+      "source_locators": [
+        "CL-O2256789-P0022"
+      ]
+    },
+    {
+      "material_id": "M07",
+      "paragraph_id": "M07-P002",
+      "fact_ids": [
+        "F15"
+      ],
+      "source_locators": [
+        "CL-O2256789-P0032"
+      ]
+    },
+    {
+      "material_id": "M08",
+      "paragraph_id": "M08-P001",
+      "fact_ids": [
+        "F17"
+      ],
+      "source_locators": [
+        "CL-O2256789-P0017",
+        "CL-O2256789-P0019",
+        "CL-O2256789-P0022",
+        "CL-O2256789-P0024",
+        "CL-O2256789-P0025"
+      ]
+    },
+    {
+      "material_id": "M08",
+      "paragraph_id": "M08-P002",
+      "fact_ids": [
+        "F18"
+      ],
+      "source_locators": [
+        "CL-O2256789-P0073",
+        "CL-O2256789-P0074",
+        "CL-O2256789-P0075"
+      ]
+    }
+  ],
+  "statute_mappings": [
+    {
+      "charge_id": "C01",
+      "name": "故意违反性犯罪者登记义务",
+      "original_statute": "Penal Code §290(a)(1)(A), former version; felony registration failure",
+      "legal_source_ids": [
+        "L_PEN_290_2006"
+      ],
+      "source_locators": [
+        "CL-O2256789-P0005",
+        "CL-O2256789-P0032"
+      ]
+    }
+  ]
+}

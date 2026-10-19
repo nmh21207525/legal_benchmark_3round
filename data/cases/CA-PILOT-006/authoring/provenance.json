@@ -1,0 +1,499 @@
+{
+  "case_id": "CA-PILOT-006",
+  "fact_mappings": [
+    {
+      "fact_id": "F01",
+      "claim": "2000年8月16日，A驾驶的汽车越过双黄线，与另一辆车正面相撞。原文未提供碰撞重建或其他驾驶解释。",
+      "epistemic_status": "reported_event",
+      "source_id": "source16",
+      "source_spans": [
+        {
+          "locator": "CL-O2295730-P0005",
+          "paragraph_id": "P0005",
+          "text_verbatim": "On August 16, 2000, defendant was involved in an automobile accident after his car crossed over a double yellow line and collided head-on with"
+        },
+        {
+          "locator": "CL-O2295730-P0007",
+          "paragraph_id": "P0007",
+          "text_verbatim": "another vehicle. Both the driver of the other car and her passenger suffered severe injuries as a result of the accident. Defendant was charged by information with driving under the influence causing bodily injury (Veh. Code, § 23153, subd. (a)"
+        }
+      ],
+      "derivation": "source_summary",
+      "transformation": "Chinese attributed summary with stable aliases; no omitted source content reconstructed."
+    },
+    {
+      "fact_id": "F02",
+      "claim": "另一辆车的女驾驶员和乘客均因事故遭受严重伤害。未提供两人姓名、伤情诊断及具体医疗资料。",
+      "epistemic_status": "reported_injury",
+      "source_id": "source16",
+      "source_spans": [
+        {
+          "locator": "CL-O2295730-P0007",
+          "paragraph_id": "P0007",
+          "text_verbatim": "another vehicle. Both the driver of the other car and her passenger suffered severe injuries as a result of the accident. Defendant was charged by information with driving under the influence causing bodily injury (Veh. Code, § 23153, subd. (a)"
+        }
+      ],
+      "derivation": "source_summary",
+      "transformation": "Chinese attributed summary with stable aliases; no omitted source content reconstructed."
+    },
+    {
+      "fact_id": "F03",
+      "claim": "B在事故发生后不久到达，看见A眼睛很红、湿润、充血，据此认为A醉酒。A因受伤被送往医院，B未能在现场完成清醒度测试。B不是原文记载的碰撞目击者。",
+      "epistemic_status": "suppression_hearing_testimony",
+      "source_id": "source16",
+      "source_spans": [
+        {
+          "locator": "CL-O2295730-P0010",
+          "paragraph_id": "P0010",
+          "text_verbatim": "Prior to trial, defendant made a motion to suppress the results of a blood test taken after his arrest. The testimony given at the suppression hearing provides the following factual history. Officer Jerry Chu arrived on the scene of the accident shortly after it occurred. Based on his initial observations that defendant’s eyes were quite red, watery and bloodshot, Chu believed that defendant was intoxicated. Because of defendant’s injuries, however, he was transported to the hospital before Chu could conduct a field sobriety test."
+        }
+      ],
+      "derivation": "source_summary",
+      "transformation": "Chinese attributed summary with stable aliases; no omitted source content reconstructed."
+    },
+    {
+      "fact_id": "F04",
+      "claim": "在医院，B让A用视线跟随其来回移动的手指，进行眼震测试；原文记载A不能追踪手指，B据此认为其醉酒。没有原始眼震记录、资质资料或其他病因检验。",
+      "epistemic_status": "suppression_hearing_testimony",
+      "source_id": "source16",
+      "source_spans": [
+        {
+          "locator": "CL-O2295730-P0011",
+          "paragraph_id": "P0011",
+          "text_verbatim": "At the hospital, Chu conducted a nystagmus test whereby defendant was asked to follow Chu’s finger as it was moved back and forth in front of his face. Defendant’s inability to track Chu’s finger indicated that he was intoxicated. Chu also requested that defendant submit to a PAS test and advised defendant that the test was voluntary and would not satisfy his obligation to submit to a subsequent BAL test if he were arrested. The PAS test showed a BAL of 0.09 percent. Based on his observations and the test results, Chu determined that defendant was under the influence of alcohol and arrested defendant."
+        }
+      ],
+      "derivation": "source_summary",
+      "transformation": "Chinese attributed summary with stable aliases; no omitted source content reconstructed."
+    },
+    {
+      "fact_id": "F05",
+      "claim": "B请求A接受PAS呼气筛查，并告知自愿性质及该测试不能代替被捕后的酒精含量测试义务。A同意该筛查。",
+      "epistemic_status": "reported_advisement_and_consent",
+      "source_id": "source16",
+      "source_spans": [
+        {
+          "locator": "CL-O2295730-P0003",
+          "paragraph_id": "P0003",
+          "text_verbatim": "Defendant Donald Wilson appeals from his conviction of driving under the influence of alcohol causing bodily injury. Prior to his arrest, defendant consented to a preliminary alcohol screening test (PAS test) that measured the blood-alcohol level (BAL) in the breath sample he provided at 0.09 percent. After his arrest, he was required to submit to a blood test, which measured his BAL at 0.12 percent. He contends that the blood test constituted an unreasonable search and seizure and that the trial court erred by denying his motion to suppress the results of the test. We affirm."
+        },
+        {
+          "locator": "CL-O2295730-P0011",
+          "paragraph_id": "P0011",
+          "text_verbatim": "At the hospital, Chu conducted a nystagmus test whereby defendant was asked to follow Chu’s finger as it was moved back and forth in front of his face. Defendant’s inability to track Chu’s finger indicated that he was intoxicated. Chu also requested that defendant submit to a PAS test and advised defendant that the test was voluntary and would not satisfy his obligation to submit to a subsequent BAL test if he were arrested. The PAS test showed a BAL of 0.09 percent. Based on his observations and the test results, Chu determined that defendant was under the influence of alcohol and arrested defendant."
+        }
+      ],
+      "derivation": "source_summary",
+      "transformation": "Chinese attributed summary with stable aliases; no omitted source content reconstructed."
+    },
+    {
+      "fact_id": "F06",
+      "claim": "PAS筛查显示0.09%。B根据观察及测试结果认为A受酒精影响，随后将其逮捕。筛查和逮捕的具体时刻未提供。",
+      "epistemic_status": "suppression_hearing_testimony",
+      "source_id": "source16",
+      "source_spans": [
+        {
+          "locator": "CL-O2295730-P0011",
+          "paragraph_id": "P0011",
+          "text_verbatim": "At the hospital, Chu conducted a nystagmus test whereby defendant was asked to follow Chu’s finger as it was moved back and forth in front of his face. Defendant’s inability to track Chu’s finger indicated that he was intoxicated. Chu also requested that defendant submit to a PAS test and advised defendant that the test was voluntary and would not satisfy his obligation to submit to a subsequent BAL test if he were arrested. The PAS test showed a BAL of 0.09 percent. Based on his observations and the test results, Chu determined that defendant was under the influence of alcohol and arrested defendant."
+        }
+      ],
+      "derivation": "source_summary",
+      "transformation": "Chinese attributed summary with stable aliases; no omitted source content reconstructed."
+    },
+    {
+      "fact_id": "F07",
+      "claim": "逮捕后，B告知A须提供血样。A坚持不表示同意抽血，但允许医院工作人员采血。“允许操作”与“表示同意”须保留区别；原文未给出采血逐字对话或具体强制手段。",
+      "epistemic_status": "reported_nonconsent_and_draw",
+      "source_id": "source16",
+      "source_spans": [
+        {
+          "locator": "CL-O2295730-P0012",
+          "paragraph_id": "P0012",
+          "text_verbatim": "After placing defendant under arrest, Chu advised defendant that he was required to provide a blood sample. Although defendant maintained that he was not consenting to the test, he permitted hospital staff to draw the blood sample. The blood was tested and the toxicologist determined that it contained a 0.12 percent BAL."
+        }
+      ],
+      "derivation": "source_summary",
+      "transformation": "Chinese attributed summary with stable aliases; no omitted source content reconstructed."
+    },
+    {
+      "fact_id": "F08",
+      "claim": "原文记载血样经检测，毒理人员确定酒精含量为0.12%。毒理人员姓名、资质、仪器、校准、采血时间和完整检验报告未提供。",
+      "epistemic_status": "reported_laboratory_result",
+      "source_id": "source16",
+      "source_spans": [
+        {
+          "locator": "CL-O2295730-P0012",
+          "paragraph_id": "P0012",
+          "text_verbatim": "After placing defendant under arrest, Chu advised defendant that he was required to provide a blood sample. Although defendant maintained that he was not consenting to the test, he permitted hospital staff to draw the blood sample. The blood was tested and the toxicologist determined that it contained a 0.12 percent BAL."
+        }
+      ],
+      "derivation": "source_summary",
+      "transformation": "Chinese attributed summary with stable aliases; no omitted source content reconstructed."
+    },
+    {
+      "fact_id": "F09",
+      "claim": "原案抽血抑制申请的具体主张为：已有PAS结果，保存酒精证据的紧急需要已消除，后续无令状抽血应排除。此处保留申请论点，不给出原案裁定答案。",
+      "epistemic_status": "reported_motion_theory",
+      "source_id": "source16",
+      "source_spans": [
+        {
+          "locator": "CL-O2295730-P0013",
+          "paragraph_id": "P0013",
+          "text_verbatim": "Based on this testimony, defendant argued that the results of the blood test should be suppressed on the ground that they were the product of an illegal warrantless search because any exigency that might have justified the administration of the blood test was eliminated by the prior administration of the PAS test. The trial court denied defendant’s motion, finding that the officer acted reasonably in requiring the postarrest blood test."
+        }
+      ],
+      "derivation": "source_summary",
+      "transformation": "Chinese attributed summary with stable aliases; no omitted source content reconstructed."
+    },
+    {
+      "fact_id": "F10",
+      "claim": "原文脚注记载，B曾三次尝试取得合格呼气样本，A未封紧嘴唇而妨碍结果。这一证据在正式审判提出，原抑制申请裁定时不在法官面前。",
+      "epistemic_status": "trial_only_evidence",
+      "source_id": "source16",
+      "source_spans": [
+        {
+          "locator": "CL-O2295730-P0102",
+          "paragraph_id": "P0102",
+          "text_verbatim": "In light of this conclusion, we do not reach the Attorney General’s alternative argument that the blood test was justified here by defendant’s attempt to obstruct the breath test. (See"
+        },
+        {
+          "locator": "CL-O2295730-P0104",
+          "paragraph_id": "P0104",
+          "text_verbatim": "(2002) 96 Cal.App.4th 210, 214-216 [116 Cal.Rptr.2d 689].) Although there was evidence that Officer Chu tried on three occasions to obtain a proper breath sample, and that defendant interfered with the results by failing to seal his lips around the tube, this evidence was presented at trial and was not before the trial court when it denied defendant’s motion to suppress."
+        }
+      ],
+      "derivation": "source_summary",
+      "transformation": "Chinese attributed summary with stable aliases; no omitted source content reconstructed."
+    },
+    {
+      "fact_id": "F11",
+      "claim": "原始起诉书列两项：Vehicle Code §23153(a)酒精影响下驾驶致伤，以及§23153(b)血液酒精含量0.08%以上驾驶致伤。其特别指控和先前定罪另存制作参考；本题评两项实体指控。",
+      "epistemic_status": "charging_record",
+      "source_id": "source16",
+      "source_spans": [
+        {
+          "locator": "CL-O2295730-P0007",
+          "paragraph_id": "P0007",
+          "text_verbatim": "another vehicle. Both the driver of the other car and her passenger suffered severe injuries as a result of the accident. Defendant was charged by information with driving under the influence causing bodily injury (Veh. Code, § 23153, subd. (a)"
+        },
+        {
+          "locator": "CL-O2295730-P0009",
+          "paragraph_id": "P0009",
+          "text_verbatim": "; count 1), and driving with a 0.08 percent blood-alcohol level causing injury (§ 23153, subd. (b); count 2). The information also alleged that defendant caused bodily injury to more that one victim (§ 23558), and that defendant personally inflicted great bodily injury on both victims (Pen. Code, § 12022.7, subd. (a)). Finally, the information alleged that defendant had suffered two prior strike convictions (Pen. Code, § 667, subd. (a)(1)), and two prior serious felony convictions (Pen. Code, § 667.5, subd. (b))."
+        }
+      ],
+      "derivation": "source_summary",
+      "transformation": "Chinese attributed summary with stable aliases; no omitted source content reconstructed."
+    },
+    {
+      "fact_id": "F12",
+      "claim": "来源未给出事故、PAS、逮捕、采血各时刻及相隔时长，也未提供饮酒量、最后饮酒时间、体重或吸收排除率；不能根据0.09与0.12补造饮酒或逆推数据。",
+      "epistemic_status": "record_limit",
+      "source_id": "source16",
+      "source_spans": [
+        {
+          "locator": "CL-O2295730-P0010",
+          "paragraph_id": "P0010",
+          "text_verbatim": "Prior to trial, defendant made a motion to suppress the results of a blood test taken after his arrest. The testimony given at the suppression hearing provides the following factual history. Officer Jerry Chu arrived on the scene of the accident shortly after it occurred. Based on his initial observations that defendant’s eyes were quite red, watery and bloodshot, Chu believed that defendant was intoxicated. Because of defendant’s injuries, however, he was transported to the hospital before Chu could conduct a field sobriety test."
+        },
+        {
+          "locator": "CL-O2295730-P0011",
+          "paragraph_id": "P0011",
+          "text_verbatim": "At the hospital, Chu conducted a nystagmus test whereby defendant was asked to follow Chu’s finger as it was moved back and forth in front of his face. Defendant’s inability to track Chu’s finger indicated that he was intoxicated. Chu also requested that defendant submit to a PAS test and advised defendant that the test was voluntary and would not satisfy his obligation to submit to a subsequent BAL test if he were arrested. The PAS test showed a BAL of 0.09 percent. Based on his observations and the test results, Chu determined that defendant was under the influence of alcohol and arrested defendant."
+        },
+        {
+          "locator": "CL-O2295730-P0012",
+          "paragraph_id": "P0012",
+          "text_verbatim": "After placing defendant under arrest, Chu advised defendant that he was required to provide a blood sample. Although defendant maintained that he was not consenting to the test, he permitted hospital staff to draw the blood sample. The blood was tested and the toxicologist determined that it contained a 0.12 percent BAL."
+        }
+      ],
+      "derivation": "record_scope_gap",
+      "transformation": "Chinese attributed summary with stable aliases; no omitted source content reconstructed."
+    },
+    {
+      "fact_id": "F13",
+      "claim": "来源未附PAS设备、维护和操作记录、血样流转与实验室原始文件；来源记载医院工作人员采血，但其身份、方法和具体医疗规范未详。",
+      "epistemic_status": "record_limit",
+      "source_id": "source16",
+      "source_spans": [
+        {
+          "locator": "CL-O2295730-P0011",
+          "paragraph_id": "P0011",
+          "text_verbatim": "At the hospital, Chu conducted a nystagmus test whereby defendant was asked to follow Chu’s finger as it was moved back and forth in front of his face. Defendant’s inability to track Chu’s finger indicated that he was intoxicated. Chu also requested that defendant submit to a PAS test and advised defendant that the test was voluntary and would not satisfy his obligation to submit to a subsequent BAL test if he were arrested. The PAS test showed a BAL of 0.09 percent. Based on his observations and the test results, Chu determined that defendant was under the influence of alcohol and arrested defendant."
+        },
+        {
+          "locator": "CL-O2295730-P0012",
+          "paragraph_id": "P0012",
+          "text_verbatim": "After placing defendant under arrest, Chu advised defendant that he was required to provide a blood sample. Although defendant maintained that he was not consenting to the test, he permitted hospital staff to draw the blood sample. The blood was tested and the toxicologist determined that it contained a 0.12 percent BAL."
+        }
+      ],
+      "derivation": "record_scope_gap",
+      "transformation": "Chinese attributed summary with stable aliases; no omitted source content reconstructed."
+    },
+    {
+      "fact_id": "F14",
+      "claim": "来源未提供A的定罪前完整个人证言、不在场说法、事故原因辩解或毒理专长；角色不得替A补写承认饮酒、否认驾驶或技术解释。",
+      "epistemic_status": "record_limit",
+      "source_id": "source16",
+      "source_spans": [
+        {
+          "locator": "CL-O2295730-P0003",
+          "paragraph_id": "P0003",
+          "text_verbatim": "Defendant Donald Wilson appeals from his conviction of driving under the influence of alcohol causing bodily injury. Prior to his arrest, defendant consented to a preliminary alcohol screening test (PAS test) that measured the blood-alcohol level (BAL) in the breath sample he provided at 0.09 percent. After his arrest, he was required to submit to a blood test, which measured his BAL at 0.12 percent. He contends that the blood test constituted an unreasonable search and seizure and that the trial court erred by denying his motion to suppress the results of the test. We affirm."
+        },
+        {
+          "locator": "CL-O2295730-P0005",
+          "paragraph_id": "P0005",
+          "text_verbatim": "On August 16, 2000, defendant was involved in an automobile accident after his car crossed over a double yellow line and collided head-on with"
+        },
+        {
+          "locator": "CL-O2295730-P0010",
+          "paragraph_id": "P0010",
+          "text_verbatim": "Prior to trial, defendant made a motion to suppress the results of a blood test taken after his arrest. The testimony given at the suppression hearing provides the following factual history. Officer Jerry Chu arrived on the scene of the accident shortly after it occurred. Based on his initial observations that defendant’s eyes were quite red, watery and bloodshot, Chu believed that defendant was intoxicated. Because of defendant’s injuries, however, he was transported to the hospital before Chu could conduct a field sobriety test."
+        },
+        {
+          "locator": "CL-O2295730-P0011",
+          "paragraph_id": "P0011",
+          "text_verbatim": "At the hospital, Chu conducted a nystagmus test whereby defendant was asked to follow Chu’s finger as it was moved back and forth in front of his face. Defendant’s inability to track Chu’s finger indicated that he was intoxicated. Chu also requested that defendant submit to a PAS test and advised defendant that the test was voluntary and would not satisfy his obligation to submit to a subsequent BAL test if he were arrested. The PAS test showed a BAL of 0.09 percent. Based on his observations and the test results, Chu determined that defendant was under the influence of alcohol and arrested defendant."
+        },
+        {
+          "locator": "CL-O2295730-P0012",
+          "paragraph_id": "P0012",
+          "text_verbatim": "After placing defendant under arrest, Chu advised defendant that he was required to provide a blood sample. Although defendant maintained that he was not consenting to the test, he permitted hospital staff to draw the blood sample. The blood was tested and the toxicologist determined that it contained a 0.12 percent BAL."
+        }
+      ],
+      "derivation": "record_scope_gap",
+      "transformation": "Chinese attributed summary with stable aliases; no omitted source content reconstructed."
+    },
+    {
+      "fact_id": "F15",
+      "claim": "来源未提供被害人实时证言或碰撞目击者证词；B在事故后抵达，不能把碰撞全过程变成其亲眼所见。",
+      "epistemic_status": "record_limit",
+      "source_id": "source16",
+      "source_spans": [
+        {
+          "locator": "CL-O2295730-P0005",
+          "paragraph_id": "P0005",
+          "text_verbatim": "On August 16, 2000, defendant was involved in an automobile accident after his car crossed over a double yellow line and collided head-on with"
+        },
+        {
+          "locator": "CL-O2295730-P0007",
+          "paragraph_id": "P0007",
+          "text_verbatim": "another vehicle. Both the driver of the other car and her passenger suffered severe injuries as a result of the accident. Defendant was charged by information with driving under the influence causing bodily injury (Veh. Code, § 23153, subd. (a)"
+        },
+        {
+          "locator": "CL-O2295730-P0010",
+          "paragraph_id": "P0010",
+          "text_verbatim": "Prior to trial, defendant made a motion to suppress the results of a blood test taken after his arrest. The testimony given at the suppression hearing provides the following factual history. Officer Jerry Chu arrived on the scene of the accident shortly after it occurred. Based on his initial observations that defendant’s eyes were quite red, watery and bloodshot, Chu believed that defendant was intoxicated. Because of defendant’s injuries, however, he was transported to the hospital before Chu could conduct a field sobriety test."
+        }
+      ],
+      "derivation": "record_scope_gap",
+      "transformation": "Chinese attributed summary with stable aliases; no omitted source content reconstructed."
+    },
+    {
+      "fact_id": "F16",
+      "claim": "原案正式审判持续三天，完整实际开庭日期及逐日证人安排未提供。模拟三轮按本题任务划分。",
+      "epistemic_status": "procedural_history",
+      "source_id": "source16",
+      "source_spans": [
+        {
+          "locator": "CL-O2295730-P0015",
+          "paragraph_id": "P0015",
+          "text_verbatim": "After a three-day trial, the jury convicted defendant on both counts contained in the information and found true the great bodily injury and multiple-victim allegations. Thereafter, the trial court found true the prior conviction allegations. Defendant was sentenced to 22 years in state prison. Defendant filed a timely notice of appeal."
+        }
+      ],
+      "derivation": "source_summary",
+      "transformation": "Chinese attributed summary with stable aliases; no omitted source content reconstructed."
+    }
+  ],
+  "material_mappings": [
+    {
+      "material_id": "M01",
+      "paragraph_id": "M01-P001",
+      "fact_ids": [
+        "F01"
+      ],
+      "source_locators": [
+        "CL-O2295730-P0005",
+        "CL-O2295730-P0007"
+      ]
+    },
+    {
+      "material_id": "M01",
+      "paragraph_id": "M01-P002",
+      "fact_ids": [
+        "F02"
+      ],
+      "source_locators": [
+        "CL-O2295730-P0007"
+      ]
+    },
+    {
+      "material_id": "M02",
+      "paragraph_id": "M02-P001",
+      "fact_ids": [
+        "F03"
+      ],
+      "source_locators": [
+        "CL-O2295730-P0010"
+      ]
+    },
+    {
+      "material_id": "M02",
+      "paragraph_id": "M02-P002",
+      "fact_ids": [
+        "F04"
+      ],
+      "source_locators": [
+        "CL-O2295730-P0011"
+      ]
+    },
+    {
+      "material_id": "M03",
+      "paragraph_id": "M03-P001",
+      "fact_ids": [
+        "F05"
+      ],
+      "source_locators": [
+        "CL-O2295730-P0003",
+        "CL-O2295730-P0011"
+      ]
+    },
+    {
+      "material_id": "M03",
+      "paragraph_id": "M03-P002",
+      "fact_ids": [
+        "F06"
+      ],
+      "source_locators": [
+        "CL-O2295730-P0011"
+      ]
+    },
+    {
+      "material_id": "M04",
+      "paragraph_id": "M04-P001",
+      "fact_ids": [
+        "F07"
+      ],
+      "source_locators": [
+        "CL-O2295730-P0012"
+      ]
+    },
+    {
+      "material_id": "M04",
+      "paragraph_id": "M04-P002",
+      "fact_ids": [
+        "F08"
+      ],
+      "source_locators": [
+        "CL-O2295730-P0012"
+      ]
+    },
+    {
+      "material_id": "M05",
+      "paragraph_id": "M05-P001",
+      "fact_ids": [
+        "F09"
+      ],
+      "source_locators": [
+        "CL-O2295730-P0013"
+      ]
+    },
+    {
+      "material_id": "M06",
+      "paragraph_id": "M06-P001",
+      "fact_ids": [
+        "F10"
+      ],
+      "source_locators": [
+        "CL-O2295730-P0102",
+        "CL-O2295730-P0104"
+      ]
+    },
+    {
+      "material_id": "M07",
+      "paragraph_id": "M07-P001",
+      "fact_ids": [
+        "F11"
+      ],
+      "source_locators": [
+        "CL-O2295730-P0007",
+        "CL-O2295730-P0009"
+      ]
+    },
+    {
+      "material_id": "M08",
+      "paragraph_id": "M08-P001",
+      "fact_ids": [
+        "F12"
+      ],
+      "source_locators": [
+        "CL-O2295730-P0010",
+        "CL-O2295730-P0011",
+        "CL-O2295730-P0012"
+      ]
+    },
+    {
+      "material_id": "M08",
+      "paragraph_id": "M08-P002",
+      "fact_ids": [
+        "F13"
+      ],
+      "source_locators": [
+        "CL-O2295730-P0011",
+        "CL-O2295730-P0012"
+      ]
+    },
+    {
+      "material_id": "M08",
+      "paragraph_id": "M08-P003",
+      "fact_ids": [
+        "F14"
+      ],
+      "source_locators": [
+        "CL-O2295730-P0003",
+        "CL-O2295730-P0005",
+        "CL-O2295730-P0010",
+        "CL-O2295730-P0011",
+        "CL-O2295730-P0012"
+      ]
+    },
+    {
+      "material_id": "M08",
+      "paragraph_id": "M08-P004",
+      "fact_ids": [
+        "F15"
+      ],
+      "source_locators": [
+        "CL-O2295730-P0005",
+        "CL-O2295730-P0007",
+        "CL-O2295730-P0010"
+      ]
+    }
+  ],
+  "statute_mappings": [
+    {
+      "charge_id": "C01",
+      "name": "酒精影响下驾驶并致他人伤害",
+      "original_statute": "Vehicle Code §23153(a)",
+      "legal_source_ids": [
+        "L_VEH_23153_2000"
+      ],
+      "source_locators": [
+        "CL-O2295730-P0007"
+      ]
+    },
+    {
+      "charge_id": "C02",
+      "name": "血液酒精含量0.08%以上驾驶并致他人伤害",
+      "original_statute": "Vehicle Code §23153(b)",
+      "legal_source_ids": [
+        "L_VEH_23153_2000"
+      ],
+      "source_locators": [
+        "CL-O2295730-P0009"
+      ]
+    }
+  ]
+}

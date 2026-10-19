@@ -1,0 +1,236 @@
+{
+  "case_id": "CA-PILOT-005",
+  "version": "0.1.0-authoring",
+  "status": "first_delivery_pending_user_and_legal_review",
+  "checks": {
+    "source_traceability": "offline mappings, canonical snapshot bytes and references passed; human review pending",
+    "person_knowledge": "source-bound authoring complete; review pending",
+    "fact_fabrication": "no synthetic case facts",
+    "permissions": "reference loader three-round gates passed; production engineering pending",
+    "historical_law": "primary selected excerpts acquired; complete version-chain and legal review pending"
+  },
+  "development_trial": {
+    "status": "not_run",
+    "run_ids": [],
+    "model": null,
+    "logs": []
+  },
+  "rubric_review": {
+    "status": "pending_after_development_trial",
+    "reviewer": null,
+    "approved_at": null
+  },
+  "freeze": {
+    "status": "not_frozen",
+    "version": null,
+    "timestamp": null
+  },
+  "formal_evaluation": {
+    "status": "not_run"
+  },
+  "structural_validation": {
+    "case_id": "CA-PILOT-005",
+    "version": "0.1.0-authoring",
+    "checked_at": "2026-10-02T09:12:47.387581+00:00",
+    "status": "pass",
+    "checks": {
+      "facts_traceable": 19,
+      "material_paragraphs_traceable": 18,
+      "legal_entries_with_hashed_snapshots": 20,
+      "role_cards_and_knowledge_scopes": 8,
+      "canonical_source_copies_identical": "pass",
+      "three_round_stage_links": "pass",
+      "first_round_deferred_rulings_no_deadlock": "pass",
+      "initial_M05_disclosed_consistently_no_request_rule": "pass",
+      "relevance_fields_public": "pass",
+      "private_namespace_and_case_traversal_denied": "pass",
+      "A_voluntary_testimony_gate": "pass",
+      "round2_admitted_record_retained_in_round3": "pass",
+      "later_exclusion_striking_and_limits_retained": "pass",
+      "summary_exact_copy_with_source_form_no_forgery": "pass",
+      "round3_judge_instruction_gate": "pass",
+      "original_names_and_outcome_absent_from_defense_payload": "pass",
+      "B_C_personal_scopes_and_A_internal_record_exclusion": "pass",
+      "omitted_II_III_not_reconstructed": "pass"
+    },
+    "collaborator_review_contract_checks": {
+      "case_id": "CA-PILOT-005",
+      "status": "pass",
+      "phase_exit_action_consistency": "pass",
+      "initial_and_triggered_disclosure_consistency": "pass",
+      "public_objection_field_accessibility": "pass"
+    },
+    "required_main_package_only": "pass",
+    "test_type": "offline source/structure/three-round reference loader checks; no LLM court trial",
+    "not_verified": [
+      "human legal review and complete historical version chains",
+      "production authenticated state engine and event persistence",
+      "development model court trial",
+      "rubric agreement and approved scoring"
+    ],
+    "validated_main_files": [
+      {
+        "path": "authoring/outcome_reference.json",
+        "sha256": "ede8eddb7ed988289bea6d450582a29616cd35df0185d407fe109e8d89f1d5f9"
+      },
+      {
+        "path": "authoring/provenance.json",
+        "sha256": "b77d024dcb936fcc76b61ac6382fb8f05a93a213ca60c7ff55e5b246858d2a58"
+      },
+      {
+        "path": "authoring/sources/index.json",
+        "sha256": "072c6c92e109e6d7ef364dc6824571f7ee7835b67cc1145161e79b9ffbe6ca25"
+      },
+      {
+        "path": "authoring/sources/law/AB1323_2005.html",
+        "sha256": "6f1935ffbaed2d8c7dd78fb7b0dab9ee035120ce8984578e6a96cee7d67e6105"
+      },
+      {
+        "path": "authoring/sources/law/CALCRIM1170_2006_quoted_excerpt.json",
+        "sha256": "ea5b508874f0039b5410b793f1a01f639c1429ed2d383539ef9fe5c897b9d99b"
+      },
+      {
+        "path": "authoring/sources/law/EVID_1101.html",
+        "sha256": "20f9db57e72e685641f4bb0fe5c35213b314e67bd81ec75ad6950901411e26e5"
+      },
+      {
+        "path": "authoring/sources/law/EVID_1200.html",
+        "sha256": "74114ed7d71b64715817d81073073be0c9cdd432ff7870b46fdedd11d770990a"
+      },
+      {
+        "path": "authoring/sources/law/EVID_1220.html",
+        "sha256": "47fb8b629fc5d1accd6210fe5a9f458673a443cc7f0f04672e0023e83523f9cf"
+      },
+      {
+        "path": "authoring/sources/law/EVID_1401.html",
+        "sha256": "f1897741d6ac0bc02ddd5009c813a45c1b7abf0ae6742cdf85b1546e4d26c1e8"
+      },
+      {
+        "path": "authoring/sources/law/EVID_210.html",
+        "sha256": "3f3560cda5163f6acde4574c01554d4a7e608f938d7025860906185d416bec70"
+      },
+      {
+        "path": "authoring/sources/law/EVID_350.html",
+        "sha256": "7a61b4f84a13432ac3cbfd1c455f8d462a3fcb6a3b546cca2975302ce9320995"
+      },
+      {
+        "path": "authoring/sources/law/EVID_352.html",
+        "sha256": "5f9184dd9dfc01511c89cddc25c4885ebdb0a8b67db96bbc04122874e8ee0815"
+      },
+      {
+        "path": "authoring/sources/law/EVID_355.html",
+        "sha256": "83c76326d7f0938d27886ba83d122df3e641ee8d17fca845daa4486e6a210bbc"
+      },
+      {
+        "path": "authoring/sources/law/EVID_356.html",
+        "sha256": "f78348d01d4418fc95f203d10f80acf3218c4eb61c6bc5933052c1113068d631"
+      },
+      {
+        "path": "authoring/sources/law/EVID_702.html",
+        "sha256": "b2dfd7578a0be029fb0d05fec6ea61aee07915dea18ab6d3af9cbf8a1e17d6ab"
+      },
+      {
+        "path": "authoring/sources/law/EVID_720.html",
+        "sha256": "1b3996107aa914d0af901c0c359ca39434cf519bb88b98be909eda8e3c315795"
+      },
+      {
+        "path": "authoring/sources/law/EVID_765.html",
+        "sha256": "c60c6576f59421bd4f57a583228dc534406aec596b0feb3464ab582c19faae84"
+      },
+      {
+        "path": "authoring/sources/law/EVID_767.html",
+        "sha256": "9d0fd9dbf1cb097d6b3b2b3e726f2c1d3e3cd7c5b6edd87435c7aa30c91ee8f3"
+      },
+      {
+        "path": "authoring/sources/law/EVID_780.html",
+        "sha256": "c1a0ea47c7538768a4ab930b8b65bc736fdea325b7bcf9ae31ad340d2ddc5c9b"
+      },
+      {
+        "path": "authoring/sources/law/EVID_801.html",
+        "sha256": "24e9fcb2c9c28fc07c0a2b4d68264bccff1072335367b2b8adc1883aca1e7bf2"
+      },
+      {
+        "path": "authoring/sources/law/EVID_913.html",
+        "sha256": "2f5ff8c920aac4648304561506f9a970cd0fd88d8508d54044ac718e160cbd09"
+      },
+      {
+        "path": "authoring/sources/law/EVID_930.html",
+        "sha256": "b73353ca2226aea619a5842c05e963b08405af15c81e1040eca5edf24e4229d7"
+      },
+      {
+        "path": "authoring/sources/law/PEN_1096.html",
+        "sha256": "d19ab7acdf8757d739f113cb1e9863d58af7fe288fd76f76204704b080980dd2"
+      },
+      {
+        "path": "authoring/sources/source15/metadata.json",
+        "sha256": "5ac94f966f935887bd21efc0175600490501398bbbaf412a2efa5f084072b789"
+      },
+      {
+        "path": "authoring/sources/source15/opinions/2256789/normalized.txt",
+        "sha256": "8c82af8dafd6ea26efd55fc59e2ec591b6b6fd0f110b600a041b8e7816ee69e2"
+      },
+      {
+        "path": "authoring/sources/source15/opinions/2256789/opinion.json",
+        "sha256": "8dd31bed03f281456f261a638121f02359c4f5a2cfcbee1c68111d5dbeb35a4f"
+      },
+      {
+        "path": "authoring/sources/source15/opinions/2256789/opinion.request.json",
+        "sha256": "bf7a017c9556cc9a2032fb7f0f7eee2804399b1618a24a918724bf9701728336"
+      },
+      {
+        "path": "authoring/sources/source15/opinions/2256789/original.html",
+        "sha256": "f0d7e02f9200bbfc6f2fbbcbc31e9be17bf1b814a58fd1ab39c4e0fc9ba28e21"
+      },
+      {
+        "path": "authoring/sources/source15/opinions/2256789/paragraphs.json",
+        "sha256": "d56ef27d277b080da0450cdc95d0bb5e36c9ac5dd923c1389730700224276e9e"
+      },
+      {
+        "path": "authoring/world.json",
+        "sha256": "062a19f24e332553d8bba4c0237b727f7e3a2d350874a37c8c76dd7fd883be42"
+      },
+      {
+        "path": "config/permissions.json",
+        "sha256": "767c22b72981b71bab6bf8b5e89fe8df1521760a01d5f2290be0dc4b84133e32"
+      },
+      {
+        "path": "config/procedure.json",
+        "sha256": "fdbae2f05b9f2db574ed26f8319a50979670c4bb4ffc3a3524731b07be27f572"
+      },
+      {
+        "path": "evaluation/issue_outline.json",
+        "sha256": "68fdaa11e6e2e3bb4d60e960d4e85367829439515df812ffa409d6d2d1cb0fb2"
+      },
+      {
+        "path": "evaluation/rubric.json",
+        "sha256": "ef53cf4f4439e0ec6525c2785a707ea27bd2ae82b132d3a3a9ebed41018917cb"
+      },
+      {
+        "path": "manifest.json",
+        "sha256": "d3353a93f1d61029641e1e763a44eb4b292b1a517481c45f40917018f0021b54"
+      },
+      {
+        "path": "public/case.md",
+        "sha256": "9f7151011107f8e635cd011da30c39c07d7550c5fd70b481d5870b64fc2f5c69"
+      },
+      {
+        "path": "public/legal_sources.jsonl",
+        "sha256": "72f62346ba7bca1a55c9e96a407dd362d75518f8d8239fd6ad1fbc0505c86c73"
+      },
+      {
+        "path": "public/materials.jsonl",
+        "sha256": "abfbe5fc5d8edf83aad9d929594ee5e3da58d405ee9b47877d645e45b7b225fa"
+      },
+      {
+        "path": "role_private/roles.json",
+        "sha256": "cfaa59db039b36250255f13bdf8197f3a4902f32762d414392d81d460bb34422"
+      }
+    ]
+  },
+  "open_items": [
+    "人工核读材料、角色及历史法律",
+    "工程端按三个轮次接入状态及权限，并进行真实模型开发试跑",
+    "依据试跑完善rubric并核验一致性",
+    "批准后冻结，随后正式评测"
+  ]
+}

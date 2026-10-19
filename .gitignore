@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+.tools/
+node_modules/
+runs/
+reruns/
+config.local.json
+.env
+.env.*
+*.log
+*.pid
+.DS_Store
+*.pem
+*.key
+auth.json
+credentials.json

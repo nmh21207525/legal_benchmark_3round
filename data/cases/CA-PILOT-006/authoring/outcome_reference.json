@@ -1,0 +1,41 @@
+{
+  "source_id": "source16",
+  "visibility": "authoring_only",
+  "trial": {
+    "verdict": {
+      "C01": "guilty",
+      "C02": "guilty"
+    },
+    "duration_days": 3,
+    "exact_dates": null,
+    "special_allegations": [
+      "multiple victims (§23558)",
+      "great bodily injury to both victims (Penal Code §12022.7(a))",
+      "prior allegations found true by court; prototype statutory labels retained without correction"
+    ],
+    "sentence": {
+      "prison_years": 22,
+      "date": null
+    },
+    "suppression_motion": "denied; officer acted reasonably",
+    "source_locators": [
+      "CL-O2295730-P0009",
+      "CL-O2295730-P0013",
+      "CL-O2295730-P0015"
+    ]
+  },
+  "appeal": {
+    "disposition": "judgment affirmed",
+    "alternative_obstruction_argument": "not reached; obstruction evidence was not in suppression-hearing record",
+    "review_denied": "2004-03-17",
+    "source_locators": [
+      "CL-O2295730-P0096",
+      "CL-O2295730-P0098",
+      "CL-O2295730-P0102",
+      "CL-O2295730-P0104"
+    ],
+    "provider_date_filed": "2003-12-30"
+  },
+  "do_not_score_by_actual_outcome": true,
+  "prototype_special_allegations": "Retained in reference; benchmark merits charges and scoring exclude sentencing."
+}

@@ -1,0 +1,83 @@
+{
+  "provider": "CourtListener",
+  "source_id": "source16",
+  "source_family_id": "CL-C2295730",
+  "cluster_id": 2295730,
+  "court_id": "calctapp",
+  "court_name": "California Court of Appeal",
+  "jurisdiction": "California, United States",
+  "case_name": "People v. Wilson",
+  "docket_number": "A102208",
+  "date_filed": "2003-12-30",
+  "citation": [
+    "8 Cal. Rptr. 3d 167",
+    "114 Cal. App. 4th 953",
+    "2004 Cal. Daily Op. Serv. 23",
+    "2004 Daily Journal DAR 5",
+    "2003 Cal. App. LEXIS 1956"
+  ],
+  "source_url": "https://www.courtlistener.com/opinion/2295730/people-v-wilson/",
+  "retrieved_at": "2026-10-01T04:07:54.947304+00:00",
+  "search_file": "data/sources/trial_duration_exploration/day3/search.json",
+  "search_result_number": 17,
+  "opinions": [
+    {
+      "source_opinion_id": 2295730,
+      "opinion_type": "010combined",
+      "raw_file_path": "data/sources/source16/opinions/2295730/opinion.json",
+      "raw_sha256": "519eb48a651ba4026c67e528ba42086e912512bf22b5f51de76989a930215091",
+      "text_field_used": "html_with_citations",
+      "normalized_text_path": "data/sources/source16/opinions/2295730/normalized.txt",
+      "normalized_text_sha256": "5f608c599cc1d27a07f7a6dfffeee0a767329f5435b39d05ec961eb3e1ff4a47",
+      "paragraph_count": 104,
+      "character_count": 15515
+    }
+  ],
+  "paragraph_id_method": "v1: HTML block boundaries or plaintext blank lines; whitespace collapsed; sequential IDs per opinion. Project locators, not official court paragraph numbers.",
+  "review_status": "awaiting_complete_hearing_calendar",
+  "ready_for_benchmark": false,
+  "precedential_status": "Published",
+  "trial_duration_review": {
+    "discovery_hint_days": 3,
+    "evidence": {
+      "source_opinion_id": 2295730,
+      "paragraph_locators": [
+        "CL-O2295730-P0015"
+      ],
+      "quote": "After a three-day trial, the jury convicted defendant on both counts contained in the information and found true the great bodily injury and multiple-victim allegations. Thereafter, the trial court found true the prior conviction allegations. Defendant was sentenced to 22 years in state prison. Defendant filed a timely notice of appeal."
+    },
+    "interpretation": "Opinion describes the trial duration; total hearing dates are not established."
+  },
+  "hearing_dates_review": {
+    "definition": "同一案件全部程序中实际开庭的不同日历日；预审、动议、正式审判和量刑纳入，同日只计一次。",
+    "verified_total": null,
+    "classification": "待核实",
+    "minimum_hearing_date_count": 3,
+    "count_reason": "正文称三天审判；另提抑制证据动议和量刑，但未给出可用于去重的日期。",
+    "known_events": [],
+    "evidence": [
+      {
+        "source_opinion_id": 2295730,
+        "paragraph_locators": [
+          "CL-O2295730-P0003",
+          "CL-O2295730-P0004",
+          "CL-O2295730-P0005",
+          "CL-O2295730-P0006",
+          "CL-O2295730-P0007",
+          "CL-O2295730-P0008",
+          "CL-O2295730-P0009",
+          "CL-O2295730-P0010",
+          "CL-O2295730-P0011",
+          "CL-O2295730-P0012",
+          "CL-O2295730-P0013",
+          "CL-O2295730-P0014",
+          "CL-O2295730-P0015"
+        ],
+        "quote": "Defendant Donald Wilson appeals from his conviction of driving under the influence of alcohol causing bodily injury. Prior to his arrest, defendant consented to a preliminary alcohol screening test (PAS test) that measured the blood-alcohol level (BAL) in the breath sample he provided at 0.09 percent. After his arrest, he was required to submit to a blood test, which measured his BAL at 0.12 percent. He contends that the blood test constituted an unreasonable search and seizure and that the trial court erred by denying his motion to suppress the results of the test. We affirm. Factual and Procedural History On August 16, 2000, defendant was involved in an automobile accident after his car crossed over a double yellow line and collided head-on with *956 another vehicle. Both the driver of the other car and her passenger suffered severe injuries as a result of the accident. Defendant was charged by information with driving under the influence causing bodily injury (Veh. Code, § 23153, subd. (a) 1 ; count 1), and driving with a 0.08 percent blood-alcohol level causing injury (§ 23153, subd. (b); count 2). The information also alleged that defendant caused bodily injury to more that one victim (§ 23558), and that defendant personally inflicted great bodily injury on both victims (Pen. Code, § 12022.7, subd. (a)). Finally, the information alleged that defendant had suffered two prior strike convictions (Pen. Code, § 667, subd. (a)(1)), and two prior serious felony convictions (Pen. Code, § 667.5, subd. (b)). Prior to trial, defendant made a motion to suppress the results of a blood test taken after his arrest. The testimony given at the suppression hearing provides the following factual history. Officer Jerry Chu arrived on the scene of the accident shortly after it occurred. Based on his initial observations that defendant’s eyes were quite red, watery and bloodshot, Chu believed that defendant was intoxicated. Because of defendant’s injuries, however, he was transported to the hospital before Chu could conduct a field sobriety test. At the hospital, Chu conducted a nystagmus test whereby defendant was asked to follow Chu’s finger as it was moved back and forth in front of his face. Defendant’s inability to track Chu’s finger indicated that he was intoxicated. Chu also requested that defendant submit to a PAS test and advised defendant that the test was voluntary and would not satisfy his obligation to submit to a subsequent BAL test if he were arrested. The PAS test showed a BAL of 0.09 percent. Based on his observations and the test results, Chu determined that defendant was under the influence of alcohol and arrested defendant. After placing defendant under arrest, Chu advised defendant that he was required to provide a blood sample. Although defendant maintained that he was not consenting to the test, he permitted hospital staff to draw the blood sample. The blood was tested and the toxicologist determined that it contained a 0.12 percent BAL. Based on this testimony, defendant argued that the results of the blood test should be suppressed on the ground that they were the product of an illegal warrantless search because any exigency that might have justified the administration of the blood test was eliminated by the prior administration of the PAS test. The trial court denied defendant’s motion, finding that the officer acted reasonably in requiring the postarrest blood test. *957 After a three-day trial, the jury convicted defendant on both counts contained in the information and found true the great bodily injury and multiple-victim allegations. Thereafter, the trial court found true the prior conviction allegations. Defendant was sentenced to 22 years in state prison. Defendant filed a timely notice of appeal."
+      }
+    ],
+    "missing_record": "完整一审庭期和实际进行状态；必要时后续重审庭期。",
+    "trial_county": null,
+    "trial_case_number": null
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0-first-authoring",
+  "case_id": "CA-PILOT-005",
+  "case_version": "0.1.0-authoring",
+  "title": "迁居、登记告知与五个工作日的计算",
+  "jurisdiction": {
+    "country": "US",
+    "state": "California",
+    "county": "Madera",
+    "simulation_court": "State criminal trial with jury"
+  },
+  "prototype": {
+    "source_id": "source15",
+    "source_family_id": "CL-C2256789",
+    "opinion_id": 2256789,
+    "case_name": "People v. Williams",
+    "docket_number": "F053858",
+    "source_url": "https://www.courtlistener.com/opinion/2256789/people-v-williams/"
+  },
+  "event_date": "2006-06-03",
+  "event_date_range": [
+    "2006-05-24",
+    "2006-06-03"
+  ],
+  "legal_applicability_date": "2006-06-03",
+  "legal_applicability_basis": "Known alleged-offense date; substantive historical version and selected procedure sources refer to this benchmark date. Human consolidation review pending.",
+  "retrieval_cutoff_date": "2026-10-02",
+  "simulation_round_count": 3,
+  "simulation_dates": null,
+  "historical_trial_duration_days": 3,
+  "historical_trial_dates": null,
+  "historical_total_hearing_dates": null,
+  "historical_minimum_hearing_date_count": 4,
+  "historical_calendar_source": "unchanged original hearing-date review; simulation rounds are not historical dates",
+  "task_role_id": "R_DEFENSE",
+  "role_ids": [
+    "R_DEFENSE",
+    "R_PROSECUTOR",
+    "R_JUDGE",
+    "R_JURY",
+    "R_SOURCE_RECORD",
+    "R_INTAKE_AGENT",
+    "R_ASSIGNED_AGENT",
+    "R_DEFENDANT"
+  ],
+  "charges": [
+    {
+      "charge_id": "C01",
+      "name": "故意违反性犯罪者登记义务",
+      "original_statute": "Penal Code §290(a)(1)(A), former version; felony registration failure",
+      "legal_source_ids": [
+        "L_PEN_290_2006"
+      ],
+      "source_locators": [
+        "CL-O2256789-P0005",
+        "CL-O2256789-P0032"
+      ]
+    }
+  ],
+  "language": "zh-CN; legal originals en",
+  "delivery_stage": "facts_roles_first_delivery",
+  "synthetic_case_facts_count": 0,
+  "lifecycle": {
+    "facts_roles": "authoring_complete_awaiting_user_review",
+    "development_agent_trial": "not_run",
+    "rubric": "pending_after_development_trial",
+    "freeze": "not_frozen",
+    "formal_evaluation": "not_run"
+  },
+  "ready_for_formal_evaluation": false,
+  "files": {
+    "case": "public/case.md",
+    "materials": "public/materials.jsonl",
+    "legal_sources": "public/legal_sources.jsonl",
+    "roles": "role_private/roles.json",
+    "procedure": "config/procedure.json",
+    "permissions": "config/permissions.json",
+    "world": "authoring/world.json",
+    "provenance": "authoring/provenance.json",
+    "outcome_reference": "authoring/outcome_reference.json",
+    "issues": "evaluation/issue_outline.json",
+    "rubric": "evaluation/rubric.json",
+    "review": "evaluation/review.json"
+  },
+  "created_at": "2026-10-02T09:11:18.440630+00:00"
+}
