@@ -26,7 +26,7 @@ bash setup.sh --check-only
 
 ## 2. 各自启动自己的题
 
-**同事：005，四个模型，自动评分。**
+**005，四个模型，自动评分。**
 
 ```bash
 cd ~/legal_agent_3round
@@ -34,7 +34,7 @@ bash run_005.sh --validate-only
 bash run_005.sh --background
 ```
 
-**你：006，四个模型，自动评分。**
+** 006，四个模型，自动评分。**
 
 ```bash
 cd ~/legal_agent_3round
