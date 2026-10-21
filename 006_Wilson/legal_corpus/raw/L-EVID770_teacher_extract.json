@@ -1,0 +1,22 @@
+{
+  "legal_id": "L-EVID770",
+  "type": "statute",
+  "citation": "Evidence Code § 770",
+  "title": "Evidence Code § 770 — Impeachment by prior inconsistent statement: opportunity to explain",
+  "year": "1965",
+  "effective": "1967-01-01",
+  "cutoff_ok": true,
+  "text": "Unless the interests of justice otherwise require, extrinsic evidence of a statement made by a witness that is inconsistent with any part of his testimony at the hearing shall be excluded unless: (a) The witness was so examined while testifying as to give him an opportunity to explain or to deny the statement; or (b) The witness has not been excused from giving further testimony in the action.",
+  "holding": "以先前不一致陈述弹劾证人时，除非当庭给予证人解释或否认的机会，否则不得使用外部证据。",
+  "url": "https://law.onecle.com/california/evidence/770.html",
+  "retrieved": "2026-10-19",
+  "sha256": "90d8c06cb2f687536712a698a7cb05e2c1f4534871dfe3a29d5392804f9b9c9c",
+  "relevance": "both",
+  "tags": [
+    "770",
+    "impeachment",
+    "prior_inconsistent_statement"
+  ],
+  "distractor": false,
+  "notes": "'(Enacted by Stats. 1965, Ch. 299.)'"
+}

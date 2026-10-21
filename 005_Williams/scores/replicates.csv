@@ -1,0 +1,7 @@
+﻿candidate,metric,n,expected_n,mean,min,max,runs,complete
+gpt,gpt_grader,0,2,,,,,False
+gpt,seed_grader,0,2,,,,,False
+gpt,dual_grader_mean,0,2,,,,,False
+seed,gpt_grader,0,2,,,,,False
+seed,seed_grader,0,2,,,,,False
+seed,dual_grader_mean,0,2,,,,,False

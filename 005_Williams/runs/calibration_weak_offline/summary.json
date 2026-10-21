@@ -1,0 +1,44 @@
+{
+  "case_id": "CA-PILOT-005",
+  "status": "completed",
+  "stage": "ended",
+  "simulation_round_count": 3,
+  "candidate": null,
+  "profile": "weak",
+  "mock": true,
+  "verdict": {
+    "C01": "guilty"
+  },
+  "termination_reason": "jury_verdict",
+  "terminated_at_stage": null,
+  "completed_rounds": 3,
+  "reached_stages": [
+    "pretrial_workspace",
+    "r1_motion",
+    "r1_examination",
+    "r1_ruling",
+    "between_rounds_1",
+    "r2_opening",
+    "r2_examination",
+    "r2_1118",
+    "r2_defense",
+    "r2_ruling",
+    "between_rounds_2",
+    "r3_supplement",
+    "r3_1118",
+    "r3_instructions",
+    "r3_closing",
+    "r3_verdict"
+  ],
+  "judicial_dispositions": {},
+  "hours_used": 0.25,
+  "actions": 1,
+  "money_used": 0,
+  "event_count": 124,
+  "read_documents": [
+    "D01"
+  ],
+  "artifacts": [],
+  "journal_ok": true,
+  "config_fingerprint": "7b5318463639824f9f23dce79814ca8c641769a34a8d402c80b058d91d0590e5"
+}

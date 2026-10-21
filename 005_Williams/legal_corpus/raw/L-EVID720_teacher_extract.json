@@ -1,0 +1,22 @@
+{
+  "legal_id": "L-EVID720",
+  "type": "statute",
+  "citation": "Evidence Code § 720",
+  "title": "Evidence Code § 720 — Qualification of expert witness",
+  "year": "1965",
+  "effective": "1967-01-01",
+  "cutoff_ok": true,
+  "text": "(a) A person is qualified to testify as an expert if he has special knowledge, skill, experience, training, or education sufficient to qualify him as an expert on the subject to which his testimony relates. Against the objection of a party, such special knowledge, skill, experience, training, or education must be shown before the witness may testify as an expert. (b) A witness’ special knowledge, skill, experience, training, or education may be shown by any otherwise admissible evidence, including his own testimony.",
+  "holding": "专家资格以“足以就相关主题作证”的特别知识、技能、经验、培训或教育为准；一方反对时需先证明资格。",
+  "url": "https://law.onecle.com/california/evidence/720.html",
+  "retrieved": "2026-10-19",
+  "sha256": "f300eb487585be163b0ea6c6dd07088b022a4eeda5a3522891f04f1804306d5b",
+  "relevance": "both",
+  "tags": [
+    "720",
+    "expert",
+    "qualification"
+  ],
+  "distractor": false,
+  "notes": "'(Enacted by Stats. 1965, Ch. 299.)'"
+}

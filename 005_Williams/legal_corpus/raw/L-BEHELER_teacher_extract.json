@@ -1,0 +1,22 @@
+{
+  "legal_id": "L-BEHELER",
+  "type": "case",
+  "citation": "California v. Beheler, 463 U.S. 1121 (1983)",
+  "title": "California v. Beheler",
+  "year": "1983",
+  "effective": "1983-07-06",
+  "cutoff_ok": true,
+  "text": "The question presented in this petition for certiorari is whether Miranda warnings are required if the suspect is not placed under arrest, voluntarily comes to the police station, and is allowed to leave unhindered by police after a brief interview. Because this question has already been settled clearly by past decisions of this Court, we reverse a decision of the California Court of Appeal holding that Miranda warnings are required in these circumstances.",
+  "holding": "嫌犯未被逮捕、自愿到警局、短暂讯问后可自由离开时，不需 Miranda 警告；是否拘禁按客观情况判断。",
+  "url": "https://www.law.cornell.edu/supremecourt/text/463/1121",
+  "retrieved": "2026-10-19",
+  "sha256": "cd6d8696400c707f6996a1282c38f1a06fbf1752c8958c4c5974026b5be4ee41",
+  "relevance": "prosecution",
+  "tags": [
+    "miranda",
+    "custody",
+    "voluntary_interview"
+  ],
+  "distractor": false,
+  "notes": "Per curiam opinion; quoted from the Cornell LII page (slip/Reports text)."
+}

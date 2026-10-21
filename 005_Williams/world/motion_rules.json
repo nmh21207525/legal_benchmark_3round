@@ -1,0 +1,59 @@
+[
+  {
+    "motion_id": "limit_prior",
+    "title": "既往记录限定用途",
+    "legal_ids": [
+      "L_EVID_352",
+      "L_EVID_355",
+      "L_EVID_1101"
+    ],
+    "requires_read": [
+      "D01"
+    ],
+    "effect": "limit_prior"
+  },
+  {
+    "motion_id": "late_relief",
+    "title": "迟交材料准备及补充询问",
+    "legal_ids": [
+      "L_EVID_352",
+      "L_EVID_355"
+    ],
+    "requires_late_disclosure": true,
+    "effect": "late_relief"
+  },
+  {
+    "motion_id": "acquittal_1118",
+    "title": "控方举证后无罪判决申请",
+    "legal_ids": [
+      "L_PEN_1096"
+    ],
+    "effect": "judgment_of_acquittal"
+  },
+  {
+    "motion_id": "registration_records",
+    "title": "登记记录基础与范围",
+    "legal_ids": [
+      "L_EVID_702",
+      "L_EVID_1401"
+    ],
+    "requires_read": [
+      "D12",
+      "D13"
+    ],
+    "effect": "limit_registry"
+  },
+  {
+    "motion_id": "deadline_instruction",
+    "title": "期限与实际知情指示",
+    "legal_ids": [
+      "L_PEN_290_2006",
+      "L_CALCRIM_1170_2006_EXCERPT"
+    ],
+    "requires_read": [
+      "D08",
+      "D10"
+    ],
+    "effect": "deadline_clarification"
+  }
+]

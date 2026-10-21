@@ -1,0 +1,30 @@
+{
+  "fingerprint": "7b5318463639824f9f23dce79814ca8c641769a34a8d402c80b058d91d0590e5",
+  "candidate": null,
+  "profile": "weak",
+  "mock": true,
+  "config": {
+    "models": {
+      "gpt": "gpt-5.6-sol",
+      "seed": "doubao-seed-evolving",
+      "environment": "gpt-6.1-sol",
+      "grader_gpt": "gpt-6-sol",
+      "grader_seed": "doubao-seed-evolving"
+    },
+    "effort": {
+      "candidate": "medium",
+      "environment": "medium",
+      "judge_prosecutor": "high",
+      "grader": "high"
+    },
+    "limits": {
+      "run_tokens": 30000000,
+      "case_tokens": 200000000,
+      "context_tokens": 150000
+    },
+    "formal_replicates_per_candidate_per_case": 2,
+    "max_concurrent_requests": 1,
+    "protocol_version": "teacher-three-round-v2",
+    "content_sha256": "7ac4c82d838485db79e545887daecf426bff4b8ce2adc67dfc58fdb6c24f5fed"
+  }
+}

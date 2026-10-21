@@ -1,0 +1,24 @@
+{
+  "legal_id": "L-AGUILERA",
+  "type": "case",
+  "citation": "People v. Aguilera (1996) 51 Cal.App.4th 1151",
+  "title": "People v. Aguilera",
+  "year": "1996",
+  "effective": "1996-12-19",
+  "cutoff_ok": true,
+  "text": "Courts have identified a variety of relevant circumstances. Among them are whether contact with law enforcement was initiated by the police or the person interrogated, and if by the police, whether the person voluntarily agreed to an interview; whether the express purpose of the interview was to question the person as a witness or a suspect; where the interview took place; whether police informed the person that he or she was under arrest or in custody; whether they informed the person that he or she was free to terminate the interview and leave at any time and/or whether the person’s conduct indicated an awareness of such freedom; whether there were restrictions on the person’s freedom of movement during the interview; how long the interrogation lasted; how many police officers participated; whether they dominated and controlled the course of the interrogation; whether they manifested a belief that the person was culpable and they had evidence to prove it; whether the police were aggressive, confrontational, and/or accusatory; whether the police used interrogation techniques to pressure the suspect; and whether the person was arrested at the end of the interrogation. ... No one factor is dispositive. Rather, we look at the interplay and combined effect of all the circumstances to determine whether on balance they created a coercive atmosphere such that a reasonable person would have experienced a restraint tantamount to an arrest.",
+  "holding": "判断是否拘禁应综合考量诸如谁发起接触、场所、是否告知自由离开、人数、时长、是否对抗等因素，任何单一因素均不具决定性，而应看综合效果是否使理性人感到如同被逮捕。",
+  "url": "https://static.case.law/cal-app-4th/51/cases/1151-01.json",
+  "retrieved": "2026-10-19",
+  "sha256": "79e7c35ea9652650cc19a8cf432b12c6317bfe4992d28283282c95fd20ff2060",
+  "relevance": "defense",
+  "tags": [
+    "miranda",
+    "custody",
+    "aguilera",
+    "factors",
+    "voluntariness"
+  ],
+  "distractor": false,
+  "notes": "CITATION CORRECTED: the prompt gave '51 Cal.App.4th 1154'; the official citation (confirmed via CourtListener and the Caselaw Access Project record) is 51 Cal.App.4th 1151, 59 Cal.Rptr.2d 587, decided 1996-12-19. This is the correct Aguilera custody-factors case. Ellipsis replaces the court's string citation to People v. Stansbury and others."
+}

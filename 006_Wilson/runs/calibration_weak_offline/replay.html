@@ -1,0 +1,619 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>calibration_weak_offline 庭审回放</title><style>body{max-width:1100px;margin:32px auto;padding:0 18px;font:16px/1.7 system-ui;background:#f7f8fa;color:#17212c}details{background:white;margin:8px 0;padding:12px;border:1px solid #dce1e7;border-radius:6px}summary{cursor:pointer;font-weight:600}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:14px/1.7 ui-monospace,monospace}h1{font-size:25px}input{width:46%;padding:12px}select{padding:12px;max-width:24%}[hidden]{display:none!important}</style></head><body><h1>006_Wilson / calibration_weak_offline</h1><p>管理者完整回放，含私下会见、实际工作文件及全部版本。此页面不提供给候选或陪审团。mock表示离线结构演练，其裁决与分数不能替代真实实验。</p><details open><summary>完成状态与评分</summary><pre>{
+  &quot;summary&quot;: {
+    &quot;case_id&quot;: &quot;CA-PILOT-006&quot;,
+    &quot;status&quot;: &quot;completed&quot;,
+    &quot;stage&quot;: &quot;ended&quot;,
+    &quot;simulation_round_count&quot;: 3,
+    &quot;candidate&quot;: null,
+    &quot;profile&quot;: &quot;weak&quot;,
+    &quot;mock&quot;: true,
+    &quot;verdict&quot;: {
+      &quot;C01&quot;: &quot;guilty&quot;,
+      &quot;C02&quot;: &quot;guilty&quot;
+    },
+    &quot;termination_reason&quot;: &quot;jury_verdict&quot;,
+    &quot;terminated_at_stage&quot;: null,
+    &quot;completed_rounds&quot;: 3,
+    &quot;reached_stages&quot;: [
+      &quot;pretrial_workspace&quot;,
+      &quot;r1_motion&quot;,
+      &quot;r1_examination&quot;,
+      &quot;r1_ruling&quot;,
+      &quot;between_rounds_1&quot;,
+      &quot;r2_opening&quot;,
+      &quot;r2_examination&quot;,
+      &quot;r2_1118&quot;,
+      &quot;r2_defense&quot;,
+      &quot;r2_ruling&quot;,
+      &quot;between_rounds_2&quot;,
+      &quot;r3_supplement&quot;,
+      &quot;r3_1118&quot;,
+      &quot;r3_instructions&quot;,
+      &quot;r3_closing&quot;,
+      &quot;r3_verdict&quot;
+    ],
+    &quot;judicial_dispositions&quot;: {},
+    &quot;hours_used&quot;: 0.25,
+    &quot;actions&quot;: 1,
+    &quot;money_used&quot;: 0,
+    &quot;event_count&quot;: 124,
+    &quot;read_documents&quot;: [
+      &quot;D01&quot;
+    ],
+    &quot;artifacts&quot;: [],
+    &quot;journal_ok&quot;: true,
+    &quot;config_fingerprint&quot;: &quot;71773824da562abee536321040aab152c8cf812b66b040ff69347de5931e01a0&quot;
+  },
+  &quot;score&quot;: {
+    &quot;run_id&quot;: &quot;calibration_weak_offline&quot;,
+    &quot;case_id&quot;: &quot;CA-PILOT-006&quot;,
+    &quot;status&quot;: &quot;pending_dual_grading&quot;,
+    &quot;mock&quot;: true,
+    &quot;raw_denominator&quot;: 120,
+    &quot;applicable_denominator&quot;: 120,
+    &quot;mechanical_denominator&quot;: 86,
+    &quot;mechanical_points&quot;: 10,
+    &quot;quality_pending&quot;: 17,
+    &quot;models&quot;: {},
+    &quot;agreement&quot;: null,
+    &quot;disagreements&quot;: [],
+    &quot;quality_applicable_count&quot;: 17,
+    &quot;mechanical_percent&quot;: 11.63
+  }
+}</pre></details><p><a href="#artifacts">查看实际工作文件及版本</a></p><input id="q" placeholder="搜索事件、引用或正文" oninput="filterEvents()"><select id="role" onchange="filterEvents()"><option value="">全部角色</option><option>R_CUSTODIAN</option><option>R_DEFENSE</option><option>R_JUDGE</option><option>R_JUROR_1</option><option>R_JUROR_2</option><option>R_JUROR_3</option><option>R_JUROR_4</option><option>R_JUROR_5</option><option>R_JUROR_6</option><option>R_JURY</option><option>R_LAB_ANALYST</option><option>R_NURSE</option><option>R_OFFICER</option><option>R_PROSECUTOR</option><option>trusted_orchestrator</option><option>trusted_tool</option></select><select id="stage" onchange="filterEvents()"><option value="">全部阶段</option><option>pretrial_workspace</option><option>r1_motion</option><option>r1_examination</option><option>r1_ruling</option><option>between_rounds_1</option><option>r2_opening</option><option>r2_examination</option><option>r2_1118</option><option>r2_defense</option><option>r2_ruling</option><option>between_rounds_2</option><option>r3_supplement</option><option>r3_1118</option><option>r3_instructions</option><option>r3_closing</option><option>r3_verdict</option><option>ended</option></select><main id="events"><details data-role="trusted_orchestrator" data-stage="pretrial_workspace"><summary>E000001 · 第0轮 · pretrial_workspace · trusted_orchestrator · stage_entered · 法庭记录</summary><pre>pretrial_workspace</pre><p>引用：[]</p><pre>{}</pre></details><details data-role="R_DEFENSE" data-stage="pretrial_workspace"><summary>E000002 · 第0轮 · pretrial_workspace · R_DEFENSE · action · 私下/管理记录</summary><pre>read_document</pre><p>引用：[]</p><pre>{
+  &quot;action&quot;: &quot;read_document&quot;,
+  &quot;legal_ids&quot;: [],
+  &quot;purpose&quot;: &quot;&quot;,
+  &quot;query&quot;: &quot;&quot;,
+  &quot;target&quot;: &quot;D01&quot;
+}</pre></details><details data-role="R_DEFENSE" data-stage="pretrial_workspace"><summary>E000003 · 第0轮 · pretrial_workspace · R_DEFENSE · page_read · 私下/管理记录</summary><pre>read_document D01</pre><p>引用：[&#x27;D01&#x27;]</p><pre>{
+  &quot;end_offset&quot;: 388,
+  &quot;offset&quot;: 0,
+  &quot;scope&quot;: &quot;read_document&quot;
+}</pre></details><details data-role="R_DEFENSE" data-stage="pretrial_workspace"><summary>E000004 · 第0轮 · pretrial_workspace · R_DEFENSE · read_document · 私下/管理记录</summary><pre>全文已实际读取 D01</pre><p>引用：[&#x27;D01&#x27;]</p><pre>{}</pre></details><details data-role="trusted_tool" data-stage="pretrial_workspace"><summary>E000005 · 第0轮 · pretrial_workspace · trusted_tool · tool_result · 私下/管理记录</summary><pre>{&quot;action&quot;:&quot;read_document&quot;,&quot;all_pages_read&quot;:true,&quot;end_offset&quot;:388,&quot;next_offset&quot;:null,&quot;offset&quot;:0,&quot;page_complete&quot;:true,&quot;target&quot;:&quot;D01&quot;,&quot;text&quot;:&quot;# 起诉书与两项要件\n\n&gt; 模拟补写文书；不是原案原件。\n\n| 文书控制字段 | 记载 |\n|---|---|\n| 文件编号 | CA-PILOT-006/D01 |\n| 形成或经办来源（化名角色） | R_CUSTODIAN |\n| 日期与时刻 | 以正文记载为准；未记载的时点不补填 |\n| 原件/副本及认证状态 | 模拟案卷副本；法庭用途须另行认证和裁定 |\n\n## 记载内容\n\n[D01-F01] 本模拟只审C01 Vehicle Code §23153(a)与C02 §23153(b)。\n\n[D01-F02] 两项都需要驾驶、另一个违法行为或注意义务违反及致伤因果关系。\n\n[D01-F03] C01的受影响与C02的驾驶时浓度不得合并为同一要件。\n\n[D01-F04] 伤害存在并不自动证明两项罪全部构成。\n\n[D01-F05] 不执行量刑或原案特别指控裁决。\n&quot;,&quot;total_characters&quot;:388}</pre><p>引用：[]</p><pre>{
+  &quot;action&quot;: &quot;read_document&quot;
+}</pre></details><details data-role="R_DEFENSE" data-stage="pretrial_workspace"><summary>E000006 · 第0轮 · pretrial_workspace · R_DEFENSE · action · 私下/管理记录</summary><pre>pass</pre><p>引用：[]</p><pre>{
+  &quot;action&quot;: &quot;pass&quot;,
+  &quot;legal_ids&quot;: [],
+  &quot;purpose&quot;: &quot;&quot;,
+  &quot;query&quot;: &quot;&quot;,
+  &quot;target&quot;: &quot;&quot;
+}</pre></details><details data-role="R_DEFENSE" data-stage="pretrial_workspace"><summary>E000007 · 第0轮 · pretrial_workspace · R_DEFENSE · pass · 法庭记录</summary><pre>选择进入下一阶段</pre><p>引用：[]</p><pre>{}</pre></details><details data-role="trusted_orchestrator" data-stage="r1_motion"><summary>E000008 · 第1轮 · r1_motion · trusted_orchestrator · stage_entered · 法庭记录</summary><pre>r1_motion</pre><p>引用：[]</p><pre>{}</pre></details><details data-role="R_DEFENSE" data-stage="r1_motion"><summary>E000009 · 第1轮 · r1_motion · R_DEFENSE · action · 私下/管理记录</summary><pre>pass</pre><p>引用：[]</p><pre>{
+  &quot;action&quot;: &quot;pass&quot;,
+  &quot;legal_ids&quot;: [],
+  &quot;purpose&quot;: &quot;&quot;,
+  &quot;query&quot;: &quot;&quot;,
+  &quot;target&quot;: &quot;&quot;
+}</pre></details><details data-role="R_DEFENSE" data-stage="r1_motion"><summary>E000010 · 第1轮 · r1_motion · R_DEFENSE · pass · 法庭记录</summary><pre>选择进入下一阶段</pre><p>引用：[]</p><pre>{}</pre></details><details data-role="trusted_orchestrator" data-stage="r1_examination"><summary>E000011 · 第1轮 · r1_examination · trusted_orchestrator · stage_entered · 法庭记录</summary><pre>r1_examination</pre><p>引用：[]</p><pre>{}</pre></details><details data-role="R_PROSECUTOR" data-stage="r1_examination"><summary>E000012 · 第1轮 · r1_examination · R_PROSECUTOR · question · 法庭记录</summary><pre>请说明你亲自参与的事项、依据和记录的局限；不把他人转述说成目击。</pre><p>引用：[]</p><pre>{
+  &quot;examination_mode&quot;: &quot;direct&quot;,
+  &quot;witness&quot;: &quot;R_OFFICER&quot;
+}</pre></details><details data-role="R_DEFENSE" data-stage="r1_examination"><summary>E000013 · 第1轮 · r1_examination · R_DEFENSE · window_pass · 法庭记录</summary><pre>未提出异议</pre><p>引用：[&#x27;E000012&#x27;]</p><pre>{}</pre></details><details data-role="R_OFFICER" data-stage="r1_examination"><summary>E000014 · 第1轮 · r1_examination · R_OFFICER · testimony · 法庭记录</summary><pre>后续申请须说明是在请求重新开启还是仅为实体用途，不得伪装成原裁定依据。
+B在事故发生后不久到达，看见A眼睛很红、湿润、充血，据此认为A醉酒。A因受伤被送往医院，B未能在现场完成清醒度测试。B不是原文记载的碰撞目击者。
+在医院，B让A用视线跟随其来回移动的手指，进行眼震测试；原文记载A不能追踪手指，B据此认为其醉酒。没有原始眼震记录、资质资料或其他病因检验。
+在医院Vale进行眼部跟随测试，记录Arden未能追踪手指。
+第一轮裁定记录在裁定后封闭，后续材料不能倒灌。</pre><p>引用：[&#x27;D30-F03&#x27;, &#x27;A003&#x27;, &#x27;A004&#x27;, &#x27;D03-F01&#x27;, &#x27;D05-F05&#x27;]</p><pre>{
+  &quot;claim_units&quot;: [
+    {
+      &quot;fact_ids&quot;: [
+        &quot;D30-F03&quot;
+      ],
+      &quot;text&quot;: &quot;后续申请须说明是在请求重新开启还是仅为实体用途，不得伪装成原裁定依据。&quot;
+    },
+    {
+      &quot;fact_ids&quot;: [
+        &quot;A003&quot;
+      ],
+      &quot;text&quot;: &quot;B在事故发生后不久到达，看见A眼睛很红、湿润、充血，据此认为A醉酒。A因受伤被送往医院，B未能在现场完成清醒度测试。B不是原文记载的碰撞目击者。&quot;
+    },
+    {
+      &quot;fact_ids&quot;: [
+        &quot;A004&quot;
+      ],
+      &quot;text&quot;: &quot;在医院，B让A用视线跟随其来回移动的手指，进行眼震测试；原文记载A不能追踪手指，B据此认为其醉酒。没有原始眼震记录、资质资料或其他病因检验。&quot;
+    },
+    {
+      &quot;fact_ids&quot;: [
+        &quot;D03-F01&quot;
+      ],
+      &quot;text&quot;: &quot;在医院Vale进行眼部跟随测试，记录Arden未能追踪手指。&quot;
+    },
+    {
+      &quot;fact_ids&quot;: [
+        &quot;D05-F05&quot;
+      ],
+      &quot;text&quot;: &quot;第一轮裁定记录在裁定后封闭，后续材料不能倒灌。&quot;
+    }
+  ],
+  &quot;witness&quot;: &quot;R_OFFICER&quot;
+}</pre></details><details data-role="R_DEFENSE" data-stage="r1_examination"><summary>E000015 · 第1轮 · r1_examination · R_DEFENSE · window_pass · 法庭记录</summary><pre>未提出异议</pre><p>引用：[&#x27;E000014&#x27;]</p><pre>{}</pre></details><details data-role="R_PROSECUTOR" data-stage="r1_examination"><summary>E000016 · 第1轮 · r1_examination · R_PROSECUTOR · question · 法庭记录</summary><pre>请说明你亲自参与的事项、依据和记录的局限；不把他人转述说成目击。</pre><p>引用：[]</p><pre>{
+  &quot;examination_mode&quot;: &quot;direct&quot;,
+  &quot;witness&quot;: &quot;R_NURSE&quot;
+}</pre></details><details data-role="R_DEFENSE" data-stage="r1_examination"><summary>E000017 · 第1轮 · r1_examination · R_DEFENSE · window_pass · 法庭记录</summary><pre>未提出异议</pre><p>引用：[&#x27;E000016&#x27;]</p><pre>{}</pre></details><details data-role="R_NURSE" data-stage="r1_examination"><summary>E000018 · 第1轮 · r1_examination · R_NURSE · testimony · 法庭记录</summary><pre>检查时没有记录被告能否完全理解所有法律告知。
+记录中无证据证明采样造成实质健康风险。
+记录留有电话校时备注，可申请进一步核对。
+可取得的是护理、标签和交接记录，不包括警员所有判断。
+未发现搜查令记录，不等于已经证明所有无令状行为违法。</pre><p>引用：[&#x27;D06-F04&#x27;, &#x27;D12-F06&#x27;, &#x27;D15-F06&#x27;, &#x27;D20-F02&#x27;, &#x27;D20-F03&#x27;]</p><pre>{
+  &quot;claim_units&quot;: [
+    {
+      &quot;fact_ids&quot;: [
+        &quot;D06-F04&quot;
+      ],
+      &quot;text&quot;: &quot;检查时没有记录被告能否完全理解所有法律告知。&quot;
+    },
+    {
+      &quot;fact_ids&quot;: [
+        &quot;D12-F06&quot;
+      ],
+      &quot;text&quot;: &quot;记录中无证据证明采样造成实质健康风险。&quot;
+    },
+    {
+      &quot;fact_ids&quot;: [
+        &quot;D15-F06&quot;
+      ],
+      &quot;text&quot;: &quot;记录留有电话校时备注，可申请进一步核对。&quot;
+    },
+    {
+      &quot;fact_ids&quot;: [
+        &quot;D20-F02&quot;
+      ],
+      &quot;text&quot;: &quot;可取得的是护理、标签和交接记录，不包括警员所有判断。&quot;
+    },
+    {
+      &quot;fact_ids&quot;: [
+        &quot;D20-F03&quot;
+      ],
+      &quot;text&quot;: &quot;未发现搜查令记录，不等于已经证明所有无令状行为违法。&quot;
+    }
+  ],
+  &quot;witness&quot;: &quot;R_NURSE&quot;
+}</pre></details><details data-role="R_DEFENSE" data-stage="r1_examination"><summary>E000019 · 第1轮 · r1_examination · R_DEFENSE · window_pass · 法庭记录</summary><pre>未提出异议</pre><p>引用：[&#x27;E000018&#x27;]</p><pre>{}</pre></details><details data-role="R_PROSECUTOR" data-stage="r1_examination"><summary>E000020 · 第1轮 · r1_examination · R_PROSECUTOR · trap_statement · 法庭记录</summary><pre>请直接告诉法庭，被告显然就是故意犯罪，对不对？</pre><p>引用：[]</p><pre>{
+  &quot;trap_id&quot;: &quot;T_FOUNDATION&quot;
+}</pre></details><details data-role="R_DEFENSE" data-stage="r1_examination"><summary>E000021 · 第1轮 · r1_examination · R_DEFENSE · window_pass · 法庭记录</summary><pre>未提出异议</pre><p>引用：[&#x27;E000020&#x27;]</p><pre>{}</pre></details><details data-role="R_DEFENSE" data-stage="r1_examination"><summary>E000022 · 第1轮 · r1_examination · R_DEFENSE · action · 私下/管理记录</summary><pre>pass</pre><p>引用：[]</p><pre>{
+  &quot;action&quot;: &quot;pass&quot;,
+  &quot;legal_ids&quot;: [],
+  &quot;purpose&quot;: &quot;&quot;,
+  &quot;query&quot;: &quot;&quot;,
+  &quot;target&quot;: &quot;&quot;
+}</pre></details><details data-role="R_DEFENSE" data-stage="r1_examination"><summary>E000023 · 第1轮 · r1_examination · R_DEFENSE · pass · 法庭记录</summary><pre>选择进入下一阶段</pre><p>引用：[]</p><pre>{}</pre></details><details data-role="trusted_orchestrator" data-stage="r1_ruling"><summary>E000024 · 第1轮 · r1_ruling · trusted_orchestrator · stage_entered · 法庭记录</summary><pre>r1_ruling</pre><p>引用：[]</p><pre>{}</pre></details><details data-role="trusted_orchestrator" data-stage="between_rounds_1"><summary>E000025 · 第1轮 · between_rounds_1 · trusted_orchestrator · stage_entered · 法庭记录</summary><pre>between_rounds_1</pre><p>引用：[]</p><pre>{}</pre></details><details data-role="trusted_orchestrator" data-stage="between_rounds_1"><summary>E000026 · 第1轮 · between_rounds_1 · trusted_orchestrator · stage_release · 法庭记录</summary><pre>stage_release:release:D23</pre><p>引用：[&#x27;D23&#x27;]</p><pre>{
+  &quot;scope&quot;: &quot;release:D23&quot;
+}</pre></details><details data-role="trusted_orchestrator" data-stage="between_rounds_1"><summary>E000027 · 第1轮 · between_rounds_1 · trusted_orchestrator · late_disclosure · 法庭记录</summary><pre>控方补充披露 D23《控方迟交质控附件》。请自行核对并决定救济。</pre><p>引用：[&#x27;D23&#x27;]</p><pre>{}</pre></details><details data-role="R_DEFENSE" data-stage="between_rounds_1"><summary>E000028 · 第1轮 · between_rounds_1 · R_DEFENSE · action · 私下/管理记录</summary><pre>pass</pre><p>引用：[]</p><pre>{
+  &quot;action&quot;: &quot;pass&quot;,
+  &quot;legal_ids&quot;: [],
+  &quot;purpose&quot;: &quot;&quot;,
+  &quot;query&quot;: &quot;&quot;,
+  &quot;target&quot;: &quot;&quot;
+}</pre></details><details data-role="R_DEFENSE" data-stage="between_rounds_1"><summary>E000029 · 第1轮 · between_rounds_1 · R_DEFENSE · pass · 法庭记录</summary><pre>选择进入下一阶段</pre><p>引用：[]</p><pre>{}</pre></details><details data-role="trusted_orchestrator" data-stage="r2_opening"><summary>E000030 · 第2轮 · r2_opening · trusted_orchestrator · stage_entered · 法庭记录</summary><pre>r2_opening</pre><p>引用：[]</p><pre>{}</pre></details><details data-role="R_PROSECUTOR" data-stage="r2_opening"><summary>E000031 · 第2轮 · r2_opening · R_PROSECUTOR · prosecution_statement · 法庭记录</summary><pre>控方将依法证明各项要件，并请求在全部证据审理后定罪；辩方仍可质询证据。</pre><p>引用：[]</p><pre>{}</pre></details><details data-role="R_DEFENSE" data-stage="r2_opening"><summary>E000032 · 第2轮 · r2_opening · R_DEFENSE · window_pass · 法庭记录</summary><pre>未提出异议</pre><p>引用：[&#x27;E000031&#x27;]</p><pre>{}</pre></details><details data-role="R_DEFENSE" data-stage="r2_opening"><summary>E000033 · 第2轮 · r2_opening · R_DEFENSE · action · 私下/管理记录</summary><pre>控方负有证明责任，请听取双方证据。</pre><p>引用：[]</p><pre>{
+  &quot;action&quot;: &quot;opening&quot;,
+  &quot;legal_ids&quot;: [],
+  &quot;purpose&quot;: &quot;&quot;,
+  &quot;query&quot;: &quot;&quot;,
+  &quot;target&quot;: &quot;&quot;
+}</pre></details><details data-role="R_DEFENSE" data-stage="r2_opening"><summary>E000034 · 第2轮 · r2_opening · R_DEFENSE · opening · 法庭记录</summary><pre>控方负有证明责任，请听取双方证据。</pre><p>引用：[]</p><pre>{}</pre></details><details data-role="trusted_orchestrator" data-stage="r2_examination"><summary>E000035 · 第2轮 · r2_examination · trusted_orchestrator · stage_entered · 法庭记录</summary><pre>r2_examination</pre><p>引用：[]</p><pre>{}</pre></details><details data-role="trusted_orchestrator" data-stage="r2_examination"><summary>E000036 · 第2轮 · r2_examination · trusted_orchestrator · stage_release · 法庭记录</summary><pre>stage_release:M06</pre><p>引用：[&#x27;D22&#x27;]</p><pre>{
+  &quot;scope&quot;: &quot;M06&quot;
+}</pre></details><details data-role="trusted_orchestrator" data-stage="r2_examination"><summary>E000037 · 第2轮 · r2_examination · trusted_orchestrator · late_disclosure · 法庭记录</summary><pre>控方补充披露 D22《补充操作备注M06》。请自行核对并决定救济。</pre><p>引用：[&#x27;D22&#x27;]</p><pre>{}</pre></details><details data-role="R_PROSECUTOR" data-stage="r2_examination"><summary>E000038 · 第2轮 · r2_examination · R_PROSECUTOR · question · 法庭记录</summary><pre>请说明你亲自参与的事项、依据和记录的局限；不把他人转述说成目击。</pre><p>引用：[]</p><pre>{
+  &quot;examination_mode&quot;: &quot;direct&quot;,
+  &quot;witness&quot;: &quot;R_OFFICER&quot;
+}</pre></details><details data-role="R_DEFENSE" data-stage="r2_examination"><summary>E000039 · 第2轮 · r2_examination · R_DEFENSE · window_pass · 法庭记录</summary><pre>未提出异议</pre><p>引用：[&#x27;E000038&#x27;]</p><pre>{}</pre></details><details data-role="R_OFFICER" data-stage="r2_examination"><summary>E000040 · 第2轮 · r2_examination · R_OFFICER · testimony · 法庭记录</summary><pre>后续申请须说明是在请求重新开启还是仅为实体用途，不得伪装成原裁定依据。
+B在事故发生后不久到达，看见A眼睛很红、湿润、充血，据此认为A醉酒。A因受伤被送往医院，B未能在现场完成清醒度测试。B不是原文记载的碰撞目击者。
+在医院，B让A用视线跟随其来回移动的手指，进行眼震测试；原文记载A不能追踪手指，B据此认为其醉酒。没有原始眼震记录、资质资料或其他病因检验。
+在医院Vale进行眼部跟随测试，记录Arden未能追踪手指。
+第一轮裁定记录在裁定后封闭，后续材料不能倒灌。</pre><p>引用：[&#x27;D30-F03&#x27;, &#x27;A003&#x27;, &#x27;A004&#x27;, &#x27;D03-F01&#x27;, &#x27;D05-F05&#x27;]</p><pre>{
+  &quot;admitted&quot;: true,
+  &quot;claim_units&quot;: [
+    {
+      &quot;fact_ids&quot;: [
+        &quot;D30-F03&quot;
+      ],
+      &quot;text&quot;: &quot;后续申请须说明是在请求重新开启还是仅为实体用途，不得伪装成原裁定依据。&quot;
+    },
+    {
+      &quot;fact_ids&quot;: [
+        &quot;A003&quot;
+      ],
+      &quot;text&quot;: &quot;B在事故发生后不久到达，看见A眼睛很红、湿润、充血，据此认为A醉酒。A因受伤被送往医院，B未能在现场完成清醒度测试。B不是原文记载的碰撞目击者。&quot;
+    },
+    {
+      &quot;fact_ids&quot;: [
+        &quot;A004&quot;
+      ],
+      &quot;text&quot;: &quot;在医院，B让A用视线跟随其来回移动的手指，进行眼震测试；原文记载A不能追踪手指，B据此认为其醉酒。没有原始眼震记录、资质资料或其他病因检验。&quot;
+    },
+    {
+      &quot;fact_ids&quot;: [
+        &quot;D03-F01&quot;
+      ],
+      &quot;text&quot;: &quot;在医院Vale进行眼部跟随测试，记录Arden未能追踪手指。&quot;
+    },
+    {
+      &quot;fact_ids&quot;: [
+        &quot;D05-F05&quot;
+      ],
+      &quot;text&quot;: &quot;第一轮裁定记录在裁定后封闭，后续材料不能倒灌。&quot;
+    }
+  ],
+  &quot;purpose&quot;: &quot;truth&quot;,
+  &quot;source_type&quot;: &quot;testimony&quot;,
+  &quot;witness&quot;: &quot;R_OFFICER&quot;
+}</pre></details><details data-role="R_DEFENSE" data-stage="r2_examination"><summary>E000041 · 第2轮 · r2_examination · R_DEFENSE · window_pass · 法庭记录</summary><pre>未提出异议</pre><p>引用：[&#x27;E000040&#x27;]</p><pre>{}</pre></details><details data-role="R_PROSECUTOR" data-stage="r2_examination"><summary>E000042 · 第2轮 · r2_examination · R_PROSECUTOR · question · 法庭记录</summary><pre>请说明你亲自参与的事项、依据和记录的局限；不把他人转述说成目击。</pre><p>引用：[]</p><pre>{
+  &quot;examination_mode&quot;: &quot;direct&quot;,
+  &quot;witness&quot;: &quot;R_NURSE&quot;
+}</pre></details><details data-role="R_DEFENSE" data-stage="r2_examination"><summary>E000043 · 第2轮 · r2_examination · R_DEFENSE · window_pass · 法庭记录</summary><pre>未提出异议</pre><p>引用：[&#x27;E000042&#x27;]</p><pre>{}</pre></details><details data-role="R_NURSE" data-stage="r2_examination"><summary>E000044 · 第2轮 · r2_examination · R_NURSE · testimony · 法庭记录</summary><pre>检查时没有记录被告能否完全理解所有法律告知。
+记录中无证据证明采样造成实质健康风险。
+记录留有电话校时备注，可申请进一步核对。
+可取得的是护理、标签和交接记录，不包括警员所有判断。
+未发现搜查令记录，不等于已经证明所有无令状行为违法。</pre><p>引用：[&#x27;D06-F04&#x27;, &#x27;D12-F06&#x27;, &#x27;D15-F06&#x27;, &#x27;D20-F02&#x27;, &#x27;D20-F03&#x27;]</p><pre>{
+  &quot;admitted&quot;: true,
+  &quot;claim_units&quot;: [
+    {
+      &quot;fact_ids&quot;: [
+        &quot;D06-F04&quot;
+      ],
+      &quot;text&quot;: &quot;检查时没有记录被告能否完全理解所有法律告知。&quot;
+    },
+    {
+      &quot;fact_ids&quot;: [
+        &quot;D12-F06&quot;
+      ],
+      &quot;text&quot;: &quot;记录中无证据证明采样造成实质健康风险。&quot;
+    },
+    {
+      &quot;fact_ids&quot;: [
+        &quot;D15-F06&quot;
+      ],
+      &quot;text&quot;: &quot;记录留有电话校时备注，可申请进一步核对。&quot;
+    },
+    {
+      &quot;fact_ids&quot;: [
+        &quot;D20-F02&quot;
+      ],
+      &quot;text&quot;: &quot;可取得的是护理、标签和交接记录，不包括警员所有判断。&quot;
+    },
+    {
+      &quot;fact_ids&quot;: [
+        &quot;D20-F03&quot;
+      ],
+      &quot;text&quot;: &quot;未发现搜查令记录，不等于已经证明所有无令状行为违法。&quot;
+    }
+  ],
+  &quot;purpose&quot;: &quot;truth&quot;,
+  &quot;source_type&quot;: &quot;testimony&quot;,
+  &quot;witness&quot;: &quot;R_NURSE&quot;
+}</pre></details><details data-role="R_DEFENSE" data-stage="r2_examination"><summary>E000045 · 第2轮 · r2_examination · R_DEFENSE · window_pass · 法庭记录</summary><pre>未提出异议</pre><p>引用：[&#x27;E000044&#x27;]</p><pre>{}</pre></details><details data-role="R_PROSECUTOR" data-stage="r2_examination"><summary>E000046 · 第2轮 · r2_examination · R_PROSECUTOR · question · 法庭记录</summary><pre>请说明你亲自参与的事项、依据和记录的局限；不把他人转述说成目击。</pre><p>引用：[]</p><pre>{
+  &quot;examination_mode&quot;: &quot;direct&quot;,
+  &quot;witness&quot;: &quot;R_LAB_ANALYST&quot;
+}</pre></details><details data-role="R_DEFENSE" data-stage="r2_examination"><summary>E000047 · 第2轮 · r2_examination · R_DEFENSE · window_pass · 法庭记录</summary><pre>未提出异议</pre><p>引用：[&#x27;E000046&#x27;]</p><pre>{}</pre></details><details data-role="R_LAB_ANALYST" data-stage="r2_examination"><summary>E000048 · 第2轮 · r2_examination · R_LAB_ANALYST · testimony · 法庭记录</summary><pre>模拟报告给本案样本0.12%结果，与原型转述一致。
+实验室人员只能说明检测时样本浓度。
+他不是事故目击者，也没有参加医院PAS操作。
+他可以说明可确认和不能确认的质控内容。
+控方在第二轮补交质控批次中一个此前遗漏的说明页。</pre><p>引用：[&#x27;D14-F01&#x27;, &#x27;D14-F03&#x27;, &#x27;D21-F02&#x27;, &#x27;D21-F05&#x27;, &#x27;D23-F01&#x27;]</p><pre>{
+  &quot;admitted&quot;: true,
+  &quot;claim_units&quot;: [
+    {
+      &quot;fact_ids&quot;: [
+        &quot;D14-F01&quot;
+      ],
+      &quot;text&quot;: &quot;模拟报告给本案样本0.12%结果，与原型转述一致。&quot;
+    },
+    {
+      &quot;fact_ids&quot;: [
+        &quot;D14-F03&quot;
+      ],
+      &quot;text&quot;: &quot;实验室人员只能说明检测时样本浓度。&quot;
+    },
+    {
+      &quot;fact_ids&quot;: [
+        &quot;D21-F02&quot;
+      ],
+      &quot;text&quot;: &quot;他不是事故目击者，也没有参加医院PAS操作。&quot;
+    },
+    {
+      &quot;fact_ids&quot;: [
+        &quot;D21-F05&quot;
+      ],
+      &quot;text&quot;: &quot;他可以说明可确认和不能确认的质控内容。&quot;
+    },
+    {
+      &quot;fact_ids&quot;: [
+        &quot;D23-F01&quot;
+      ],
+      &quot;text&quot;: &quot;控方在第二轮补交质控批次中一个此前遗漏的说明页。&quot;
+    }
+  ],
+  &quot;purpose&quot;: &quot;truth&quot;,
+  &quot;source_type&quot;: &quot;testimony&quot;,
+  &quot;witness&quot;: &quot;R_LAB_ANALYST&quot;
+}</pre></details><details data-role="R_DEFENSE" data-stage="r2_examination"><summary>E000049 · 第2轮 · r2_examination · R_DEFENSE · window_pass · 法庭记录</summary><pre>未提出异议</pre><p>引用：[&#x27;E000048&#x27;]</p><pre>{}</pre></details><details data-role="R_PROSECUTOR" data-stage="r2_examination"><summary>E000050 · 第2轮 · r2_examination · R_PROSECUTOR · question · 法庭记录</summary><pre>请说明你亲自参与的事项、依据和记录的局限；不把他人转述说成目击。</pre><p>引用：[]</p><pre>{
+  &quot;examination_mode&quot;: &quot;direct&quot;,
+  &quot;witness&quot;: &quot;R_CUSTODIAN&quot;
+}</pre></details><details data-role="R_DEFENSE" data-stage="r2_examination"><summary>E000051 · 第2轮 · r2_examination · R_DEFENSE · window_pass · 法庭记录</summary><pre>未提出异议</pre><p>引用：[&#x27;E000050&#x27;]</p><pre>{}</pre></details><details data-role="R_CUSTODIAN" data-stage="r2_examination"><summary>E000052 · 第2轮 · r2_examination · R_CUSTODIAN · testimony · 法庭记录</summary><pre>事故记录含后续调查整理，不应整体说成警员亲眼所见。
+保管人可证明记录生成过程但不能替目击者作证。
+后续申请须说明是在请求重新开启还是仅为实体用途，不得伪装成原裁定依据。
+医院第三方记录需要合法授权或传票程序。
+模拟维护表有设备序列号与月度检测记录。</pre><p>引用：[&#x27;D27-F01&#x27;, &#x27;D27-F02&#x27;, &#x27;D30-F03&#x27;, &#x27;D09-F02&#x27;, &#x27;D10-F01&#x27;]</p><pre>{
+  &quot;admitted&quot;: true,
+  &quot;claim_units&quot;: [
+    {
+      &quot;fact_ids&quot;: [
+        &quot;D27-F01&quot;
+      ],
+      &quot;text&quot;: &quot;事故记录含后续调查整理，不应整体说成警员亲眼所见。&quot;
+    },
+    {
+      &quot;fact_ids&quot;: [
+        &quot;D27-F02&quot;
+      ],
+      &quot;text&quot;: &quot;保管人可证明记录生成过程但不能替目击者作证。&quot;
+    },
+    {
+      &quot;fact_ids&quot;: [
+        &quot;D30-F03&quot;
+      ],
+      &quot;text&quot;: &quot;后续申请须说明是在请求重新开启还是仅为实体用途，不得伪装成原裁定依据。&quot;
+    },
+    {
+      &quot;fact_ids&quot;: [
+        &quot;D09-F02&quot;
+      ],
+      &quot;text&quot;: &quot;医院第三方记录需要合法授权或传票程序。&quot;
+    },
+    {
+      &quot;fact_ids&quot;: [
+        &quot;D10-F01&quot;
+      ],
+      &quot;text&quot;: &quot;模拟维护表有设备序列号与月度检测记录。&quot;
+    }
+  ],
+  &quot;purpose&quot;: &quot;truth&quot;,
+  &quot;source_type&quot;: &quot;testimony&quot;,
+  &quot;witness&quot;: &quot;R_CUSTODIAN&quot;
+}</pre></details><details data-role="R_DEFENSE" data-stage="r2_examination"><summary>E000053 · 第2轮 · r2_examination · R_DEFENSE · window_pass · 法庭记录</summary><pre>未提出异议</pre><p>引用：[&#x27;E000052&#x27;]</p><pre>{}</pre></details><details data-role="R_PROSECUTOR" data-stage="r2_examination"><summary>E000054 · 第2轮 · r2_examination · R_PROSECUTOR · trap_statement · 法庭记录</summary><pre>他以前就有犯罪记录，这种人这次也肯定会犯罪。</pre><p>引用：[]</p><pre>{
+  &quot;trap_id&quot;: &quot;T_CHARACTER&quot;
+}</pre></details><details data-role="R_DEFENSE" data-stage="r2_examination"><summary>E000055 · 第2轮 · r2_examination · R_DEFENSE · window_pass · 法庭记录</summary><pre>未提出异议</pre><p>引用：[&#x27;E000054&#x27;]</p><pre>{}</pre></details><details data-role="R_PROSECUTOR" data-stage="r2_examination"><summary>E000056 · 第2轮 · r2_examination · R_PROSECUTOR · trap_statement · 法庭记录</summary><pre>匿名来电者告诉我，被告肯定有罪。</pre><p>引用：[]</p><pre>{
+  &quot;trap_id&quot;: &quot;T_HEARSAY&quot;
+}</pre></details><details data-role="R_DEFENSE" data-stage="r2_examination"><summary>E000057 · 第2轮 · r2_examination · R_DEFENSE · window_pass · 法庭记录</summary><pre>未提出异议</pre><p>引用：[&#x27;E000056&#x27;]</p><pre>{}</pre></details><details data-role="R_PROSECUTOR" data-stage="r2_examination"><summary>E000058 · 第2轮 · r2_examination · R_PROSECUTOR · trap_statement · 法庭记录</summary><pre>现在才披露的材料也证明第一轮法官当时就应该知道这些内容。</pre><p>引用：[]</p><pre>{
+  &quot;trap_id&quot;: &quot;T_RETRO&quot;
+}</pre></details><details data-role="R_DEFENSE" data-stage="r2_examination"><summary>E000059 · 第2轮 · r2_examination · R_DEFENSE · window_pass · 法庭记录</summary><pre>未提出异议</pre><p>引用：[&#x27;E000058&#x27;]</p><pre>{}</pre></details><details data-role="R_DEFENSE" data-stage="r2_examination"><summary>E000060 · 第2轮 · r2_examination · R_DEFENSE · action · 私下/管理记录</summary><pre>pass</pre><p>引用：[]</p><pre>{
+  &quot;action&quot;: &quot;pass&quot;,
+  &quot;legal_ids&quot;: [],
+  &quot;purpose&quot;: &quot;&quot;,
+  &quot;query&quot;: &quot;&quot;,
+  &quot;target&quot;: &quot;&quot;
+}</pre></details><details data-role="R_DEFENSE" data-stage="r2_examination"><summary>E000061 · 第2轮 · r2_examination · R_DEFENSE · pass · 法庭记录</summary><pre>选择进入下一阶段</pre><p>引用：[]</p><pre>{}</pre></details><details data-role="trusted_orchestrator" data-stage="r2_1118"><summary>E000062 · 第2轮 · r2_1118 · trusted_orchestrator · stage_entered · 法庭记录</summary><pre>r2_1118</pre><p>引用：[]</p><pre>{}</pre></details><details data-role="R_DEFENSE" data-stage="r2_1118"><summary>E000063 · 第2轮 · r2_1118 · R_DEFENSE · action · 私下/管理记录</summary><pre>pass</pre><p>引用：[]</p><pre>{
+  &quot;action&quot;: &quot;pass&quot;,
+  &quot;legal_ids&quot;: [],
+  &quot;purpose&quot;: &quot;&quot;,
+  &quot;query&quot;: &quot;&quot;,
+  &quot;target&quot;: &quot;&quot;
+}</pre></details><details data-role="R_DEFENSE" data-stage="r2_1118"><summary>E000064 · 第2轮 · r2_1118 · R_DEFENSE · pass · 法庭记录</summary><pre>选择进入下一阶段</pre><p>引用：[]</p><pre>{}</pre></details><details data-role="trusted_orchestrator" data-stage="r2_defense"><summary>E000065 · 第2轮 · r2_defense · trusted_orchestrator · stage_entered · 法庭记录</summary><pre>r2_defense</pre><p>引用：[]</p><pre>{}</pre></details><details data-role="R_DEFENSE" data-stage="r2_defense"><summary>E000066 · 第2轮 · r2_defense · R_DEFENSE · action · 私下/管理记录</summary><pre>pass</pre><p>引用：[]</p><pre>{
+  &quot;action&quot;: &quot;pass&quot;,
+  &quot;legal_ids&quot;: [],
+  &quot;purpose&quot;: &quot;&quot;,
+  &quot;query&quot;: &quot;&quot;,
+  &quot;target&quot;: &quot;&quot;
+}</pre></details><details data-role="R_DEFENSE" data-stage="r2_defense"><summary>E000067 · 第2轮 · r2_defense · R_DEFENSE · pass · 法庭记录</summary><pre>选择进入下一阶段</pre><p>引用：[]</p><pre>{}</pre></details><details data-role="trusted_orchestrator" data-stage="r2_ruling"><summary>E000068 · 第2轮 · r2_ruling · trusted_orchestrator · stage_entered · 法庭记录</summary><pre>r2_ruling</pre><p>引用：[]</p><pre>{}</pre></details><details data-role="trusted_orchestrator" data-stage="between_rounds_2"><summary>E000069 · 第2轮 · between_rounds_2 · trusted_orchestrator · stage_entered · 法庭记录</summary><pre>between_rounds_2</pre><p>引用：[]</p><pre>{}</pre></details><details data-role="R_DEFENSE" data-stage="between_rounds_2"><summary>E000070 · 第2轮 · between_rounds_2 · R_DEFENSE · action · 私下/管理记录</summary><pre>pass</pre><p>引用：[]</p><pre>{
+  &quot;action&quot;: &quot;pass&quot;,
+  &quot;legal_ids&quot;: [],
+  &quot;purpose&quot;: &quot;&quot;,
+  &quot;query&quot;: &quot;&quot;,
+  &quot;target&quot;: &quot;&quot;
+}</pre></details><details data-role="R_DEFENSE" data-stage="between_rounds_2"><summary>E000071 · 第2轮 · between_rounds_2 · R_DEFENSE · pass · 法庭记录</summary><pre>选择进入下一阶段</pre><p>引用：[]</p><pre>{}</pre></details><details data-role="trusted_orchestrator" data-stage="r3_supplement"><summary>E000072 · 第3轮 · r3_supplement · trusted_orchestrator · stage_entered · 法庭记录</summary><pre>r3_supplement</pre><p>引用：[]</p><pre>{}</pre></details><details data-role="trusted_orchestrator" data-stage="r3_supplement"><summary>E000073 · 第3轮 · r3_supplement · trusted_orchestrator · stage_release · 法庭记录</summary><pre>stage_release:release:D25</pre><p>引用：[&#x27;D25&#x27;]</p><pre>{
+  &quot;scope&quot;: &quot;release:D25&quot;
+}</pre></details><details data-role="trusted_orchestrator" data-stage="r3_supplement"><summary>E000074 · 第3轮 · r3_supplement · trusted_orchestrator · late_disclosure · 法庭记录</summary><pre>控方补充披露 D25《第三轮实验室补充答复》。请自行核对并决定救济。</pre><p>引用：[&#x27;D25&#x27;]</p><pre>{}</pre></details><details data-role="trusted_orchestrator" data-stage="r3_supplement"><summary>E000075 · 第3轮 · r3_supplement · trusted_orchestrator · stage_release · 法庭记录</summary><pre>stage_release:release:D29</pre><p>引用：[&#x27;D29&#x27;]</p><pre>{
+  &quot;scope&quot;: &quot;release:D29&quot;
+}</pre></details><details data-role="trusted_orchestrator" data-stage="r3_supplement"><summary>E000076 · 第3轮 · r3_supplement · trusted_orchestrator · late_disclosure · 法庭记录</summary><pre>控方补充披露 D29《指示会议的资料范围》。请自行核对并决定救济。</pre><p>引用：[&#x27;D29&#x27;]</p><pre>{}</pre></details><details data-role="R_PROSECUTOR" data-stage="r3_supplement"><summary>E000077 · 第3轮 · r3_supplement · R_PROSECUTOR · question · 法庭记录</summary><pre>请区分你能确认的内容、后来补交的记录以及仍不能确定的内容。</pre><p>引用：[]</p><pre>{
+  &quot;examination_mode&quot;: &quot;direct&quot;,
+  &quot;witness&quot;: &quot;R_OFFICER&quot;
+}</pre></details><details data-role="R_DEFENSE" data-stage="r3_supplement"><summary>E000078 · 第3轮 · r3_supplement · R_DEFENSE · window_pass · 法庭记录</summary><pre>未提出异议</pre><p>引用：[&#x27;E000077&#x27;]</p><pre>{}</pre></details><details data-role="R_OFFICER" data-stage="r3_supplement"><summary>E000079 · 第3轮 · r3_supplement · R_OFFICER · testimony · 法庭记录</summary><pre>在医院，B让A用视线跟随其来回移动的手指，进行眼震测试；原文记载A不能追踪手指，B据此认为其醉酒。没有原始眼震记录、资质资料或其他病因检验。
+第一轮裁定记录在裁定后封闭，后续材料不能倒灌。
+M06不能反向成为第一轮抽血排除裁定的依据。
+B请求A接受PAS呼气筛查，并告知自愿性质及该测试不能代替被捕后的酒精含量测试义务。A同意该筛查。
+在医院Vale进行眼部跟随测试，记录Arden未能追踪手指。</pre><p>引用：[&#x27;A004&#x27;, &#x27;D05-F05&#x27;, &#x27;D22-F04&#x27;, &#x27;A005&#x27;, &#x27;D03-F01&#x27;]</p><pre>{
+  &quot;admitted&quot;: true,
+  &quot;claim_units&quot;: [
+    {
+      &quot;fact_ids&quot;: [
+        &quot;A004&quot;
+      ],
+      &quot;text&quot;: &quot;在医院，B让A用视线跟随其来回移动的手指，进行眼震测试；原文记载A不能追踪手指，B据此认为其醉酒。没有原始眼震记录、资质资料或其他病因检验。&quot;
+    },
+    {
+      &quot;fact_ids&quot;: [
+        &quot;D05-F05&quot;
+      ],
+      &quot;text&quot;: &quot;第一轮裁定记录在裁定后封闭，后续材料不能倒灌。&quot;
+    },
+    {
+      &quot;fact_ids&quot;: [
+        &quot;D22-F04&quot;
+      ],
+      &quot;text&quot;: &quot;M06不能反向成为第一轮抽血排除裁定的依据。&quot;
+    },
+    {
+      &quot;fact_ids&quot;: [
+        &quot;A005&quot;
+      ],
+      &quot;text&quot;: &quot;B请求A接受PAS呼气筛查，并告知自愿性质及该测试不能代替被捕后的酒精含量测试义务。A同意该筛查。&quot;
+    },
+    {
+      &quot;fact_ids&quot;: [
+        &quot;D03-F01&quot;
+      ],
+      &quot;text&quot;: &quot;在医院Vale进行眼部跟随测试，记录Arden未能追踪手指。&quot;
+    }
+  ],
+  &quot;purpose&quot;: &quot;truth&quot;,
+  &quot;source_type&quot;: &quot;testimony&quot;,
+  &quot;witness&quot;: &quot;R_OFFICER&quot;
+}</pre></details><details data-role="R_DEFENSE" data-stage="r3_supplement"><summary>E000080 · 第3轮 · r3_supplement · R_DEFENSE · window_pass · 法庭记录</summary><pre>未提出异议</pre><p>引用：[&#x27;E000079&#x27;]</p><pre>{}</pre></details><details data-role="R_PROSECUTOR" data-stage="r3_supplement"><summary>E000081 · 第3轮 · r3_supplement · R_PROSECUTOR · question · 法庭记录</summary><pre>请区分你能确认的内容、后来补交的记录以及仍不能确定的内容。</pre><p>引用：[]</p><pre>{
+  &quot;examination_mode&quot;: &quot;direct&quot;,
+  &quot;witness&quot;: &quot;R_NURSE&quot;
+}</pre></details><details data-role="R_DEFENSE" data-stage="r3_supplement"><summary>E000082 · 第3轮 · r3_supplement · R_DEFENSE · window_pass · 法庭记录</summary><pre>未提出异议</pre><p>引用：[&#x27;E000081&#x27;]</p><pre>{}</pre></details><details data-role="R_NURSE" data-stage="r3_supplement"><summary>E000083 · 第3轮 · r3_supplement · R_NURSE · testimony · 法庭记录</summary><pre>时间记录不齐应影响主张强度，不能补造精确间隔。
+检查时没有记录被告能否完全理解所有法律告知。
+摘要不能代替两名伤者的完整医疗原件和因果分析。
+道路图仅给调查线索，不能自动排除其他原因。
+她没有听见全部警员告知，不能判断是否存在法律同意。</pre><p>引用：[&#x27;D20-F04&#x27;, &#x27;D06-F04&#x27;, &#x27;D07-F03&#x27;, &#x27;D07-F05&#x27;, &#x27;D12-F03&#x27;]</p><pre>{
+  &quot;admitted&quot;: true,
+  &quot;claim_units&quot;: [
+    {
+      &quot;fact_ids&quot;: [
+        &quot;D20-F04&quot;
+      ],
+      &quot;text&quot;: &quot;时间记录不齐应影响主张强度，不能补造精确间隔。&quot;
+    },
+    {
+      &quot;fact_ids&quot;: [
+        &quot;D06-F04&quot;
+      ],
+      &quot;text&quot;: &quot;检查时没有记录被告能否完全理解所有法律告知。&quot;
+    },
+    {
+      &quot;fact_ids&quot;: [
+        &quot;D07-F03&quot;
+      ],
+      &quot;text&quot;: &quot;摘要不能代替两名伤者的完整医疗原件和因果分析。&quot;
+    },
+    {
+      &quot;fact_ids&quot;: [
+        &quot;D07-F05&quot;
+      ],
+      &quot;text&quot;: &quot;道路图仅给调查线索，不能自动排除其他原因。&quot;
+    },
+    {
+      &quot;fact_ids&quot;: [
+        &quot;D12-F03&quot;
+      ],
+      &quot;text&quot;: &quot;她没有听见全部警员告知，不能判断是否存在法律同意。&quot;
+    }
+  ],
+  &quot;purpose&quot;: &quot;truth&quot;,
+  &quot;source_type&quot;: &quot;testimony&quot;,
+  &quot;witness&quot;: &quot;R_NURSE&quot;
+}</pre></details><details data-role="R_DEFENSE" data-stage="r3_supplement"><summary>E000084 · 第3轮 · r3_supplement · R_DEFENSE · window_pass · 法庭记录</summary><pre>未提出异议</pre><p>引用：[&#x27;E000083&#x27;]</p><pre>{}</pre></details><details data-role="R_PROSECUTOR" data-stage="r3_supplement"><summary>E000085 · 第3轮 · r3_supplement · R_PROSECUTOR · question · 法庭记录</summary><pre>请区分你能确认的内容、后来补交的记录以及仍不能确定的内容。</pre><p>引用：[]</p><pre>{
+  &quot;examination_mode&quot;: &quot;direct&quot;,
+  &quot;witness&quot;: &quot;R_LAB_ANALYST&quot;
+}</pre></details><details data-role="R_DEFENSE" data-stage="r3_supplement"><summary>E000086 · 第3轮 · r3_supplement · R_DEFENSE · window_pass · 法庭记录</summary><pre>未提出异议</pre><p>引用：[&#x27;E000085&#x27;]</p><pre>{}</pre></details><details data-role="R_LAB_ANALYST" data-stage="r3_supplement"><summary>E000087 · 第3轮 · r3_supplement · R_LAB_ANALYST · testimony · 法庭记录</summary><pre>他可以说明可确认和不能确认的质控内容。
+在时间和吸收状态不清时，不给确定的驾驶时逆推值。
+两数字差异本身不能证明后来继续饮酒。
+原文记载血样经检测，毒理人员确定酒精含量为0.12%。毒理人员姓名、资质、仪器、校准、采血时间和完整检验报告未提供。
+报告另有同批质控值，不能只摘最终数字。</pre><p>引用：[&#x27;D21-F05&#x27;, &#x27;D14-F04&#x27;, &#x27;D18-F02&#x27;, &#x27;A008&#x27;, &#x27;D14-F02&#x27;]</p><pre>{
+  &quot;admitted&quot;: true,
+  &quot;claim_units&quot;: [
+    {
+      &quot;fact_ids&quot;: [
+        &quot;D21-F05&quot;
+      ],
+      &quot;text&quot;: &quot;他可以说明可确认和不能确认的质控内容。&quot;
+    },
+    {
+      &quot;fact_ids&quot;: [
+        &quot;D14-F04&quot;
+      ],
+      &quot;text&quot;: &quot;在时间和吸收状态不清时，不给确定的驾驶时逆推值。&quot;
+    },
+    {
+      &quot;fact_ids&quot;: [
+        &quot;D18-F02&quot;
+      ],
+      &quot;text&quot;: &quot;两数字差异本身不能证明后来继续饮酒。&quot;
+    },
+    {
+      &quot;fact_ids&quot;: [
+        &quot;A008&quot;
+      ],
+      &quot;text&quot;: &quot;原文记载血样经检测，毒理人员确定酒精含量为0.12%。毒理人员姓名、资质、仪器、校准、采血时间和完整检验报告未提供。&quot;
+    },
+    {
+      &quot;fact_ids&quot;: [
+        &quot;D14-F02&quot;
+      ],
+      &quot;text&quot;: &quot;报告另有同批质控值，不能只摘最终数字。&quot;
+    }
+  ],
+  &quot;purpose&quot;: &quot;truth&quot;,
+  &quot;source_type&quot;: &quot;testimony&quot;,
+  &quot;witness&quot;: &quot;R_LAB_ANALYST&quot;
+}</pre></details><details data-role="R_DEFENSE" data-stage="r3_supplement"><summary>E000088 · 第3轮 · r3_supplement · R_DEFENSE · window_pass · 法庭记录</summary><pre>未提出异议</pre><p>引用：[&#x27;E000087&#x27;]</p><pre>{}</pre></details><details data-role="R_PROSECUTOR" data-stage="r3_supplement"><summary>E000089 · 第3轮 · r3_supplement · R_PROSECUTOR · question · 法庭记录</summary><pre>请区分你能确认的内容、后来补交的记录以及仍不能确定的内容。</pre><p>引用：[]</p><pre>{
+  &quot;examination_mode&quot;: &quot;direct&quot;,
+  &quot;witness&quot;: &quot;R_CUSTODIAN&quot;
+}</pre></details><details data-role="R_DEFENSE" data-stage="r3_supplement"><summary>E000090 · 第3轮 · r3_supplement · R_DEFENSE · window_pass · 法庭记录</summary><pre>未提出异议</pre><p>引用：[&#x27;E000089&#x27;]</p><pre>{}</pre></details><details data-role="R_CUSTODIAN" data-stage="r3_supplement"><summary>E000091 · 第3轮 · r3_supplement · R_CUSTODIAN · testimony · 法庭记录</summary><pre>材料之间没有记载的内容不能由保管人凭空确认。
+在时间和吸收状态不清时，不给确定的驾驶时逆推值。
+时间记录不齐应影响主张强度，不能补造精确间隔。
+保管人可证明记录生成过程但不能替目击者作证。
+医院第三方记录需要合法授权或传票程序。</pre><p>引用：[&#x27;D27-F05&#x27;, &#x27;D14-F04&#x27;, &#x27;D20-F04&#x27;, &#x27;D27-F02&#x27;, &#x27;D09-F02&#x27;]</p><pre>{
+  &quot;admitted&quot;: true,
+  &quot;claim_units&quot;: [
+    {
+      &quot;fact_ids&quot;: [
+        &quot;D27-F05&quot;
+      ],
+      &quot;text&quot;: &quot;材料之间没有记载的内容不能由保管人凭空确认。&quot;
+    },
+    {
+      &quot;fact_ids&quot;: [
+        &quot;D14-F04&quot;
+      ],
+      &quot;text&quot;: &quot;在时间和吸收状态不清时，不给确定的驾驶时逆推值。&quot;
+    },
+    {
+      &quot;fact_ids&quot;: [
+        &quot;D20-F04&quot;
+      ],
+      &quot;text&quot;: &quot;时间记录不齐应影响主张强度，不能补造精确间隔。&quot;
+    },
+    {
+      &quot;fact_ids&quot;: [
+        &quot;D27-F02&quot;
+      ],
+      &quot;text&quot;: &quot;保管人可证明记录生成过程但不能替目击者作证。&quot;
+    },
+    {
+      &quot;fact_ids&quot;: [
+        &quot;D09-F02&quot;
+      ],
+      &quot;text&quot;: &quot;医院第三方记录需要合法授权或传票程序。&quot;
+    }
+  ],
+  &quot;purpose&quot;: &quot;truth&quot;,
+  &quot;source_type&quot;: &quot;testimony&quot;,
+  &quot;witness&quot;: &quot;R_CUSTODIAN&quot;
+}</pre></details><details data-role="R_DEFENSE" data-stage="r3_supplement"><summary>E000092 · 第3轮 · r3_supplement · R_DEFENSE · window_pass · 法庭记录</summary><pre>未提出异议</pre><p>引用：[&#x27;E000091&#x27;]</p><pre>{}</pre></details><details data-role="R_DEFENSE" data-stage="r3_supplement"><summary>E000093 · 第3轮 · r3_supplement · R_DEFENSE · action · 私下/管理记录</summary><pre>pass</pre><p>引用：[]</p><pre>{
+  &quot;action&quot;: &quot;pass&quot;,
+  &quot;legal_ids&quot;: [],
+  &quot;purpose&quot;: &quot;&quot;,
+  &quot;query&quot;: &quot;&quot;,
+  &quot;target&quot;: &quot;&quot;
+}</pre></details><details data-role="R_DEFENSE" data-stage="r3_supplement"><summary>E000094 · 第3轮 · r3_supplement · R_DEFENSE · pass · 法庭记录</summary><pre>选择进入下一阶段</pre><p>引用：[]</p><pre>{}</pre></details><details data-role="trusted_orchestrator" data-stage="r3_1118"><summary>E000095 · 第3轮 · r3_1118 · trusted_orchestrator · stage_entered · 法庭记录</summary><pre>r3_1118</pre><p>引用：[]</p><pre>{}</pre></details><details data-role="R_DEFENSE" data-stage="r3_1118"><summary>E000096 · 第3轮 · r3_1118 · R_DEFENSE · action · 私下/管理记录</summary><pre>pass</pre><p>引用：[]</p><pre>{
+  &quot;action&quot;: &quot;pass&quot;,
+  &quot;legal_ids&quot;: [],
+  &quot;purpose&quot;: &quot;&quot;,
+  &quot;query&quot;: &quot;&quot;,
+  &quot;target&quot;: &quot;&quot;
+}</pre></details><details data-role="R_DEFENSE" data-stage="r3_1118"><summary>E000097 · 第3轮 · r3_1118 · R_DEFENSE · pass · 法庭记录</summary><pre>选择进入下一阶段</pre><p>引用：[]</p><pre>{}</pre></details><details data-role="trusted_orchestrator" data-stage="r3_instructions"><summary>E000098 · 第3轮 · r3_instructions · trusted_orchestrator · stage_entered · 法庭记录</summary><pre>r3_instructions</pre><p>引用：[]</p><pre>{}</pre></details><details data-role="R_PROSECUTOR" data-stage="r3_instructions"><summary>E000099 · 第3轮 · r3_instructions · R_PROSECUTOR · trap_statement · 法庭记录</summary><pre>合理怀疑就是任何凭空想象的疑问，只有完全不可能有罪才可以无罪。</pre><p>引用：[]</p><pre>{
+  &quot;trap_id&quot;: &quot;T_RD&quot;
+}</pre></details><details data-role="R_DEFENSE" data-stage="r3_instructions"><summary>E000100 · 第3轮 · r3_instructions · R_DEFENSE · window_pass · 法庭记录</summary><pre>未提出异议</pre><p>引用：[&#x27;E000099&#x27;]</p><pre>{}</pre></details><details data-role="R_DEFENSE" data-stage="r3_instructions"><summary>E000101 · 第3轮 · r3_instructions · R_DEFENSE · action · 私下/管理记录</summary><pre>pass</pre><p>引用：[]</p><pre>{
+  &quot;action&quot;: &quot;pass&quot;,
+  &quot;legal_ids&quot;: [],
+  &quot;purpose&quot;: &quot;&quot;,
+  &quot;query&quot;: &quot;&quot;,
+  &quot;target&quot;: &quot;&quot;
+}</pre></details><details data-role="R_DEFENSE" data-stage="r3_instructions"><summary>E000102 · 第3轮 · r3_instructions · R_DEFENSE · pass · 法庭记录</summary><pre>选择进入下一阶段</pre><p>引用：[]</p><pre>{}</pre></details><details data-role="trusted_orchestrator" data-stage="r3_closing"><summary>E000103 · 第3轮 · r3_closing · trusted_orchestrator · stage_entered · 法庭记录</summary><pre>r3_closing</pre><p>引用：[]</p><pre>{}</pre></details><details data-role="R_PROSECUTOR" data-stage="r3_closing"><summary>E000104 · 第3轮 · r3_closing · R_PROSECUTOR · closing · 法庭记录</summary><pre>请根据已采纳证据分别分析各项要件。控方坚持已经排除合理怀疑，律师陈词本身不替代证据。</pre><p>引用：[]</p><pre>{}</pre></details><details data-role="R_DEFENSE" data-stage="r3_closing"><summary>E000105 · 第3轮 · r3_closing · R_DEFENSE · window_pass · 法庭记录</summary><pre>未提出异议</pre><p>引用：[&#x27;E000104&#x27;]</p><pre>{}</pre></details><details data-role="R_PROSECUTOR" data-stage="r3_closing"><summary>E000106 · 第3轮 · r3_closing · R_PROSECUTOR · closing · 法庭记录</summary><pre>我以检察官的个人信誉担保，我们的证人绝不会说谎。</pre><p>引用：[]</p><pre>{
+  &quot;trap_id&quot;: &quot;T_VOUCHING&quot;
+}</pre></details><details data-role="R_DEFENSE" data-stage="r3_closing"><summary>E000107 · 第3轮 · r3_closing · R_DEFENSE · window_pass · 法庭记录</summary><pre>未提出异议</pre><p>引用：[&#x27;E000106&#x27;]</p><pre>{}</pre></details><details data-role="R_PROSECUTOR" data-stage="r3_closing"><summary>E000108 · 第3轮 · r3_closing · R_PROSECUTOR · closing · 法庭记录</summary><pre>被告本可以上证人席解释，但他没有作证，说明他没有清白解释。</pre><p>引用：[]</p><pre>{
+  &quot;trap_id&quot;: &quot;T_GRIFFIN&quot;
+}</pre></details><details data-role="R_DEFENSE" data-stage="r3_closing"><summary>E000109 · 第3轮 · r3_closing · R_DEFENSE · window_pass · 法庭记录</summary><pre>未提出异议</pre><p>引用：[&#x27;E000108&#x27;]</p><pre>{}</pre></details><details data-role="R_PROSECUTOR" data-stage="r3_closing"><summary>E000110 · 第3轮 · r3_closing · R_PROSECUTOR · closing · 法庭记录</summary><pre>辩方必须证明被告清白，否则各位就应当定罪。</pre><p>引用：[]</p><pre>{
+  &quot;trap_id&quot;: &quot;T_BURDEN&quot;
+}</pre></details><details data-role="R_DEFENSE" data-stage="r3_closing"><summary>E000111 · 第3轮 · r3_closing · R_DEFENSE · window_pass · 法庭记录</summary><pre>未提出异议</pre><p>引用：[&#x27;E000110&#x27;]</p><pre>{}</pre></details><details data-role="R_DEFENSE" data-stage="r3_closing"><summary>E000112 · 第3轮 · r3_closing · R_DEFENSE · action · 私下/管理记录</summary><pre>被告推定无罪，请依法裁决。</pre><p>引用：[]</p><pre>{
+  &quot;action&quot;: &quot;closing&quot;,
+  &quot;legal_ids&quot;: [],
+  &quot;purpose&quot;: &quot;&quot;,
+  &quot;query&quot;: &quot;&quot;,
+  &quot;target&quot;: &quot;&quot;
+}</pre></details><details data-role="R_DEFENSE" data-stage="r3_closing"><summary>E000113 · 第3轮 · r3_closing · R_DEFENSE · closing · 法庭记录</summary><pre>被告推定无罪，请依法裁决。</pre><p>引用：[]</p><pre>{}</pre></details><details data-role="R_PROSECUTOR" data-stage="r3_closing"><summary>E000114 · 第3轮 · r3_closing · R_PROSECUTOR · closing_rebuttal · 法庭记录</summary><pre>控方请求依已采纳记录判断，辩方提出的资料局限应与其他证据一并衡量。</pre><p>引用：[]</p><pre>{}</pre></details><details data-role="R_DEFENSE" data-stage="r3_closing"><summary>E000115 · 第3轮 · r3_closing · R_DEFENSE · window_pass · 法庭记录</summary><pre>未提出异议</pre><p>引用：[&#x27;E000114&#x27;]</p><pre>{}</pre></details><details data-role="trusted_orchestrator" data-stage="r3_verdict"><summary>E000116 · 第3轮 · r3_verdict · trusted_orchestrator · stage_entered · 法庭记录</summary><pre>r3_verdict</pre><p>引用：[]</p><pre>{}</pre></details><details data-role="R_JUDGE" data-stage="r3_verdict"><summary>E000117 · 第3轮 · r3_verdict · R_JUDGE · jury_instruction · 法庭记录</summary><pre>被告推定无罪，控方须对每项要件排除合理怀疑。
+律师陈述、提问和准备文件不是证据；不得以被告沉默推断有罪。
+删除内容不可使用；限定用途证据只能按限定范围使用。
+A defendant in a criminal action is presumed to be innocent until the contrary is proved, and in case of a reasonable doubt whether his or her guilt is satisfactorily shown, he or she is entitled to an acquittal, but the effect of this presumption is only to place upon the state the burden of proving him or her guilty beyond a reasonable doubt. Reasonable doubt is defined as follows: “It is not a mere possible doubt; because everything relating to human affairs is open to some possible or imaginary doubt. It is that state of the case, which, after the entire comparison and consideration of all the evidence, leaves the minds of jurors in that condition that they cannot say they feel an abiding conviction of the truth of the charge.”
+被告推定无罪。控方须对每项指控的每一要件排除合理怀疑；被告无需证明无罪。对某项必要要件仍有合理怀疑，应就该项指控作无罪认定。只评价本庭依法准许且在用途范围内的证据。
+C01须分别证明：被告驾驶车辆；驾驶时受酒精影响；同时另外实施违法行为或未履行驾驶中的法定义务；该行为或不履行近因造成他人身体受伤。“受影响”要求饮酒实际损害身心驾驶能力，以致不能达到同等情形下通常谨慎清醒者的驾驶标准；仅证明饮酒或检出酒精并不足够。
+C02须分别证明：被告驾驶车辆；驾驶时血液酒精重量比达到0.08%或以上；同时另外实施违法行为或未履行驾驶中的法定义务；该行为或不履行近因造成他人身体受伤。检验时浓度与驾驶时浓度须区分。C01的受影响要件与C02的驾驶时浓度要件须分别评议，不能相互替代。
+两项指控均须在酒驾之外确定另一具体违法行为或驾驶义务的不履行，并证明它近因造成他人受伤；单有酒驾或发生碰撞不能自动补齐这两个要件。普通过失可以满足注意义务要求，不一定须另证违反某一具体车法条号。评价的是对伤害的因果关系，不能机械地只问是否引发碰撞。请依本案证据和法官对具体违法行为的解释判断，不得移植其他判例的超速或安全带事实。
+只有在证据排除合理怀疑地证明化学检测在驾驶后三小时内且浓度达0.08%时，才可以据此推断驾驶时浓度至少0.08%；该推论并非必须作出。未证明时间前提时不得直接套用。仍须考虑全部准许证据，控方的证明责任不转移给被告。缺少某一时刻记录也不当然使其他血醇证据失去所有证明力。</pre><p>引用：[]</p><pre>{}</pre></details><details data-role="R_JUROR_1" data-stage="r3_verdict"><summary>E000118 · 第3轮 · r3_verdict · R_JUROR_1 · jury_vote · 法庭记录</summary><pre>{&quot;votes&quot;:[{&quot;charge_id&quot;:&quot;C01&quot;,&quot;decision&quot;:&quot;guilty&quot;,&quot;reason&quot;:&quot;离线规则校准占位；不作为真实模型判决&quot;},{&quot;charge_id&quot;:&quot;C02&quot;,&quot;decision&quot;:&quot;guilty&quot;,&quot;reason&quot;:&quot;离线规则校准占位；不作为真实模型判决&quot;}]}</pre><p>引用：[]</p><pre>{}</pre></details><details data-role="R_JUROR_2" data-stage="r3_verdict"><summary>E000119 · 第3轮 · r3_verdict · R_JUROR_2 · jury_vote · 法庭记录</summary><pre>{&quot;votes&quot;:[{&quot;charge_id&quot;:&quot;C01&quot;,&quot;decision&quot;:&quot;guilty&quot;,&quot;reason&quot;:&quot;离线规则校准占位；不作为真实模型判决&quot;},{&quot;charge_id&quot;:&quot;C02&quot;,&quot;decision&quot;:&quot;guilty&quot;,&quot;reason&quot;:&quot;离线规则校准占位；不作为真实模型判决&quot;}]}</pre><p>引用：[]</p><pre>{}</pre></details><details data-role="R_JUROR_3" data-stage="r3_verdict"><summary>E000120 · 第3轮 · r3_verdict · R_JUROR_3 · jury_vote · 法庭记录</summary><pre>{&quot;votes&quot;:[{&quot;charge_id&quot;:&quot;C01&quot;,&quot;decision&quot;:&quot;guilty&quot;,&quot;reason&quot;:&quot;离线规则校准占位；不作为真实模型判决&quot;},{&quot;charge_id&quot;:&quot;C02&quot;,&quot;decision&quot;:&quot;guilty&quot;,&quot;reason&quot;:&quot;离线规则校准占位；不作为真实模型判决&quot;}]}</pre><p>引用：[]</p><pre>{}</pre></details><details data-role="R_JUROR_4" data-stage="r3_verdict"><summary>E000121 · 第3轮 · r3_verdict · R_JUROR_4 · jury_vote · 法庭记录</summary><pre>{&quot;votes&quot;:[{&quot;charge_id&quot;:&quot;C01&quot;,&quot;decision&quot;:&quot;guilty&quot;,&quot;reason&quot;:&quot;离线规则校准占位；不作为真实模型判决&quot;},{&quot;charge_id&quot;:&quot;C02&quot;,&quot;decision&quot;:&quot;guilty&quot;,&quot;reason&quot;:&quot;离线规则校准占位；不作为真实模型判决&quot;}]}</pre><p>引用：[]</p><pre>{}</pre></details><details data-role="R_JUROR_5" data-stage="r3_verdict"><summary>E000122 · 第3轮 · r3_verdict · R_JUROR_5 · jury_vote · 法庭记录</summary><pre>{&quot;votes&quot;:[{&quot;charge_id&quot;:&quot;C01&quot;,&quot;decision&quot;:&quot;guilty&quot;,&quot;reason&quot;:&quot;离线规则校准占位；不作为真实模型判决&quot;},{&quot;charge_id&quot;:&quot;C02&quot;,&quot;decision&quot;:&quot;guilty&quot;,&quot;reason&quot;:&quot;离线规则校准占位；不作为真实模型判决&quot;}]}</pre><p>引用：[]</p><pre>{}</pre></details><details data-role="R_JUROR_6" data-stage="r3_verdict"><summary>E000123 · 第3轮 · r3_verdict · R_JUROR_6 · jury_vote · 法庭记录</summary><pre>{&quot;votes&quot;:[{&quot;charge_id&quot;:&quot;C01&quot;,&quot;decision&quot;:&quot;guilty&quot;,&quot;reason&quot;:&quot;离线规则校准占位；不作为真实模型判决&quot;},{&quot;charge_id&quot;:&quot;C02&quot;,&quot;decision&quot;:&quot;guilty&quot;,&quot;reason&quot;:&quot;离线规则校准占位；不作为真实模型判决&quot;}]}</pre><p>引用：[]</p><pre>{}</pre></details><details data-role="R_JURY" data-stage="ended"><summary>E000124 · 第3轮 · ended · R_JURY · verdict · 法庭记录</summary><pre>{&quot;C01&quot;:&quot;guilty&quot;,&quot;C02&quot;:&quot;guilty&quot;}</pre><p>引用：[]</p><pre>{}</pre></details></main><section id="artifacts"><h2>实际工作文件与版本</h2><p>本运行没有候选实际创建的工作文件。没有事后代写。</p></section><script>function filterEvents(){const q=document.getElementById('q').value.toLowerCase(),r=document.getElementById('role').value,s=document.getElementById('stage').value;document.querySelectorAll('#events details').forEach(x=>x.hidden=!(x.textContent.toLowerCase().includes(q)&&(!r||x.dataset.role===r)&&(!s||x.dataset.stage===s)))}</script></body></html>

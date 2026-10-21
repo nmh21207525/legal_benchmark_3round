@@ -1,0 +1,88 @@
+{
+  "case_id": "CA-PILOT-005",
+  "title": "People v. Mercer：迁居与登记义务",
+  "version": "teacher-three-round-v2-20261021",
+  "simulation_round_count": 3,
+  "simulation_dates": [
+    "2007-07-23",
+    "2007-08-06",
+    "2007-08-16"
+  ],
+  "substantive_law_date": "2006-06-03",
+  "law_cutoff": "2007-07-23",
+  "dates_status": "模拟庭期设计，非历史全案庭期复原",
+  "charges": [
+    {
+      "charge_id": "C01",
+      "name": "故意违反旧版登记义务",
+      "law": "L_PEN_290_2006",
+      "elements": [
+        "登记义务基础",
+        "在辖区居住及五个工作日",
+        "实际知情",
+        "故意不履行"
+      ]
+    }
+  ],
+  "initial_documents": [
+    "D01",
+    "D02",
+    "D03",
+    "D04",
+    "D05",
+    "D06",
+    "D07",
+    "D08",
+    "D09"
+  ],
+  "budget": {
+    "pretrial_hours": 36,
+    "max_actions": 72,
+    "money": 3000
+  },
+  "limits": {
+    "run_tokens": 30000000,
+    "case_tokens": 200000000,
+    "context_tokens": 150000
+  },
+  "required_artifacts": [
+    "case_timeline.csv",
+    "evidence_register.csv",
+    "pretrial_plan.md",
+    "examination_outline.md"
+  ],
+  "defendant": "Evan Mercer",
+  "experts": {
+    "R_EXPERT_CAREFUL": {
+      "fee": 2400,
+      "required_documents": [
+        "D10",
+        "D12",
+        "D13",
+        "D14",
+        "D15"
+      ]
+    },
+    "R_EXPERT_CHEAP": {
+      "fee": 800,
+      "required_documents": [
+        "D02",
+        "D03"
+      ]
+    }
+  },
+  "counts": {
+    "facts": 189,
+    "anchors": 19,
+    "authored": 170,
+    "documents": 32,
+    "legal_entries": 43
+  },
+  "jury_instructions_file": "jury_instructions.json",
+  "legal_review": {
+    "reviewed_at": "2026-10-21",
+    "status": "key_historical_core_and_elements_verified",
+    "verification_file": "../legal_corpus/verification.json",
+    "scope": "selected core texts and element instructions, not certification of complete historical code or real legal advice"
+  }
+}

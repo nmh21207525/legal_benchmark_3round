@@ -1,0 +1,53 @@
+{
+  "reviewed_at": "2026-10-21",
+  "scope": "key historical core and dates",
+  "entry_count": 43,
+  "checks": [
+    {
+      "rule": "L_BARRETT_2000",
+      "status": "pass",
+      "scope": "contemporaneous primary opinion on third-party discovery; not full PC1326 edition",
+      "publication_date": "2000-05-25"
+    },
+    {
+      "rule": "Evidence1101",
+      "status": "pass",
+      "canonical_id": "L_EVID_1101",
+      "alias_id": "L-EVID1101",
+      "effective": "1997-01-01",
+      "check": "Full alias (a)-(b) core occurs in the included official full section; official effective-date footer inspected."
+    },
+    {
+      "rule": "L_PEN_290_2006",
+      "status": "pass",
+      "exact_paragraphs": 4,
+      "source_section": "SEC.3.5",
+      "historical_locator": "CL-O2256789-P0083",
+      "scope": "selected excerpts only"
+    },
+    {
+      "rule": "L_CALCRIM_1170_2006_EXCERPT",
+      "status": "pass",
+      "exact_source_paragraphs": [
+        "P0043",
+        "P0044",
+        "P0045"
+      ],
+      "scope": "quoted trial instruction only, not later holding"
+    }
+  ],
+  "cutoff_check": {
+    "cutoff": "2007-07-23",
+    "all_flags_match_dates": true,
+    "future_legal_ids": [
+      "L-HOWES"
+    ]
+  },
+  "remaining_boundaries": [
+    "以下中文指示是本实验的法官指示改写；没有冒称为官方中文版或完整历史指示册。",
+    "法源的抓取日期、后来的存档载体日期和被证明的历史规则有效日期分开记录。",
+    "历史法源中的原案人名、地点和具体事实不自动成为本模拟案件事实。",
+    "005没有把2009原型判决的实体裁判结论当作2007可用判例；只使用其中明确标注的2006旧条文版本和当时实际指示的引文。"
+  ],
+  "hash_verification": "All raw-file bytes and all corpus text SHA256 values checked. New web records are labelled retrieval notes, not full page snapshots."
+}

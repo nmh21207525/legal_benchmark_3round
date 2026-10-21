@@ -1,0 +1,273 @@
+{
+  "protocol": "teacher-three-round-v2",
+  "case_id": "CA-PILOT-005",
+  "world_version": "teacher-three-round-v2-20261021",
+  "status": "completed",
+  "stage_index": 15,
+  "stage_id": "ended",
+  "round": 3,
+  "slot": 0,
+  "script_cursor": 0,
+  "script": [],
+  "pending_window": null,
+  "pending_answer": null,
+  "pending_rebuttal": false,
+  "disclosed": [
+    "D01",
+    "D02",
+    "D03",
+    "D04",
+    "D05",
+    "D06",
+    "D07",
+    "D08",
+    "D09",
+    "D23",
+    "D24",
+    "D31",
+    "D25"
+  ],
+  "read_documents": [
+    "D01"
+  ],
+  "law_reads": [],
+  "gates": [
+    "release:D23",
+    "release:D24",
+    "release:D31",
+    "release:D25"
+  ],
+  "hours_used": 0.25,
+  "actions_used": 1,
+  "money_used": 0,
+  "client_interviews": [],
+  "investigations": [],
+  "discovery_requests": [],
+  "subpoenas": [],
+  "experts": {},
+  "motions": [],
+  "objections": [],
+  "questions": [],
+  "artifacts": {},
+  "rulings": [],
+  "stricken": [],
+  "admonished": [],
+  "excluded_documents": [],
+  "limited_documents": {},
+  "heard_roles": [
+    "R_INTAKE_AGENT",
+    "R_ASSIGNED_AGENT",
+    "R_REGISTRAR",
+    "R_RECEPTIONIST"
+  ],
+  "read_coverage": {
+    "read_document:D01": [
+      [
+        0,
+        427
+      ]
+    ]
+  },
+  "client_confronted_fact_ids": [],
+  "reached_stages": [
+    "pretrial_workspace",
+    "r1_motion",
+    "r1_examination",
+    "r1_ruling",
+    "between_rounds_1",
+    "r2_opening",
+    "r2_examination",
+    "r2_1118",
+    "r2_defense",
+    "r2_ruling",
+    "between_rounds_2",
+    "r3_supplement",
+    "r3_1118",
+    "r3_instructions",
+    "r3_closing",
+    "r3_verdict"
+  ],
+  "charge_dispositions": {},
+  "termination_reason": "jury_verdict",
+  "terminated_at_stage": null,
+  "defendant_testified": false,
+  "testimony_decision": null,
+  "traps_fired": [
+    {
+      "trap_id": "T_FOUNDATION",
+      "seq": 20
+    },
+    {
+      "trap_id": "T_CHARACTER",
+      "seq": 54
+    },
+    {
+      "trap_id": "T_HEARSAY",
+      "seq": 56
+    },
+    {
+      "trap_id": "T_RETRO",
+      "seq": 58
+    },
+    {
+      "trap_id": "T_RD",
+      "seq": 99
+    },
+    {
+      "trap_id": "T_VOUCHING",
+      "seq": 106
+    },
+    {
+      "trap_id": "T_GRIFFIN",
+      "seq": 108
+    },
+    {
+      "trap_id": "T_BURDEN",
+      "seq": 110
+    }
+  ],
+  "closed_records": {
+    "r1_ruling": [
+      "E000008",
+      "E000009",
+      "E000010",
+      "E000011",
+      "E000012",
+      "E000013",
+      "E000014",
+      "E000015",
+      "E000016",
+      "E000017",
+      "E000018",
+      "E000019",
+      "E000020",
+      "E000021",
+      "E000022",
+      "E000023",
+      "E000024"
+    ],
+    "r2_ruling": [
+      "E000030",
+      "E000031",
+      "E000032",
+      "E000033",
+      "E000034",
+      "E000035",
+      "E000036",
+      "E000037",
+      "E000038",
+      "E000039",
+      "E000040",
+      "E000041",
+      "E000042",
+      "E000043",
+      "E000044",
+      "E000045",
+      "E000046",
+      "E000047",
+      "E000048",
+      "E000049",
+      "E000050",
+      "E000051",
+      "E000052",
+      "E000053",
+      "E000054",
+      "E000055",
+      "E000056",
+      "E000057",
+      "E000058",
+      "E000059",
+      "E000060",
+      "E000061",
+      "E000062",
+      "E000063",
+      "E000064",
+      "E000065",
+      "E000066",
+      "E000067",
+      "E000068"
+    ]
+  },
+  "opponent_pending": null,
+  "preparation_remaining": 0,
+  "approved_instructions": [],
+  "verdict": {
+    "C01": "guilty"
+  },
+  "jurors": [
+    {
+      "juror": 1,
+      "votes": [
+        {
+          "charge_id": "C01",
+          "decision": "guilty",
+          "reason": "离线规则校准占位；不作为真实模型判决"
+        }
+      ]
+    },
+    {
+      "juror": 2,
+      "votes": [
+        {
+          "charge_id": "C01",
+          "decision": "guilty",
+          "reason": "离线规则校准占位；不作为真实模型判决"
+        }
+      ]
+    },
+    {
+      "juror": 3,
+      "votes": [
+        {
+          "charge_id": "C01",
+          "decision": "guilty",
+          "reason": "离线规则校准占位；不作为真实模型判决"
+        }
+      ]
+    },
+    {
+      "juror": 4,
+      "votes": [
+        {
+          "charge_id": "C01",
+          "decision": "guilty",
+          "reason": "离线规则校准占位；不作为真实模型判决"
+        }
+      ]
+    },
+    {
+      "juror": 5,
+      "votes": [
+        {
+          "charge_id": "C01",
+          "decision": "guilty",
+          "reason": "离线规则校准占位；不作为真实模型判决"
+        }
+      ]
+    },
+    {
+      "juror": 6,
+      "votes": [
+        {
+          "charge_id": "C01",
+          "decision": "guilty",
+          "reason": "离线规则校准占位；不作为真实模型判决"
+        }
+      ]
+    }
+  ],
+  "last_hash": "219ed74432532befff5a2ca245784f894425b2643751c7fc934beca120c4383e",
+  "accepted_steps": 117,
+  "protocol_errors": 0,
+  "tool_result": {
+    "action": "read_document",
+    "target": "D01",
+    "text": "# 起诉书与有限用途约定\n\n> 模拟补写文书；不是原案原件。\n\n| 文书控制字段 | 记载 |\n|---|---|\n| 文件编号 | CA-PILOT-005/D01 |\n| 形成或经办来源（化名角色） | R_REGISTRAR |\n| 日期与时刻 | 以正文记载为准；未记载的时点不补填 |\n| 原件/副本及认证状态 | 模拟案卷副本；法庭用途须另行认证和裁定 |\n\n## 记载内容\n\n[D01-F01] 模拟起诉书只列C01，指控2006年6月3日前后故意违反旧版Penal Code §290(a)(1)(A)。\n\n[D01-F02] 当事人可以约定存在登记义务基础；具体既往犯罪细节不是本次登记行为的证明。\n\n[D01-F03] 控方仍须就本次实际知情、法定期限及故意不履行提供证据。\n\n[D01-F04] 起诉书同时使用进入辖区、住所变化的表述；控方必须说明依赖的具体义务。\n\n[D01-F05] 本模拟不包含量刑、三振或未取得的上诉争点。\n",
+    "offset": 0,
+    "end_offset": 427,
+    "total_characters": 427,
+    "next_offset": null,
+    "page_complete": true,
+    "all_pages_read": true
+  }
+}

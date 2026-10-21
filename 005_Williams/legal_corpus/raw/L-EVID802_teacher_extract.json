@@ -1,0 +1,23 @@
+{
+  "legal_id": "L-EVID802",
+  "type": "statute",
+  "citation": "Evidence Code § 802",
+  "title": "Evidence Code § 802 — Bases of opinion testimony; reasons for opinion",
+  "year": "1965",
+  "effective": "1967-01-01",
+  "cutoff_ok": true,
+  "text": "A witness testifying in the form of an opinion may state on direct examination the reasons for his opinion and the matter (including, in the case of an expert, his special knowledge, skill, experience, training, and education) upon which it is based, unless he is precluded by law from using such reasons or matter as a basis for his opinion. The court in its discretion may require that a witness before testifying in the form of an opinion be first examined concerning the matter upon which his opinion is based.",
+  "holding": "专家可在直诊中陈述意见的理由与依据，法府有自由裁量权要求先就依据进行询问。",
+  "url": "https://law.onecle.com/california/evidence/802.html",
+  "retrieved": "2026-10-19",
+  "sha256": "5e0248b8c50d0c45e769b0bf91ede3ebc05f28f4945a6f7c3c397a1c9a979304",
+  "relevance": "both",
+  "tags": [
+    "802",
+    "expert",
+    "basis",
+    "reasons"
+  ],
+  "distractor": false,
+  "notes": "'(Enacted by Stats. 1965, Ch. 299.)'"
+}

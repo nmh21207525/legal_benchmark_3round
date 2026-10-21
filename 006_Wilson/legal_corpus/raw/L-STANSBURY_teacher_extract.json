@@ -1,0 +1,23 @@
+{
+  "legal_id": "L-STANSBURY",
+  "type": "case",
+  "citation": "Stansbury v. California, 511 U.S. 318 (1994)",
+  "title": "Stansbury v. California",
+  "year": "1994",
+  "effective": "1994-04-26",
+  "cutoff_ok": true,
+  "text": "It is well settled, then, that a police officer's subjective view that the individual under questioning is a suspect, if undisclosed, does not bear upon the question whether the individual is in custody for purposes of Miranda. ... The same principle obtains if an officer's undisclosed assessment is that the person being questioned is not a suspect. In either instance, one cannot expect the person under interrogation to probe the officer's innermost thoughts.",
+  "holding": "判断是否“拘禁”只看客观环境，不看警官或被讯问人的主观意图；未透露的怀疑不影响判断。",
+  "url": "https://www.law.cornell.edu/supremecourt/text/511/318",
+  "retrieved": "2026-10-19",
+  "sha256": "b2858b2fdab7c7af3be5d6c047ebbc53062e2070dc3c703c5936432f66ef5fd9",
+  "relevance": "prosecution",
+  "tags": [
+    "miranda",
+    "custody",
+    "objective_standard",
+    "subjective_intent"
+  ],
+  "distractor": false,
+  "notes": "Verbatim from the Cornell LII opinion text (511 U.S. at 323-325); ellipsis omits the court's citation to Inbau, Reid & Buckley, Criminal Interrogation and Confessions."
+}

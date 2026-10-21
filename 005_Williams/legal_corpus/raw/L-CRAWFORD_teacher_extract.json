@@ -1,0 +1,23 @@
+{
+  "legal_id": "L-CRAWFORD",
+  "type": "case",
+  "citation": "Crawford v. Washington, 541 U.S. 36 (2004)",
+  "title": "Crawford v. Washington",
+  "year": "2004",
+  "effective": "2004-03-08",
+  "cutoff_ok": true,
+  "text": "Where testimonial evidence is at issue, however, the Sixth Amendment demands what the common law required: unavailability and a prior opportunity for cross-examination. We leave for another day any effort to spell out a comprehensive definition of \"testimonial.\" ... Whatever else the term covers, it applies at a minimum to prior testimony at a preliminary hearing, before a grand jury, or at a former trial; and to police interrogations.",
+  "holding": "对于“证言性”（testimonial）陈述，第六修正案要求陈述人不可得且被告有先前对质机会；平警盘问录取的陈述至少属于证言性。",
+  "url": "https://www.law.cornell.edu/supremecourt/text/541/36",
+  "retrieved": "2026-10-19",
+  "sha256": "844f8492ed0a204aa3d60fa66df30ed0271f16ca6310581a17592c5de00c0351",
+  "relevance": "defense",
+  "tags": [
+    "crawford",
+    "confrontation",
+    "testimonial",
+    "hearsay"
+  ],
+  "distractor": false,
+  "notes": "Quoted from the opinion body (Part II); corresponds to 541 U.S. at 68."
+}

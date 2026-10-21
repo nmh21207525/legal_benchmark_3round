@@ -1,4 +1,1 @@
-# Runtime for Seed/DeepSeek HTTP calls; Codex/Claude use separately installed CLIs.
-httpx==0.28.1
-# Only needed when the authored case workspace supplies PDF originals.
-pypdf==6.10.0
+# Python >=3.11；运行及离线测试仅标准库，无需第三方pip包。

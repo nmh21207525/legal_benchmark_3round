@@ -1,0 +1,25 @@
+{
+  "python_minimum": "3.11",
+  "developed_python": "3.12.14",
+  "developed_platform": "Linux",
+  "third_party_runtime_dependencies": [],
+  "api_protocol": "Responses / JSON schema strict / explicit instructions",
+  "max_concurrent_requests": 1,
+  "teacher_alignment": "模型、effort、接口、预算及数据协议对齐；教师未提供OS镜像或依赖锁，不宣称操作系统逐位相同。",
+  "release_version": "teacher-three-round-v2-20261021",
+  "max_concurrent_requests_per_case": 1,
+  "max_concurrent_requests_two_case_launcher": 2,
+  "gpt_max_output_tokens": 16384,
+  "seed_max_output_tokens": 32768,
+  "seed_store": false,
+  "python_dependencies_install": "venv --without-pip; standard library only",
+  "required_environment_variables": [
+    "PACKY_API_KEY",
+    "ARK_API_KEY"
+  ],
+  "optional_environment_variables": [
+    "PACKY_BASE_URL",
+    "ARK_BASE_URL",
+    "PYTHON_BIN"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "legal_id": "L-EVID402",
+  "type": "statute",
+  "citation": "Evidence Code § 402",
+  "title": "Evidence Code § 402 — Procedure for determining preliminary facts",
+  "year": "1965",
+  "effective": "1967-01-01",
+  "cutoff_ok": true,
+  "text": "(a) When the existence of a preliminary fact is disputed, its existence or nonexistence shall be determined as provided in this article. (b) The court may hear and determine the question of the admissibility of evidence out of the presence or hearing of the jury; but in a criminal action, the court shall hear and determine the question of the admissibility of a confession or admission of the defendant out of the presence and hearing of the jury if any party so requests.",
+  "holding": "当事实存在争议时由法府评断可采性；刑事案件中当一方请求时，自白或承认的可采性必须在陪审团不在场时审理。",
+  "url": "https://law.onecle.com/california/evidence/402.html",
+  "retrieved": "2026-10-19",
+  "sha256": "80f0d02e9053484c0aebae5f3e192d988e713d50ce874a8800b836900ec42799",
+  "relevance": "both",
+  "tags": [
+    "402",
+    "preliminary_facts",
+    "voluntariness",
+    "confession"
+  ],
+  "distractor": false,
+  "notes": "'(Enacted by Stats. 1965, Ch. 299.)'"
+}

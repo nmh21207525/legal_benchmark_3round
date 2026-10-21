@@ -1,0 +1,21 @@
+{
+  "zip_name": "法律benchmark改造.zip",
+  "zip_sha256": "7dca87074d0990953bdaa08fe6cc3e322b63206c8bdc76b5446b4486ac38794e",
+  "files": 568,
+  "uncompressed_bytes": 52519003,
+  "types": {
+    ".md": 71,
+    ".py": 32,
+    ".jsonl": 62,
+    ".json": 241,
+    ".html": 37,
+    ".txt": 78,
+    ".ts": 1,
+    ".pdf": 4,
+    ".sha256": 3,
+    ".csv": 37,
+    "(none)": 2
+  },
+  "parse_issues": [],
+  "inspection_note": "全部原ZIP文件读取、哈希并按类型解析；不把静态遍历说成逐一验证历史真实运行。关键规格、引擎、评分及版本问题另列标准对照。"
+}

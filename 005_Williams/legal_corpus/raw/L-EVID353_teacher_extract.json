@@ -1,0 +1,23 @@
+{
+  "legal_id": "L-EVID353",
+  "type": "statute",
+  "citation": "Evidence Code § 353",
+  "title": "Evidence Code § 353 — Erroneous admission of evidence; objection requirement",
+  "year": "1965",
+  "effective": "1967-01-01",
+  "cutoff_ok": true,
+  "text": "A verdict or finding shall not be set aside, nor shall the judgment or decision based thereon be reversed, by reason of the erroneous admission of evidence unless: (a) There appears of record an objection to or a motion to exclude or to strike the evidence that was timely made and so stated as to make clear the specific ground of the objection or motion; and (b) The court which passes upon the effect of the error or errors is of the opinion that the admitted evidence should have been excluded on the ground stated and that the error or errors complained of resulted in a miscarriage of justice.",
+  "holding": "未当庭及时、具体地提出异议者，不能以证据错误采纳为由翻案；且需证明存在实质司法不公。",
+  "url": "https://law.onecle.com/california/evidence/353.html",
+  "retrieved": "2026-10-19",
+  "sha256": "7c821db144fd8356fccf03ce4da0dcb0a4e43d62c75699eac26d167b2eb21d9b",
+  "relevance": "prosecution",
+  "tags": [
+    "353",
+    "objection",
+    "preservation",
+    "harmless_error"
+  ],
+  "distractor": false,
+  "notes": "'(Enacted by Stats. 1965, Ch. 299.)'"
+}

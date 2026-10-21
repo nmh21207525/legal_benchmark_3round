@@ -1,0 +1,23 @@
+{
+  "legal_id": "L-HOWES",
+  "type": "case",
+  "citation": "Howes v. Fields, 565 U.S. 499 (2012)",
+  "title": "Howes v. Fields",
+  "year": "2012",
+  "effective": "2012-02-21",
+  "cutoff_ok": true,
+  "text": "The Sixth Circuit’s categorical rule—that imprisonment, questioning in private, and questioning about events in the outside world create a custodial situation for Miranda purposes—is simply wrong. ... The initial step in determining whether a person is in Miranda custody is to ascertain, given “all of the circumstances surrounding the interrogation,” how a suspect would have gauged his freedom of movement. ... However, not all restraints on freedom of movement amount to Miranda custody. ... Thus, service of a prison term, without more, is not enough to constitute Miranda custody.",
+  "holding": "囚犯被提出监狱、密室讯问并被问及监外事件，不当然构成 Miranda 拘禁；仍需按“理性人是否感到自由受限”的客观标准逐案判断。",
+  "url": "https://www.law.cornell.edu/supremecourt/text/10-680",
+  "retrieved": "2026-10-19",
+  "sha256": "a0c13509abf94027c6c1cf70b9ef00358fc0a5e5a22f474f9e96626941adca0b",
+  "relevance": "prosecution",
+  "tags": [
+    "miranda",
+    "custody",
+    "prison",
+    "howes"
+  ],
+  "distractor": false,
+  "notes": "Ellipses omit intervening sentences only; each quoted fragment appears verbatim on the fetched page (syllabus at 565 U.S. 503-505 and opinion at 509-511)."
+}

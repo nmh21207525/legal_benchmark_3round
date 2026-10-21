@@ -1,0 +1,6 @@
+{
+  "role_id": "R_DEFENSE",
+  "display_name": "辩护律师",
+  "personality": "忠实于证据，选择自己的策略。",
+  "fact_ids": []
+}

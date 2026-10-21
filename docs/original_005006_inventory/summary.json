@@ -1,0 +1,18 @@
+{
+  "zip_name": "CA-PILOT-005-006-三轮提交包(1).zip",
+  "zip_sha256": "a4eb1f025764e76c578ed9f8474b708c33312e22923b21c6332521ce3ca1a846",
+  "files": 106,
+  "uncompressed_bytes": 11984864,
+  "types": {
+    ".md": 19,
+    ".zip": 5,
+    ".json": 35,
+    ".html": 39,
+    ".txt": 2,
+    ".jsonl": 4,
+    ".pdf": 1,
+    ".py": 1
+  },
+  "parse_issues": [],
+  "inspection_note": "全部原ZIP文件读取、哈希并按类型解析；不把静态遍历说成逐一验证历史真实运行。关键规格、引擎、评分及版本问题另列标准对照。"
+}

@@ -1,0 +1,22 @@
+{
+  "legal_id": "L-PEN11181",
+  "type": "statute",
+  "citation": "Penal Code § 1118.1",
+  "title": "Penal Code § 1118.1 — Judgment of acquittal at close of evidence",
+  "year": "1995",
+  "effective": "1995-01-01",
+  "cutoff_ok": true,
+  "text": "In a case tried before a jury, the court on motion of the defendant or on its own motion, at the close of the evidence on either side and before the case is submitted to the jury for decision, shall order the entry of a judgment of acquittal of one or more of the offenses charged in the accusatory pleading if the evidence then before the court is insufficient to sustain a conviction of such offense or offenses on appeal.",
+  "holding": "陪审审理中，若当时证据在上诉审查标准下不足以支持定罪，法府应依申请或职权作出无罪判决。",
+  "url": "https://law.onecle.com/california/penal/1118.1.html",
+  "retrieved": "2026-10-19",
+  "sha256": "e2a34a9ff939b8e75872c2dd9bbd80313e50c08b301c030a1182ce9a1d619bd8",
+  "relevance": "defense",
+  "tags": [
+    "1118.1",
+    "acquittal",
+    "sufficiency"
+  ],
+  "distractor": false,
+  "notes": "Onecle page carries an '(Added by ...)' note; the quoted sentence is the standard text in force in 2013."
+}

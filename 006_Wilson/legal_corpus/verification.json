@@ -1,0 +1,58 @@
+{
+  "reviewed_at": "2026-10-21",
+  "scope": "key historical core and dates",
+  "entry_count": 47,
+  "checks": [
+    {
+      "rule": "L_BARRETT_2000",
+      "status": "pass",
+      "scope": "contemporaneous primary opinion on third-party discovery; not full PC1326 edition",
+      "publication_date": "2000-05-25"
+    },
+    {
+      "rule": "Evidence1101",
+      "status": "pass",
+      "canonical_id": "L_EVID_1101",
+      "alias_id": "L-EVID1101",
+      "effective": "1997-01-01",
+      "check": "Full alias (a)-(b) core occurs in the included official full section; official effective-date footer inspected."
+    },
+    {
+      "rule": "L_VEH_23612_2000",
+      "status": "pass",
+      "exact_paragraphs": 5,
+      "scope": "selected enacted text only",
+      "availability_no_later_than": "1999-10-10"
+    },
+    {
+      "rule": "L_VEH_23153_2000",
+      "status": "pass",
+      "exact_core_match": "official2012 SEC4 (1992-amended predecessor)",
+      "contemporaneous_support": [
+        "L_WEEMS_1997",
+        "L_ELLIS_1999",
+        "L_YORDAMLIS_1992"
+      ],
+      "scope": "core(a)-(c) and conditional timing premise; not full historic edition"
+    }
+  ],
+  "cutoff_check": {
+    "cutoff": "2000-09-25",
+    "all_flags_match_dates": true,
+    "future_legal_ids": [
+      "L-EVID1043",
+      "L-EVID1045",
+      "L-HOWES",
+      "L-CRAWFORD",
+      "L-DAVIS"
+    ]
+  },
+  "remaining_boundaries": [
+    "以下中文指示是本实验的法官指示改写；没有冒称为官方中文版或完整历史指示册。",
+    "法源的抓取日期、后来的存档载体日期和被证明的历史规则有效日期分开记录。",
+    "历史法源中的原案人名、地点和具体事实不自动成为本模拟案件事实。",
+    "006指示以2000年前原判记载的CALJIC要件为依据，没有把2006年后CALCRIM当成2000年的指示。",
+    "§23153选用核心经官方后续重述逐字校验并由当时原判交叉核验；未取得完整2000法典版本或完整历史CALJIC卷册，故不声称整卷复原。"
+  ],
+  "hash_verification": "All raw-file bytes and all corpus text SHA256 values checked. New web records are labelled retrieval notes, not full page snapshots."
+}

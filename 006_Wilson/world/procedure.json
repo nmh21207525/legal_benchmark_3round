@@ -1,0 +1,244 @@
+[
+  {
+    "stage_id": "pretrial_workspace",
+    "round": 0,
+    "kind": "preparation",
+    "slots": 44,
+    "date": "2000-09-25",
+    "witnesses": [],
+    "release_documents": [],
+    "next_stage_id": "r1_motion"
+  },
+  {
+    "stage_id": "r1_motion",
+    "round": 1,
+    "kind": "motion",
+    "slots": 4,
+    "date": "2000-09-25",
+    "witnesses": [
+      "R_OFFICER",
+      "R_NURSE",
+      "R_LAB_ANALYST",
+      "R_CUSTODIAN"
+    ],
+    "release_documents": [],
+    "next_stage_id": "r1_examination"
+  },
+  {
+    "stage_id": "r1_examination",
+    "round": 1,
+    "kind": "examination",
+    "slots": 7,
+    "date": "2000-09-25",
+    "witnesses": [
+      "R_OFFICER",
+      "R_NURSE",
+      "R_LAB_ANALYST",
+      "R_CUSTODIAN"
+    ],
+    "release_documents": [],
+    "next_stage_id": "r1_ruling"
+  },
+  {
+    "stage_id": "r1_ruling",
+    "round": 1,
+    "kind": "ruling",
+    "slots": 0,
+    "date": "2000-09-25",
+    "witnesses": [
+      "R_OFFICER",
+      "R_NURSE",
+      "R_LAB_ANALYST",
+      "R_CUSTODIAN"
+    ],
+    "release_documents": [],
+    "next_stage_id": "between_rounds_1"
+  },
+  {
+    "stage_id": "between_rounds_1",
+    "round": 1,
+    "kind": "preparation",
+    "slots": 18,
+    "date": "2000-09-25",
+    "witnesses": [
+      "R_OFFICER",
+      "R_NURSE",
+      "R_LAB_ANALYST",
+      "R_CUSTODIAN"
+    ],
+    "release_documents": [
+      "D23"
+    ],
+    "next_stage_id": "r2_opening"
+  },
+  {
+    "stage_id": "r2_opening",
+    "round": 2,
+    "kind": "opening",
+    "slots": 1,
+    "date": "2000-10-09",
+    "witnesses": [
+      "R_OFFICER",
+      "R_NURSE",
+      "R_LAB_ANALYST",
+      "R_CUSTODIAN"
+    ],
+    "release_documents": [],
+    "next_stage_id": "r2_examination"
+  },
+  {
+    "stage_id": "r2_examination",
+    "round": 2,
+    "kind": "examination",
+    "slots": 12,
+    "date": "2000-10-09",
+    "witnesses": [
+      "R_OFFICER",
+      "R_NURSE",
+      "R_LAB_ANALYST",
+      "R_CUSTODIAN"
+    ],
+    "release_documents": [
+      "D22"
+    ],
+    "next_stage_id": "r2_1118"
+  },
+  {
+    "stage_id": "r2_1118",
+    "round": 2,
+    "kind": "motion",
+    "slots": 2,
+    "date": "2000-10-09",
+    "witnesses": [
+      "R_OFFICER",
+      "R_NURSE",
+      "R_LAB_ANALYST",
+      "R_CUSTODIAN"
+    ],
+    "release_documents": [],
+    "next_stage_id": "r2_defense"
+  },
+  {
+    "stage_id": "r2_defense",
+    "round": 2,
+    "kind": "examination",
+    "slots": 8,
+    "date": "2000-10-09",
+    "witnesses": [
+      "R_OFFICER",
+      "R_NURSE",
+      "R_LAB_ANALYST",
+      "R_CUSTODIAN"
+    ],
+    "release_documents": [],
+    "next_stage_id": "r2_ruling"
+  },
+  {
+    "stage_id": "r2_ruling",
+    "round": 2,
+    "kind": "ruling",
+    "slots": 0,
+    "date": "2000-10-09",
+    "witnesses": [
+      "R_OFFICER",
+      "R_NURSE",
+      "R_LAB_ANALYST",
+      "R_CUSTODIAN"
+    ],
+    "release_documents": [],
+    "next_stage_id": "between_rounds_2"
+  },
+  {
+    "stage_id": "between_rounds_2",
+    "round": 2,
+    "kind": "preparation",
+    "slots": 14,
+    "date": "2000-10-09",
+    "witnesses": [
+      "R_OFFICER",
+      "R_NURSE",
+      "R_LAB_ANALYST",
+      "R_CUSTODIAN"
+    ],
+    "release_documents": [],
+    "next_stage_id": "r3_supplement"
+  },
+  {
+    "stage_id": "r3_supplement",
+    "round": 3,
+    "kind": "examination",
+    "slots": 10,
+    "date": "2000-10-16",
+    "witnesses": [
+      "R_OFFICER",
+      "R_NURSE",
+      "R_LAB_ANALYST",
+      "R_CUSTODIAN"
+    ],
+    "release_documents": [
+      "D25",
+      "D29"
+    ],
+    "next_stage_id": "r3_1118"
+  },
+  {
+    "stage_id": "r3_1118",
+    "round": 3,
+    "kind": "motion",
+    "slots": 2,
+    "date": "2000-10-16",
+    "witnesses": [
+      "R_OFFICER",
+      "R_NURSE",
+      "R_LAB_ANALYST",
+      "R_CUSTODIAN"
+    ],
+    "release_documents": [],
+    "next_stage_id": "r3_instructions"
+  },
+  {
+    "stage_id": "r3_instructions",
+    "round": 3,
+    "kind": "instructions",
+    "slots": 4,
+    "date": "2000-10-16",
+    "witnesses": [
+      "R_OFFICER",
+      "R_NURSE",
+      "R_LAB_ANALYST",
+      "R_CUSTODIAN"
+    ],
+    "release_documents": [],
+    "next_stage_id": "r3_closing"
+  },
+  {
+    "stage_id": "r3_closing",
+    "round": 3,
+    "kind": "closing",
+    "slots": 1,
+    "date": "2000-10-16",
+    "witnesses": [
+      "R_OFFICER",
+      "R_NURSE",
+      "R_LAB_ANALYST",
+      "R_CUSTODIAN"
+    ],
+    "release_documents": [],
+    "next_stage_id": "r3_verdict"
+  },
+  {
+    "stage_id": "r3_verdict",
+    "round": 3,
+    "kind": "jury",
+    "slots": 0,
+    "date": "2000-10-16",
+    "witnesses": [
+      "R_OFFICER",
+      "R_NURSE",
+      "R_LAB_ANALYST",
+      "R_CUSTODIAN"
+    ],
+    "release_documents": [],
+    "next_stage_id": "ended"
+  }
+]

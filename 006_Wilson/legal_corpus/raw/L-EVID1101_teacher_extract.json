@@ -1,0 +1,23 @@
+{
+  "legal_id": "L-EVID1101",
+  "type": "statute",
+  "citation": "Evidence Code § 1101",
+  "title": "Evidence Code § 1101 — Character evidence; other crimes, wrongs or acts",
+  "year": "2011",
+  "effective": "2012-01-01",
+  "cutoff_ok": true,
+  "text": "(a) Except as provided in this section and in Sections 1102, 1103, 1108, and 1109, evidence of a person’s character or a trait of his or her character (whether in the form of an opinion, evidence of reputation, or evidence of specific instances of his or her conduct) is inadmissible when offered to prove his or her conduct on a specified occasion. (b) Nothing in this section prohibits the admission of evidence that a person committed a crime, civil wrong, or other act when relevant to prove some fact (such as motive, opportunity, intent, preparation, plan, knowledge, identity, absence of mistake or accident, or whether a defendant in a prosecution for an unlawful sexual act or attempted unlawful sexual act did not reasonably and in good faith believe that the victim consented) other than his or her disposition to commit such an act.",
+  "holding": "品格证据不得用以证明特定场合的行为；但用以证明动机、机会、意图、计划、知情、同一性等则可采。",
+  "url": "https://law.onecle.com/california/evidence/1101.html",
+  "retrieved": "2026-10-19",
+  "sha256": "2e8cc8a338023eb006aa32e22eda8d5e308e25210f23b3698c6d83ca09c0757b",
+  "relevance": "defense",
+  "tags": [
+    "1101",
+    "character_evidence",
+    "prior_bad_acts",
+    "1101b"
+  ],
+  "distractor": false,
+  "notes": "Subdivisions (a)-(b) as fetched; in force at trial."
+}

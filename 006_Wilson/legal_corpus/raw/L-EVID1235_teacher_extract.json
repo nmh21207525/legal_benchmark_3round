@@ -1,0 +1,23 @@
+{
+  "legal_id": "L-EVID1235",
+  "type": "statute",
+  "citation": "Evidence Code § 1235",
+  "title": "Evidence Code § 1235 — Inconsistent statement of a witness",
+  "year": "1965",
+  "effective": "1967-01-01",
+  "cutoff_ok": true,
+  "text": "Evidence of a statement made by a witness is not made inadmissible by the hearsay rule if the statement is inconsistent with his testimony at the hearing and is offered in compliance with Section 770.",
+  "holding": "证人先前不一致陈述可作实质证据采纳，但需符合 § 770 的弹劾条件。",
+  "url": "https://law.onecle.com/california/evidence/1235.html",
+  "retrieved": "2026-10-19",
+  "sha256": "9a93977ffd30d755ed2e8ee6b119ea1e98fb148eae0a45be8d0b2b76c81ae679",
+  "relevance": "both",
+  "tags": [
+    "1235",
+    "prior_inconsistent_statement",
+    "hearsay_exception",
+    "impeachment"
+  ],
+  "distractor": false,
+  "notes": "'(Enacted by Stats. 1965, Ch. 299.)' — original 1965 enactment, in force in 2013."
+}

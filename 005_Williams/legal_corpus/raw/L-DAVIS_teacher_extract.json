@@ -1,0 +1,24 @@
+{
+  "legal_id": "L-DAVIS",
+  "type": "case",
+  "citation": "Davis v. Washington, 547 U.S. 813 (2006)",
+  "title": "Davis v. Washington",
+  "year": "2006",
+  "effective": "2006-06-19",
+  "cutoff_ok": true,
+  "text": "Statements are nontestimonial when made in the course of police interrogation under circumstances objectively indicating that the primary purpose of the interrogation is to enable police assistance to meet an ongoing emergency. They are testimonial when the circumstances objectively indicate that there is no such ongoing emergency, and that the primary purpose of the interrogation is to establish or prove past events potentially relevant to later criminal prosecution.",
+  "holding": "911 报警中为应对正在发生的紧急情况而作的陈述属非证言性；若目的是记录过去事件以备日后起诉，则属证言性。",
+  "url": "https://www.law.cornell.edu/supct/html/05-5224.ZO.html",
+  "retrieved": "2026-10-19",
+  "sha256": "d98ef4797dff96f4c38dbb3f7fddf371d7ccec8f9d501834f7ef720e28e0a774",
+  "relevance": "prosecution",
+  "tags": [
+    "davis",
+    "confrontation",
+    "testimonial",
+    "911",
+    "ongoing_emergency"
+  ],
+  "distractor": false,
+  "notes": "Quoted from the full opinion page (ZO = opinion); the same sentence appears in the syllabus at 547 U.S. at 822."
+}

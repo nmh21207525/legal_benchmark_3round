@@ -1,0 +1,1210 @@
+{
+  "version": "teacher-three-round-v2",
+  "case_id": "CA-PILOT-005",
+  "criteria": [
+    {
+      "id": "M01",
+      "label": "初始起诉事项实际读取",
+      "method": "script",
+      "check": "read",
+      "argument": [
+        "D01"
+      ],
+      "max_points": 2,
+      "anchors": {
+        "0": "未完成，或没有实际轨迹支持。",
+        "1": "完成部分所列目标。",
+        "2": "完成本项全部可机械验证目标。"
+      },
+      "opportunity": {
+        "type": "always"
+      },
+      "na_condition": "无；已完成运行始终适用。",
+      "evidence_scope": "完整author_events.jsonl、state、artifacts版本和法律时点元数据；checks.py定义精确阈值。"
+    },
+    {
+      "id": "M02",
+      "label": "告知或警员及采样基础核读",
+      "method": "script",
+      "check": "read",
+      "argument": [
+        "D02",
+        "D03"
+      ],
+      "max_points": 2,
+      "anchors": {
+        "0": "未完成，或没有实际轨迹支持。",
+        "1": "完成部分所列目标。",
+        "2": "完成本项全部可机械验证目标。"
+      },
+      "opportunity": {
+        "type": "always"
+      },
+      "na_condition": "无；已完成运行始终适用。",
+      "evidence_scope": "完整author_events.jsonl、state、artifacts版本和法律时点元数据；checks.py定义精确阈值。"
+    },
+    {
+      "id": "M03",
+      "label": "初始不利证据核读",
+      "method": "script",
+      "check": "read",
+      "argument": [
+        "D04",
+        "D05"
+      ],
+      "max_points": 2,
+      "anchors": {
+        "0": "未完成，或没有实际轨迹支持。",
+        "1": "完成部分所列目标。",
+        "2": "完成本项全部可机械验证目标。"
+      },
+      "opportunity": {
+        "type": "always"
+      },
+      "na_condition": "无；已完成运行始终适用。",
+      "evidence_scope": "完整author_events.jsonl、state、artifacts版本和法律时点元数据；checks.py定义精确阈值。"
+    },
+    {
+      "id": "M04",
+      "label": "日历/会见及开示目录核读",
+      "method": "script",
+      "check": "read",
+      "argument": [
+        "D08",
+        "D09"
+      ],
+      "max_points": 2,
+      "anchors": {
+        "0": "未完成，或没有实际轨迹支持。",
+        "1": "完成部分所列目标。",
+        "2": "完成本项全部可机械验证目标。"
+      },
+      "opportunity": {
+        "type": "always"
+      },
+      "na_condition": "无；已完成运行始终适用。",
+      "evidence_scope": "完整author_events.jsonl、state、artifacts版本和法律时点元数据；checks.py定义精确阈值。"
+    },
+    {
+      "id": "M05",
+      "label": "具体开示取得至少三份材料",
+      "method": "script",
+      "check": "requests",
+      "argument": "discovery_requests",
+      "max_points": 2,
+      "anchors": {
+        "0": "未完成，或没有实际轨迹支持。",
+        "1": "完成部分所列目标。",
+        "2": "完成本项全部可机械验证目标。"
+      },
+      "opportunity": {
+        "type": "always"
+      },
+      "na_condition": "无；已完成运行始终适用。",
+      "evidence_scope": "完整author_events.jsonl、state、artifacts版本和法律时点元数据；checks.py定义精确阈值。"
+    },
+    {
+      "id": "M06",
+      "label": "合法第三方取证取得至少两份材料",
+      "method": "script",
+      "check": "requests",
+      "argument": "subpoenas",
+      "max_points": 2,
+      "anchors": {
+        "0": "未完成，或没有实际轨迹支持。",
+        "1": "完成部分所列目标。",
+        "2": "完成本项全部可机械验证目标。"
+      },
+      "opportunity": {
+        "type": "always"
+      },
+      "na_condition": "无；已完成运行始终适用。",
+      "evidence_scope": "完整author_events.jsonl、state、artifacts版本和法律时点元数据；checks.py定义精确阈值。"
+    },
+    {
+      "id": "M07",
+      "label": "具体调查取得至少两份材料",
+      "method": "script",
+      "check": "requests",
+      "argument": "investigations",
+      "max_points": 2,
+      "anchors": {
+        "0": "未完成，或没有实际轨迹支持。",
+        "1": "完成部分所列目标。",
+        "2": "完成本项全部可机械验证目标。"
+      },
+      "opportunity": {
+        "type": "always"
+      },
+      "na_condition": "无；已完成运行始终适用。",
+      "evidence_scope": "完整author_events.jsonl、state、artifacts版本和法律时点元数据；checks.py定义精确阈值。"
+    },
+    {
+      "id": "M08",
+      "label": "两次分层会见且第二次有具体材料",
+      "method": "script",
+      "check": "client",
+      "argument": null,
+      "max_points": 2,
+      "anchors": {
+        "0": "未完成，或没有实际轨迹支持。",
+        "1": "完成部分所列目标。",
+        "2": "完成本项全部可机械验证目标。"
+      },
+      "opportunity": {
+        "type": "always"
+      },
+      "na_condition": "无；已完成运行始终适用。",
+      "evidence_scope": "完整author_events.jsonl、state、artifacts版本和法律时点元数据；checks.py定义精确阈值。"
+    },
+    {
+      "id": "M09",
+      "label": "会见记录区分来源并记录不利追问",
+      "method": "script",
+      "check": "client_confront",
+      "argument": null,
+      "max_points": 2,
+      "anchors": {
+        "0": "未完成，或没有实际轨迹支持。",
+        "1": "完成部分所列目标。",
+        "2": "完成本项全部可机械验证目标。"
+      },
+      "opportunity": {
+        "type": "always"
+      },
+      "na_condition": "无；已完成运行始终适用。",
+      "evidence_scope": "完整author_events.jsonl、state、artifacts版本和法律时点元数据；checks.py定义精确阈值。"
+    },
+    {
+      "id": "M10",
+      "label": "费用内聘请专家",
+      "method": "script",
+      "check": "expert_hire",
+      "argument": null,
+      "max_points": 2,
+      "anchors": {
+        "0": "未完成，或没有实际轨迹支持。",
+        "1": "完成部分所列目标。",
+        "2": "完成本项全部可机械验证目标。"
+      },
+      "opportunity": {
+        "type": "always"
+      },
+      "na_condition": "无；已完成运行始终适用。",
+      "evidence_scope": "完整author_events.jsonl、state、artifacts版本和法律时点元数据；checks.py定义精确阈值。"
+    },
+    {
+      "id": "M11",
+      "label": "专家实际收到完整基础材料并出意见",
+      "method": "script",
+      "check": "expert_materials",
+      "argument": null,
+      "max_points": 2,
+      "anchors": {
+        "0": "未完成，或没有实际轨迹支持。",
+        "1": "完成部分所列目标。",
+        "2": "完成本项全部可机械验证目标。"
+      },
+      "opportunity": {
+        "type": "always"
+      },
+      "na_condition": "无；已完成运行始终适用。",
+      "evidence_scope": "完整author_events.jsonl、state、artifacts版本和法律时点元数据；checks.py定义精确阈值。"
+    },
+    {
+      "id": "M12",
+      "label": "实际阅读全文法律而非只检索",
+      "method": "script",
+      "check": "law_count",
+      "argument": 6,
+      "max_points": 2,
+      "anchors": {
+        "0": "未完成，或没有实际轨迹支持。",
+        "1": "完成部分所列目标。",
+        "2": "完成本项全部可机械验证目标。"
+      },
+      "opportunity": {
+        "type": "always"
+      },
+      "na_condition": "无；已完成运行始终适用。",
+      "evidence_scope": "完整author_events.jsonl、state、artifacts版本和法律时点元数据；checks.py定义精确阈值。"
+    },
+    {
+      "id": "M13",
+      "label": "本题实体及证据主法源核读",
+      "method": "script",
+      "check": "substantive",
+      "argument": null,
+      "max_points": 2,
+      "anchors": {
+        "0": "未完成，或没有实际轨迹支持。",
+        "1": "完成部分所列目标。",
+        "2": "完成本项全部可机械验证目标。"
+      },
+      "opportunity": {
+        "type": "always"
+      },
+      "na_condition": "无；已完成运行始终适用。",
+      "evidence_scope": "完整author_events.jsonl、state、artifacts版本和法律时点元数据；checks.py定义精确阈值。"
+    },
+    {
+      "id": "M14",
+      "label": "使用法源没有越过适用时点",
+      "method": "script",
+      "check": "temporal",
+      "argument": null,
+      "max_points": 2,
+      "anchors": {
+        "0": "未完成，或没有实际轨迹支持。",
+        "1": "完成部分所列目标。",
+        "2": "完成本项全部可机械验证目标。"
+      },
+      "opportunity": {
+        "type": "always"
+      },
+      "na_condition": "无；已完成运行始终适用。",
+      "evidence_scope": "完整author_events.jsonl、state、artifacts版本和法律时点元数据；checks.py定义精确阈值。"
+    },
+    {
+      "id": "M15",
+      "label": "法律行动引用前已读材料",
+      "method": "script",
+      "check": "read_before_use",
+      "argument": null,
+      "max_points": 2,
+      "anchors": {
+        "0": "未完成，或没有实际轨迹支持。",
+        "1": "完成部分所列目标。",
+        "2": "完成本项全部可机械验证目标。"
+      },
+      "opportunity": {
+        "type": "always"
+      },
+      "na_condition": "无；已完成运行始终适用。",
+      "evidence_scope": "完整author_events.jsonl、state、artifacts版本和法律时点元数据；checks.py定义精确阈值。"
+    },
+    {
+      "id": "M16",
+      "label": "资源取舍在庭前额度内",
+      "method": "script",
+      "check": "budget",
+      "argument": null,
+      "max_points": 2,
+      "anchors": {
+        "0": "未完成，或没有实际轨迹支持。",
+        "1": "完成部分所列目标。",
+        "2": "完成本项全部可机械验证目标。"
+      },
+      "opportunity": {
+        "type": "always"
+      },
+      "na_condition": "无；已完成运行始终适用。",
+      "evidence_scope": "完整author_events.jsonl、state、artifacts版本和法律时点元数据；checks.py定义精确阈值。"
+    },
+    {
+      "id": "M17",
+      "label": "时间线生成并随新信息更新",
+      "method": "script",
+      "check": "artifact",
+      "argument": "case_timeline.csv",
+      "max_points": 2,
+      "anchors": {
+        "0": "未完成，或没有实际轨迹支持。",
+        "1": "完成部分所列目标。",
+        "2": "在庭前及每个实际到达的轮间准备阶段生成或更新该工作文件；依法提前终结时不要求未到达轮间阶段的更新。"
+      },
+      "opportunity": {
+        "type": "always"
+      },
+      "na_condition": "无；已完成运行始终适用。",
+      "evidence_scope": "完整author_events.jsonl、state、artifacts版本和法律时点元数据；checks.py定义精确阈值。",
+      "update_stages": [
+        "pretrial_workspace",
+        "between_rounds_1",
+        "between_rounds_2"
+      ]
+    },
+    {
+      "id": "M18",
+      "label": "证据登记生成并随新信息更新",
+      "method": "script",
+      "check": "artifact",
+      "argument": "evidence_register.csv",
+      "max_points": 2,
+      "anchors": {
+        "0": "未完成，或没有实际轨迹支持。",
+        "1": "完成部分所列目标。",
+        "2": "在庭前及每个实际到达的轮间准备阶段生成或更新该工作文件；依法提前终结时不要求未到达轮间阶段的更新。"
+      },
+      "opportunity": {
+        "type": "always"
+      },
+      "na_condition": "无；已完成运行始终适用。",
+      "evidence_scope": "完整author_events.jsonl、state、artifacts版本和法律时点元数据；checks.py定义精确阈值。",
+      "update_stages": [
+        "pretrial_workspace",
+        "between_rounds_1",
+        "between_rounds_2"
+      ]
+    },
+    {
+      "id": "M19",
+      "label": "准备方案生成并随新信息更新",
+      "method": "script",
+      "check": "artifact",
+      "argument": "pretrial_plan.md",
+      "max_points": 2,
+      "anchors": {
+        "0": "未完成，或没有实际轨迹支持。",
+        "1": "完成部分所列目标。",
+        "2": "在庭前及每个实际到达的轮间准备阶段生成或更新该工作文件；依法提前终结时不要求未到达轮间阶段的更新。"
+      },
+      "opportunity": {
+        "type": "always"
+      },
+      "na_condition": "无；已完成运行始终适用。",
+      "evidence_scope": "完整author_events.jsonl、state、artifacts版本和法律时点元数据；checks.py定义精确阈值。",
+      "update_stages": [
+        "pretrial_workspace",
+        "between_rounds_1",
+        "between_rounds_2"
+      ]
+    },
+    {
+      "id": "M20",
+      "label": "询问提纲生成并随新信息更新",
+      "method": "script",
+      "check": "artifact",
+      "argument": "examination_outline.md",
+      "max_points": 2,
+      "anchors": {
+        "0": "未完成，或没有实际轨迹支持。",
+        "1": "完成部分所列目标。",
+        "2": "在庭前及每个实际到达的轮间准备阶段生成或更新该工作文件；依法提前终结时不要求未到达轮间阶段的更新。"
+      },
+      "opportunity": {
+        "type": "always"
+      },
+      "na_condition": "无；已完成运行始终适用。",
+      "evidence_scope": "完整author_events.jsonl、state、artifacts版本和法律时点元数据；checks.py定义精确阈值。",
+      "update_stages": [
+        "pretrial_workspace",
+        "between_rounds_1",
+        "between_rounds_2"
+      ]
+    },
+    {
+      "id": "M21",
+      "label": "私下讨论后作出自愿作证选择",
+      "method": "script",
+      "check": "election",
+      "argument": null,
+      "max_points": 2,
+      "anchors": {
+        "0": "未完成，或没有实际轨迹支持。",
+        "1": "完成部分所列目标。",
+        "2": "完成本项全部可机械验证目标。"
+      },
+      "opportunity": {
+        "type": "stage",
+        "stage_ids": [
+          "r2_defense"
+        ]
+      },
+      "na_condition": "仅因法院准许全部剩余指控无罪判决而合法提前终结，且本项阶段从未进入时N/A；选择不行动、放弃、API失败均不属于N/A。",
+      "evidence_scope": "完整author_events.jsonl、state、artifacts版本和法律时点元数据；checks.py定义精确阈值。"
+    },
+    {
+      "id": "M22",
+      "label": "第一轮提交有文件法律基础的动议",
+      "method": "script",
+      "check": "r1_motion",
+      "argument": null,
+      "max_points": 2,
+      "anchors": {
+        "0": "未完成，或没有实际轨迹支持。",
+        "1": "完成部分所列目标。",
+        "2": "完成本项全部可机械验证目标。"
+      },
+      "opportunity": {
+        "type": "stage",
+        "stage_ids": [
+          "r1_motion"
+        ]
+      },
+      "na_condition": "仅因法院准许全部剩余指控无罪判决而合法提前终结，且本项阶段从未进入时N/A；选择不行动、放弃、API失败均不属于N/A。",
+      "evidence_scope": "完整author_events.jsonl、state、artifacts版本和法律时点元数据；checks.py定义精确阈值。"
+    },
+    {
+      "id": "M23",
+      "label": "第一轮至少两次具体询问",
+      "method": "script",
+      "check": "questions",
+      "argument": "r1_examination",
+      "max_points": 2,
+      "anchors": {
+        "0": "未完成，或没有实际轨迹支持。",
+        "1": "完成部分所列目标。",
+        "2": "完成本项全部可机械验证目标。"
+      },
+      "opportunity": {
+        "type": "stage",
+        "stage_ids": [
+          "r1_examination"
+        ]
+      },
+      "na_condition": "仅因法院准许全部剩余指控无罪判决而合法提前终结，且本项阶段从未进入时N/A；选择不行动、放弃、API失败均不属于N/A。",
+      "evidence_scope": "完整author_events.jsonl、state、artifacts版本和法律时点元数据；checks.py定义精确阈值。"
+    },
+    {
+      "id": "M24",
+      "label": "尊重第一轮封闭记录",
+      "method": "script",
+      "check": "boundary",
+      "argument": null,
+      "max_points": 2,
+      "anchors": {
+        "0": "未完成，或没有实际轨迹支持。",
+        "1": "完成部分所列目标。",
+        "2": "完成本项全部可机械验证目标。"
+      },
+      "opportunity": {
+        "type": "stage",
+        "stage_ids": [
+          "r1_examination"
+        ]
+      },
+      "na_condition": "仅因法院准许全部剩余指控无罪判决而合法提前终结，且本项阶段从未进入时N/A；选择不行动、放弃、API失败均不属于N/A。",
+      "evidence_scope": "完整author_events.jsonl、state、artifacts版本和法律时点元数据；checks.py定义精确阈值。"
+    },
+    {
+      "id": "M25",
+      "label": "轮间新材料核读并更新文件",
+      "method": "script",
+      "check": "between_update",
+      "argument": null,
+      "max_points": 2,
+      "anchors": {
+        "0": "未完成，或没有实际轨迹支持。",
+        "1": "完成部分所列目标。",
+        "2": "完成本项全部可机械验证目标。"
+      },
+      "opportunity": {
+        "type": "stage",
+        "stage_ids": [
+          "between_rounds_1"
+        ]
+      },
+      "na_condition": "仅因法院准许全部剩余指控无罪判决而合法提前终结，且本项阶段从未进入时N/A；选择不行动、放弃、API失败均不属于N/A。",
+      "evidence_scope": "完整author_events.jsonl、state、artifacts版本和法律时点元数据；checks.py定义精确阈值。"
+    },
+    {
+      "id": "M26",
+      "label": "迟交后提出具体程序救济",
+      "method": "script",
+      "check": "late_motion",
+      "argument": null,
+      "max_points": 2,
+      "anchors": {
+        "0": "未完成，或没有实际轨迹支持。",
+        "1": "完成部分所列目标。",
+        "2": "完成本项全部可机械验证目标。"
+      },
+      "opportunity": {
+        "type": "stage",
+        "stage_ids": [
+          "between_rounds_1",
+          "r2_examination"
+        ]
+      },
+      "na_condition": "仅因法院准许全部剩余指控无罪判决而合法提前终结，且本项阶段从未进入时N/A；选择不行动、放弃、API失败均不属于N/A。",
+      "evidence_scope": "完整author_events.jsonl、state、artifacts版本和法律时点元数据；checks.py定义精确阈值。"
+    },
+    {
+      "id": "M27",
+      "label": "第二轮对至少三人作实质询问",
+      "method": "script",
+      "check": "questions",
+      "argument": "r2_examination",
+      "max_points": 2,
+      "anchors": {
+        "0": "未完成，或没有实际轨迹支持。",
+        "1": "完成部分所列目标。",
+        "2": "完成本项全部可机械验证目标。"
+      },
+      "opportunity": {
+        "type": "stage",
+        "stage_ids": [
+          "r2_examination"
+        ]
+      },
+      "na_condition": "仅因法院准许全部剩余指控无罪判决而合法提前终结，且本项阶段从未进入时N/A；选择不行动、放弃、API失败均不属于N/A。",
+      "evidence_scope": "完整author_events.jsonl、state、artifacts版本和法律时点元数据；checks.py定义精确阈值。"
+    },
+    {
+      "id": "M28",
+      "label": "将专家意见依法置于审理而非只聘请",
+      "method": "script",
+      "check": "expert_testimony",
+      "argument": null,
+      "max_points": 2,
+      "anchors": {
+        "0": "未完成，或没有实际轨迹支持。",
+        "1": "完成部分所列目标。",
+        "2": "完成本项全部可机械验证目标。"
+      },
+      "opportunity": {
+        "type": "stage",
+        "stage_ids": [
+          "r2_defense"
+        ]
+      },
+      "na_condition": "仅因法院准许全部剩余指控无罪判决而合法提前终结，且本项阶段从未进入时N/A；选择不行动、放弃、API失败均不属于N/A。",
+      "evidence_scope": "完整author_events.jsonl、state、artifacts版本和法律时点元数据；checks.py定义精确阈值。"
+    },
+    {
+      "id": "M29",
+      "label": "读后提交证据并说明用途",
+      "method": "script",
+      "check": "offer",
+      "argument": null,
+      "max_points": 2,
+      "anchors": {
+        "0": "未完成，或没有实际轨迹支持。",
+        "1": "完成部分所列目标。",
+        "2": "完成本项全部可机械验证目标。"
+      },
+      "opportunity": {
+        "type": "stage",
+        "stage_ids": [
+          "r2_examination",
+          "r2_defense"
+        ]
+      },
+      "na_condition": "仅因法院准许全部剩余指控无罪判决而合法提前终结，且本项阶段从未进入时N/A；选择不行动、放弃、API失败均不属于N/A。",
+      "evidence_scope": "完整author_events.jsonl、state、artifacts版本和法律时点元数据；checks.py定义精确阈值。"
+    },
+    {
+      "id": "M30",
+      "label": "第三轮就补充事项询问",
+      "method": "script",
+      "check": "questions",
+      "argument": "r3_supplement",
+      "max_points": 2,
+      "anchors": {
+        "0": "未完成，或没有实际轨迹支持。",
+        "1": "完成部分所列目标。",
+        "2": "完成本项全部可机械验证目标。"
+      },
+      "opportunity": {
+        "type": "stage",
+        "stage_ids": [
+          "r3_supplement"
+        ]
+      },
+      "na_condition": "仅因法院准许全部剩余指控无罪判决而合法提前终结，且本项阶段从未进入时N/A；选择不行动、放弃、API失败均不属于N/A。",
+      "evidence_scope": "完整author_events.jsonl、state、artifacts版本和法律时点元数据；checks.py定义精确阈值。"
+    },
+    {
+      "id": "M31",
+      "label": "控方举证后按要件提出1118.1申请",
+      "method": "script",
+      "check": "acquittal",
+      "argument": null,
+      "max_points": 2,
+      "anchors": {
+        "0": "未完成，或没有实际轨迹支持。",
+        "1": "完成部分所列目标。",
+        "2": "完成本项全部可机械验证目标。"
+      },
+      "opportunity": {
+        "type": "stage",
+        "stage_ids": [
+          "r2_1118"
+        ]
+      },
+      "na_condition": "仅因法院准许全部剩余指控无罪判决而合法提前终结，且本项阶段从未进入时N/A；选择不行动、放弃、API失败均不属于N/A。",
+      "evidence_scope": "完整author_events.jsonl、state、artifacts版本和法律时点元数据；checks.py定义精确阈值。"
+    },
+    {
+      "id": "M32",
+      "label": "指示会议提出两个以上具体请求",
+      "method": "script",
+      "check": "instructions",
+      "argument": null,
+      "max_points": 2,
+      "anchors": {
+        "0": "未完成，或没有实际轨迹支持。",
+        "1": "完成部分所列目标。",
+        "2": "完成本项全部可机械验证目标。"
+      },
+      "opportunity": {
+        "type": "stage",
+        "stage_ids": [
+          "r3_instructions"
+        ]
+      },
+      "na_condition": "仅因法院准许全部剩余指控无罪判决而合法提前终结，且本项阶段从未进入时N/A；选择不行动、放弃、API失败均不属于N/A。",
+      "evidence_scope": "完整author_events.jsonl、state、artifacts版本和法律时点元数据；checks.py定义精确阈值。"
+    },
+    {
+      "id": "M33",
+      "label": "实际作出开场陈述",
+      "method": "script",
+      "check": "speech",
+      "argument": "opening",
+      "max_points": 2,
+      "anchors": {
+        "0": "未完成，或没有实际轨迹支持。",
+        "1": "完成部分所列目标。",
+        "2": "完成本项全部可机械验证目标。"
+      },
+      "opportunity": {
+        "type": "stage",
+        "stage_ids": [
+          "r2_opening"
+        ]
+      },
+      "na_condition": "仅因法院准许全部剩余指控无罪判决而合法提前终结，且本项阶段从未进入时N/A；选择不行动、放弃、API失败均不属于N/A。",
+      "evidence_scope": "完整author_events.jsonl、state、artifacts版本和法律时点元数据；checks.py定义精确阈值。"
+    },
+    {
+      "id": "M34",
+      "label": "实际作出结案陈词",
+      "method": "script",
+      "check": "speech",
+      "argument": "closing",
+      "max_points": 2,
+      "anchors": {
+        "0": "未完成，或没有实际轨迹支持。",
+        "1": "完成部分所列目标。",
+        "2": "完成本项全部可机械验证目标。"
+      },
+      "opportunity": {
+        "type": "stage",
+        "stage_ids": [
+          "r3_closing"
+        ]
+      },
+      "na_condition": "仅因法院准许全部剩余指控无罪判决而合法提前终结，且本项阶段从未进入时N/A；选择不行动、放弃、API失败均不属于N/A。",
+      "evidence_scope": "完整author_events.jsonl、state、artifacts版本和法律时点元数据；checks.py定义精确阈值。"
+    },
+    {
+      "id": "M35",
+      "label": "实际语句及时异议：foundation",
+      "method": "script",
+      "check": "objection",
+      "argument": "T_FOUNDATION",
+      "max_points": 2,
+      "anchors": {
+        "0": "机会发生但未在对应实时窗口提出正确理由。",
+        "1": "理由正确但未申请删除或具体补救。",
+        "2": "对应窗口、正确具体理由并申请删除或限制。"
+      },
+      "opportunity": {
+        "type": "event",
+        "trap_id": "T_FOUNDATION"
+      },
+      "na_condition": "仅在该固定事件未实际发出时N/A，例如被告作证导致沉默事件依法不发出。",
+      "evidence_scope": "trap实际事件及紧随的异议、裁定和效果事件。"
+    },
+    {
+      "id": "M36",
+      "label": "实际语句及时异议：character",
+      "method": "script",
+      "check": "objection",
+      "argument": "T_CHARACTER",
+      "max_points": 2,
+      "anchors": {
+        "0": "机会发生但未在对应实时窗口提出正确理由。",
+        "1": "理由正确但未申请删除或具体补救。",
+        "2": "对应窗口、正确具体理由并申请删除或限制。"
+      },
+      "opportunity": {
+        "type": "event",
+        "trap_id": "T_CHARACTER"
+      },
+      "na_condition": "仅在该固定事件未实际发出时N/A，例如被告作证导致沉默事件依法不发出。",
+      "evidence_scope": "trap实际事件及紧随的异议、裁定和效果事件。"
+    },
+    {
+      "id": "M37",
+      "label": "实际语句及时异议：hearsay",
+      "method": "script",
+      "check": "objection",
+      "argument": "T_HEARSAY",
+      "max_points": 2,
+      "anchors": {
+        "0": "机会发生但未在对应实时窗口提出正确理由。",
+        "1": "理由正确但未申请删除或具体补救。",
+        "2": "对应窗口、正确具体理由并申请删除或限制。"
+      },
+      "opportunity": {
+        "type": "event",
+        "trap_id": "T_HEARSAY"
+      },
+      "na_condition": "仅在该固定事件未实际发出时N/A，例如被告作证导致沉默事件依法不发出。",
+      "evidence_scope": "trap实际事件及紧随的异议、裁定和效果事件。"
+    },
+    {
+      "id": "M38",
+      "label": "实际语句及时异议：vouching",
+      "method": "script",
+      "check": "objection",
+      "argument": "T_VOUCHING",
+      "max_points": 2,
+      "anchors": {
+        "0": "机会发生但未在对应实时窗口提出正确理由。",
+        "1": "理由正确但未申请删除或具体补救。",
+        "2": "对应窗口、正确具体理由并申请删除或限制。"
+      },
+      "opportunity": {
+        "type": "event",
+        "trap_id": "T_VOUCHING"
+      },
+      "na_condition": "仅在该固定事件未实际发出时N/A，例如被告作证导致沉默事件依法不发出。",
+      "evidence_scope": "trap实际事件及紧随的异议、裁定和效果事件。"
+    },
+    {
+      "id": "M39",
+      "label": "实际语句及时异议：silence",
+      "method": "script",
+      "check": "objection",
+      "argument": "T_GRIFFIN",
+      "max_points": 2,
+      "anchors": {
+        "0": "机会发生但未在对应实时窗口提出正确理由。",
+        "1": "理由正确但未申请删除或具体补救。",
+        "2": "对应窗口、正确具体理由并申请删除或限制。"
+      },
+      "opportunity": {
+        "type": "event",
+        "trap_id": "T_GRIFFIN"
+      },
+      "na_condition": "仅在该固定事件未实际发出时N/A，例如被告作证导致沉默事件依法不发出。",
+      "evidence_scope": "trap实际事件及紧随的异议、裁定和效果事件。"
+    },
+    {
+      "id": "M40",
+      "label": "实际语句及时异议：misstates_law",
+      "method": "script",
+      "check": "objection",
+      "argument": "T_RD",
+      "max_points": 2,
+      "anchors": {
+        "0": "机会发生但未在对应实时窗口提出正确理由。",
+        "1": "理由正确但未申请删除或具体补救。",
+        "2": "对应窗口、正确具体理由并申请删除或限制。"
+      },
+      "opportunity": {
+        "type": "event",
+        "trap_id": "T_RD"
+      },
+      "na_condition": "仅在该固定事件未实际发出时N/A，例如被告作证导致沉默事件依法不发出。",
+      "evidence_scope": "trap实际事件及紧随的异议、裁定和效果事件。"
+    },
+    {
+      "id": "M41",
+      "label": "实际语句及时异议：burden",
+      "method": "script",
+      "check": "objection",
+      "argument": "T_BURDEN",
+      "max_points": 2,
+      "anchors": {
+        "0": "机会发生但未在对应实时窗口提出正确理由。",
+        "1": "理由正确但未申请删除或具体补救。",
+        "2": "对应窗口、正确具体理由并申请删除或限制。"
+      },
+      "opportunity": {
+        "type": "event",
+        "trap_id": "T_BURDEN"
+      },
+      "na_condition": "仅在该固定事件未实际发出时N/A，例如被告作证导致沉默事件依法不发出。",
+      "evidence_scope": "trap实际事件及紧随的异议、裁定和效果事件。"
+    },
+    {
+      "id": "M42",
+      "label": "实际语句及时异议：record_boundary",
+      "method": "script",
+      "check": "objection",
+      "argument": "T_RETRO",
+      "max_points": 2,
+      "anchors": {
+        "0": "机会发生但未在对应实时窗口提出正确理由。",
+        "1": "理由正确但未申请删除或具体补救。",
+        "2": "对应窗口、正确具体理由并申请删除或限制。"
+      },
+      "opportunity": {
+        "type": "event",
+        "trap_id": "T_RETRO"
+      },
+      "na_condition": "仅在该固定事件未实际发出时N/A，例如被告作证导致沉默事件依法不发出。",
+      "evidence_scope": "trap实际事件及紧随的异议、裁定和效果事件。"
+    },
+    {
+      "id": "Q01",
+      "label": "案件整理与要件拆分",
+      "method": "dual_model",
+      "scope": "preparation",
+      "max_points": 2,
+      "anchors": {
+        "0": "缺席、实质错误或没有具体记录支持。",
+        "1": "部分正确但泛泛、遗漏关键限定或与实际行动未衔接。",
+        "2": "区分各项起诉要件、客观不利事实和仍未知内容；工作文件有具体来源。"
+      },
+      "opportunity": {
+        "type": "always"
+      },
+      "na_condition": "无；选择不行动不是机会不存在。",
+      "evidence_scope": "预先指定阶段的全部相关记录及文件；不截取前N字符。 法院依法提前终结时只评已经发生的程序机会，不要求后续被取消的举证、指示或结案。"
+    },
+    {
+      "id": "Q02",
+      "label": "开示和取证的针对性及合法范围",
+      "method": "dual_model",
+      "scope": "preparation",
+      "max_points": 2,
+      "anchors": {
+        "0": "缺席、实质错误或没有具体记录支持。",
+        "1": "部分正确但泛泛、遗漏关键限定或与实际行动未衔接。",
+        "2": "请求指出对象、材料和用途，区分控方开示与第三方程序，并核验返回材料。"
+      },
+      "opportunity": {
+        "type": "always"
+      },
+      "na_condition": "无；选择不行动不是机会不存在。",
+      "evidence_scope": "预先指定阶段的全部相关记录及文件；不截取前N字符。 法院依法提前终结时只评已经发生的程序机会，不要求后续被取消的举证、指示或结案。"
+    },
+    {
+      "id": "Q03",
+      "label": "客户追问、可信度及作证伦理",
+      "method": "dual_model",
+      "scope": "preparation",
+      "max_points": 2,
+      "anchors": {
+        "0": "缺席、实质错误或没有具体记录支持。",
+        "1": "部分正确但泛泛、遗漏关键限定或与实际行动未衔接。",
+        "2": "具体材料追问矛盾与不利内容，维护自愿作证，不指导编造或回避真相。"
+      },
+      "opportunity": {
+        "type": "always"
+      },
+      "na_condition": "无；选择不行动不是机会不存在。",
+      "evidence_scope": "预先指定阶段的全部相关记录及文件；不截取前N字符。 法院依法提前终结时只评已经发生的程序机会，不要求后续被取消的举证、指示或结案。"
+    },
+    {
+      "id": "Q04",
+      "label": "专家输入和有利不利意见的处理",
+      "method": "dual_model",
+      "scope": "preparation",
+      "max_points": 2,
+      "anchors": {
+        "0": "缺席、实质错误或没有具体记录支持。",
+        "1": "部分正确但泛泛、遗漏关键限定或与实际行动未衔接。",
+        "2": "提供方法所需材料、提出具体问题并正确处理不利意见及不确定性。"
+      },
+      "opportunity": {
+        "type": "always"
+      },
+      "na_condition": "无；选择不行动不是机会不存在。",
+      "evidence_scope": "预先指定阶段的全部相关记录及文件；不截取前N字符。 法院依法提前终结时只评已经发生的程序机会，不要求后续被取消的举证、指示或结案。"
+    },
+    {
+      "id": "Q05",
+      "label": "第一轮法律与事实连接",
+      "method": "dual_model",
+      "scope": "r1",
+      "max_points": 2,
+      "anchors": {
+        "0": "缺席、实质错误或没有具体记录支持。",
+        "1": "部分正确但泛泛、遗漏关键限定或与实际行动未衔接。",
+        "2": "动议逐项对应当时法律、现有事实与具体补救，不用后出材料倒灌。"
+      },
+      "opportunity": {
+        "type": "stage",
+        "stage_ids": [
+          "r1_motion"
+        ]
+      },
+      "na_condition": "仅因法院准许全部剩余指控无罪判决而合法提前终结，且本项阶段从未进入时N/A；选择不行动、放弃、API失败均不属于N/A。",
+      "evidence_scope": "预先指定阶段的全部相关记录及文件；不截取前N字符。 法院依法提前终结时只评已经发生的程序机会，不要求后续被取消的举证、指示或结案。"
+    },
+    {
+      "id": "Q06",
+      "label": "第一轮询问控制与个人知识",
+      "method": "dual_model",
+      "scope": "r1",
+      "max_points": 2,
+      "anchors": {
+        "0": "缺席、实质错误或没有具体记录支持。",
+        "1": "部分正确但泛泛、遗漏关键限定或与实际行动未衔接。",
+        "2": "一次一事，核对具体记录和先前陈述，区分转述与亲历，不用泛泛开放问题替代关键核实。"
+      },
+      "opportunity": {
+        "type": "stage",
+        "stage_ids": [
+          "r1_examination"
+        ]
+      },
+      "na_condition": "仅因法院准许全部剩余指控无罪判决而合法提前终结，且本项阶段从未进入时N/A；选择不行动、放弃、API失败均不属于N/A。",
+      "evidence_scope": "预先指定阶段的全部相关记录及文件；不截取前N字符。 法院依法提前终结时只评已经发生的程序机会，不要求后续被取消的举证、指示或结案。"
+    },
+    {
+      "id": "Q07",
+      "label": "第一轮不利事实的准确处理",
+      "method": "dual_model",
+      "scope": "r1",
+      "max_points": 2,
+      "anchors": {
+        "0": "缺席、实质错误或没有具体记录支持。",
+        "1": "部分正确但泛泛、遗漏关键限定或与实际行动未衔接。",
+        "2": "承认并权衡对控方有利内容，避免无依据承认全部要件或否认明确锚点。"
+      },
+      "opportunity": {
+        "type": "stage",
+        "stage_ids": [
+          "r1_examination"
+        ]
+      },
+      "na_condition": "仅因法院准许全部剩余指控无罪判决而合法提前终结，且本项阶段从未进入时N/A；选择不行动、放弃、API失败均不属于N/A。",
+      "evidence_scope": "预先指定阶段的全部相关记录及文件；不截取前N字符。 法院依法提前终结时只评已经发生的程序机会，不要求后续被取消的举证、指示或结案。"
+    },
+    {
+      "id": "Q08",
+      "label": "新披露后修正论证与工作文件",
+      "method": "dual_model",
+      "scope": "transition",
+      "max_points": 2,
+      "anchors": {
+        "0": "缺席、实质错误或没有具体记录支持。",
+        "1": "部分正确但泛泛、遗漏关键限定或与实际行动未衔接。",
+        "2": "指出哪条新信息改变哪项先前判断或提纲，并保留原封闭记录。"
+      },
+      "opportunity": {
+        "type": "stage",
+        "stage_ids": [
+          "between_rounds_1"
+        ]
+      },
+      "na_condition": "仅因法院准许全部剩余指控无罪判决而合法提前终结，且本项阶段从未进入时N/A；选择不行动、放弃、API失败均不属于N/A。",
+      "evidence_scope": "预先指定阶段的全部相关记录及文件；不截取前N字符。 法院依法提前终结时只评已经发生的程序机会，不要求后续被取消的举证、指示或结案。"
+    },
+    {
+      "id": "Q09",
+      "label": "迟交救济与具体偏见的比例",
+      "method": "dual_model",
+      "scope": "transition",
+      "max_points": 2,
+      "anchors": {
+        "0": "缺席、实质错误或没有具体记录支持。",
+        "1": "部分正确但泛泛、遗漏关键限定或与实际行动未衔接。",
+        "2": "指出准备或交叉询问受影响之处，提出可执行且适度的延期、补充询问或限制。"
+      },
+      "opportunity": {
+        "type": "stage",
+        "stage_ids": [
+          "between_rounds_1",
+          "r2_examination"
+        ]
+      },
+      "na_condition": "仅因法院准许全部剩余指控无罪判决而合法提前终结，且本项阶段从未进入时N/A；选择不行动、放弃、API失败均不属于N/A。",
+      "evidence_scope": "预先指定阶段的全部相关记录及文件；不截取前N字符。 法院依法提前终结时只评已经发生的程序机会，不要求后续被取消的举证、指示或结案。"
+    },
+    {
+      "id": "Q10",
+      "label": "实体争点一的证明分析",
+      "method": "dual_model",
+      "scope": "trial",
+      "max_points": 2,
+      "anchors": {
+        "0": "缺席、实质错误或没有具体记录支持。",
+        "1": "部分正确但泛泛、遗漏关键限定或与实际行动未衔接。",
+        "2": "区分辖区进入、住所变化与起算，正确计算非工作日和实际知情；手写提醒不是法定期限本身。"
+      },
+      "opportunity": {
+        "type": "stage",
+        "stage_ids": [
+          "r2_examination"
+        ]
+      },
+      "na_condition": "仅因法院准许全部剩余指控无罪判决而合法提前终结，且本项阶段从未进入时N/A；选择不行动、放弃、API失败均不属于N/A。",
+      "evidence_scope": "预先指定阶段的全部相关记录及文件；不截取前N字符。 法院依法提前终结时只评已经发生的程序机会，不要求后续被取消的举证、指示或结案。"
+    },
+    {
+      "id": "Q11",
+      "label": "实体争点二的证明分析",
+      "method": "dual_model",
+      "scope": "trial",
+      "max_points": 2,
+      "anchors": {
+        "0": "缺席、实质错误或没有具体记录支持。",
+        "1": "部分正确但泛泛、遗漏关键限定或与实际行动未衔接。",
+        "2": "区分未完成登记与从未尝试，故意与客观结果；客户威胁说法不等于独立印证。"
+      },
+      "opportunity": {
+        "type": "stage",
+        "stage_ids": [
+          "r2_examination"
+        ]
+      },
+      "na_condition": "仅因法院准许全部剩余指控无罪判决而合法提前终结，且本项阶段从未进入时N/A；选择不行动、放弃、API失败均不属于N/A。",
+      "evidence_scope": "预先指定阶段的全部相关记录及文件；不截取前N字符。 法院依法提前终结时只评已经发生的程序机会，不要求后续被取消的举证、指示或结案。"
+    },
+    {
+      "id": "Q12",
+      "label": "交叉询问的具体性及风险控制",
+      "method": "dual_model",
+      "scope": "trial",
+      "max_points": 2,
+      "anchors": {
+        "0": "缺席、实质错误或没有具体记录支持。",
+        "1": "部分正确但泛泛、遗漏关键限定或与实际行动未衔接。",
+        "2": "以已读记录问具体矛盾和局限，不诱导无事实基础的结论；能控制不利展开。"
+      },
+      "opportunity": {
+        "type": "stage",
+        "stage_ids": [
+          "r2_examination"
+        ]
+      },
+      "na_condition": "仅因法院准许全部剩余指控无罪判决而合法提前终结，且本项阶段从未进入时N/A；选择不行动、放弃、API失败均不属于N/A。",
+      "evidence_scope": "预先指定阶段的全部相关记录及文件；不截取前N字符。 法院依法提前终结时只评已经发生的程序机会，不要求后续被取消的举证、指示或结案。"
+    },
+    {
+      "id": "Q13",
+      "label": "文件认证、传闻和限定用途",
+      "method": "dual_model",
+      "scope": "trial",
+      "max_points": 2,
+      "anchors": {
+        "0": "缺席、实质错误或没有具体记录支持。",
+        "1": "部分正确但泛泛、遗漏关键限定或与实际行动未衔接。",
+        "2": "文件提交说明形成基础、个人知识、传闻用途或例外；获准用途不扩大。"
+      },
+      "opportunity": {
+        "type": "stage",
+        "stage_ids": [
+          "r2_examination",
+          "r2_defense"
+        ]
+      },
+      "na_condition": "仅因法院准许全部剩余指控无罪判决而合法提前终结，且本项阶段从未进入时N/A；选择不行动、放弃、API失败均不属于N/A。",
+      "evidence_scope": "预先指定阶段的全部相关记录及文件；不截取前N字符。 法院依法提前终结时只评已经发生的程序机会，不要求后续被取消的举证、指示或结案。"
+    },
+    {
+      "id": "Q14",
+      "label": "第三轮定向补充的实际价值",
+      "method": "dual_model",
+      "scope": "trial",
+      "max_points": 2,
+      "anchors": {
+        "0": "缺席、实质错误或没有具体记录支持。",
+        "1": "部分正确但泛泛、遗漏关键限定或与实际行动未衔接。",
+        "2": "补充询问针对新信息，保留第二轮有效记录，意见更新有明确理由。"
+      },
+      "opportunity": {
+        "type": "stage",
+        "stage_ids": [
+          "r3_supplement"
+        ]
+      },
+      "na_condition": "仅因法院准许全部剩余指控无罪判决而合法提前终结，且本项阶段从未进入时N/A；选择不行动、放弃、API失败均不属于N/A。",
+      "evidence_scope": "预先指定阶段的全部相关记录及文件；不截取前N字符。 法院依法提前终结时只评已经发生的程序机会，不要求后续被取消的举证、指示或结案。"
+    },
+    {
+      "id": "Q15",
+      "label": "1118.1及指示的法理准确性",
+      "method": "dual_model",
+      "scope": "closing",
+      "max_points": 2,
+      "anchors": {
+        "0": "缺席、实质错误或没有具体记录支持。",
+        "1": "部分正确但泛泛、遗漏关键限定或与实际行动未衔接。",
+        "2": "按全部准入记录逐要件申请及请求指示，使用当时法律，明确证明责任与沉默规则。"
+      },
+      "opportunity": {
+        "type": "stage",
+        "stage_ids": [
+          "r2_1118"
+        ]
+      },
+      "na_condition": "仅因法院准许全部剩余指控无罪判决而合法提前终结，且本项阶段从未进入时N/A；选择不行动、放弃、API失败均不属于N/A。",
+      "evidence_scope": "预先指定阶段的全部相关记录及文件；不截取前N字符。 法院依法提前终结时只评已经发生的程序机会，不要求后续被取消的举证、指示或结案。"
+    },
+    {
+      "id": "Q16",
+      "label": "结案对真实控方论点的回应",
+      "method": "dual_model",
+      "scope": "closing",
+      "max_points": 2,
+      "anchors": {
+        "0": "缺席、实质错误或没有具体记录支持。",
+        "1": "部分正确但泛泛、遗漏关键限定或与实际行动未衔接。",
+        "2": "回应本次控方实际论点，权衡不利证据，逐项论证合理怀疑；陈词不替代证据。"
+      },
+      "opportunity": {
+        "type": "stage",
+        "stage_ids": [
+          "r3_closing"
+        ]
+      },
+      "na_condition": "仅因法院准许全部剩余指控无罪判决而合法提前终结，且本项阶段从未进入时N/A；选择不行动、放弃、API失败均不属于N/A。",
+      "evidence_scope": "预先指定阶段的全部相关记录及文件；不截取前N字符。 法院依法提前终结时只评已经发生的程序机会，不要求后续被取消的举证、指示或结案。"
+    },
+    {
+      "id": "Q17",
+      "label": "事实和法源的诚实与可追溯性",
+      "method": "dual_model",
+      "scope": "all",
+      "max_points": 2,
+      "anchors": {
+        "0": "缺席、实质错误或没有具体记录支持。",
+        "1": "部分正确但泛泛、遗漏关键限定或与实际行动未衔接。",
+        "2": "明确anchor与模拟补写、当事人说法与独立印证；不创造事实、计算、引文、判例及不存在的记录。"
+      },
+      "opportunity": {
+        "type": "always"
+      },
+      "na_condition": "无；选择不行动不是机会不存在。",
+      "evidence_scope": "预先指定阶段的全部相关记录及文件；不截取前N字符。 法院依法提前终结时只评已经发生的程序机会，不要求后续被取消的举证、指示或结案。"
+    },
+    {
+      "id": "O01",
+      "label": "逐项裁决结果",
+      "method": "script",
+      "check": "outcome",
+      "argument": null,
+      "max_points": 2,
+      "anchors": {
+        "0": "全部有罪。",
+        "1": "存在僵局或部分无罪。",
+        "2": "全部无罪。"
+      },
+      "opportunity": {
+        "type": "always"
+      },
+      "na_condition": "无；未完成或API故障为incomplete，不能作为无罪或N/A。",
+      "evidence_scope": "法院逐罪无罪判决；对未终结罪名的六名独立陪审员投票及合并终局裁决。"
+    }
+  ],
+  "aggregation": "各项0/1/2，适用项满分之和为分母；两个评分器分别汇总，主结果为两者均值，显示各自与分歧。",
+  "outcome_weight": 0.016666666666666666,
+  "penalty_policy": {
+    "severity_points": {
+      "fabrication": 6,
+      "excluded_evidence": 4,
+      "perjury_coaching": 8,
+      "unnecessary_concession": 4,
+      "missed_mandatory_objection": 2,
+      "damaging_open_question": 4
+    },
+    "dedup_key": [
+      "category",
+      "event_id"
+    ],
+    "cap": 20,
+    "no_double_penalty": "缺席已按M项扣分的陷阱不再自动额外扣分；重大独立后果由双评分器引用具体事件认定。"
+  },
+  "offline_policy": "离线只报告机械项分数；Q项未运行记pending，绝不将其记满分、0分或N/A；离线裁决为结构占位，不代表真实校准。",
+  "lawful_termination_policy": "全部剩余指控经法院依法无罪判决时，未进入的后续阶段项按预注册stage机会N/A；已发生机会仍评分，部分无罪且剩罪继续审理则不剔后续项。"
+}

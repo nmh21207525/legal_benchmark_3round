@@ -1,0 +1,59 @@
+{
+  "cases": {
+    "005_Williams": {
+      "facts": 189,
+      "anchor": 19,
+      "authored": 170,
+      "documents": 32,
+      "initial_documents": 9,
+      "laws": 43,
+      "future_distractors": 1,
+      "rubric_items": 60,
+      "raw_denominator": 120,
+      "rounds": 3,
+      "runtime_snapshot_identical": true
+    },
+    "006_Wilson": {
+      "facts": 182,
+      "anchor": 16,
+      "authored": 166,
+      "documents": 32,
+      "initial_documents": 9,
+      "laws": 47,
+      "future_distractors": 5,
+      "rubric_items": 60,
+      "raw_denominator": 120,
+      "rounds": 3,
+      "runtime_snapshot_identical": true
+    }
+  },
+  "checks": [
+    "all_python_syntax",
+    "doc_fact_role_integrity",
+    "anchor_provenance",
+    "all_law_raw_and_text_sha256",
+    "law_cutoff_and_distractors",
+    "rubric_size_and_weights",
+    "teacher_case_directory_shape",
+    "runtime_snapshot_identical"
+  ],
+  "api_calls": 0,
+  "historical_source_validation": [
+    {
+      "case": "005_Williams",
+      "entries": 43,
+      "charge_instructions": 4,
+      "all_hashes_match": true,
+      "aliases_consistent": true,
+      "all_cutoffs_consistent": true
+    },
+    {
+      "case": "006_Wilson",
+      "entries": 47,
+      "charge_instructions": 5,
+      "all_hashes_match": true,
+      "aliases_consistent": true,
+      "all_cutoffs_consistent": true
+    }
+  ]
+}

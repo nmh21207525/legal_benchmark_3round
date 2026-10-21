@@ -1,0 +1,102 @@
+{
+  "checks": [
+    {
+      "command": [
+        "bash",
+        "setup.sh"
+      ],
+      "exit_code": 0,
+      "stdout_tail": "停止请求已记录。当前API调用先完成并保存，下一安全点暂停；status查看状态。\n环境及全部离线验收完成；无第三方Python依赖。运行 bash run_006.sh 或 bash run_005.sh，按提示隐藏输入API密钥。\n",
+      "stderr_tail": "----------------------------------------------------------------------\nRan 117 tests in 141.300s\n\nOK\n"
+    },
+    {
+      "command": [
+        "bash",
+        "run_005.sh",
+        "status"
+      ],
+      "exit_code": 0,
+      "stdout_tail": "{\n  \"case_id\": \"CA-PILOT-005\",\n  \"preregistered\": true,\n  \"live_freeze\": false,\n  \"active\": false,\n  \"stop_requested\": false,\n  \"runs\": [\n    {\n      \"run\": \"calibration_reference_offline\",\n      \"status\": \"completed\",\n      \"stage\": \"ended\",\n      \"mock\": true,\n      \"dual_grade\": \"pending_dual_grading\"\n    },\n    {\n      \"run\": \"calibration_weak_offline\",\n      \"status\": \"completed\",\n      \"stage\": \"ended\",\n      \"mock\": true,\n      \"dual_grade\": \"pending_dual_grading\"\n    }\n  ],\n  \"usage\": {\n    \"case_tokens\": 0,\n    \"run_tokens\": 0,\n    \"case_reserved_unknown\": 0,\n    \"run_reserved_unknown\": 0,\n    \"calls\": 0,\n    \"unknown_usage_calls\": 0,\n    \"inflight_unknown_calls\": 0\n  },\n  \"results\": \"/tmp/legal_v2_extract_seh173u2/legal_agent_3round/005_Williams/RESULTS.md\"\n}\n",
+      "stderr_tail": ""
+    },
+    {
+      "command": [
+        "bash",
+        "run_006.sh",
+        "status"
+      ],
+      "exit_code": 0,
+      "stdout_tail": "{\n  \"case_id\": \"CA-PILOT-006\",\n  \"preregistered\": true,\n  \"live_freeze\": false,\n  \"active\": false,\n  \"stop_requested\": false,\n  \"runs\": [\n    {\n      \"run\": \"calibration_reference_offline\",\n      \"status\": \"completed\",\n      \"stage\": \"ended\",\n      \"mock\": true,\n      \"dual_grade\": \"pending_dual_grading\"\n    },\n    {\n      \"run\": \"calibration_weak_offline\",\n      \"status\": \"completed\",\n      \"stage\": \"ended\",\n      \"mock\": true,\n      \"dual_grade\": \"pending_dual_grading\"\n    }\n  ],\n  \"usage\": {\n    \"case_tokens\": 0,\n    \"run_tokens\": 0,\n    \"case_reserved_unknown\": 0,\n    \"run_reserved_unknown\": 0,\n    \"calls\": 0,\n    \"unknown_usage_calls\": 0,\n    \"inflight_unknown_calls\": 0\n  },\n  \"results\": \"/tmp/legal_v2_extract_seh173u2/legal_agent_3round/006_Wilson/RESULTS.md\"\n}\n",
+      "stderr_tail": ""
+    },
+    {
+      "command": [
+        "bash",
+        "run_005.sh",
+        "offline"
+      ],
+      "exit_code": 0,
+      "stdout_tail": "",
+      "stderr_tail": ""
+    },
+    {
+      "command": [
+        "bash",
+        "run_006.sh",
+        "offline"
+      ],
+      "exit_code": 0,
+      "stdout_tail": "",
+      "stderr_tail": ""
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "-I",
+        "005_Williams/engine/run.py",
+        "status"
+      ],
+      "exit_code": 0,
+      "stdout_tail": "{\n  \"case_id\": \"CA-PILOT-005\",\n  \"preregistered\": true,\n  \"live_freeze\": false,\n  \"active\": false,\n  \"stop_requested\": false,\n  \"runs\": [\n    {\n      \"run\": \"calibration_reference_offline\",\n      \"status\": \"completed\",\n      \"stage\": \"ended\",\n      \"mock\": true,\n      \"dual_grade\": \"pending_dual_grading\"\n    },\n    {\n      \"run\": \"calibration_weak_offline\",\n      \"status\": \"completed\",\n      \"stage\": \"ended\",\n      \"mock\": true,\n      \"dual_grade\": \"pending_dual_grading\"\n    }\n  ],\n  \"usage\": {\n    \"case_tokens\": 0,\n    \"run_tokens\": 0,\n    \"case_reserved_unknown\": 0,\n    \"run_reserved_unknown\": 0,\n    \"calls\": 0,\n    \"unknown_usage_calls\": 0,\n    \"inflight_unknown_calls\": 0\n  },\n  \"results\": \"/tmp/legal_v2_extract_seh173u2/legal_agent_3round/005_Williams/RESULTS.md\"\n}\n",
+      "stderr_tail": ""
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "-I",
+        "006_Wilson/engine/run.py",
+        "status"
+      ],
+      "exit_code": 0,
+      "stdout_tail": "{\n  \"case_id\": \"CA-PILOT-006\",\n  \"preregistered\": true,\n  \"live_freeze\": false,\n  \"active\": false,\n  \"stop_requested\": false,\n  \"runs\": [\n    {\n      \"run\": \"calibration_reference_offline\",\n      \"status\": \"completed\",\n      \"stage\": \"ended\",\n      \"mock\": true,\n      \"dual_grade\": \"pending_dual_grading\"\n    },\n    {\n      \"run\": \"calibration_weak_offline\",\n      \"status\": \"completed\",\n      \"stage\": \"ended\",\n      \"mock\": true,\n      \"dual_grade\": \"pending_dual_grading\"\n    }\n  ],\n  \"usage\": {\n    \"case_tokens\": 0,\n    \"run_tokens\": 0,\n    \"case_reserved_unknown\": 0,\n    \"run_reserved_unknown\": 0,\n    \"calls\": 0,\n    \"unknown_usage_calls\": 0,\n    \"inflight_unknown_calls\": 0\n  },\n  \"results\": \"/tmp/legal_v2_extract_seh173u2/legal_agent_3round/006_Wilson/RESULTS.md\"\n}\n",
+      "stderr_tail": ""
+    },
+    {
+      "command": [
+        "bash",
+        "export_all.sh",
+        "--allow-partial"
+      ],
+      "exit_code": 0,
+      "stdout_tail": "{\n  \"path\": \"/tmp/legal_v2_extract_seh173u2/legal_agent_3round/deliverables/005_006_teacher_delivery_partial_20261021T031405Z.zip\",\n  \"bytes\": 10260475,\n  \"sha256\": \"ceade337ef16b7b301632a349f667f37902fed84199c99d7ff42f6396dae0727\",\n  \"status\": \"partial_not_final\",\n  \"selected_cases\": [\n    \"005_Williams\",\n    \"006_Wilson\"\n  ],\n  \"template_only_cases\": [],\n  \"files\": 522,\n  \"validations\": [\n    {\n      \"case\": \"005_Williams\",\n      \"status\": \"partial_not_final\",\n      \"warning\": \"未进行最终实验资格验收；可能含离线、未完成或未评分记录。\"\n    },\n    {\n      \"case\": \"006_Wilson\",\n      \"status\": \"partial_not_final\",\n      \"warning\": \"未进行最终实验资格验收；可能含离线、未完成或未评分记录。\"\n    }\n  ]\n}\n",
+      "stderr_tail": ""
+    },
+    {
+      "command": [
+        "bash",
+        "export_all.sh"
+      ],
+      "expected": "refuse unfinished final export",
+      "exit_code": 2,
+      "stderr_tail": "暂停：未通过真实环境双评分校准并冻结，不得正式运行候选\n"
+    }
+  ],
+  "real_api_calls": 0,
+  "success": true,
+  "tested_archive_sha256": "da791a2005d6bfdbcc2ce238a9d6f91ef79f15ab830704c73b64ff513a701d8d",
+  "frozen_content_sha256": {
+    "006_Wilson": "f1ae010dbd11b9f6f4aec63e26b6ef3d978377101f5bbad008dcf0dbf099768f",
+    "005_Williams": "7ac4c82d838485db79e545887daecf426bff4b8ce2adc67dfc58fdb6c24f5fed"
+  },
+  "documentation_update": "最终发行仅更新README及验收说明/报告；运行代码、配置、案件、法源、rubric和题内引擎的冻结哈希与已解压验收版完全一致。"
+}

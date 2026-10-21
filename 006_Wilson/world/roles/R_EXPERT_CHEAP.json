@@ -1,0 +1,15 @@
+{
+  "role_id": "R_EXPERT_CHEAP",
+  "display_name": "Morgan Lake",
+  "personality": "经验较少，只有资料足够时才能做有限分析。",
+  "fact_ids": [
+    "D26-F01",
+    "D26-F02",
+    "D26-F03",
+    "D26-F04",
+    "D26-F05"
+  ],
+  "conditional_fact_ids": [],
+  "reveal_rule": "普通问题只答相关已开放事实；具体材料追问时才展开条件事实。不得跨轮泄露。",
+  "source_notice": "化名与补写记忆不是历史人物事实。"
+}

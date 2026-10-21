@@ -1,0 +1,506 @@
+{
+  "admitted_evidence": [
+    {
+      "event_id": "E000040",
+      "text": "后续申请须说明是在请求重新开启还是仅为实体用途，不得伪装成原裁定依据。",
+      "references": [
+        "D30-F03"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000040",
+      "text": "B在事故发生后不久到达，看见A眼睛很红、湿润、充血，据此认为A醉酒。A因受伤被送往医院，B未能在现场完成清醒度测试。B不是原文记载的碰撞目击者。",
+      "references": [
+        "A003"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000040",
+      "text": "在医院，B让A用视线跟随其来回移动的手指，进行眼震测试；原文记载A不能追踪手指，B据此认为其醉酒。没有原始眼震记录、资质资料或其他病因检验。",
+      "references": [
+        "A004"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000040",
+      "text": "在医院Vale进行眼部跟随测试，记录Arden未能追踪手指。",
+      "references": [
+        "D03-F01"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000040",
+      "text": "第一轮裁定记录在裁定后封闭，后续材料不能倒灌。",
+      "references": [
+        "D05-F05"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000044",
+      "text": "检查时没有记录被告能否完全理解所有法律告知。",
+      "references": [
+        "D06-F04"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000044",
+      "text": "记录中无证据证明采样造成实质健康风险。",
+      "references": [
+        "D12-F06"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000044",
+      "text": "记录留有电话校时备注，可申请进一步核对。",
+      "references": [
+        "D15-F06"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000044",
+      "text": "可取得的是护理、标签和交接记录，不包括警员所有判断。",
+      "references": [
+        "D20-F02"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000044",
+      "text": "未发现搜查令记录，不等于已经证明所有无令状行为违法。",
+      "references": [
+        "D20-F03"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000048",
+      "text": "模拟报告给本案样本0.12%结果，与原型转述一致。",
+      "references": [
+        "D14-F01"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000048",
+      "text": "实验室人员只能说明检测时样本浓度。",
+      "references": [
+        "D14-F03"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000048",
+      "text": "他不是事故目击者，也没有参加医院PAS操作。",
+      "references": [
+        "D21-F02"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000048",
+      "text": "他可以说明可确认和不能确认的质控内容。",
+      "references": [
+        "D21-F05"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000048",
+      "text": "控方在第二轮补交质控批次中一个此前遗漏的说明页。",
+      "references": [
+        "D23-F01"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000052",
+      "text": "事故记录含后续调查整理，不应整体说成警员亲眼所见。",
+      "references": [
+        "D27-F01"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000052",
+      "text": "保管人可证明记录生成过程但不能替目击者作证。",
+      "references": [
+        "D27-F02"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000052",
+      "text": "后续申请须说明是在请求重新开启还是仅为实体用途，不得伪装成原裁定依据。",
+      "references": [
+        "D30-F03"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000052",
+      "text": "医院第三方记录需要合法授权或传票程序。",
+      "references": [
+        "D09-F02"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000052",
+      "text": "模拟维护表有设备序列号与月度检测记录。",
+      "references": [
+        "D10-F01"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000079",
+      "text": "在医院，B让A用视线跟随其来回移动的手指，进行眼震测试；原文记载A不能追踪手指，B据此认为其醉酒。没有原始眼震记录、资质资料或其他病因检验。",
+      "references": [
+        "A004"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000079",
+      "text": "第一轮裁定记录在裁定后封闭，后续材料不能倒灌。",
+      "references": [
+        "D05-F05"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000079",
+      "text": "M06不能反向成为第一轮抽血排除裁定的依据。",
+      "references": [
+        "D22-F04"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000079",
+      "text": "B请求A接受PAS呼气筛查，并告知自愿性质及该测试不能代替被捕后的酒精含量测试义务。A同意该筛查。",
+      "references": [
+        "A005"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000079",
+      "text": "在医院Vale进行眼部跟随测试，记录Arden未能追踪手指。",
+      "references": [
+        "D03-F01"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000083",
+      "text": "时间记录不齐应影响主张强度，不能补造精确间隔。",
+      "references": [
+        "D20-F04"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000083",
+      "text": "检查时没有记录被告能否完全理解所有法律告知。",
+      "references": [
+        "D06-F04"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000083",
+      "text": "摘要不能代替两名伤者的完整医疗原件和因果分析。",
+      "references": [
+        "D07-F03"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000083",
+      "text": "道路图仅给调查线索，不能自动排除其他原因。",
+      "references": [
+        "D07-F05"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000083",
+      "text": "她没有听见全部警员告知，不能判断是否存在法律同意。",
+      "references": [
+        "D12-F03"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000087",
+      "text": "他可以说明可确认和不能确认的质控内容。",
+      "references": [
+        "D21-F05"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000087",
+      "text": "在时间和吸收状态不清时，不给确定的驾驶时逆推值。",
+      "references": [
+        "D14-F04"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000087",
+      "text": "两数字差异本身不能证明后来继续饮酒。",
+      "references": [
+        "D18-F02"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000087",
+      "text": "原文记载血样经检测，毒理人员确定酒精含量为0.12%。毒理人员姓名、资质、仪器、校准、采血时间和完整检验报告未提供。",
+      "references": [
+        "A008"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000087",
+      "text": "报告另有同批质控值，不能只摘最终数字。",
+      "references": [
+        "D14-F02"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000091",
+      "text": "材料之间没有记载的内容不能由保管人凭空确认。",
+      "references": [
+        "D27-F05"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000091",
+      "text": "在时间和吸收状态不清时，不给确定的驾驶时逆推值。",
+      "references": [
+        "D14-F04"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000091",
+      "text": "时间记录不齐应影响主张强度，不能补造精确间隔。",
+      "references": [
+        "D20-F04"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000091",
+      "text": "保管人可证明记录生成过程但不能替目击者作证。",
+      "references": [
+        "D27-F02"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000091",
+      "text": "医院第三方记录需要合法授权或传票程序。",
+      "references": [
+        "D09-F02"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    }
+  ],
+  "instructions": [
+    "被告推定无罪，控方须对每项要件排除合理怀疑。",
+    "律师陈述、提问和准备文件不是证据；不得以被告沉默推断有罪。",
+    "删除内容不可使用；限定用途证据只能按限定范围使用。",
+    "A defendant in a criminal action is presumed to be innocent until the contrary is proved, and in case of a reasonable doubt whether his or her guilt is satisfactorily shown, he or she is entitled to an acquittal, but the effect of this presumption is only to place upon the state the burden of proving him or her guilty beyond a reasonable doubt. Reasonable doubt is defined as follows: “It is not a mere possible doubt; because everything relating to human affairs is open to some possible or imaginary doubt. It is that state of the case, which, after the entire comparison and consideration of all the evidence, leaves the minds of jurors in that condition that they cannot say they feel an abiding conviction of the truth of the charge.”",
+    "被告推定无罪。控方须对每项指控的每一要件排除合理怀疑；被告无需证明无罪。对某项必要要件仍有合理怀疑，应就该项指控作无罪认定。只评价本庭依法准许且在用途范围内的证据。",
+    "C01须分别证明：被告驾驶车辆；驾驶时受酒精影响；同时另外实施违法行为或未履行驾驶中的法定义务；该行为或不履行近因造成他人身体受伤。“受影响”要求饮酒实际损害身心驾驶能力，以致不能达到同等情形下通常谨慎清醒者的驾驶标准；仅证明饮酒或检出酒精并不足够。",
+    "C02须分别证明：被告驾驶车辆；驾驶时血液酒精重量比达到0.08%或以上；同时另外实施违法行为或未履行驾驶中的法定义务；该行为或不履行近因造成他人身体受伤。检验时浓度与驾驶时浓度须区分。C01的受影响要件与C02的驾驶时浓度要件须分别评议，不能相互替代。",
+    "两项指控均须在酒驾之外确定另一具体违法行为或驾驶义务的不履行，并证明它近因造成他人受伤；单有酒驾或发生碰撞不能自动补齐这两个要件。普通过失可以满足注意义务要求，不一定须另证违反某一具体车法条号。评价的是对伤害的因果关系，不能机械地只问是否引发碰撞。请依本案证据和法官对具体违法行为的解释判断，不得移植其他判例的超速或安全带事实。",
+    "只有在证据排除合理怀疑地证明化学检测在驾驶后三小时内且浓度达0.08%时，才可以据此推断驾驶时浓度至少0.08%；该推论并非必须作出。未证明时间前提时不得直接套用。仍须考虑全部准许证据，控方的证明责任不转移给被告。缺少某一时刻记录也不当然使其他血醇证据失去所有证明力。"
+  ],
+  "arguments_not_evidence": [
+    {
+      "actor": "R_PROSECUTOR",
+      "text": "请根据已采纳证据分别分析各项要件。控方坚持已经排除合理怀疑，律师陈词本身不替代证据。",
+      "admonished": false
+    },
+    {
+      "actor": "R_PROSECUTOR",
+      "text": "我以检察官的个人信誉担保，我们的证人绝不会说谎。",
+      "admonished": false
+    },
+    {
+      "actor": "R_PROSECUTOR",
+      "text": "被告本可以上证人席解释，但他没有作证，说明他没有清白解释。",
+      "admonished": false
+    },
+    {
+      "actor": "R_PROSECUTOR",
+      "text": "辩方必须证明被告清白，否则各位就应当定罪。",
+      "admonished": false
+    },
+    {
+      "actor": "R_DEFENSE",
+      "text": "被告推定无罪，请依法裁决。",
+      "admonished": false
+    },
+    {
+      "actor": "R_PROSECUTOR",
+      "text": "控方请求依已采纳记录判断，辩方提出的资料局限应与其他证据一并衡量。",
+      "admonished": false
+    }
+  ],
+  "votes": [
+    {
+      "juror": 1,
+      "votes": [
+        {
+          "charge_id": "C01",
+          "decision": "guilty",
+          "reason": "离线规则校准占位；不作为真实模型判决"
+        },
+        {
+          "charge_id": "C02",
+          "decision": "guilty",
+          "reason": "离线规则校准占位；不作为真实模型判决"
+        }
+      ]
+    },
+    {
+      "juror": 2,
+      "votes": [
+        {
+          "charge_id": "C01",
+          "decision": "guilty",
+          "reason": "离线规则校准占位；不作为真实模型判决"
+        },
+        {
+          "charge_id": "C02",
+          "decision": "guilty",
+          "reason": "离线规则校准占位；不作为真实模型判决"
+        }
+      ]
+    },
+    {
+      "juror": 3,
+      "votes": [
+        {
+          "charge_id": "C01",
+          "decision": "guilty",
+          "reason": "离线规则校准占位；不作为真实模型判决"
+        },
+        {
+          "charge_id": "C02",
+          "decision": "guilty",
+          "reason": "离线规则校准占位；不作为真实模型判决"
+        }
+      ]
+    },
+    {
+      "juror": 4,
+      "votes": [
+        {
+          "charge_id": "C01",
+          "decision": "guilty",
+          "reason": "离线规则校准占位；不作为真实模型判决"
+        },
+        {
+          "charge_id": "C02",
+          "decision": "guilty",
+          "reason": "离线规则校准占位；不作为真实模型判决"
+        }
+      ]
+    },
+    {
+      "juror": 5,
+      "votes": [
+        {
+          "charge_id": "C01",
+          "decision": "guilty",
+          "reason": "离线规则校准占位；不作为真实模型判决"
+        },
+        {
+          "charge_id": "C02",
+          "decision": "guilty",
+          "reason": "离线规则校准占位；不作为真实模型判决"
+        }
+      ]
+    },
+    {
+      "juror": 6,
+      "votes": [
+        {
+          "charge_id": "C01",
+          "decision": "guilty",
+          "reason": "离线规则校准占位；不作为真实模型判决"
+        },
+        {
+          "charge_id": "C02",
+          "decision": "guilty",
+          "reason": "离线规则校准占位；不作为真实模型判决"
+        }
+      ]
+    }
+  ],
+  "verdict": {
+    "C01": "guilty",
+    "C02": "guilty"
+  },
+  "judicial_dispositions": {},
+  "termination_reason": "jury_verdict",
+  "mock": true
+}

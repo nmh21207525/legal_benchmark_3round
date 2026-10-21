@@ -1,0 +1,24 @@
+{
+  "legal_id": "L-EVID1045",
+  "type": "statute",
+  "citation": "Evidence Code § 1045",
+  "title": "Evidence Code § 1045 — Pitchess: relevance, in-chambers review, mandatory exclusions",
+  "year": "2002",
+  "effective": "2003-01-01",
+  "cutoff_ok": true,
+  "text": "(a) Nothing in this article shall be construed to affect the right of access to records of complaints, or investigations of complaints, or discipline imposed as a result of those investigations, concerning an event or transaction in which the peace officer or custodial officer, as defined in Section 831.5 of the Penal Code, participated, or which he or she perceived, and pertaining to the manner in which he or she performed his or her duties, provided that information is relevant to the subject matter involved in the pending litigation. (b) In determining relevance, the court shall examine the information in chambers in conformity with Section 915, and shall exclude from disclosure: (1) Information consisting of complaints concerning conduct occurring more than five years before the event or transaction that is the subject of the litigation in aid of which discovery or disclosure is sought. (2) In any criminal proceeding the conclusions of any officer investigating a complaint filed pursuant to Section 832.5 of the Penal Code. (3) Facts sought to be disclosed that are so remote as to make disclosure of little or no practical benefit. ... (e) The court shall, in any case or proceeding permitting the disclosure or discovery of any peace or custodial officer records requested pursuant to Section 1043, order that the records disclosed or discovered may not be used for any purpose other than a court proceeding pursuant to applicable law.",
+  "holding": "Pitchess 审查中，法府应在内庭（in chambers）依 § 915 审查相关性，并必须排除五年前的投诉、调查结论及过于遥远的陈旧事实；披露的记录仅限于本案诉讼使用。",
+  "url": "https://law.onecle.com/california/evidence/1045.html",
+  "retrieved": "2026-10-19",
+  "sha256": "d7a27a072351a712070a76679ab9fd454a97a99e0413e74151981d61a7abe3ce",
+  "relevance": "defense",
+  "tags": [
+    "pitchess",
+    "1045",
+    "in_camera",
+    "discovery",
+    "relevance"
+  ],
+  "distractor": false,
+  "notes": "'(Amended by Stats. 2002, Ch. 391, Sec. 2. Effective January 1, 2003.)' — in force at the 2013 trial. Subdivisions (c) and (d) are omitted via ellipsis; the quoted subdivisions appear verbatim."
+}

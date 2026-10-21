@@ -1,0 +1,23 @@
+{
+  "legal_id": "L-BERKEMER",
+  "type": "case",
+  "citation": "Berkemer v. McCarty, 468 U.S. 420 (1984)",
+  "title": "Berkemer v. McCarty",
+  "year": "1984",
+  "effective": "1984-07-02",
+  "cutoff_ok": true,
+  "text": "The roadside questioning of a motorist detained pursuant to a routine traffic stop does not constitute \"custodial interrogation\" for the purposes of the Miranda rule. Although an ordinary traffic stop curtails the \"freedom of action\" of the detained motorist and imposes some pressures on the detainee to answer questions, such pressures do not sufficiently impair the detainee's exercise of his privilege against self-incrimination to require that he be warned of his constitutional rights. A traffic stop is usually brief, and the motorist expects that, while he may be given a citation, in the end he most likely will be allowed to continue on his way. Moreover, the typical traffic stop is conducted in public, and the atmosphere surrounding it is substantially less \"police dominated\" than that surrounding the kinds of interrogation at issue in Miranda and subsequent cases in which Miranda has been applied.",
+  "holding": "一般交通拦停中的路边盘问不属于 Miranda 意义上的“拘禁讯问”，因此无需警告；判断标准是该环境是否令人感到自由受到相当程度的限制。",
+  "url": "https://www.law.cornell.edu/supremecourt/text/468/420",
+  "retrieved": "2026-10-19",
+  "sha256": "d6347ed39eb0bacebd586c4dfcf98c72e50898dbad91f566387f303c3efbe83f",
+  "relevance": "defense",
+  "tags": [
+    "miranda",
+    "custody",
+    "traffic_stop",
+    "roadside"
+  ],
+  "distractor": false,
+  "notes": "Quotation is from the Court's syllabus/opinion text as published on Cornell LII; the sentence appears verbatim in the opinion body. Use the U.S. Reports pagination (468 U.S. at 440-441) for citation."
+}

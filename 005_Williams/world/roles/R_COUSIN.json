@@ -1,0 +1,23 @@
+{
+  "role_id": "R_COUSIN",
+  "display_name": "Celia Grant",
+  "personality": "愿意帮助被告，但未目睹登记窗口或旅馆事件。",
+  "fact_ids": [
+    "D19-F01",
+    "D19-F02",
+    "D19-F03",
+    "D19-F04",
+    "D19-F05",
+    "D19-F06",
+    "D20-F01",
+    "D20-F02",
+    "D20-F03",
+    "D20-F04",
+    "D20-F05"
+  ],
+  "conditional_fact_ids": [
+    "D19-F05"
+  ],
+  "reveal_rule": "普通问题只答相关已开放事实；具体材料追问时才展开条件事实。不得跨轮泄露。",
+  "source_notice": "化名与补写记忆不是历史人物事实。"
+}

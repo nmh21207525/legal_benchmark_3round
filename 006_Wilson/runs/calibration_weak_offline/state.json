@@ -1,0 +1,304 @@
+{
+  "protocol": "teacher-three-round-v2",
+  "case_id": "CA-PILOT-006",
+  "world_version": "teacher-three-round-v2-20261021",
+  "status": "completed",
+  "stage_index": 15,
+  "stage_id": "ended",
+  "round": 3,
+  "slot": 0,
+  "script_cursor": 0,
+  "script": [],
+  "pending_window": null,
+  "pending_answer": null,
+  "pending_rebuttal": false,
+  "disclosed": [
+    "D01",
+    "D02",
+    "D03",
+    "D04",
+    "D05",
+    "D06",
+    "D07",
+    "D08",
+    "D09",
+    "D23",
+    "D22",
+    "D25",
+    "D29"
+  ],
+  "read_documents": [
+    "D01"
+  ],
+  "law_reads": [],
+  "gates": [
+    "release:D23",
+    "M06",
+    "release:D25",
+    "release:D29"
+  ],
+  "hours_used": 0.25,
+  "actions_used": 1,
+  "money_used": 0,
+  "client_interviews": [],
+  "investigations": [],
+  "discovery_requests": [],
+  "subpoenas": [],
+  "experts": {},
+  "motions": [],
+  "objections": [],
+  "questions": [],
+  "artifacts": {},
+  "rulings": [],
+  "stricken": [],
+  "admonished": [],
+  "excluded_documents": [],
+  "limited_documents": {},
+  "heard_roles": [
+    "R_OFFICER",
+    "R_NURSE",
+    "R_LAB_ANALYST",
+    "R_CUSTODIAN"
+  ],
+  "read_coverage": {
+    "read_document:D01": [
+      [
+        0,
+        388
+      ]
+    ]
+  },
+  "client_confronted_fact_ids": [],
+  "reached_stages": [
+    "pretrial_workspace",
+    "r1_motion",
+    "r1_examination",
+    "r1_ruling",
+    "between_rounds_1",
+    "r2_opening",
+    "r2_examination",
+    "r2_1118",
+    "r2_defense",
+    "r2_ruling",
+    "between_rounds_2",
+    "r3_supplement",
+    "r3_1118",
+    "r3_instructions",
+    "r3_closing",
+    "r3_verdict"
+  ],
+  "charge_dispositions": {},
+  "termination_reason": "jury_verdict",
+  "terminated_at_stage": null,
+  "defendant_testified": false,
+  "testimony_decision": null,
+  "traps_fired": [
+    {
+      "trap_id": "T_FOUNDATION",
+      "seq": 20
+    },
+    {
+      "trap_id": "T_CHARACTER",
+      "seq": 54
+    },
+    {
+      "trap_id": "T_HEARSAY",
+      "seq": 56
+    },
+    {
+      "trap_id": "T_RETRO",
+      "seq": 58
+    },
+    {
+      "trap_id": "T_RD",
+      "seq": 99
+    },
+    {
+      "trap_id": "T_VOUCHING",
+      "seq": 106
+    },
+    {
+      "trap_id": "T_GRIFFIN",
+      "seq": 108
+    },
+    {
+      "trap_id": "T_BURDEN",
+      "seq": 110
+    }
+  ],
+  "closed_records": {
+    "r1_ruling": [
+      "E000008",
+      "E000009",
+      "E000010",
+      "E000011",
+      "E000012",
+      "E000013",
+      "E000014",
+      "E000015",
+      "E000016",
+      "E000017",
+      "E000018",
+      "E000019",
+      "E000020",
+      "E000021",
+      "E000022",
+      "E000023",
+      "E000024"
+    ],
+    "r2_ruling": [
+      "E000030",
+      "E000031",
+      "E000032",
+      "E000033",
+      "E000034",
+      "E000035",
+      "E000036",
+      "E000037",
+      "E000038",
+      "E000039",
+      "E000040",
+      "E000041",
+      "E000042",
+      "E000043",
+      "E000044",
+      "E000045",
+      "E000046",
+      "E000047",
+      "E000048",
+      "E000049",
+      "E000050",
+      "E000051",
+      "E000052",
+      "E000053",
+      "E000054",
+      "E000055",
+      "E000056",
+      "E000057",
+      "E000058",
+      "E000059",
+      "E000060",
+      "E000061",
+      "E000062",
+      "E000063",
+      "E000064",
+      "E000065",
+      "E000066",
+      "E000067",
+      "E000068"
+    ]
+  },
+  "opponent_pending": null,
+  "preparation_remaining": 0,
+  "approved_instructions": [],
+  "verdict": {
+    "C01": "guilty",
+    "C02": "guilty"
+  },
+  "jurors": [
+    {
+      "juror": 1,
+      "votes": [
+        {
+          "charge_id": "C01",
+          "decision": "guilty",
+          "reason": "离线规则校准占位；不作为真实模型判决"
+        },
+        {
+          "charge_id": "C02",
+          "decision": "guilty",
+          "reason": "离线规则校准占位；不作为真实模型判决"
+        }
+      ]
+    },
+    {
+      "juror": 2,
+      "votes": [
+        {
+          "charge_id": "C01",
+          "decision": "guilty",
+          "reason": "离线规则校准占位；不作为真实模型判决"
+        },
+        {
+          "charge_id": "C02",
+          "decision": "guilty",
+          "reason": "离线规则校准占位；不作为真实模型判决"
+        }
+      ]
+    },
+    {
+      "juror": 3,
+      "votes": [
+        {
+          "charge_id": "C01",
+          "decision": "guilty",
+          "reason": "离线规则校准占位；不作为真实模型判决"
+        },
+        {
+          "charge_id": "C02",
+          "decision": "guilty",
+          "reason": "离线规则校准占位；不作为真实模型判决"
+        }
+      ]
+    },
+    {
+      "juror": 4,
+      "votes": [
+        {
+          "charge_id": "C01",
+          "decision": "guilty",
+          "reason": "离线规则校准占位；不作为真实模型判决"
+        },
+        {
+          "charge_id": "C02",
+          "decision": "guilty",
+          "reason": "离线规则校准占位；不作为真实模型判决"
+        }
+      ]
+    },
+    {
+      "juror": 5,
+      "votes": [
+        {
+          "charge_id": "C01",
+          "decision": "guilty",
+          "reason": "离线规则校准占位；不作为真实模型判决"
+        },
+        {
+          "charge_id": "C02",
+          "decision": "guilty",
+          "reason": "离线规则校准占位；不作为真实模型判决"
+        }
+      ]
+    },
+    {
+      "juror": 6,
+      "votes": [
+        {
+          "charge_id": "C01",
+          "decision": "guilty",
+          "reason": "离线规则校准占位；不作为真实模型判决"
+        },
+        {
+          "charge_id": "C02",
+          "decision": "guilty",
+          "reason": "离线规则校准占位；不作为真实模型判决"
+        }
+      ]
+    }
+  ],
+  "last_hash": "2fce0f2e725ce28152bc17bc6881e024f6dfeb21b118443763e8944a18a15fe6",
+  "accepted_steps": 117,
+  "protocol_errors": 0,
+  "tool_result": {
+    "action": "read_document",
+    "target": "D01",
+    "text": "# 起诉书与两项要件\n\n> 模拟补写文书；不是原案原件。\n\n| 文书控制字段 | 记载 |\n|---|---|\n| 文件编号 | CA-PILOT-006/D01 |\n| 形成或经办来源（化名角色） | R_CUSTODIAN |\n| 日期与时刻 | 以正文记载为准；未记载的时点不补填 |\n| 原件/副本及认证状态 | 模拟案卷副本；法庭用途须另行认证和裁定 |\n\n## 记载内容\n\n[D01-F01] 本模拟只审C01 Vehicle Code §23153(a)与C02 §23153(b)。\n\n[D01-F02] 两项都需要驾驶、另一个违法行为或注意义务违反及致伤因果关系。\n\n[D01-F03] C01的受影响与C02的驾驶时浓度不得合并为同一要件。\n\n[D01-F04] 伤害存在并不自动证明两项罪全部构成。\n\n[D01-F05] 不执行量刑或原案特别指控裁决。\n",
+    "offset": 0,
+    "end_offset": 388,
+    "total_characters": 388,
+    "next_offset": null,
+    "page_complete": true,
+    "all_pages_read": true
+  }
+}

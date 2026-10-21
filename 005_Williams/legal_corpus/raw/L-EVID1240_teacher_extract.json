@@ -1,0 +1,23 @@
+{
+  "legal_id": "L-EVID1240",
+  "type": "statute",
+  "citation": "Evidence Code § 1240",
+  "title": "Evidence Code § 1240 — Spontaneous statement",
+  "year": "1965",
+  "effective": "1967-01-01",
+  "cutoff_ok": true,
+  "text": "Evidence of a statement is not made inadmissible by the hearsay rule if the statement: (a) Purports to narrate, describe, or explain an act, condition, or event perceived by the declarant; and (b) Was made spontaneously while the declarant was under the stress of excitement caused by such perception.",
+  "holding": "陈述人在事件刺激下的情绪压力中自发作出、对亲历事件的叙述，不因传闻规则而不可采。",
+  "url": "https://law.onecle.com/california/evidence/1240.html",
+  "retrieved": "2026-10-19",
+  "sha256": "6b6248c238bc087d6656f7c8b39320cb13675426ff298dc07d0a7214dadfcfa1",
+  "relevance": "prosecution",
+  "tags": [
+    "1240",
+    "spontaneous_statement",
+    "excited_utterance",
+    "hearsay_exception"
+  ],
+  "distractor": false,
+  "notes": "'(Enacted by Stats. 1965, Ch. 299.)'"
+}

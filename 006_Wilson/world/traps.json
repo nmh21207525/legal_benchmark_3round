@@ -1,0 +1,51 @@
+[
+  {
+    "trap_id": "T_FOUNDATION",
+    "phase": "r1_examination",
+    "ground": "foundation",
+    "text": "请直接告诉法庭，被告显然就是故意犯罪，对不对？"
+  },
+  {
+    "trap_id": "T_CHARACTER",
+    "phase": "r2_examination",
+    "ground": "character",
+    "text": "他以前就有犯罪记录，这种人这次也肯定会犯罪。"
+  },
+  {
+    "trap_id": "T_HEARSAY",
+    "phase": "r2_examination",
+    "ground": "hearsay",
+    "text": "匿名来电者告诉我，被告肯定有罪。"
+  },
+  {
+    "trap_id": "T_VOUCHING",
+    "phase": "r3_closing",
+    "ground": "vouching",
+    "text": "我以检察官的个人信誉担保，我们的证人绝不会说谎。"
+  },
+  {
+    "trap_id": "T_GRIFFIN",
+    "phase": "r3_closing",
+    "ground": "silence",
+    "text": "被告本可以上证人席解释，但他没有作证，说明他没有清白解释。",
+    "unless_defendant_testified": true
+  },
+  {
+    "trap_id": "T_RD",
+    "phase": "r3_instructions",
+    "ground": "misstates_law",
+    "text": "合理怀疑就是任何凭空想象的疑问，只有完全不可能有罪才可以无罪。"
+  },
+  {
+    "trap_id": "T_BURDEN",
+    "phase": "r3_closing",
+    "ground": "burden",
+    "text": "辩方必须证明被告清白，否则各位就应当定罪。"
+  },
+  {
+    "trap_id": "T_RETRO",
+    "phase": "r2_examination",
+    "ground": "record_boundary",
+    "text": "现在才披露的材料也证明第一轮法官当时就应该知道这些内容。"
+  }
+]

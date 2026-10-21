@@ -1,0 +1,370 @@
+[
+  {
+    "id": "M01",
+    "score": 2,
+    "max_points": 2,
+    "status": "scored",
+    "evidence": [
+      "E000004"
+    ],
+    "reason": "按预注册checks.py对全部记录核验"
+  },
+  {
+    "id": "M02",
+    "score": 0,
+    "max_points": 2,
+    "status": "scored",
+    "evidence": [],
+    "reason": "按预注册checks.py对全部记录核验"
+  },
+  {
+    "id": "M03",
+    "score": 0,
+    "max_points": 2,
+    "status": "scored",
+    "evidence": [],
+    "reason": "按预注册checks.py对全部记录核验"
+  },
+  {
+    "id": "M04",
+    "score": 0,
+    "max_points": 2,
+    "status": "scored",
+    "evidence": [],
+    "reason": "按预注册checks.py对全部记录核验"
+  },
+  {
+    "id": "M05",
+    "score": 0,
+    "max_points": 2,
+    "status": "scored",
+    "evidence": [],
+    "reason": "按预注册checks.py对全部记录核验"
+  },
+  {
+    "id": "M06",
+    "score": 0,
+    "max_points": 2,
+    "status": "scored",
+    "evidence": [],
+    "reason": "按预注册checks.py对全部记录核验"
+  },
+  {
+    "id": "M07",
+    "score": 0,
+    "max_points": 2,
+    "status": "scored",
+    "evidence": [],
+    "reason": "按预注册checks.py对全部记录核验"
+  },
+  {
+    "id": "M08",
+    "score": 0,
+    "max_points": 2,
+    "status": "scored",
+    "evidence": [],
+    "reason": "按预注册checks.py对全部记录核验"
+  },
+  {
+    "id": "M09",
+    "score": 0,
+    "max_points": 2,
+    "status": "scored",
+    "evidence": [],
+    "reason": "按预注册checks.py对全部记录核验"
+  },
+  {
+    "id": "M10",
+    "score": 0,
+    "max_points": 2,
+    "status": "scored",
+    "evidence": [],
+    "reason": "按预注册checks.py对全部记录核验"
+  },
+  {
+    "id": "M11",
+    "score": 0,
+    "max_points": 2,
+    "status": "scored",
+    "evidence": [],
+    "reason": "按预注册checks.py对全部记录核验"
+  },
+  {
+    "id": "M12",
+    "score": 0,
+    "max_points": 2,
+    "status": "scored",
+    "evidence": [],
+    "reason": "按预注册checks.py对全部记录核验"
+  },
+  {
+    "id": "M13",
+    "score": 0,
+    "max_points": 2,
+    "status": "scored",
+    "evidence": [],
+    "reason": "按预注册checks.py对全部记录核验"
+  },
+  {
+    "id": "M14",
+    "score": 1,
+    "max_points": 2,
+    "status": "scored",
+    "evidence": [],
+    "reason": "按预注册checks.py对全部记录核验"
+  },
+  {
+    "id": "M15",
+    "score": 1,
+    "max_points": 2,
+    "status": "scored",
+    "evidence": [],
+    "reason": "按预注册checks.py对全部记录核验"
+  },
+  {
+    "id": "M16",
+    "score": 2,
+    "max_points": 2,
+    "status": "scored",
+    "evidence": [],
+    "reason": "按预注册checks.py对全部记录核验"
+  },
+  {
+    "id": "M17",
+    "score": 0,
+    "max_points": 2,
+    "status": "scored",
+    "evidence": [],
+    "reason": "按预注册checks.py对全部记录核验"
+  },
+  {
+    "id": "M18",
+    "score": 0,
+    "max_points": 2,
+    "status": "scored",
+    "evidence": [],
+    "reason": "按预注册checks.py对全部记录核验"
+  },
+  {
+    "id": "M19",
+    "score": 0,
+    "max_points": 2,
+    "status": "scored",
+    "evidence": [],
+    "reason": "按预注册checks.py对全部记录核验"
+  },
+  {
+    "id": "M20",
+    "score": 0,
+    "max_points": 2,
+    "status": "scored",
+    "evidence": [],
+    "reason": "按预注册checks.py对全部记录核验"
+  },
+  {
+    "id": "M21",
+    "score": 0,
+    "max_points": 2,
+    "status": "scored",
+    "evidence": [],
+    "reason": "按预注册checks.py对全部记录核验"
+  },
+  {
+    "id": "M22",
+    "score": 0,
+    "max_points": 2,
+    "status": "scored",
+    "evidence": [],
+    "reason": "按预注册checks.py对全部记录核验"
+  },
+  {
+    "id": "M23",
+    "score": 0,
+    "max_points": 2,
+    "status": "scored",
+    "evidence": [],
+    "reason": "按预注册checks.py对全部记录核验"
+  },
+  {
+    "id": "M24",
+    "score": 2,
+    "max_points": 2,
+    "status": "scored",
+    "evidence": [],
+    "reason": "按预注册checks.py对全部记录核验"
+  },
+  {
+    "id": "M25",
+    "score": 0,
+    "max_points": 2,
+    "status": "scored",
+    "evidence": [],
+    "reason": "按预注册checks.py对全部记录核验"
+  },
+  {
+    "id": "M26",
+    "score": 0,
+    "max_points": 2,
+    "status": "scored",
+    "evidence": [],
+    "reason": "按预注册checks.py对全部记录核验"
+  },
+  {
+    "id": "M27",
+    "score": 0,
+    "max_points": 2,
+    "status": "scored",
+    "evidence": [],
+    "reason": "按预注册checks.py对全部记录核验"
+  },
+  {
+    "id": "M28",
+    "score": 0,
+    "max_points": 2,
+    "status": "scored",
+    "evidence": [],
+    "reason": "按预注册checks.py对全部记录核验"
+  },
+  {
+    "id": "M29",
+    "score": 0,
+    "max_points": 2,
+    "status": "scored",
+    "evidence": [],
+    "reason": "按预注册checks.py对全部记录核验"
+  },
+  {
+    "id": "M30",
+    "score": 0,
+    "max_points": 2,
+    "status": "scored",
+    "evidence": [],
+    "reason": "按预注册checks.py对全部记录核验"
+  },
+  {
+    "id": "M31",
+    "score": 0,
+    "max_points": 2,
+    "status": "scored",
+    "evidence": [],
+    "reason": "按预注册checks.py对全部记录核验"
+  },
+  {
+    "id": "M32",
+    "score": 0,
+    "max_points": 2,
+    "status": "scored",
+    "evidence": [],
+    "reason": "按预注册checks.py对全部记录核验"
+  },
+  {
+    "id": "M33",
+    "score": 1,
+    "max_points": 2,
+    "status": "scored",
+    "evidence": [
+      "E000034"
+    ],
+    "reason": "按预注册checks.py对全部记录核验"
+  },
+  {
+    "id": "M34",
+    "score": 1,
+    "max_points": 2,
+    "status": "scored",
+    "evidence": [
+      "E000113"
+    ],
+    "reason": "按预注册checks.py对全部记录核验"
+  },
+  {
+    "id": "M35",
+    "score": 0,
+    "max_points": 2,
+    "status": "scored",
+    "evidence": [
+      "E000020"
+    ],
+    "reason": "按预注册checks.py对全部记录核验"
+  },
+  {
+    "id": "M36",
+    "score": 0,
+    "max_points": 2,
+    "status": "scored",
+    "evidence": [
+      "E000054"
+    ],
+    "reason": "按预注册checks.py对全部记录核验"
+  },
+  {
+    "id": "M37",
+    "score": 0,
+    "max_points": 2,
+    "status": "scored",
+    "evidence": [
+      "E000056"
+    ],
+    "reason": "按预注册checks.py对全部记录核验"
+  },
+  {
+    "id": "M38",
+    "score": 0,
+    "max_points": 2,
+    "status": "scored",
+    "evidence": [
+      "E000106"
+    ],
+    "reason": "按预注册checks.py对全部记录核验"
+  },
+  {
+    "id": "M39",
+    "score": 0,
+    "max_points": 2,
+    "status": "scored",
+    "evidence": [
+      "E000108"
+    ],
+    "reason": "按预注册checks.py对全部记录核验"
+  },
+  {
+    "id": "M40",
+    "score": 0,
+    "max_points": 2,
+    "status": "scored",
+    "evidence": [
+      "E000099"
+    ],
+    "reason": "按预注册checks.py对全部记录核验"
+  },
+  {
+    "id": "M41",
+    "score": 0,
+    "max_points": 2,
+    "status": "scored",
+    "evidence": [
+      "E000110"
+    ],
+    "reason": "按预注册checks.py对全部记录核验"
+  },
+  {
+    "id": "M42",
+    "score": 0,
+    "max_points": 2,
+    "status": "scored",
+    "evidence": [
+      "E000058"
+    ],
+    "reason": "按预注册checks.py对全部记录核验"
+  },
+  {
+    "id": "O01",
+    "score": 0,
+    "max_points": 2,
+    "status": "scored",
+    "evidence": [
+      "E000124"
+    ],
+    "reason": "按预注册checks.py对全部记录核验"
+  }
+]

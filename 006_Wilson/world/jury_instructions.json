@@ -1,0 +1,85 @@
+{
+  "version": "historical-charge-instructions-v2",
+  "case_id": "CA-PILOT-006",
+  "law_cutoff": "2000-09-25",
+  "substantive_law_date": "2000-08-16",
+  "instructions": [
+    {
+      "id": "J_BURDEN",
+      "charge_ids": [
+        "C01",
+        "C02"
+      ],
+      "legal_ids": [
+        "L_PEN_1096"
+      ],
+      "text": "被告推定无罪。控方须对每项指控的每一要件排除合理怀疑；被告无需证明无罪。对某项必要要件仍有合理怀疑，应就该项指控作无罪认定。只评价本庭依法准许且在用途范围内的证据。",
+      "source_type": "authored_Chinese_instruction_based_on_historical_primary_sources",
+      "verification": "PEN1096 official snapshot; Chinese procedural adaptation, not a verbatim historical model instruction."
+    },
+    {
+      "id": "J_006_C01",
+      "charge_ids": [
+        "C01"
+      ],
+      "legal_ids": [
+        "L_VEH_23153_2000",
+        "L_ELLIS_1999",
+        "L_ENRIQUEZ_1996"
+      ],
+      "text": "C01须分别证明：被告驾驶车辆；驾驶时受酒精影响；同时另外实施违法行为或未履行驾驶中的法定义务；该行为或不履行近因造成他人身体受伤。“受影响”要求饮酒实际损害身心驾驶能力，以致不能达到同等情形下通常谨慎清醒者的驾驶标准；仅证明饮酒或检出酒精并不足够。",
+      "source_type": "authored_Chinese_instruction_based_on_historical_primary_sources",
+      "verification": "Contemporaneous CALJIC12.60/16.831 reported in Ellis1999; impairment-definition requirement corroborated by Enriquez1996."
+    },
+    {
+      "id": "J_006_C02",
+      "charge_ids": [
+        "C02"
+      ],
+      "legal_ids": [
+        "L_VEH_23153_2000",
+        "L_ELLIS_1999",
+        "L_WEEMS_1997"
+      ],
+      "text": "C02须分别证明：被告驾驶车辆；驾驶时血液酒精重量比达到0.08%或以上；同时另外实施违法行为或未履行驾驶中的法定义务；该行为或不履行近因造成他人身体受伤。检验时浓度与驾驶时浓度须区分。C01的受影响要件与C02的驾驶时浓度要件须分别评议，不能相互替代。",
+      "source_type": "authored_Chinese_instruction_based_on_historical_primary_sources",
+      "verification": "Pre2000 statutory elements and Ellis footnotes4–5; not a post2006 CALCRIM instruction."
+    },
+    {
+      "id": "J_006_ACT_CAUSATION",
+      "charge_ids": [
+        "C01",
+        "C02"
+      ],
+      "legal_ids": [
+        "L_VEH_23153_2000",
+        "L_WEEMS_1997",
+        "L_ELLIS_1999"
+      ],
+      "text": "两项指控均须在酒驾之外确定另一具体违法行为或驾驶义务的不履行，并证明它近因造成他人受伤；单有酒驾或发生碰撞不能自动补齐这两个要件。普通过失可以满足注意义务要求，不一定须另证违反某一具体车法条号。评价的是对伤害的因果关系，不能机械地只问是否引发碰撞。请依本案证据和法官对具体违法行为的解释判断，不得移植其他判例的超速或安全带事实。",
+      "source_type": "authored_Chinese_instruction_based_on_historical_primary_sources",
+      "verification": "Weems selected holding and Ellis instruction-definition requirement; charge-neutral adaptation."
+    },
+    {
+      "id": "J_006_BAC_TIMING",
+      "charge_ids": [
+        "C02"
+      ],
+      "legal_ids": [
+        "L_VEH_23153_2000",
+        "L_YORDAMLIS_1992",
+        "L_PEN_1096"
+      ],
+      "text": "只有在证据排除合理怀疑地证明化学检测在驾驶后三小时内且浓度达0.08%时，才可以据此推断驾驶时浓度至少0.08%；该推论并非必须作出。未证明时间前提时不得直接套用。仍须考虑全部准许证据，控方的证明责任不转移给被告。缺少某一时刻记录也不当然使其他血醇证据失去所有证明力。",
+      "source_type": "authored_Chinese_instruction_based_on_historical_primary_sources",
+      "verification": "Historical statutory timing premise and CALJIC12.61.1 reference in Yordamlis; administrative decision used only within its stated scope; criminal burden retained under PEN1096."
+    }
+  ],
+  "limitations": [
+    "以下中文指示是本实验的法官指示改写；没有冒称为官方中文版或完整历史指示册。",
+    "法源的抓取日期、后来的存档载体日期和被证明的历史规则有效日期分开记录。",
+    "历史法源中的原案人名、地点和具体事实不自动成为本模拟案件事实。",
+    "006指示以2000年前原判记载的CALJIC要件为依据，没有把2006年后CALCRIM当成2000年的指示。",
+    "§23153选用核心经官方后续重述逐字校验并由当时原判交叉核验；未取得完整2000法典版本或完整历史CALJIC卷册，故不声称整卷复原。"
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "case_id": "CA-PILOT-006",
+  "title": "People v. Arden：酒驾致伤与抽血证据",
+  "version": "teacher-three-round-v2-20261021",
+  "simulation_round_count": 3,
+  "simulation_dates": [
+    "2000-09-25",
+    "2000-10-09",
+    "2000-10-16"
+  ],
+  "substantive_law_date": "2000-08-16",
+  "law_cutoff": "2000-09-25",
+  "dates_status": "模拟庭期设计，非历史全案庭期复原",
+  "charges": [
+    {
+      "charge_id": "C01",
+      "name": "酒精影响下驾驶致伤",
+      "law": "L_VEH_23153_2000",
+      "elements": [
+        "驾驶",
+        "受酒精影响",
+        "其他违法行为或注意义务",
+        "致伤因果关系"
+      ]
+    },
+    {
+      "charge_id": "C02",
+      "name": "血液酒精含量0.08%以上驾驶致伤",
+      "law": "L_VEH_23153_2000",
+      "elements": [
+        "驾驶",
+        "驾驶时浓度0.08%以上",
+        "其他违法行为或注意义务",
+        "致伤因果关系"
+      ]
+    }
+  ],
+  "initial_documents": [
+    "D01",
+    "D02",
+    "D03",
+    "D04",
+    "D05",
+    "D06",
+    "D07",
+    "D08",
+    "D09"
+  ],
+  "budget": {
+    "pretrial_hours": 36,
+    "max_actions": 72,
+    "money": 3000
+  },
+  "limits": {
+    "run_tokens": 30000000,
+    "case_tokens": 200000000,
+    "context_tokens": 150000
+  },
+  "required_artifacts": [
+    "case_timeline.csv",
+    "evidence_register.csv",
+    "pretrial_plan.md",
+    "examination_outline.md"
+  ],
+  "defendant": "Lucas Arden",
+  "experts": {
+    "R_EXPERT_CAREFUL": {
+      "fee": 2600,
+      "required_documents": [
+        "D10",
+        "D13",
+        "D14",
+        "D15"
+      ]
+    },
+    "R_EXPERT_CHEAP": {
+      "fee": 900,
+      "required_documents": [
+        "D02",
+        "D03"
+      ]
+    }
+  },
+  "counts": {
+    "facts": 182,
+    "anchors": 16,
+    "authored": 166,
+    "documents": 32,
+    "legal_entries": 47
+  },
+  "jury_instructions_file": "jury_instructions.json",
+  "legal_review": {
+    "reviewed_at": "2026-10-21",
+    "status": "key_historical_core_and_elements_verified",
+    "verification_file": "../legal_corpus/verification.json",
+    "scope": "selected core texts and element instructions, not certification of complete historical code or real legal advice"
+  }
+}

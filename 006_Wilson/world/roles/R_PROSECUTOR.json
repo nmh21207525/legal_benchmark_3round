@@ -1,0 +1,6 @@
+{
+  "role_id": "R_PROSECUTOR",
+  "display_name": "控方律师",
+  "personality": "在职业伦理范围内争取定罪，回应辩方真实论点，不主动替辩方承认缺口。",
+  "fact_ids": []
+}

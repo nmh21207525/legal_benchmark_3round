@@ -1,0 +1,23 @@
+{
+  "legal_id": "L-EVID1043",
+  "type": "statute",
+  "citation": "Evidence Code § 1043",
+  "title": "Evidence Code § 1043 — Pitchess motion: discovery of peace officer personnel records",
+  "year": "2002",
+  "effective": "2003-01-01",
+  "cutoff_ok": true,
+  "text": "(a) In any case in which discovery or disclosure is sought of peace or custodial officer personnel records or records maintained pursuant to Section 832.5 of the Penal Code or information from those records, the party seeking the discovery or disclosure shall file a written motion with the appropriate court or administrative body upon written notice to the governmental agency which has custody and control of the records. The written notice shall be given at the times prescribed by subdivision (b) of Section 1005 of the Code of Civil Procedure. Upon receipt of the notice the governmental agency served shall immediately notify the individual whose records are sought. (b) The motion shall include all of the following: (1) Identification of the proceeding in which discovery or disclosure is sought, the party seeking discovery or disclosure, the peace or custodial officer whose records are sought, the governmental agency which has custody and control of the records, and the time and place at which the motion for discovery or disclosure shall be heard. (2) A description of the type of records or information sought. (3) Affidavits showing good cause for the discovery or disclosure sought, setting forth the materiality thereof to the subject matter involved in the pending litigation and stating upon reasonable belief that the governmental agency identified has the records or information from the records. (c) No hearing upon a motion for discovery or disclosure shall be held without full compliance with the notice provisions of this section except upon a showing by the moving party of good cause for noncompliance, or upon a waiver of the hearing by the governmental agency identified as having the records.",
+  "holding": "Pitchess 动议必须以书面动议提出，附导写明具体记录、相关性和“良好理由”的誓章；未履行通知程序不得开庭。",
+  "url": "https://law.onecle.com/california/evidence/1043.html",
+  "retrieved": "2026-10-19",
+  "sha256": "e5d812cedf8b27fb06b78237698e5e128171f3c28f524d2d99fc41fd7b6de3e2",
+  "relevance": "defense",
+  "tags": [
+    "pitchess",
+    "1043",
+    "discovery",
+    "personnel_records"
+  ],
+  "distractor": false,
+  "notes": "Onecle: '(Amended by Stats. 2002, Ch. 391, Sec. 1. Effective January 1, 2003.)' — in force well before the 2013 trial."
+}

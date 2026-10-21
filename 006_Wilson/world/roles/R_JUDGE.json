@@ -1,0 +1,6 @@
+{
+  "role_id": "R_JUDGE",
+  "display_name": "法官",
+  "personality": "具体、可追溯裁定，执行证据后果，不读取rubric。",
+  "fact_ids": []
+}

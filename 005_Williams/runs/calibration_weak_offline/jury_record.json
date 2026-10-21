@@ -1,0 +1,474 @@
+{
+  "admitted_evidence": [
+    {
+      "event_id": "E000040",
+      "text": "A在5月25日接受初次假释访谈。B在接收表上标记“Yes”并圈出“PC 290”，注记“To register, 290 PC by 5-31-06”；B作证说这表示她亲自告知A须在五日内登记，并让他5月26日见指定假释官C。",
+      "references": [
+        "A002"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000040",
+      "text": "Ellis说自己向被告口头说明登记义务；开示副本没有逐字对话。",
+      "references": [
+        "D02-F03"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000040",
+      "text": "背面含制式知悉栏，但无当场复述或问答记录。",
+      "references": [
+        "D23-F02"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000040",
+      "text": "辩方可请求合理准备时间、补充询问和限制使用，不能倒改第一轮封闭记录。",
+      "references": [
+        "D23-F05"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000040",
+      "text": "本记录不授权控方评论被告保持沉默。",
+      "references": [
+        "D29-F05"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000044",
+      "text": "Jonah Pierce记录5月26日被告说前夜住在救助站。",
+      "references": [
+        "D03-F01"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000044",
+      "text": "摘要不是任何居住地点的连续监控记录。",
+      "references": [
+        "D04-F05"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000044",
+      "text": "无连续定位记录能证明被告在每一时点住在哪里。",
+      "references": [
+        "D05-F05"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000044",
+      "text": "5月26日，A告诉C自己住在救助站。C要求其登记，并在假释档案中记载须在5月31日前登记；C说救助站离学校太近，A不能继续住在那里。",
+      "references": [
+        "A004"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000044",
+      "text": "C安排A住在马德拉县境内一间汽车旅馆，把A及另一名假释人员送去，并要求两人向县警长部门登记。",
+      "references": [
+        "A005"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000048",
+      "text": "起诉书同时使用进入辖区、住所变化的表述；控方必须说明依赖的具体义务。",
+      "references": [
+        "D01-F04"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000048",
+      "text": "无连续定位记录能证明被告在每一时点住在哪里。",
+      "references": [
+        "D05-F05"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000048",
+      "text": "第三方旅馆、救助站和预约信息需要说明调查对象或合法调取程序。",
+      "references": [
+        "D09-F03"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000048",
+      "text": "材料披露不等于采纳，申请法院使用时仍须说明用途。",
+      "references": [
+        "D09-F04"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000048",
+      "text": "Stone能说明查询方法，不能亲眼证明窗口发生的每次交谈。",
+      "references": [
+        "D12-F03"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000052",
+      "text": "5月26日早间接待便条记一名未出示身份证明的人询问登记。",
+      "references": [
+        "D13-F01"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000052",
+      "text": "该便条没有姓名和可用于唯一辨认的签字。",
+      "references": [
+        "D13-F02"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000052",
+      "text": "便条写让来访者带证明并预约，未记已接受登记。",
+      "references": [
+        "D13-F03"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000052",
+      "text": "Bell无法仅凭便条确认来访者就是Mercer。",
+      "references": [
+        "D13-F04"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000052",
+      "text": "当日排队人员较多，Bell不能给出每次接待的逐字原话。",
+      "references": [
+        "D13-F05"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000079",
+      "text": "辩方可请求合理准备时间、补充询问和限制使用，不能倒改第一轮封闭记录。",
+      "references": [
+        "D23-F05"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000079",
+      "text": "格式文本另列变更住所的要求，不能混同各项起算事件。",
+      "references": [
+        "D06-F03"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000079",
+      "text": "控方在第二轮开庭前补交接收表背面复印件。",
+      "references": [
+        "D23-F01"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000079",
+      "text": "背面含制式知悉栏，但无当场复述或问答记录。",
+      "references": [
+        "D23-F02"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000079",
+      "text": "实际知情可以由允许用途的历史事实间接支持，但不能用坏人所以有罪推断。",
+      "references": [
+        "D29-F03"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000083",
+      "text": "5月26日，A告诉C自己住在救助站。C要求其登记，并在假释档案中记载须在5月31日前登记；C说救助站离学校太近，A不能继续住在那里。",
+      "references": [
+        "A004"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000083",
+      "text": "C在安置A后的五日内进行强制家访，发现A不在指定房间，个人物品也已带走；C另一天再去，A仍不在。两个家访的具体日期未记载。",
+      "references": [
+        "A007"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000083",
+      "text": "Jonah Pierce记录5月26日被告说前夜住在救助站。",
+      "references": [
+        "D03-F01"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000083",
+      "text": "报告要求向县警长登记，但没有逐字区分市内与县内迁址。",
+      "references": [
+        "D03-F03"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000083",
+      "text": "5月24日出狱后在朋友家过一夜，因朋友搬家不能久住。",
+      "references": [
+        "D04-F01"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000087",
+      "text": "原始便条未保存完整号码，不能回溯确认通话对象。",
+      "references": [
+        "D15-F03"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000087",
+      "text": "业务记录用途须有相应基础，不能靠文件标题自动采纳。",
+      "references": [
+        "D27-F04"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000087",
+      "text": "无连续定位记录能证明被告在每一时点住在哪里。",
+      "references": [
+        "D05-F05"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000087",
+      "text": "格式文本另列变更住所的要求，不能混同各项起算事件。",
+      "references": [
+        "D06-F03"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000087",
+      "text": "Stone能说明查询方法，不能亲眼证明窗口发生的每次交谈。",
+      "references": [
+        "D12-F03"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000091",
+      "text": "原始便条未保存完整号码，不能回溯确认通话对象。",
+      "references": [
+        "D15-F03"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000091",
+      "text": "该便条没有姓名和可用于唯一辨认的签字。",
+      "references": [
+        "D13-F02"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000091",
+      "text": "Bell无法仅凭便条确认来访者就是Mercer。",
+      "references": [
+        "D13-F04"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000091",
+      "text": "当日排队人员较多，Bell不能给出每次接待的逐字原话。",
+      "references": [
+        "D13-F05"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    },
+    {
+      "event_id": "E000091",
+      "text": "营业日安排不能取代法律对工作日的解释。",
+      "references": [
+        "D14-F05"
+      ],
+      "limitations": [],
+      "source_type": "testimony"
+    }
+  ],
+  "instructions": [
+    "被告推定无罪，控方须对每项要件排除合理怀疑。",
+    "律师陈述、提问和准备文件不是证据；不得以被告沉默推断有罪。",
+    "删除内容不可使用；限定用途证据只能按限定范围使用。",
+    "A defendant in a criminal action is presumed to be innocent until the contrary is proved, and in case of a reasonable doubt whether his or her guilt is satisfactorily shown, he or she is entitled to an acquittal, but the effect of this presumption is only to place upon the state the burden of proving him or her guilty beyond a reasonable doubt. Reasonable doubt is defined as follows: “It is not a mere possible doubt; because everything relating to human affairs is open to some possible or imaginary doubt. It is that state of the case, which, after the entire comparison and consideration of all the evidence, leaves the minds of jurors in that condition that they cannot say they feel an abiding conviction of the truth of the charge.”",
+    "被告推定无罪。控方须对每项指控的每一要件排除合理怀疑；被告无需证明无罪。对某项必要要件仍有合理怀疑，应就该项指控作无罪认定。只评价本庭依法准许且在用途范围内的证据。",
+    "C01：控方须证明：（1）被告因符合旧版§290的既往定罪而负有登记义务；（2）被告在指控辖区居住，触发来到该辖区或在其中变更住所后的五个工作日登记义务；（3）被告实际知道其依法应在居住地登记；（4）被告故意未在该期限内向相应警察局长或县警长登记。故意指自愿或有目的地不履行。实际知情、居住与起算时间均须据本案准许证据判断；不得以仅有行政登记记录代替全部要件。",
+    "旧版§290将住所定义为经常居住的一个或多个地址，不以在那里度过多少天夜为限；旅馆、收容所及能够以街道地址定位的车辆等可属于住所。无住所者属于 transient。须依准许证据判定实际居住及适用义务，不能仅凭当事人自称或某标签决定。",
+    "被告既往定罪在本题可用于依法确定登记义务基础；其余用途服从法庭具体限用裁定。不得仅因曾犯罪便推断本次具有犯罪倾向或已违反登记义务。"
+  ],
+  "arguments_not_evidence": [
+    {
+      "actor": "R_PROSECUTOR",
+      "text": "请根据已采纳证据分别分析各项要件。控方坚持已经排除合理怀疑，律师陈词本身不替代证据。",
+      "admonished": false
+    },
+    {
+      "actor": "R_PROSECUTOR",
+      "text": "我以检察官的个人信誉担保，我们的证人绝不会说谎。",
+      "admonished": false
+    },
+    {
+      "actor": "R_PROSECUTOR",
+      "text": "被告本可以上证人席解释，但他没有作证，说明他没有清白解释。",
+      "admonished": false
+    },
+    {
+      "actor": "R_PROSECUTOR",
+      "text": "辩方必须证明被告清白，否则各位就应当定罪。",
+      "admonished": false
+    },
+    {
+      "actor": "R_DEFENSE",
+      "text": "被告推定无罪，请依法裁决。",
+      "admonished": false
+    },
+    {
+      "actor": "R_PROSECUTOR",
+      "text": "控方请求依已采纳记录判断，辩方提出的资料局限应与其他证据一并衡量。",
+      "admonished": false
+    }
+  ],
+  "votes": [
+    {
+      "juror": 1,
+      "votes": [
+        {
+          "charge_id": "C01",
+          "decision": "guilty",
+          "reason": "离线规则校准占位；不作为真实模型判决"
+        }
+      ]
+    },
+    {
+      "juror": 2,
+      "votes": [
+        {
+          "charge_id": "C01",
+          "decision": "guilty",
+          "reason": "离线规则校准占位；不作为真实模型判决"
+        }
+      ]
+    },
+    {
+      "juror": 3,
+      "votes": [
+        {
+          "charge_id": "C01",
+          "decision": "guilty",
+          "reason": "离线规则校准占位；不作为真实模型判决"
+        }
+      ]
+    },
+    {
+      "juror": 4,
+      "votes": [
+        {
+          "charge_id": "C01",
+          "decision": "guilty",
+          "reason": "离线规则校准占位；不作为真实模型判决"
+        }
+      ]
+    },
+    {
+      "juror": 5,
+      "votes": [
+        {
+          "charge_id": "C01",
+          "decision": "guilty",
+          "reason": "离线规则校准占位；不作为真实模型判决"
+        }
+      ]
+    },
+    {
+      "juror": 6,
+      "votes": [
+        {
+          "charge_id": "C01",
+          "decision": "guilty",
+          "reason": "离线规则校准占位；不作为真实模型判决"
+        }
+      ]
+    }
+  ],
+  "verdict": {
+    "C01": "guilty"
+  },
+  "judicial_dispositions": {},
+  "termination_reason": "jury_verdict",
+  "mock": true
+}

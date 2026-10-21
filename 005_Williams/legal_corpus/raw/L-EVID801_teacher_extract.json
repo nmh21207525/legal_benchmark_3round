@@ -1,0 +1,23 @@
+{
+  "legal_id": "L-EVID801",
+  "type": "statute",
+  "citation": "Evidence Code § 801",
+  "title": "Evidence Code § 801 — Opinion testimony by expert witness",
+  "year": "1965",
+  "effective": "1967-01-01",
+  "cutoff_ok": true,
+  "text": "If a witness is testifying as an expert, his testimony in the form of an opinion is limited to such an opinion as is: (a) Related to a subject that is sufficiently beyond common experience that the opinion of an expert would assist the trier of fact; and (b) Based on matter (including his special knowledge, skill, experience, training, and education) perceived by or personally known to the witness or made known to him at or before the hearing, whether or not admissible, that is of a type that reasonably may be relied upon by an expert in forming an opinion upon the subject to which his testimony relates, unless an expert is precluded by law from using such matter as a basis for his opinion.",
+  "holding": "专家意见限于超出常识且能协助事实审判者的事项，并需基于其亲自感知或合理依赖的材料。",
+  "url": "https://law.onecle.com/california/evidence/801.html",
+  "retrieved": "2026-10-19",
+  "sha256": "33bd580dccb94904e1341a6125e6441b277790e73deb2cd4cb0471fde96e669c",
+  "relevance": "both",
+  "tags": [
+    "801",
+    "expert",
+    "opinion",
+    "basis"
+  ],
+  "distractor": false,
+  "notes": "'(Enacted by Stats. 1965, Ch. 299.)'"
+}

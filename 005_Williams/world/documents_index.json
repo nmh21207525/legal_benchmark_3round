@@ -1,0 +1,813 @@
+[
+  {
+    "doc_id": "D01",
+    "title": "起诉书与有限用途约定",
+    "origin": "authored",
+    "notice": "人物均为化名；本文件为模拟补写，非原案真实卷宗。",
+    "release": "initial",
+    "topics": [
+      "charge"
+    ],
+    "roles": [
+      "R_REGISTRAR"
+    ],
+    "fact_ids": [
+      "D01-F01",
+      "D01-F02",
+      "D01-F03",
+      "D01-F04",
+      "D01-F05"
+    ],
+    "path": "documents/D01.md",
+    "min_round": 0,
+    "gate": null
+  },
+  {
+    "doc_id": "D02",
+    "title": "初次接收访谈的开示副本",
+    "origin": "authored",
+    "notice": "人物均为化名；本文件为模拟补写，非原案真实卷宗。",
+    "release": "initial",
+    "topics": [
+      "notice",
+      "intake"
+    ],
+    "roles": [
+      "R_INTAKE_AGENT"
+    ],
+    "fact_ids": [
+      "D02-F01",
+      "D02-F02",
+      "D02-F03",
+      "D02-F04",
+      "D02-F05"
+    ],
+    "path": "documents/D02.md",
+    "min_round": 0,
+    "gate": null
+  },
+  {
+    "doc_id": "D03",
+    "title": "指定假释官报告",
+    "origin": "authored",
+    "notice": "人物均为化名；本文件为模拟补写，非原案真实卷宗。",
+    "release": "initial",
+    "topics": [
+      "residence",
+      "assigned"
+    ],
+    "roles": [
+      "R_ASSIGNED_AGENT"
+    ],
+    "fact_ids": [
+      "D03-F01",
+      "D03-F02",
+      "D03-F03",
+      "D03-F04",
+      "D03-F05",
+      "D03-F06"
+    ],
+    "path": "documents/D03.md",
+    "min_round": 0,
+    "gate": null
+  },
+  {
+    "doc_id": "D04",
+    "title": "初始住宿时间线摘要",
+    "origin": "authored",
+    "notice": "人物均为化名；本文件为模拟补写，非原案真实卷宗。",
+    "release": "initial",
+    "topics": [
+      "timeline",
+      "residence"
+    ],
+    "roles": [
+      "R_DEFENDANT",
+      "R_ASSIGNED_AGENT"
+    ],
+    "fact_ids": [
+      "D04-F01",
+      "D04-F02",
+      "D04-F03",
+      "D04-F04",
+      "D04-F05"
+    ],
+    "path": "documents/D04.md",
+    "min_round": 0,
+    "gate": null
+  },
+  {
+    "doc_id": "D05",
+    "title": "逮捕与登记查询摘要",
+    "origin": "authored",
+    "notice": "人物均为化名；本文件为模拟补写，非原案真实卷宗。",
+    "release": "initial",
+    "topics": [
+      "registry",
+      "arrest"
+    ],
+    "roles": [
+      "R_REGISTRAR",
+      "R_ASSIGNED_AGENT"
+    ],
+    "fact_ids": [
+      "D05-F01",
+      "D05-F02",
+      "D05-F03",
+      "D05-F04",
+      "D05-F05"
+    ],
+    "path": "documents/D05.md",
+    "min_round": 0,
+    "gate": null
+  },
+  {
+    "doc_id": "D06",
+    "title": "登记告知格式与背景约定",
+    "origin": "authored",
+    "notice": "人物均为化名；本文件为模拟补写，非原案真实卷宗。",
+    "release": "initial",
+    "topics": [
+      "notice",
+      "prior"
+    ],
+    "roles": [
+      "R_INTAKE_AGENT",
+      "R_REGISTRAR"
+    ],
+    "fact_ids": [
+      "D06-F01",
+      "D06-F02",
+      "D06-F03",
+      "D06-F04",
+      "D06-F05"
+    ],
+    "path": "documents/D06.md",
+    "min_round": 0,
+    "gate": null
+  },
+  {
+    "doc_id": "D07",
+    "title": "初次会见委托记录",
+    "origin": "authored",
+    "notice": "人物均为化名；本文件为模拟补写，非原案真实卷宗。",
+    "release": "initial",
+    "topics": [
+      "client"
+    ],
+    "roles": [
+      "R_DEFENDANT"
+    ],
+    "fact_ids": [
+      "D07-F01",
+      "D07-F02",
+      "D07-F03",
+      "D07-F04",
+      "D07-F05"
+    ],
+    "path": "documents/D07.md",
+    "min_round": 0,
+    "gate": null
+  },
+  {
+    "doc_id": "D08",
+    "title": "2006年5月末公开日历",
+    "origin": "authored",
+    "notice": "人物均为化名；本文件为模拟补写，非原案真实卷宗。",
+    "release": "initial",
+    "topics": [
+      "calendar",
+      "deadline"
+    ],
+    "roles": [
+      "R_REGISTRAR"
+    ],
+    "fact_ids": [
+      "D08-F01",
+      "D08-F02",
+      "D08-F03",
+      "D08-F04",
+      "D08-F05",
+      "D08-F06"
+    ],
+    "path": "documents/D08.md",
+    "min_round": 0,
+    "gate": null
+  },
+  {
+    "doc_id": "D09",
+    "title": "控方初始开示清单",
+    "origin": "authored",
+    "notice": "人物均为化名；本文件为模拟补写，非原案真实卷宗。",
+    "release": "initial",
+    "topics": [
+      "discovery"
+    ],
+    "roles": [
+      "R_REGISTRAR"
+    ],
+    "fact_ids": [
+      "D09-F01",
+      "D09-F02",
+      "D09-F03",
+      "D09-F04",
+      "D09-F05"
+    ],
+    "path": "documents/D09.md",
+    "min_round": 0,
+    "gate": null
+  },
+  {
+    "doc_id": "D10",
+    "title": "接收表原件的模拟扫描转写",
+    "origin": "authored",
+    "notice": "人物均为化名；本文件为模拟补写，非原案真实卷宗。",
+    "release": "discovery",
+    "topics": [
+      "intake",
+      "notice",
+      "signature"
+    ],
+    "roles": [
+      "R_INTAKE_AGENT",
+      "R_DEFENDANT"
+    ],
+    "fact_ids": [
+      "D10-F01",
+      "D10-F02",
+      "D10-F03",
+      "D10-F04",
+      "D10-F05",
+      "D10-F06"
+    ],
+    "path": "documents/D10.md",
+    "min_round": 0,
+    "gate": null
+  },
+  {
+    "doc_id": "D11",
+    "title": "指定假释官家访底稿",
+    "origin": "authored",
+    "notice": "人物均为化名；本文件为模拟补写，非原案真实卷宗。",
+    "release": "discovery",
+    "topics": [
+      "home_visit",
+      "residence",
+      "assigned"
+    ],
+    "roles": [
+      "R_ASSIGNED_AGENT"
+    ],
+    "fact_ids": [
+      "D11-F01",
+      "D11-F02",
+      "D11-F03",
+      "D11-F04",
+      "D11-F05",
+      "D11-F06"
+    ],
+    "path": "documents/D11.md",
+    "min_round": 0,
+    "gate": null
+  },
+  {
+    "doc_id": "D12",
+    "title": "县登记系统查询日志",
+    "origin": "authored",
+    "notice": "人物均为化名；本文件为模拟补写，非原案真实卷宗。",
+    "release": "discovery",
+    "topics": [
+      "registry",
+      "query",
+      "record"
+    ],
+    "roles": [
+      "R_REGISTRAR"
+    ],
+    "fact_ids": [
+      "D12-F01",
+      "D12-F02",
+      "D12-F03",
+      "D12-F04",
+      "D12-F05",
+      "D12-F06"
+    ],
+    "path": "documents/D12.md",
+    "min_round": 0,
+    "gate": null
+  },
+  {
+    "doc_id": "D13",
+    "title": "市警察部门窗口接待记录",
+    "origin": "authored",
+    "notice": "人物均为化名；本文件为模拟补写，非原案真实卷宗。",
+    "release": "subpoena",
+    "topics": [
+      "window",
+      "registration",
+      "appointment"
+    ],
+    "roles": [
+      "R_RECEPTIONIST"
+    ],
+    "fact_ids": [
+      "D13-F01",
+      "D13-F02",
+      "D13-F03",
+      "D13-F04",
+      "D13-F05",
+      "D13-F06"
+    ],
+    "path": "documents/D13.md",
+    "min_round": 0,
+    "gate": null
+  },
+  {
+    "doc_id": "D14",
+    "title": "窗口营业及预约规则",
+    "origin": "authored",
+    "notice": "人物均为化名；本文件为模拟补写，非原案真实卷宗。",
+    "release": "subpoena",
+    "topics": [
+      "hours",
+      "appointment",
+      "window"
+    ],
+    "roles": [
+      "R_RECEPTIONIST",
+      "R_REGISTRAR"
+    ],
+    "fact_ids": [
+      "D14-F01",
+      "D14-F02",
+      "D14-F03",
+      "D14-F04",
+      "D14-F05"
+    ],
+    "path": "documents/D14.md",
+    "min_round": 0,
+    "gate": null
+  },
+  {
+    "doc_id": "D15",
+    "title": "预约簿与身份核验办法",
+    "origin": "authored",
+    "notice": "人物均为化名；本文件为模拟补写，非原案真实卷宗。",
+    "release": "subpoena",
+    "topics": [
+      "appointment",
+      "identity"
+    ],
+    "roles": [
+      "R_RECEPTIONIST",
+      "R_REGISTRAR"
+    ],
+    "fact_ids": [
+      "D15-F01",
+      "D15-F02",
+      "D15-F03",
+      "D15-F04",
+      "D15-F05"
+    ],
+    "path": "documents/D15.md",
+    "min_round": 0,
+    "gate": null
+  },
+  {
+    "doc_id": "D16",
+    "title": "救助站住宿与迁出记录",
+    "origin": "authored",
+    "notice": "人物均为化名；本文件为模拟补写，非原案真实卷宗。",
+    "release": "investigate",
+    "topics": [
+      "shelter",
+      "residence",
+      "address"
+    ],
+    "roles": [
+      "R_DEFENDANT",
+      "R_INVESTIGATOR"
+    ],
+    "fact_ids": [
+      "D16-F01",
+      "D16-F02",
+      "D16-F03",
+      "D16-F04",
+      "D16-F05"
+    ],
+    "path": "documents/D16.md",
+    "min_round": 0,
+    "gate": null
+  },
+  {
+    "doc_id": "D17",
+    "title": "旅馆房卡与入住账册",
+    "origin": "authored",
+    "notice": "人物均为化名；本文件为模拟补写，非原案真实卷宗。",
+    "release": "investigate",
+    "topics": [
+      "motel",
+      "room",
+      "residence"
+    ],
+    "roles": [
+      "R_MOTEL_CLERK",
+      "R_DEFENDANT"
+    ],
+    "fact_ids": [
+      "D17-F01",
+      "D17-F02",
+      "D17-F03",
+      "D17-F04",
+      "D17-F05",
+      "D17-F06"
+    ],
+    "path": "documents/D17.md",
+    "min_round": 0,
+    "gate": null
+  },
+  {
+    "doc_id": "D18",
+    "title": "旅馆现场与工作人员访谈",
+    "origin": "authored",
+    "notice": "人物均为化名；本文件为模拟补写，非原案真实卷宗。",
+    "release": "investigate",
+    "topics": [
+      "motel",
+      "threat",
+      "scene"
+    ],
+    "roles": [
+      "R_MOTEL_CLERK",
+      "R_INVESTIGATOR"
+    ],
+    "fact_ids": [
+      "D18-F01",
+      "D18-F02",
+      "D18-F03",
+      "D18-F04",
+      "D18-F05",
+      "D18-F06"
+    ],
+    "path": "documents/D18.md",
+    "min_round": 0,
+    "gate": null
+  },
+  {
+    "doc_id": "D19",
+    "title": "亲属住所访谈",
+    "origin": "authored",
+    "notice": "人物均为化名；本文件为模拟补写，非原案真实卷宗。",
+    "release": "investigate",
+    "topics": [
+      "cousin",
+      "residence",
+      "family"
+    ],
+    "roles": [
+      "R_COUSIN",
+      "R_DEFENDANT"
+    ],
+    "fact_ids": [
+      "D19-F01",
+      "D19-F02",
+      "D19-F03",
+      "D19-F04",
+      "D19-F05",
+      "D19-F06"
+    ],
+    "path": "documents/D19.md",
+    "min_round": 0,
+    "gate": null
+  },
+  {
+    "doc_id": "D20",
+    "title": "交通路线与辖区图",
+    "origin": "authored",
+    "notice": "人物均为化名；本文件为模拟补写，非原案真实卷宗。",
+    "release": "investigate",
+    "topics": [
+      "jurisdiction",
+      "route",
+      "address"
+    ],
+    "roles": [
+      "R_INVESTIGATOR",
+      "R_COUSIN"
+    ],
+    "fact_ids": [
+      "D20-F01",
+      "D20-F02",
+      "D20-F03",
+      "D20-F04",
+      "D20-F05"
+    ],
+    "path": "documents/D20.md",
+    "min_round": 0,
+    "gate": null
+  },
+  {
+    "doc_id": "D21",
+    "title": "被告后续会见备忘录",
+    "origin": "authored",
+    "notice": "人物均为化名；本文件为模拟补写，非原案真实卷宗。",
+    "release": "client",
+    "topics": [
+      "client",
+      "admission",
+      "knowledge"
+    ],
+    "roles": [
+      "R_DEFENDANT"
+    ],
+    "fact_ids": [
+      "D21-F01",
+      "D21-F02",
+      "D21-F03",
+      "D21-F04",
+      "D21-F05",
+      "D21-F06"
+    ],
+    "path": "documents/D21.md",
+    "min_round": 0,
+    "gate": null
+  },
+  {
+    "doc_id": "D22",
+    "title": "登记流程专家材料要求",
+    "origin": "authored",
+    "notice": "人物均为化名；本文件为模拟补写，非原案真实卷宗。",
+    "release": "expert",
+    "topics": [
+      "expert",
+      "calendar",
+      "records"
+    ],
+    "roles": [
+      "R_EXPERT_CAREFUL",
+      "R_EXPERT_CHEAP"
+    ],
+    "fact_ids": [
+      "D22-F01",
+      "D22-F02",
+      "D22-F03",
+      "D22-F04",
+      "D22-F05"
+    ],
+    "path": "documents/D22.md",
+    "min_round": 0,
+    "gate": null
+  },
+  {
+    "doc_id": "D23",
+    "title": "控方补充关于告知的说明",
+    "origin": "authored",
+    "notice": "人物均为化名；本文件为模拟补写，非原案真实卷宗。",
+    "release": "between1",
+    "topics": [
+      "late",
+      "notice",
+      "signature"
+    ],
+    "roles": [
+      "R_INTAKE_AGENT"
+    ],
+    "fact_ids": [
+      "D23-F01",
+      "D23-F02",
+      "D23-F03",
+      "D23-F04",
+      "D23-F05"
+    ],
+    "path": "documents/D23.md",
+    "min_round": 1,
+    "gate": "release:D23"
+  },
+  {
+    "doc_id": "D24",
+    "title": "补充窗口来电便条",
+    "origin": "authored",
+    "notice": "人物均为化名；本文件为模拟补写，非原案真实卷宗。",
+    "release": "r2",
+    "topics": [
+      "late",
+      "window",
+      "appointment"
+    ],
+    "roles": [
+      "R_RECEPTIONIST"
+    ],
+    "fact_ids": [
+      "D24-F01",
+      "D24-F02",
+      "D24-F03",
+      "D24-F04",
+      "D24-F05"
+    ],
+    "path": "documents/D24.md",
+    "min_round": 2,
+    "gate": "release:D24"
+  },
+  {
+    "doc_id": "D25",
+    "title": "假释官补充询问记录",
+    "origin": "authored",
+    "notice": "人物均为化名；本文件为模拟补写，非原案真实卷宗。",
+    "release": "r3",
+    "topics": [
+      "followup",
+      "contradiction",
+      "notice"
+    ],
+    "roles": [
+      "R_ASSIGNED_AGENT"
+    ],
+    "fact_ids": [
+      "D25-F01",
+      "D25-F02",
+      "D25-F03",
+      "D25-F04",
+      "D25-F05"
+    ],
+    "path": "documents/D25.md",
+    "min_round": 3,
+    "gate": "release:D25"
+  },
+  {
+    "doc_id": "D26",
+    "title": "专家书面意见模板与资格",
+    "origin": "authored",
+    "notice": "人物均为化名；本文件为模拟补写，非原案真实卷宗。",
+    "release": "expert",
+    "topics": [
+      "expert",
+      "qualifications"
+    ],
+    "roles": [
+      "R_EXPERT_CAREFUL",
+      "R_EXPERT_CHEAP"
+    ],
+    "fact_ids": [
+      "D26-F01",
+      "D26-F02",
+      "D26-F03",
+      "D26-F04",
+      "D26-F05"
+    ],
+    "path": "documents/D26.md",
+    "min_round": 0,
+    "gate": null
+  },
+  {
+    "doc_id": "D27",
+    "title": "记录保管人庭审基础清单",
+    "origin": "authored",
+    "notice": "人物均为化名；本文件为模拟补写，非原案真实卷宗。",
+    "release": "discovery",
+    "topics": [
+      "foundation",
+      "custodian",
+      "registry"
+    ],
+    "roles": [
+      "R_REGISTRAR"
+    ],
+    "fact_ids": [
+      "D27-F01",
+      "D27-F02",
+      "D27-F03",
+      "D27-F04",
+      "D27-F05"
+    ],
+    "path": "documents/D27.md",
+    "min_round": 0,
+    "gate": null
+  },
+  {
+    "doc_id": "D28",
+    "title": "材料差异核对表",
+    "origin": "authored",
+    "notice": "人物均为化名；本文件为模拟补写，非原案真实卷宗。",
+    "release": "investigate",
+    "topics": [
+      "contradiction",
+      "records"
+    ],
+    "roles": [
+      "R_INVESTIGATOR"
+    ],
+    "fact_ids": [
+      "D28-F01",
+      "D28-F02",
+      "D28-F03",
+      "D28-F04",
+      "D28-F05"
+    ],
+    "path": "documents/D28.md",
+    "min_round": 0,
+    "gate": null
+  },
+  {
+    "doc_id": "D29",
+    "title": "原始控告事实与证据用途",
+    "origin": "authored",
+    "notice": "人物均为化名；本文件为模拟补写，非原案真实卷宗。",
+    "release": "discovery",
+    "topics": [
+      "prior",
+      "stipulation",
+      "charge"
+    ],
+    "roles": [
+      "R_REGISTRAR",
+      "R_INTAKE_AGENT"
+    ],
+    "fact_ids": [
+      "D29-F01",
+      "D29-F02",
+      "D29-F03",
+      "D29-F04",
+      "D29-F05"
+    ],
+    "path": "documents/D29.md",
+    "min_round": 0,
+    "gate": null
+  },
+  {
+    "doc_id": "D30",
+    "title": "第二次调查范围与未找到事项",
+    "origin": "authored",
+    "notice": "人物均为化名；本文件为模拟补写，非原案真实卷宗。",
+    "release": "investigate",
+    "topics": [
+      "followup",
+      "threat",
+      "uncertainty"
+    ],
+    "roles": [
+      "R_INVESTIGATOR",
+      "R_MOTEL_CLERK"
+    ],
+    "fact_ids": [
+      "D30-F01",
+      "D30-F02",
+      "D30-F03",
+      "D30-F04",
+      "D30-F05"
+    ],
+    "path": "documents/D30.md",
+    "min_round": 0,
+    "gate": null
+  },
+  {
+    "doc_id": "D31",
+    "title": "第三轮双方争议整理",
+    "origin": "authored",
+    "notice": "人物均为化名；本文件为模拟补写，非原案真实卷宗。",
+    "release": "between2",
+    "topics": [
+      "supplement",
+      "deadline",
+      "knowledge"
+    ],
+    "roles": [
+      "R_INTAKE_AGENT",
+      "R_ASSIGNED_AGENT",
+      "R_REGISTRAR"
+    ],
+    "fact_ids": [
+      "D31-F01",
+      "D31-F02",
+      "D31-F03",
+      "D31-F04",
+      "D31-F05"
+    ],
+    "path": "documents/D31.md",
+    "min_round": 2,
+    "gate": "release:D31"
+  },
+  {
+    "doc_id": "D32",
+    "title": "准备与交付工作委托",
+    "origin": "authored",
+    "notice": "人物均为化名；本文件为模拟补写，非原案真实卷宗。",
+    "release": "discovery",
+    "topics": [
+      "workspace",
+      "artifacts"
+    ],
+    "roles": [
+      "R_INVESTIGATOR"
+    ],
+    "fact_ids": [
+      "D32-F01",
+      "D32-F02",
+      "D32-F03",
+      "D32-F04",
+      "D32-F05"
+    ],
+    "path": "documents/D32.md",
+    "min_round": 0,
+    "gate": null
+  }
+]

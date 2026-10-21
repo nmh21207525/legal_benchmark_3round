@@ -1,0 +1,23 @@
+{
+  "legal_id": "L-GRIFFIN",
+  "type": "case",
+  "citation": "Griffin v. California, 380 U.S. 609 (1965)",
+  "title": "Griffin v. California",
+  "year": "1965",
+  "effective": "1965-04-28",
+  "cutoff_ok": true,
+  "text": "forbids either comment by the prosecution on the accused's silence or instructions by the court that such silence is evidence of guilt.",
+  "holding": "第五修正案禁止检方就被告行使沉默权作评论，也禁止法府向陪审团指示沉默可作为有罪证据。",
+  "url": "https://www.law.cornell.edu/supremecourt/text/380/609",
+  "retrieved": "2026-10-19",
+  "sha256": "0db0f5016b58d8667b70b43e242ff674ee5d466e827ca9a0e995e5b295ae20d6",
+  "relevance": "defense",
+  "tags": [
+    "griffin",
+    "silence",
+    "prosecutorial_comment",
+    "self_incrimination"
+  ],
+  "distractor": false,
+  "notes": "Verbatim from the opinion at 380 U.S. at 615. The sentence opens \"We take that in its literal sense and hold that the Fifth Amendment ... forbids ...\"; the quote begins at \"forbids\"."
+}

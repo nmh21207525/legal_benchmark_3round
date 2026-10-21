@@ -1,0 +1,3 @@
+﻿row_type,run,status,grading_status,mode,candidate,rounds,termination_reason,mechanical_percent,gpt_grader_percent,seed_grader_percent,mean_percent,gpt_penalty,seed_penalty,agreement,agreement_scope,raw_denominator,applicable_denominator,quality_pending,verdict,tokens,reserved_unknown_tokens,unknown_usage_calls,disagreements,formal_n,formal_mean,formal_min,formal_max
+run,calibration_reference_offline,completed,pending_dual_grading,offline_mock,reference,3,jury_verdict,97.67,,,,,,,待双评分,120,120,17,"{""C01"":""not_guilty"",""C02"":""not_guilty""}",0,0,0,[],,,,
+run,calibration_weak_offline,completed,pending_dual_grading,offline_mock,weak,3,jury_verdict,11.63,,,,,,,待双评分,120,120,17,"{""C01"":""guilty"",""C02"":""guilty""}",0,0,0,[],,,,

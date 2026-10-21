@@ -1,11 +1,12 @@
 #!/usr/bin/env bash
 set -euo pipefail
-court_workspace="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
-for court_arg in "$@"; do
-  case "$court_arg" in
-    --case-id|--case-id=*|--mode|--mode=*)
-      echo "run_006.sh 固定只运行006并自动评分；请勿重复指定案件或模式。" >&2
-      exit 2 ;;
-  esac
-done
-exec bash "$court_workspace/start.sh" --mode formal --case-id CA-PILOT-006 "$@"
+cd -- "$(dirname -- "${BASH_SOURCE[0]}")"
+source ./common_env.sh
+LEGAL_PYTHON="${PYTHON_BIN:-.venv/bin/python}"
+if [[ ! -x "$LEGAL_PYTHON" ]]; then LEGAL_PYTHON=python3; fi
+LEGAL_COMMAND="${1:-background}"
+if [[ $# -gt 0 ]]; then shift; fi
+case "$LEGAL_COMMAND" in
+  background|pipeline|preflight|resume|grade) legal_require_api_keys ;;
+esac
+exec "$LEGAL_PYTHON" -m shared_engine.cli "$LEGAL_COMMAND" --case 006 "$@"

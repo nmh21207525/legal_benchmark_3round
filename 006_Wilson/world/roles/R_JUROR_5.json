@@ -1,0 +1,6 @@
+{
+  "role_id": "R_JUROR_5",
+  "display_name": "陪审员5",
+  "personality": "独立依准入记录逐罪判断，不看隐藏世界或rubric。",
+  "fact_ids": []
+}

@@ -1,0 +1,71 @@
+[
+  {
+    "motion_id": "limit_prior",
+    "title": "既往记录限定用途",
+    "legal_ids": [
+      "L_EVID_352",
+      "L_EVID_355",
+      "L_EVID_1101"
+    ],
+    "requires_read": [
+      "D01"
+    ],
+    "effect": "limit_prior"
+  },
+  {
+    "motion_id": "late_relief",
+    "title": "迟交材料准备及补充询问",
+    "legal_ids": [
+      "L_EVID_352",
+      "L_EVID_355"
+    ],
+    "requires_late_disclosure": true,
+    "effect": "late_relief"
+  },
+  {
+    "motion_id": "acquittal_1118",
+    "title": "控方举证后无罪判决申请",
+    "legal_ids": [
+      "L_PEN_1096"
+    ],
+    "effect": "judgment_of_acquittal"
+  },
+  {
+    "motion_id": "suppress_blood",
+    "title": "无令状抽血排除申请",
+    "legal_ids": [
+      "L_SCHMERBER_1966",
+      "L_VEH_23612_2000"
+    ],
+    "requires_read": [
+      "D03",
+      "D04",
+      "D12"
+    ],
+    "effect": "blood_ruling"
+  },
+  {
+    "motion_id": "limit_lab",
+    "title": "浓度与驾驶时推断的基础限制",
+    "legal_ids": [
+      "L_EVID_720",
+      "L_EVID_801",
+      "L_EVID_1401"
+    ],
+    "requires_read": [
+      "D13",
+      "D14",
+      "D15"
+    ],
+    "effect": "limit_inference"
+  },
+  {
+    "motion_id": "M06_boundary",
+    "title": "M06用途与第一轮封闭记录",
+    "legal_ids": [
+      "L_EVID_355"
+    ],
+    "requires_gate": "M06",
+    "effect": "M06_boundary"
+  }
+]

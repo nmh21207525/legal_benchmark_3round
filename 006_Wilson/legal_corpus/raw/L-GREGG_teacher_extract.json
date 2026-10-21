@@ -1,0 +1,23 @@
+{
+  "legal_id": "L-GREGG",
+  "type": "case",
+  "citation": "People v. Gregg (1968) 267 Cal.App.2d 567",
+  "title": "People v. Gregg",
+  "year": "1968",
+  "effective": "1968-11-21",
+  "cutoff_ok": true,
+  "text": "Gregg’s dazed demeanor, profuse sweating, constricted eye pupils and lack of pupillary reaction support the conclusion reached by the officers, who were experienced in dealing with narcotic users, that Gregg was under the influence of a narcotic. Gregg’s arrest was legal, being based upon probable cause to believe he was committing a misdemeanor in the officers’ presence (violation of Health & Saf. Code, §11721), and the search incident to that arrest was legal.",
+  "holding": "“神志恍惚、大汗、瞳孔收缩且对光无反应”等客观症状足以支持有经验的警官认定嫌犯处于麻醉品影响下，并构成逮捕的相当理由。",
+  "url": "https://static.case.law/cal-app-2d/267/cases/0567-01.json",
+  "retrieved": "2026-10-19",
+  "sha256": "cca844e254d3f9be4ad84d0160fc63c95b9c3d2a3b9085a81f9aaef65847eff0",
+  "relevance": "prosecution",
+  "tags": [
+    "11550",
+    "objective_symptoms",
+    "probable_cause",
+    "gregg"
+  ],
+  "distractor": false,
+  "notes": "Holding verified against the opinion text: the court relied on the stated objective symptoms (dazed demeanor, profuse sweating, constricted pupils, no pupillary reaction) plus the officers' narcotics experience. Note the arresting offense was then HSC § 11721, the predecessor numbering of today's § 11550."
+}

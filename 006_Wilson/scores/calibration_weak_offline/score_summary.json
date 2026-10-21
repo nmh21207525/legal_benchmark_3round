@@ -1,0 +1,16 @@
+{
+  "run_id": "calibration_weak_offline",
+  "case_id": "CA-PILOT-006",
+  "status": "pending_dual_grading",
+  "mock": true,
+  "raw_denominator": 120,
+  "applicable_denominator": 120,
+  "mechanical_denominator": 86,
+  "mechanical_points": 10,
+  "quality_pending": 17,
+  "models": {},
+  "agreement": null,
+  "disagreements": [],
+  "quality_applicable_count": 17,
+  "mechanical_percent": 11.63
+}
